@@ -5,7 +5,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -333,6 +333,133 @@ const workoutData = {
                 notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
                 videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
                 imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Pre-Fatiga POSTERIOR",
+        exercises: [
+            {
+                order: 1,
+                name: "Pull Over en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Pull Over en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12-15",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                        imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Jalón al Pecho Supino en Polea",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10, 8, 6",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/rimdRzyIJkA",
+                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Flexiones con Peso Corporal",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Flexiones con Peso Corporal",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12-15",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Militar Sentado con Mancuernas (Explicado)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Face Pull con TRX",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Face Pull con TRX",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12-15",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Seal con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10, 8, 6",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 5
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "20, 16, 12, 8, 4",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 2,
+                        reps: "20, 16, 12, 8, 4",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Alterno con Rotación en Polea",
+                        subOrder: 3,
+                        reps: "20, 16, 12, 8, 4",
+                        isForTimeItem: true,
+                        videoUrl: "https://youtube.com/shorts/vqBP-GHoW5k",
+                        imageUrl: "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     }
