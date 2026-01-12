@@ -11,17 +11,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm + Rotación de Tronco",
+                name: "Worm + Rotaciones de Tronco",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + Rotación de Tronco",
+                        name: "Worm + Rotaciones de Tronco",
                         subOrder: 1,
                         sets: 2,
                         reps: "4",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                        imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
@@ -35,8 +35,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -68,14 +68,6 @@ const workoutData = {
                         sets: 3,
                         reps: "20s",
                         notes: "Haz ambos lados.",
-                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
-                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha Lateral Dinámica sobre Antebrazo",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "20s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
@@ -306,13 +298,13 @@ const workoutData = {
                         imageUrl: ""
                     },
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas o KTB",
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 2,
                         reps: "16",
                         rest: "30s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -344,14 +336,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
                     },
                     {
-                        name: "Sit Up Unilateral con KTB",
+                        name: "Funcional - Sit Up",
                         subOrder: 2,
                         sets: 3,
-                        reps: "5",
-                        notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/fXgBSdee8QU",
+                        imageUrl: "https://i.ytimg.com/vi/fXgBSdee8QU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
