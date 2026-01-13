@@ -11,17 +11,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Worm + Rotación de Tronco",
+                name: "Worm + Rotaciones de Tronco",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + Rotación de Tronco",
+                        name: "Worm + Rotaciones de Tronco",
                         subOrder: 1,
                         sets: 2,
                         reps: "4",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                        imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
@@ -35,8 +35,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/watch?v=A8MFPgYNoGs",
+                imageUrl: "https://i.ytimg.com/vi/A8MFPgYNoGs/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -293,31 +293,31 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Abducción de Glúteo Unilateral en el Suelo",
+                name: "Abducción de Glúteo Unilat en el Suelo",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Abducción de Glúteo Unilateral en el Suelo",
+                        name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas o KTB",
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 2,
                         reps: "16",
                         rest: "30s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
             },
             {
                 order: 2,
