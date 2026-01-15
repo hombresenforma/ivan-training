@@ -335,31 +335,31 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                name: "Remo Seal con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                        name: "Remo Seal con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        name: "Flexiones con Lastre",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
+                        imageUrl: "https://i.ytimg.com/vi/gLBrKowP2eo/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 order: 5,
