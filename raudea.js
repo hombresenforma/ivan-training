@@ -1,213 +1,74 @@
-// Titulo: P0_2D_BÁSICOS_1
+// Titulo: Plan de Entrenamiento
+// Notas: Prueba Entrenamiento
 
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (2 DÍAS)
+// DATOS DE LA RUTINA (1 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
-        name: "Básicos 1",
+        name: "DÍA 1: ",
         exercises: [
             {
                 order: 1,
-                name: "Remo Horizontal en TRX",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo Horizontal en TRX",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
-                    },
-                    {
-                        name: "Worm",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "4",
-                        rest: "60s",
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-                    }
-                ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                name: "Press Banca con Barra",
+                sets: 4,
+                reps: "10, 10, 8, 8",
+                rest: "60s",
+                notes: "-Mantener retracción escapular en todo el movimiento (hombros atrás y abajo)\n-Arco natural\n-Pies bien apoyados en el suelo para ganar estabilidad\n-Tocar con la barra el pectoral medio- bajo",
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower (Explicado)",
+                name: "Press Inclinado con Mancuernas",
                 sets: 3,
                 reps: "10-12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc",
-                imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg"
+                rest: "60s",
+                notes: "-Mantener retracción escapular\n-Pies bien apoyados en el suelo para ganar estabilidad\n-Inclinación del banco 30-45º\n-Muñecas rectas ",
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Sentadilla Goblet con Mancuerna/KTB (Explicado)",
+                name: "Fondos en Paralelas con Peso Corporal",
                 sets: 3,
-                reps: "10-12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                reps: "10, 8, 8",
+                rest: "60s",
+                notes: "-No bloquear arriba los brazos (tensión continua)\n-Respetar el tempo 3 s de bajada 1 s de subida (explosivo)\n-Mirar al suelo no al frente\n- Piensa en empujar el suelo con las manos\n",
+                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                name: "Extensión de Codo en Polea Alta",
+                setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10-12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                rest: "60s",
+                notes: "-Ligera semi flexión de las piernas\n- Extensión completa de los codos\n-Hombros atras y abajo",
+                videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
+                imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Curl con Mancuernas de Pie",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Curl con Mancuernas de Pie",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10-12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/8STuQuoDMR0",
-                        imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones con Rodillas",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10-12",
-                        videoUrl: "https://www.youtube.com/shorts/bmKPWM_b85Y",
-                        imageUrl: "https://i.ytimg.com/vi/bmKPWM_b85Y/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch - Flexión de Cadera",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "10-12",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/XJFii9NYHNs",
-                        imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/8STuQuoDMR0",
-                imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia2": {
-        name: "Básicos 2",
-        exercises: [
-            {
-                order: 1,
-                name: "Remo Horizontal en TRX",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo Horizontal en TRX",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
-                    },
-                    {
-                        name: "Worm",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "4",
-                        rest: "60s",
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-                    }
-                ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Jalón al Pecho en Polea",
+                name: "Extensión de Codo Trasnuca con Cuerda en Polea Baja",
                 sets: 3,
-                reps: "10-12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
-                reps: "16-20",
-                rest: "90s",
-                notes: "8-10 POR PIERNA",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Press Militar Sentado con Mancuernas (Explicado)",
-                sets: 3,
-                reps: "10-12",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Fondos en Banco",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Fondos en Banco",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10-12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
-                    },
-                    {
-                        name: "Face Pull con KTB",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10-12",
-                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
-                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch - V Agrupado",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "10-12",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/bS10OysdlLg",
-                        imageUrl: "https://i.ytimg.com/vi/bS10OysdlLg/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                reps: "8-10",
+                rest: "60s",
+                notes: "-1 o 2 pasos hacia adelante\n-Codos elevados y apuntando enfrente\n- Core apretado",
+                videoUrl: "https://www.youtube.com/watch?v=iSC42Fn4VT0",
+                imageUrl: "https://i.ytimg.com/vi/iSC42Fn4VT0/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
+    "Press Banca con Barra": [
+        { name: "", videoUrl: "", imageUrl: "" }
+    ]
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-
