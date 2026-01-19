@@ -1,4 +1,4 @@
-// Titulo: PROXIMA ESTEFI
+// Titulo: Jesus 4d transición FUERZA (3x6-8)
 
 // Contenido de app_datos.js
 
@@ -11,26 +11,26 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "Press Banca en Multipower",
+                sets: 3,
+                reps: "6-8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/w-5ovE5O5iU",
+                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+            },
+            {
+                order: 2,
                 name: "Sentadilla Trasera en Multipower",
-                sets: 4,
-                reps: "10-12",
-                rest: "90s",
+                sets: 3,
+                reps: "6-8",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/la-dqygoIuk",
                 imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
-                order: 2,
-                name: "Zancadas Caminando con Mancuernas/Kettlebells",
-                sets: 4,
-                reps: "20",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
-            },
-            {
-                order: 3,
+                order: 4,
                 name: "Press Militar Sentado con Mancuernas (Explicado)",
                 isSuperset: true,
                 items: [
@@ -59,7 +59,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Extensión de Cuádriceps en Máquina",
                 setTechniques: {"3":"DROPSET X2"},
                 sets: 3,
@@ -70,7 +70,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Circuito",
                 isSuperset: true,
                 circuitDetails: {
@@ -109,16 +109,26 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "Jalón al Pecho Neutro en Polea",
+                sets: 3,
+                reps: "6-8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+            },
+            {
+                order: 2,
                 name: "Hip Thrust con Barra (Explicado)",
-                sets: 4,
-                reps: "10-12",
-                rest: "90s",
+                sets: 3,
+                reps: "6-8",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
                 imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
-                order: 2,
+                order: 3,
                 name: "Dominadas Supinas",
                 isSuperset: true,
                 items: [
@@ -147,7 +157,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 4,
                 name: "Patada de Glúteo en Polea",
                 sets: 3,
                 reps: "10",
@@ -157,7 +167,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Remo Gironda Sentado en Polea",
                 setTechniques: {"3":"DROPSET X2"},
                 sets: 3,
@@ -168,7 +178,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Circuito",
                 isSuperset: true,
                 circuitDetails: {
@@ -207,13 +217,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Jaca en Máquina",
-                sets: 4,
-                reps: "10-12",
-                rest: "60s",
+                name: "Prensa Inclinada en Máquina de Discos",
+                sets: 3,
+                reps: "6-8",
+                rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/P4iHoym5SxM",
-                imageUrl: "https://i.ytimg.com/vi/P4iHoym5SxM/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -334,31 +344,31 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar en Multipower",
+                name: "Press Inclinado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar en Multipower",
+                        name: "Press Inclinado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                        imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                        imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
                     },
                     {
-                        name: "Elevaciones Laterales con Mancuernas",
+                        name: "Elevaciones Laterales en Polea",
                         subOrder: 2,
                         sets: 3,
                         reps: "10-12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/UxII1sPTa9U",
+                        imageUrl: "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -421,22 +431,22 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Press Banca en Multipower": [
+        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+    ],
     "Sentadilla Trasera en Multipower": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
-    ],
-    "Zancadas Caminando con Mancuernas/Kettlebells": [
-        { name: "Zancada Trasera Alterna con Mancuernas/KTB", videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4", imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg" }
     ],
     "Extensión de Cuádriceps en Máquina": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Hip Thrust con Barra (Explicado)": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+    "Jalón al Pecho Neutro en Polea": [
+        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
     "Patada de Glúteo en Polea": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ],
-    "Sentadilla Jaca en Máquina": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Prensa Inclinada en Máquina de Discos", videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0", imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg" }
     ]
 };
