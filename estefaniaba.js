@@ -22,14 +22,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Jaca en Máquina",
+                name: "Prensa Horizontal",
                 setTechniques: {"3":"CLUSTER"},
                 sets: 3,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/P4iHoym5SxM",
-                imageUrl: "https://i.ytimg.com/vi/P4iHoym5SxM/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=IqjbBRNqJps",
+                imageUrl: "https://i.ytimg.com/vi/IqjbBRNqJps/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -104,7 +104,7 @@ const workoutData = {
                         name: "Extensión de Codo en Polea Alta",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
                         imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
@@ -316,9 +316,6 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Sentadilla Jaca en Máquina": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
-    ],
     "Press Militar en Multipower": [
         { name: "Press en Máquina inclinado", videoUrl: "https://www.youtube.com/watch?v=nna4gQD-v9Y", imageUrl: "https://i.ytimg.com/vi/nna4gQD-v9Y/mqdefault.jpg" }
     ],
