@@ -68,18 +68,9 @@ const workoutData = {
             {
                 order: 3,
                 name: "Sentadilla Trasera en Multipower",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Sentadilla Trasera en Multipower",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/la-dqygoIuk",
-                        imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "12, 10 , 8",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/la-dqygoIuk",
                 imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
@@ -87,18 +78,9 @@ const workoutData = {
             {
                 order: 4,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "12, 10, 8",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/uH9Hg4nWOG8",
                 imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
@@ -111,7 +93,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 2,
                         reps: "12-15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -120,7 +102,7 @@ const workoutData = {
                     {
                         name: "Press Militar en Multipower",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 2,
                         reps: "10, 8, 6",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
@@ -137,7 +119,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 4,
+                    totalIntervals: 3,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -172,18 +154,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jalón al Pecho Neutro en Polea",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Jalón al Pecho Neutro en Polea",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8, 8",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                        imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
-                    }
-                ],
+                sets: 4,
+                reps: "12, 10, 8, 8",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/5YzMH2KkMHc",
                 imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
@@ -231,9 +204,6 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Jalón al Pecho Neutro en Polea": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
-    ]
 };
 
 console.log("Datos de rutina cargados desde el creador.");
