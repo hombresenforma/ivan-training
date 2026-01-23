@@ -52,13 +52,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     },
                     {
-                        name: "Press Banca Inclinado en Multipower",
+                        name: "Press Banca Inclinado con Barra",
                         subOrder: 2,
                         sets: 3,
                         reps: "10, 8, 6",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/3GS7EjN7KSk",
-                        imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
+                        imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -67,13 +67,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera en Multipower",
+                name: "Sentadilla Trasera con Barra",
                 sets: 3,
                 reps: "12, 10 , 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/la-dqygoIuk",
-                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -153,13 +153,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Dominadas Australianas con Pies en Banco",
                 sets: 4,
                 reps: "12, 10, 8, 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/WqoNa74DieE",
+                imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -186,13 +186,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
                     },
                     {
-                        name: "Press Francés con Barra Z en Banco Inclinado",
+                        name: "Press Francés con Mancuernas en Banco Inclinado",
                         subOrder: 2,
                         sets: 3,
                         reps: "10-12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/hFk6xzt1DWM",
-                        imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/L__Q6Jl9Ics",
+                        imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
                     }
                 ],
                 notes: "",
