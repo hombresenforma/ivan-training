@@ -1,4 +1,5 @@
-// Titulo: LAUREA
+// Titulo: Versión 2 INICIO 
+// Notas: - Añadimos 1 serie en BÁSICO 1 y CIRCUITO FINAL
 
 // Contenido de app_datos.js
 
@@ -41,7 +42,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "",
@@ -114,7 +115,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -123,7 +124,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
@@ -131,7 +132,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -178,7 +179,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
@@ -250,7 +251,7 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
@@ -259,7 +260,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -267,7 +268,7 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 2",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/lFEg3UQYM3g",
@@ -285,17 +286,17 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Abducción de Glúteo Unilateral en el Suelo",
+                name: "Shoulder Taps",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Abducción de Glúteo Unilateral en el Suelo",
+                        name: "Shoulder Taps",
                         subOrder: 1,
                         sets: 2,
-                        reps: "8",
+                        reps: "16",
                         isSupersetStart: true,
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://www.youtube.com/shorts/viyHk_K7I48",
+                        imageUrl: "https://i.ytimg.com/vi/viyHk_K7I48/mqdefault.jpg"
                     },
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
@@ -308,13 +309,13 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "",
-                imageUrl: ""
+                videoUrl: "https://www.youtube.com/shorts/viyHk_K7I48",
+                imageUrl: "https://i.ytimg.com/vi/viyHk_K7I48/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "",
@@ -385,7 +386,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -394,7 +395,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -402,7 +403,7 @@ const workoutData = {
                     {
                         name: "Funcional - Mountain Climber",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
