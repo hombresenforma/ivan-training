@@ -3,7 +3,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -272,6 +272,131 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                 imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "Movilidad y CORE",
+        exercises: [
+            {
+                order: 1,
+                name: "Activación",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 1,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 0
+                },
+                items: [
+                    {
+                        name: "Movilidad - Cintura Escapular",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/qFt3RmTDmXI",
+                        imageUrl: "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Columna",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/48_aYaSLNRY",
+                        imageUrl: "https://i.ytimg.com/vi/48_aYaSLNRY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Escápulas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/6Kj_rg_7tYQ",
+                        imageUrl: "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Cadera",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/ltzWjXiHXao",
+                        imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Rodilla y Tobillo",
+                        subOrder: 5,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/wdOGeCaNKS8",
+                        imageUrl: "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Rodilla y Tobillo",
+                        subOrder: 6,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/wdOGeCaNKS8",
+                        imageUrl: "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
+                    }
+                ],
+                notes: "Estabilizando el tronco con mucho control motor.",
+                videoUrl: "https://youtu.be/qFt3RmTDmXI",
+                imageUrl: "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Circuito CORE",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Rotación Alterna con Mancuerna Tumbado",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtube.com/shorts/v80J_r4cXvk",
+                        imageUrl: "https://i.ytimg.com/vi/v80J_r4cXvk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Superman",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/4JCCPi4z3Kg",
+                        imageUrl: "https://i.ytimg.com/vi/4JCCPi4z3Kg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "40s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/v80J_r4cXvk",
+                imageUrl: "https://i.ytimg.com/vi/v80J_r4cXvk/mqdefault.jpg"
             }
         ]
     }
