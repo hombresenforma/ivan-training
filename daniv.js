@@ -225,17 +225,6 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
-                order: 4,
-                name: "Press en Máquina",
-                setTechniques: {"3":"DROPSET"},
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=QrnVDLSBdMo",
-                imageUrl: "https://i.ytimg.com/vi/QrnVDLSBdMo/mqdefault.jpg"
-            },
-            {
                 order: 5,
                 name: "Cruces en Polea Alta",
                 sets: 2,
@@ -258,7 +247,7 @@ const workoutData = {
             {
                 order: 7,
                 name: "Press Francés con Barra Z en Banco Inclinado",
-                sets: 3,
+                sets: 2,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -279,7 +268,7 @@ const workoutData = {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 1,
-                        reps: "8",
+                        reps: "6",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
@@ -288,7 +277,7 @@ const workoutData = {
                         name: "Extensión de Codo en Polea Alta",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "10",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=z7gqbcjkzU0",
                         imageUrl: "https://i.ytimg.com/vi/z7gqbcjkzU0/mqdefault.jpg"
@@ -418,9 +407,6 @@ const exerciseAlternatives = {
     ],
     "Press Inclinado con Mancuernas": [
         { name: "Press en Máquina inclinado", videoUrl: "https://www.youtube.com/watch?v=nna4gQD-v9Y", imageUrl: "https://i.ytimg.com/vi/nna4gQD-v9Y/mqdefault.jpg" }
-    ],
-    "Press en Máquina": [
-        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Dominadas con Peso Corporal": [
         { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
