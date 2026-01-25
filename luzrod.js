@@ -397,6 +397,15 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/v80J_r4cXvk",
                 imageUrl: "https://i.ytimg.com/vi/v80J_r4cXvk/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Estiramientos - Rutina Completa",
+                sets: 1,
+                reps: "1",
+                notes: "",
+                videoUrl: "https://youtu.be/j__265mFT08?si=MuoUfi6M0jCbQ1hz",
+                imageUrl: "https://i.ytimg.com/vi/j__265mFT08/mqdefault.jpg"
             }
         ]
     }
