@@ -1,5 +1,9 @@
 // Titulo: vicpun
 // Notas: Mancuernas/KTB y TRX
+// Principal hemos subido 12-15 reps
+// Superserie 3 subimos  seg extr
+// superserie 4 Mount flex subimos a 15 reps
+// Circuito final añadimos 4 ronda
 
 // Contenido de app_datos.js
 
@@ -43,7 +47,7 @@ const workoutData = {
                 order: 2,
                 name: "Floor Press con Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "12-15",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
@@ -67,7 +71,7 @@ const workoutData = {
                         name: "Plancha Lateral Dinámica sobre Antebrazo",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         notes: "Haz ambos lados.",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
@@ -76,7 +80,7 @@ const workoutData = {
                         name: "Plancha Lateral Dinámica sobre Antebrazo",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
@@ -104,7 +108,7 @@ const workoutData = {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         notes: "Puedes hacerlas de rodillas.",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
@@ -123,7 +127,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -132,7 +136,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
@@ -140,7 +144,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -188,7 +192,7 @@ const workoutData = {
                 order: 2,
                 name: "Face Pull con TRX",
                 sets: 3,
-                reps: "10",
+                reps: "12-15",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
@@ -212,7 +216,7 @@ const workoutData = {
                         name: "Plancha - Lateral elevando Rodilla",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         notes: "Haz ambos lados.",
                         videoUrl: "https://youtu.be/ROVRkBnD4zg",
                         imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
@@ -221,7 +225,7 @@ const workoutData = {
                         name: "Plancha - Lateral elevando Rodilla",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/ROVRkBnD4zg",
                         imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
@@ -249,7 +253,7 @@ const workoutData = {
                         name: "Fondos en Banco",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtu.be/NSB_HrDwd6I",
                         imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
@@ -267,7 +271,7 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
@@ -276,7 +280,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -284,7 +288,7 @@ const workoutData = {
                     {
                         name: "Hollow Abdominal Encogido",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
@@ -347,7 +351,7 @@ const workoutData = {
                         name: "Gomas - Aperturas en Columna",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "12-15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/_FBdkpZ5FTs",
                         imageUrl: "https://i.ytimg.com/vi/_FBdkpZ5FTs/mqdefault.jpg"
@@ -411,7 +415,7 @@ const workoutData = {
                     {
                         name: "Split Unilateral con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
@@ -420,7 +424,7 @@ const workoutData = {
                     {
                         name: "Split Unilateral con Mancuernas/KTB",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
                         imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
@@ -428,7 +432,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -436,7 +440,7 @@ const workoutData = {
                     {
                         name: "Funcional - Mountain Climber",
                         subOrder: 4,
-                        sets: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
