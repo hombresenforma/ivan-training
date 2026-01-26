@@ -15,7 +15,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Flexiones con Peso Corporal",
-                sets: 2,
+                sets: 3,
                 reps: "100",
                 rest: "120s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
@@ -148,7 +148,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Asistidas en Máquina",
-                sets: 2,
+                sets: 3,
                 reps: "100",
                 rest: "120s",
                 notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
@@ -366,7 +366,7 @@ const workoutData = {
                 name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
