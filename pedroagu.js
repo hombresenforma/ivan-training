@@ -5,7 +5,7 @@
 // Contenido de app_datos.js
 
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 const workoutData = {
     "dia1": {
@@ -304,6 +304,47 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Trabajo Específico ROTADORES",
+        exercises: [
+            {
+                order: 1,
+                name: "Rotación Externa de Hombro Unilat con Polea",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Rotación Externa de Hombro Unilat con Polea",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "6-8",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
+                        imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Rotación Interna de Hombro Unilat con Polea",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "6-8",
+                        videoUrl: "https://youtube.com/shorts/3SW4Pxgi1c0",
+                        imageUrl: "https://i.ytimg.com/vi/3SW4Pxgi1c0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull en Polea Alta",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "6-8",
+                        rest: "60s",
+                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                        imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
+                imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -326,5 +367,3 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
