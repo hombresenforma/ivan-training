@@ -1,4 +1,4 @@
-// Titulo: Fullbody 3 días
+// Titulo: P5_3D_TPFB_1
 
 // Contenido de app_datos.js
 
@@ -79,7 +79,7 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Circuito",
+                name: "Ejercicio por tiempo",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 3,
@@ -103,20 +103,20 @@ const workoutData = {
             },
             {
                 order: 7,
-                name: "Circuito",
+                name: "EMOM",
                 isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 15,
-                    restBetweenRoundsSeconds: 60
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 3,
+                    workIntervalSeconds: 60
                 },
                 items: [
                     {
                         name: "Curl en Polea Baja con Barra Recta",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12-15",
-                        isCircuitItem: true,
+                        reps: "15",
+                        isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
                         imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
                     },
@@ -124,8 +124,8 @@ const workoutData = {
                         name: "Crunch - Normal",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12-15",
-                        isCircuitItem: true,
+                        reps: "",
+                        isEMOMItem: true,
                         videoUrl: "https://youtu.be/wNqGgCjBVaE",
                         imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
                     }
@@ -209,20 +209,20 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Circuito",
+                name: "EMOM",
                 isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 15,
-                    restBetweenRoundsSeconds: 60
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 3,
+                    workIntervalSeconds: 60
                 },
                 items: [
                     {
                         name: "Hip Thrust con Banda Elástica",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12-15",
-                        isCircuitItem: true,
+                        reps: "15",
+                        isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
                         imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
                     },
@@ -230,8 +230,8 @@ const workoutData = {
                         name: "Crunch - Pierna Cruzada",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12-15",
-                        isCircuitItem: true,
+                        reps: "",
+                        isEMOMItem: true,
                         videoUrl: "https://youtu.be/0r0GqczoZu4",
                         imageUrl: "https://i.ytimg.com/vi/0r0GqczoZu4/mqdefault.jpg"
                     }
