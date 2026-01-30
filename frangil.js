@@ -108,6 +108,16 @@ const workoutData = {
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
                 videoUrl: "https://youtu.be/KKvRtNn904g",
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Crunch en Polea Alta",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
             }
         ]
     },
@@ -212,6 +222,16 @@ const workoutData = {
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
                 videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                 imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Press Pallof Unilat con Rotación en Polea",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/5lo528rQAx8",
+                imageUrl: "https://i.ytimg.com/vi/5lo528rQAx8/mqdefault.jpg"
             }
         ]
     },
