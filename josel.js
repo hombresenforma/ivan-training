@@ -1,4 +1,8 @@
-// Titulo: P4_3D_APTOR_HIIT_1
+// Titulo: P4_3D_APTOR_HIIT_2 (BOX)
+// Notas: SIN POLEAS NI MÁQUINAS.
+// - Añadimos SUPERSERIE 4.
+// - Cambiamos HIIT de 1:2 a 1:1 (30seg-30seg) y subimos de 3 a 4 rondas.
+// - Bajamos reps a los básicos del día de TORSO. 
 
 // Contenido de app_datos.js
 
@@ -13,7 +17,7 @@ const workoutData = {
                 order: 1,
                 name: "Flexiones con Peso Corporal",
                 sets: 2,
-                reps: "100",
+                reps: "FALLO",
                 rest: "120s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
                 videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
@@ -77,13 +81,41 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
+                order: 4,
+                name: "Muscle Clean-Jerk Unilat con Mancuerna",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat con Mancuerna",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "8",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
+                        imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
+                    },
+                    {
+                        name: "Funcional - Sit Up",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/fXgBSdee8QU",
+                        imageUrl: "https://i.ytimg.com/vi/fXgBSdee8QU/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
+                imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
+            },
+            {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -118,7 +150,7 @@ const workoutData = {
                 order: 1,
                 name: "Dominadas / Pull Ups asistidas con Goma",
                 sets: 2,
-                reps: "100",
+                reps: "FALLO",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=pll4AdUg17g",
@@ -181,13 +213,41 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
+                order: 4,
+                name: "Dominadas Australianas con Pies en el Suelo",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Dominadas Australianas con Pies en el Suelo",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                        imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Inclinado con Mancuernas/KTB (Explicado)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                        imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+                videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
+                imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
+            },
+            {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -221,8 +281,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Curl Scott con Barra Z",
-                sets: 3,
-                reps: "8-10",
+                sets: 4,
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
@@ -231,8 +291,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Fondos en Paralelas con Peso Corporal",
-                sets: 3,
-                reps: "8-10",
+                sets: 4,
+                reps: "8",
                 rest: "90s",
                 notes: "Utiliza la máquina asistida o banda elástica si lo necesitas. ",
                 videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
@@ -276,40 +336,40 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Gorilla Row con Kettlebells/Mancuernas",
+                name: "Curl con Barra Recta",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        name: "Curl con Barra Recta",
                         subOrder: 1,
                         sets: 3,
                         reps: "16",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
-                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/0TjnWWqQfUw",
+                        imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
                     },
                     {
-                        name: "Muscle Snatch Unilat con Mancuerna/KTB",
+                        name: "Flexiones + Mountain Climbers",
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
-                        imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/4hKPsdWsXl8",
-                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                videoUrl: "https://youtu.be/0TjnWWqQfUw",
+                imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -322,13 +382,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - Remo en Máquina",
+                        name: "CARDIO - Correr (Sprint)",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     }
                 ],
                 notes: "",
