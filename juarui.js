@@ -39,31 +39,31 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Flexiones con Peso Corporal",
+                name: "Press Banca Inclinado con Barra",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Flexiones con Peso Corporal",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12-15",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
-                    },
-                    {
                         name: "Press Banca Inclinado con Barra",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10, 8, 6",
-                        rest: "90s",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "10, 8, 6, 6",
+                        isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
                         imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones con Peso Corporal",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "12-15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
+                imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -119,7 +119,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -127,7 +127,7 @@ const workoutData = {
                         name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
                         imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
@@ -136,7 +136,7 @@ const workoutData = {
                         name: "Remo Renegade + Flexión con Mancuernas",
                         subOrder: 2,
                         sets: 1,
-                        reps: "8",
+                        reps: "10",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
                         imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
