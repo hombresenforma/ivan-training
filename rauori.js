@@ -1,4 +1,6 @@
-// Titulo: P1_3D_fb_01
+/ Titulo: P1_3D_fb_02
+// Notas: - Añadimos 1 serie al PRINCIPAL y subimos de 8 a 12 repeticiones.
+// - Añadimos 1 vuelta al circuito final y subimos repeticiones/tiempo.
 
 // Contenido de app_datos.js
 
@@ -41,8 +43,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca en Multipower",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "12-15",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -122,8 +124,8 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
@@ -131,16 +133,16 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/Kettlebell",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "12",
+                        sets: 4,
+                        reps: "15",
                         videoUrl: "https://youtu.be/xPVfWX_9ytk",
                         imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
-                        reps: "30s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
                         imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
@@ -186,8 +188,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "12-15",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
                 videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
@@ -266,8 +268,8 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
                         imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
@@ -275,16 +277,16 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "16",
+                        sets: 4,
+                        reps: "20",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     },
                     {
                         name: "Hollow Abdominal Encogido",
                         subOrder: 3,
-                        sets: 3,
-                        reps: "30s",
+                        sets: 4,
+                        reps: "45s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
                         imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
@@ -338,8 +340,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "12-15",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -419,8 +421,8 @@ const workoutData = {
                     {
                         name: "Split Unilateral con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
                         imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
@@ -428,24 +430,24 @@ const workoutData = {
                     {
                         name: "Split Unilateral con Mancuernas/KTB",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "12",
                         videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
                         imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
                         subOrder: 3,
-                        sets: 3,
-                        reps: "5",
+                        sets: 4,
+                        reps: "8",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
                         name: "Funcional - Mountain Climber",
                         subOrder: 4,
-                        sets: 3,
-                        reps: "30",
+                        sets: 4,
+                        reps: "40",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
                         imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
@@ -472,3 +474,5 @@ const exerciseAlternatives = {
 };
 
 console.log("Datos de rutina cargados desde el creador.");
+// Export if using modules in the target app, or remove if it's a simple script include
+// export { workoutData, exerciseAlternatives };
