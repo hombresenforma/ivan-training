@@ -13,9 +13,27 @@ const workoutData = {
                 order: 1,
                 name: "Rotación Externa de Hombro Unilat con Polea",
                 isWarmup: true,
-                sets: 1,
-                reps: "10",
-                rest: "30s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Rotación Externa de Hombro Unilat con Polea",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
+                        imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Rotación Interna de Hombro Unilat con Polea",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        rest: "30s",
+                        videoUrl: "https://youtube.com/shorts/3SW4Pxgi1c0",
+                        imageUrl: "https://i.ytimg.com/vi/3SW4Pxgi1c0/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
                 imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
@@ -133,7 +151,7 @@ const workoutData = {
                 order: 1,
                 name: "Pull Over en Polea Alta",
                 isWarmup: true,
-                sets: 1,
+                sets: 2,
                 reps: "10",
                 rest: "30s",
                 notes: "",
@@ -235,7 +253,7 @@ const workoutData = {
                 order: 1,
                 name: "Aducción de Piernas en Máquina",
                 isWarmup: true,
-                sets: 1,
+                sets: 2,
                 reps: "10",
                 rest: "30s",
                 notes: "",
