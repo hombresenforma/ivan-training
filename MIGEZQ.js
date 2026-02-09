@@ -1,10 +1,5 @@
 // Titulo: P1_3D_fb_01
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Fullbody Push",
@@ -12,6 +7,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Worm + Rotaciones de Tronco",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -68,14 +64,6 @@ const workoutData = {
                         sets: 3,
                         reps: "20s",
                         notes: "Haz ambos lados.",
-                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
-                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha Lateral Dinámica sobre Antebrazo",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "20s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
                         imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
@@ -87,23 +75,23 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                name: "Peso Muerto Rumano con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        name: "Peso Muerto Rumano con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "20",
+                        reps: "15",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         notes: "Puedes hacerlas de rodillas.",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
@@ -111,8 +99,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -158,6 +146,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo en TRX",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -213,14 +202,6 @@ const workoutData = {
                         sets: 3,
                         reps: "20s",
                         notes: "Haz ambos lados.",
-                        videoUrl: "https://youtu.be/ROVRkBnD4zg",
-                        imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral elevando Rodilla",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "20s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/ROVRkBnD4zg",
                         imageUrl: "https://i.ytimg.com/vi/ROVRkBnD4zg/mqdefault.jpg"
@@ -245,13 +226,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -302,6 +283,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Abducción de Glúteo Unilat en el Suelo",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -314,16 +296,8 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
                     },
                     {
-                        name: "Abducción de Glúteo Unilat en el Suelo",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "8",
-                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
-                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
-                    },
-                    {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                        subOrder: 3,
+                        subOrder: 2,
                         sets: 2,
                         reps: "16",
                         rest: "30s",
@@ -362,15 +336,6 @@ const workoutData = {
                     {
                         name: "Sit Up Unilateral con KTB",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "5",
-                        notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sit Up Unilateral con KTB",
-                        subOrder: 3,
                         sets: 3,
                         reps: "5",
                         notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
@@ -413,29 +378,21 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Split Unilateral con Mancuernas/KTB",
+                name: "Muscle Snatch Unilat con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Split Unilateral con Mancuernas/KTB",
+                        name: "Muscle Snatch Unilat con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Split Unilateral con Mancuernas/KTB",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                        imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
-                        subOrder: 3,
+                        subOrder: 2,
                         sets: 3,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
@@ -443,7 +400,7 @@ const workoutData = {
                     },
                     {
                         name: "Funcional - Mountain Climber",
-                        subOrder: 4,
+                        subOrder: 3,
                         sets: 3,
                         reps: "30",
                         rest: "90s",
@@ -452,8 +409,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
+                imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
             }
         ]
     }
@@ -470,8 +427,3 @@ const exerciseAlternatives = {
         { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
-
