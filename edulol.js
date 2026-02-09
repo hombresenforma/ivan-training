@@ -1,10 +1,5 @@
 // Titulo: p2_3d_fbcardio_1_home
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Fullbody Anterior",
@@ -276,6 +271,62 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "HITT",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 2,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Worm",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "25",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
+                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cuerpo Libre - Cardio - Burpee Completo",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "15",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -287,5 +338,3 @@ const exerciseAlternatives = {
         { name: "Remo Unilat en TRX", videoUrl: "https://www.youtube.com/watch?v=sIM4_aMGdlk", imageUrl: "https://i.ytimg.com/vi/sIM4_aMGdlk/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
