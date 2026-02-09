@@ -4,12 +4,14 @@
 // Superserie 3 subimos  seg extr
 // superserie 4 Mount flex subimos a 15 reps
 // Circuito final añadimos 4 ronda
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
+// Añadimos un 6 ejercicio de super serie y el 5 ejerecicio pasa a normal
+// hemos añadido un press militra con barra dia 1 ejercicio 5
+// y un remo con barra dia 2 ejercicio 5
+
 const workoutData = {
     "dia1": {
         name: "Fullbody Push",
@@ -121,39 +123,41 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Thruster con Mancuernas",
+                name: "Press Militar con Barra de Pie",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Worm + Flexión",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Thruster con Mancuernas",
+                        name: "Worm + Flexión",
                         subOrder: 1,
-                        sets: 4,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/Kettlebell",
-                        subOrder: 2,
-                        sets: 4,
+                        sets: 3,
                         reps: "12",
-                        videoUrl: "https://youtu.be/xPVfWX_9ytk",
-                        imageUrl: "https://i.ytimg.com/vi/xPVfWX_9ytk/mqdefault.jpg"
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
                     },
                     {
-                        name: "Plancha - Normal",
-                        subOrder: 3,
-                        sets: 4,
-                        reps: "30s",
+                        name: "Cuerpo Libre - Cardio - Jumping Jack",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "40s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
-                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/K5PMB8CauGM",
+                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
             }
         ]
     },
@@ -265,39 +269,41 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Remo Horizontal en TRX",
+                name: "Remo con Barra",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "Mantén una inclinación paralela al suelo.",
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Crunch - Normal",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Horizontal en TRX",
+                        name: "Crunch - Normal",
                         subOrder: 1,
-                        sets: 4,
-                        reps: "12",
+                        sets: 3,
+                        reps: "40s",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
                     },
                     {
-                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        name: "Funcional - Mountain Climber",
                         subOrder: 2,
-                        sets: 4,
-                        reps: "16",
-                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
-                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Hollow Abdominal Encogido",
-                        subOrder: 3,
-                        sets: 4,
-                        reps: "30s",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
-                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
+                        sets: 3,
+                        reps: "40s",
+                        rest: "40s",
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
                     }
                 ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
             }
         ]
     },
@@ -410,46 +416,40 @@ const workoutData = {
             {
                 order: 5,
                 name: "Split Unilateral con Mancuernas/KTB",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Split Unilateral con Mancuernas/KTB",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Split Unilateral con Mancuernas/KTB",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "10",
-                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Worm",
-                        subOrder: 3,
-                        sets: 4,
-                        reps: "5",
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Funcional - Mountain Climber",
-                        subOrder: 4,
-                        sets: 4,
-                        reps: "30",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/GZWmYzClS3s",
-                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
                 imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Cuerpo Libre - Cardio - Jumping Jack",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Cuerpo Libre - Cardio - Jumping Jack",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "40s",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/K5PMB8CauGM",
+                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cuerpo Libre - Cardio - Burpee Completo",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "40s",
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/K5PMB8CauGM",
+                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
             }
         ]
     }
@@ -463,5 +463,3 @@ const exerciseAlternatives = {
         { name: "Gomas - FacePull en Columna", videoUrl: "https://youtu.be/KnnWfHUjsKg", imageUrl: "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
