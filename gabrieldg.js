@@ -351,3 +351,5 @@ const exerciseAlternatives = {
         { name: "Dominadas Supinas", videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y", imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg" }
     ]
 };
+
+
