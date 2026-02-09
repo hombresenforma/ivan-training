@@ -1,12 +1,11 @@
 // Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1
 // Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
 // For Time 21,15,9 + Trabajo de abdomen POLEA
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Torso Empuje",
@@ -57,19 +56,19 @@ const workoutData = {
                 name: "Intervalos EMPUJE",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 60
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Suave)",
+                        name: "Cardio - Remo en Máquina",
                         subOrder: 1,
                         sets: 1,
                         reps: "60s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
                     },
                     {
                         name: "Press de Pecho con TRX+Banda",
@@ -82,8 +81,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Puedes hacerlo al aire libre si lo prefieres.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             }
         ]
     },
@@ -146,13 +145,13 @@ const workoutData = {
                 name: "Intervalos PIERNA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 60
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Suave)",
+                        name: "CARDIO - Correr (Sprint)",
                         subOrder: 1,
                         sets: 1,
                         reps: "60s",
@@ -225,19 +224,19 @@ const workoutData = {
                 name: "Intervalos TRACCIÓN",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 60
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Suave)",
+                        name: "Cardio - Remo en Máquina",
                         subOrder: 1,
                         sets: 1,
                         reps: "60s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
                     },
                     {
                         name: "Cardio - Remo en Máquina",
@@ -250,8 +249,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Puedes hacerlo al aire libre si lo prefieres.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             }
         ]
     },
@@ -348,5 +347,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
