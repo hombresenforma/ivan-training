@@ -1,10 +1,7 @@
 // Titulo: p2_3d_fbcardio_1
+// Notas: Ejercicio 1 subimos a 12 reps
+// Superserie 5 añadimos 4 ronda
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Fullbody Anterior",
@@ -13,7 +10,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca en Multipower",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -69,29 +66,30 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                name: "Zancadas Caminando con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
+                        notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
                         imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
@@ -104,7 +102,7 @@ const workoutData = {
                 order: 1,
                 name: "Remo Seal con Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "Trata de despegar el pecho al final del movimiento",
                 videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
@@ -112,11 +110,11 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Búlgara con Mancuerna",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Búlgara con Mancuerna",
+                        name: "Sentadilla Búlgara con Mancuerna o KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
@@ -166,7 +164,7 @@ const workoutData = {
                     {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
@@ -175,7 +173,7 @@ const workoutData = {
                     {
                         name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
@@ -195,7 +193,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca con Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
@@ -247,24 +245,24 @@ const workoutData = {
                     {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         rest: "90s",
                         videoUrl: "https://youtu.be/S32a3nYiWko",
@@ -296,6 +294,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-
