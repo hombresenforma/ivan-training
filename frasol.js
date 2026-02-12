@@ -1,10 +1,7 @@
 // Titulo: P5_3D_TPFB_1
+// Notas: Primer ejercicio subimos una serie mas a 4
+// Tercer ejercicio subimos a 10-12 reps
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "DÍA 1: Tren superior",
@@ -40,7 +37,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
                 rest: "60s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
@@ -49,13 +46,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Gironda Sentado en Polea",
+                name: "Remo Gironda en Polea",
                 sets: 3,
-                reps: "8-10",
+                reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s",
-                imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -78,30 +75,6 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
-                order: 6,
-                name: "Ejercicio por tiempo",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 0,
-                    restBetweenRoundsSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Flexiones + Mountain Climbers",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
-            },
-            {
                 order: 7,
                 name: "EMOM",
                 isSuperset: true,
@@ -112,27 +85,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Curl en Polea Baja con Barra Recta",
+                        name: "Flexiones / Push Ups",
                         subOrder: 1,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                        imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                        imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
                     },
                     {
                         name: "Crunch - Normal",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/wNqGgCjBVaE",
                         imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
             }
         ]
     },
@@ -141,11 +114,11 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Cuerpo Libre - Cardio - Jumping Jack",
+                name: "Jumping Jack",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Cuerpo Libre - Cardio - Jumping Jack",
+                        name: "Jumping Jack",
                         subOrder: 1,
                         sets: 2,
                         reps: "30s",
@@ -154,7 +127,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
+                        name: "Sentadilla con Salto en Step",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -170,7 +143,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Kettlebell - Swing con Sentadilla",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -181,7 +154,7 @@ const workoutData = {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
                 sets: 3,
-                reps: "8-10",
+                reps: "10-12",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -189,7 +162,7 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                name: "Zancadas Caminando con Mancuernas/KTB",
                 sets: 3,
                 reps: "12-15",
                 rest: "60s",
@@ -218,27 +191,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Hip Thrust con Banda Elástica",
+                        name: "Worm",
                         subOrder: 1,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                        imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
                         name: "Crunch - Pierna Cruzada",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/0r0GqczoZu4",
                         imageUrl: "https://i.ytimg.com/vi/0r0GqczoZu4/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
             }
         ]
     },
@@ -265,8 +238,8 @@ const workoutData = {
                         sets: 1,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -281,7 +254,7 @@ const workoutData = {
                     {
                         name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "8-10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
@@ -290,7 +263,7 @@ const workoutData = {
                     {
                         name: "Flexiones / Push Ups",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12-15",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
                         rest: "90s",
@@ -373,6 +346,3 @@ const workoutData = {
 
 const exerciseAlternatives = {
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-
