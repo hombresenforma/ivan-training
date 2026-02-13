@@ -308,6 +308,101 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Metabólico + Abs ",
+        exercises: [
+            {
+                order: 2,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 6
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade + Flexión con Mancuernas",
+                        subOrder: 2,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                        imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Burpee sin Flexión",
+                        subOrder: 3,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        videoUrl: "https://youtu.be/_liq4fAscDU",
+                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Circuito Abdominal",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal con Brazos a los Lados",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
+                        imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/GZWmYzClS3s",
+                imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+            }
+        ]
     }
 };
 
