@@ -1,10 +1,5 @@
 // Titulo: Plan de Entrenamiento
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Tracción ",
@@ -144,8 +139,8 @@ const workoutData = {
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 3,
@@ -341,8 +336,8 @@ const workoutData = {
                 reps: "8-10",
                 rest: "90s",
                 notes: "Si haces zancadas, haz 8-10 POR PIERNA.",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 5,
@@ -370,8 +365,8 @@ const workoutData = {
                         sets: 1,
                         reps: "10-12",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas",
@@ -384,8 +379,133 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
+            }
+        ]
+    },
+    "dia5": {
+        name: "Empuje HOY",
+        exercises: [
+            {
+                order: 1,
+                name: "HOMBROS",
+                isWarmup: true,
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 30
+                },
+                items: [
+                    {
+                        name: "Rotación Externa de Hombro Unilat con Polea",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
+                        imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Rotación Interna de Hombro Unilat con Polea",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtube.com/shorts/3SW4Pxgi1c0",
+                        imageUrl: "https://i.ytimg.com/vi/3SW4Pxgi1c0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/0dw436rzrNU",
+                imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Banca con Barra",
+                sets: 3,
+                reps: "8-10",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Militar con Barra de Pie",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Fondos en Paralelas para Pecho",
+                sets: 3,
+                reps: "12-15",
+                rest: "90s",
+                notes: "No bajes más de lo que tu movilidad de hombro te permita (unos 90 grados)",
+                videoUrl: "https://youtu.be/W9TfhUAvteE",
+                imageUrl: "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Extensión de Cuádriceps en Máquina",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Extensión de Cuádriceps en Máquina",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Cruces en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Cruces en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/Ht9awbF2fBA",
+                        imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión de Tríceps en Polea con Cuerda",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/Ht9awbF2fBA",
+                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
             }
         ]
     }
@@ -396,7 +516,7 @@ const exerciseAlternatives = {
         { name: "Curl Femoral Tumbado en Máquina", videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM", imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
-        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
     "Remo Unilateral Lateral en Landmine": [
         { name: "Remo Unilat con Mancuerna/KTB (Explicado)", videoUrl: "https://youtu.be/uH9Hg4nWOG8", imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg" }
@@ -414,7 +534,7 @@ const exerciseAlternatives = {
         { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5A", imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg" }
     ],
     "Prensa Inclinada en Máquina de Discos": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
     "Press Inclinado con Mancuernas": [
         { name: "Press en Máquina inclinado", videoUrl: "https://www.youtube.com/watch?v=nna4gQD-v9Y", imageUrl: "https://i.ytimg.com/vi/nna4gQD-v9Y/mqdefault.jpg" }
@@ -423,7 +543,7 @@ const exerciseAlternatives = {
         { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
     ],
     "Dominadas con Peso Corporal": [
-        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
     "Remo Seal con Mancuernas": [
         { name: "Remo Unilat con Mancuerna/KTB (Explicado)", videoUrl: "https://youtu.be/uH9Hg4nWOG8", imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg" }
@@ -432,11 +552,9 @@ const exerciseAlternatives = {
         { name: "Curl con Barra Z", videoUrl: "https://youtu.be/4gYLTjNaTmw", imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (Explicado)": [
-        { name: "Zancadas Caminando con Mancuernas/Kettlebells", videoUrl: "https://youtu.be/7tRy9X0ibnk", imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg" }
+        { name: "Zancadas Caminando con Mancuernas/Kettlebells", videoUrl: "", imageUrl: "" }
     ],
     "Curl con Mancuernas Sentado en Banco Inclinado": [
         { name: "", videoUrl: "", imageUrl: "" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
