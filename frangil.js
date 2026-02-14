@@ -1,10 +1,5 @@
 // Titulo: P4_3D_APTOR_HIIT_1
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -12,7 +7,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Flexiones con Peso Corporal",
-                sets: 2,
+                sets: 3,
                 reps: "FALLO",
                 rest: "120s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
@@ -50,11 +45,11 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar Sentado con Mancuernas (Explicado)",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Sentado con Mancuernas (Explicado)",
+                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
@@ -63,13 +58,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -78,12 +73,12 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 5,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -92,6 +87,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://youtu.be/KKvRtNn904g",
                         imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     },
@@ -127,7 +123,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas / Pull Ups asistidas con Goma",
-                sets: 2,
+                sets: 3,
                 reps: "FALLO",
                 rest: "120s",
                 notes: "",
@@ -154,8 +150,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -192,12 +188,12 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 5,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -206,6 +202,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
@@ -240,23 +237,23 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Curl con Barra Recta",
-                sets: 3,
+                name: "Dead Curl con Barra",
+                sets: 4,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/0TjnWWqQfUw",
-                imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/HWs4EYCI8iE",
+                imageUrl: "https://i.ytimg.com/vi/HWs4EYCI8iE/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Fondos en Paralelas con Peso Corporal",
-                sets: 3,
+                name: "Fondos en Paralelas Lastrados",
+                sets: 4,
                 reps: "8-10",
                 rest: "90s",
                 notes: "Utiliza la máquina asistida o banda elástica si lo necesitas. ",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
+                imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -324,12 +321,12 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "HIIT 1:1",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 5,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
@@ -356,6 +353,101 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Metabólico + Abs ",
+        exercises: [
+            {
+                order: 2,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 6
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade + Flexión con Mancuernas",
+                        subOrder: 2,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/hLPJik1MaaY",
+                        imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Burpee sin Flexión",
+                        subOrder: 3,
+                        reps: "12, 10, 8, 6, 4, 2",
+                        isForTimeItem: true,
+                        videoUrl: "https://youtu.be/_liq4fAscDU",
+                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Circuito Abdominal",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Lateral Piernas",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/jjoqs9YMyrM",
+                        imageUrl: "https://i.ytimg.com/vi/jjoqs9YMyrM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal con Brazos a los Lados",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
+                        imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/GZWmYzClS3s",
+                imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -363,9 +455,10 @@ const exerciseAlternatives = {
     "Dominadas / Pull Ups asistidas con Goma": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
-    "Curl con Barra Recta": [
-        { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
+    "Dead Curl con Barra": [
+        { name: "Curl con Barra Recta", videoUrl: "https://youtu.be/0TjnWWqQfUw", imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg" }
+    ],
+    "Fondos en Paralelas Lastrados": [
+        { name: "Fondos en Paralelas con Peso Corporal", videoUrl: "https://youtube.com/shorts/om9U8WY5HoY", imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
