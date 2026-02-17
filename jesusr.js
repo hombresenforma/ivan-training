@@ -1,10 +1,5 @@
 // Titulo: Jesus 4d transición FUERZA (3x6-8)
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Fullbody Empuje",
@@ -12,8 +7,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca en Multipower",
-                sets: 3,
-                reps: "6-8",
+                sets: 4,
+                reps: "4-6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -31,11 +26,11 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Press Militar Sentado con Mancuernas (Explicado)",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Sentado con Mancuernas (Explicado)",
+                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10-12",
@@ -44,14 +39,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
                         sets: 3,
                         reps: "10-12",
                         notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -89,13 +84,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones con Peso Corporal",
+                        name: "Flexiones / Deficit Push Ups con Discos al lado",
                         subOrder: 2,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
+                        imageUrl: "https://i.ytimg.com/vi/nLnrNuQFlao/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -110,8 +105,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jalón al Pecho Neutro en Polea",
-                sets: 3,
-                reps: "6-8",
+                sets: 4,
+                reps: "4-6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/5YzMH2KkMHc",
@@ -119,7 +114,7 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Hip Thrust con Barra (Explicado)",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 3,
                 reps: "6-8",
                 rest: "120s",
@@ -142,7 +137,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Inclinado con Mancuernas/KTB (Explicado)",
+                        name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                         subOrder: 2,
                         sets: 3,
                         reps: "10-12",
@@ -158,24 +153,24 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Patada de Glúteo en Polea",
+                name: "Pull Over en Polea Alta",
                 sets: 3,
                 reps: "10",
                 rest: "60s",
                 notes: "Usa un disco o step para elevar el otro pie",
-                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Remo Gironda Sentado en Polea",
+                name: "Remo Gironda en Polea",
                 setTechniques: {"3":"DROPSET X2"},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s",
-                imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -193,6 +188,7 @@ const workoutData = {
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
+                        notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
                         videoUrl: "https://youtu.be/R7FKam5GyNw",
                         imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
                     },
@@ -218,8 +214,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "6-8",
+                sets: 4,
+                reps: "4-6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -227,11 +223,11 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Búlgara con Mancuerna",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Búlgara con Mancuerna",
+                        name: "Sentadilla Búlgara con Mancuerna o KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
@@ -240,13 +236,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
                     },
                     {
-                        name: "Press Militar Sentado con Mancuernas",
+                        name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
+                        notes: "Puedes hacerlas SENTADO",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -325,8 +322,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas con Peso Corporal",
-                sets: 3,
-                reps: "6-8",
+                sets: 4,
+                reps: "4-6",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
@@ -335,8 +332,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Fondos en Paralelas Lastrados",
-                sets: 3,
-                reps: "6-8",
+                sets: 4,
+                reps: "4-6",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
@@ -435,20 +432,18 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
     "Extensión de Cuádriceps en Máquina": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
     "Jalón al Pecho Neutro en Polea": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
-    "Patada de Glúteo en Polea": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "https://www.youtube.com/watch?v=6teL-OyXuQs", imageUrl: "https://i.ytimg.com/vi/6teL-OyXuQs/mqdefault.jpg" }
+    "Pull Over en Polea Alta": [
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
     "Prensa Inclinada en Máquina de Discos": [
         { name: "Prensa Inclinada en Máquina de Discos", videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0", imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
