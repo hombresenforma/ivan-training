@@ -1,5 +1,5 @@
 // Titulo: P14_3D_FUERZA_1
-// Notas: Entrenamiento enfocado en FUERZA (Básicos 5x6-8reps). Sin trabajo metabólico. 
+// Notas: Entrenamiento enfocado en FUERZA (Básicos 5x6-8reps). Sin trabajo metabólico.
 
 const workoutData = {
     "dia1": {
@@ -19,9 +19,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar en Multipower",
-                sets: 4,
-                reps: "6-8",
-                rest: "120s",
+                sets: 3,
+                reps: "6, 12, 12",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
@@ -29,15 +29,16 @@ const workoutData = {
             {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
@@ -65,7 +66,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Fondos en Paralelas Lastrados",
                 isSuperset: true,
                 items: [
@@ -93,7 +94,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Extensión de Cuádriceps en Máquina",
                 isSuperset: true,
                 items: [
@@ -139,8 +140,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
-                sets: 4,
-                reps: "6-8",
+                sets: 3,
+                reps: "6, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
@@ -148,19 +149,20 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Hip Thrust con Barra",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "12, 10, 8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/sbl1qYdkzUc",
-                imageUrl: "https://i.ytimg.com/vi/sbl1qYdkzUc/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 4,
                 name: "Remo Diagonal Unilat en Polea Alta",
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "10-12",
+                reps: "8",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
@@ -241,8 +243,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera en Multipower",
-                sets: 4,
-                reps: "6-8",
+                sets: 3,
+                reps: "6, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/la-dqygoIuk",
@@ -252,7 +254,7 @@ const workoutData = {
                 order: 3,
                 name: "Press Banca con Barra",
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "6, 12, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -279,6 +281,7 @@ const workoutData = {
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
+                        notes: "Trata de despegar el pecho al final del movimiento",
                         videoUrl: "https://youtu.be/ZE4M73kXB5A",
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
                     },
@@ -335,8 +338,8 @@ const exerciseAlternatives = {
     "Máquina de Remo (Gironda)": [
         { name: "Remo en Máquina T Agarre Abierto", videoUrl: "https://youtube.com/shorts/_XOaMY5NumY", imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg" }
     ],
-    "Hip Thrust con Barra": [
-        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
+    "Hip Thrust con Barra (ExPLICADO)": [
+        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
@@ -345,11 +348,9 @@ const exerciseAlternatives = {
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
-        { name: "Press Banca en Multipower (Explicado)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+        { name: "Press Banca en Multipower (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Jalón al Pecho Supino en Polea": [
         { name: "Dominadas Supinas", videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y", imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg" }
     ]
 };
-
-
