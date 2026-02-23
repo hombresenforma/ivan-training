@@ -1,12 +1,11 @@
 // Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1
-// Notas: Trabajo por CLUSTERS y SERIES AL FALLO. 
+// Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
 // For Time 21,15,9 + Trabajo de abdomen POLEA
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Torso Empuje",
@@ -15,8 +14,8 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
                 setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "6, 6, 25",
+                sets: 4,
+                reps: "6, 12, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
@@ -25,8 +24,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Jalón al Pecho en Polea",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
-                reps: "10",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/GYIhmy1P4vY",
@@ -93,6 +93,29 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                 imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "CARDIO LISS",
+                isSuperset: true,
+                isAMRAP: true,
+                amrapDetails: {
+                    timeLimitSeconds: 900
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
+                        subOrder: 1,
+                        reps: "-",
+                        isAMRAPItem: true,
+                        notes: "Ritmo medio",
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ritmo medio",
+                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
             }
         ]
     },
@@ -113,8 +136,8 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "6, 6, 25",
+                sets: 4,
+                reps: "6, 12, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
@@ -123,8 +146,9 @@ const workoutData = {
             {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
-                reps: "10",
+                reps: "7",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -161,11 +185,12 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
+                        notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
@@ -188,7 +213,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
@@ -201,8 +226,8 @@ const workoutData = {
                 order: 1,
                 name: "Remo en Máquina T Agarre Estrecho",
                 setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "6, 6, 25",
+                sets: 4,
+                reps: "6, 12, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
@@ -211,8 +236,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Mancuernas",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
-                reps: "10",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
@@ -279,6 +305,29 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/fcFsPoJY9lg",
                 imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "CARDIO LISS",
+                isSuperset: true,
+                isAMRAP: true,
+                amrapDetails: {
+                    timeLimitSeconds: 900
+                },
+                items: [
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 1,
+                        reps: "-",
+                        isAMRAPItem: true,
+                        notes: "Usa cualquier máquina de cardio.",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Usa cualquier máquina de cardio.",
+                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             }
         ]
     },
@@ -299,6 +348,7 @@ const workoutData = {
                         subOrder: 1,
                         reps: "21, 15, 9",
                         isForTimeItem: true,
+                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
@@ -369,12 +419,9 @@ const exerciseAlternatives = {
         { name: "Curl Femoral Tumbado en Máquina", videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM", imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg" }
     ],
     "Remo en Máquina T Agarre Estrecho": [
-        { name: "Remo Gironda Sentado en Polea", videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s", imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg" }
+        { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-
