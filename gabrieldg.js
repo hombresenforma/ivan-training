@@ -29,7 +29,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -160,7 +160,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Remo Diagonal Unilat en Polea Alta",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "8",
                 rest: "60s",
