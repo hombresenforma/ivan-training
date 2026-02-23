@@ -1,4 +1,4 @@
-// Titulo: p2_3d_fbcardio_1_home
+// Titulo: p2_3d_fbcardio_2_home
 
 const workoutData = {
     "dia1": {
@@ -7,7 +7,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Militar con Barra de Pie",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -25,8 +25,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     },
                     {
                         name: "Zancada Dinámica",
@@ -39,8 +39,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -70,20 +70,20 @@ const workoutData = {
                     {
                         name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -98,7 +98,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -120,7 +120,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Burpee sin Flexión",
+                        name: "Burpee sin Flexión",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
@@ -161,16 +161,16 @@ const workoutData = {
                     {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Shoulder Taps con Salto Adelante",
+                        name: "Shoulder Taps con Salto Adelante",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/xWUxD4rzmfQ",
@@ -189,7 +189,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Floor Press con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -242,24 +242,24 @@ const workoutData = {
                     {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
-                        videoUrl: "",
-                        imageUrl: ""
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     },
                     {
                         name: "Curl de Biceps con TRX",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/W1C5ABPg_Ak",
