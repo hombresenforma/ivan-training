@@ -7,7 +7,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra (ExPLICADO)",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Puedes hacerlo en Multipower",
@@ -32,7 +32,7 @@ const workoutData = {
                     {
                         name: "Curl Femoral Tumbado en Máquina",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
@@ -41,7 +41,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
@@ -58,7 +58,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -133,7 +133,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -148,7 +148,7 @@ const workoutData = {
                     {
                         name: "Press Militar en Multipower",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
@@ -157,7 +157,7 @@ const workoutData = {
                     {
                         name: "Face Pull con KTB",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         notes: "Hazlo con mancuernas si no hay ktb",
                         rest: "90s",
@@ -219,7 +219,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "Puedes hacerlo en Multipower",
@@ -254,7 +254,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -263,7 +263,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -282,8 +282,8 @@ const workoutData = {
                     {
                         name: "Patada de Glúteo en Polea",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "15, 12, 10",
+                        sets: 4,
+                        reps: "15, 12, 10, 10",
                         isSupersetStart: true,
                         notes: "Usa un disco o step para elevar el otro pie",
                         videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
@@ -292,7 +292,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "6",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
