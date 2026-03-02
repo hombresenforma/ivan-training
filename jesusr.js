@@ -6,13 +6,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca en Multipower",
+                name: "Press Banca Inclinado en Multipower",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -104,13 +104,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Remo Diagonal Unilat en Polea Alta",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -213,13 +213,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Sentadilla Trasera con Barra Talones Elevados",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
+                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -428,7 +428,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Banca en Multipower": [
+    "Press Banca Inclinado en Multipower": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
@@ -437,13 +437,13 @@ const exerciseAlternatives = {
     "Extensión de Cuádriceps en Máquina": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
-    "Jalón al Pecho Neutro en Polea": [
+    "Remo Diagonal Unilat en Polea Alta": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
     "Pull Over en Polea Alta": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
-    "Prensa Inclinada en Máquina de Discos": [
+    "Sentadilla Trasera con Barra Talones Elevados": [
         { name: "Prensa Inclinada en Máquina de Discos", videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0", imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg" }
     ]
 };
