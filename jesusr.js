@@ -104,13 +104,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo Diagonal Unilat en Polea Alta",
+                name: "Remo Seal con Mancuernas",
                 sets: 4,
                 reps: "4-6",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
-                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -437,7 +437,7 @@ const exerciseAlternatives = {
     "Extensión de Cuádriceps en Máquina": [
         { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ],
-    "Remo Diagonal Unilat en Polea Alta": [
+    "Remo Seal con Mancuernas": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
     "Pull Over en Polea Alta": [
