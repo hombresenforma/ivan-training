@@ -1,4 +1,6 @@
-// Titulo: p2_3d_fbcardio_1
+// Titulo: p2_3d_fbcardio_2
+// Notas: Ejercicio 1 subimos a 12 reps
+// Superserie 5 añadimos 4 ronda
 
 const workoutData = {
     "dia1": {
@@ -8,7 +10,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca en Multipower",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -29,14 +31,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
-                        notes: "Utiliza la cinta o cualquier otra máquina de cardio. Ritmo FUERTE.",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -71,7 +72,7 @@ const workoutData = {
                     {
                         name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
@@ -81,7 +82,7 @@ const workoutData = {
                     {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
@@ -101,7 +102,7 @@ const workoutData = {
                 order: 1,
                 name: "Remo Seal con Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "Trata de despegar el pecho al final del movimiento",
                 videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
@@ -126,7 +127,6 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
-                        notes: "Utiliza la bici o cualquier otra máquina de cardio. Ritmo FUERTE.",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
@@ -164,7 +164,7 @@ const workoutData = {
                     {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
@@ -173,7 +173,7 @@ const workoutData = {
                     {
                         name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
@@ -193,7 +193,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca con Mancuernas",
                 sets: 3,
-                reps: "10",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
@@ -224,14 +224,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - Remo en Máquina",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
                         sets: 3,
                         reps: "90s",
-                        notes: "Utiliza el remo o cualquier otra máquina de cardio. Ritmo FUERTE.",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -246,24 +245,24 @@ const workoutData = {
                     {
                         name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                         imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos de Tríceps con Pies Elevados",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
-                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
-                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "12, 10, 8",
                         rest: "90s",
                         videoUrl: "https://youtu.be/S32a3nYiWko",
