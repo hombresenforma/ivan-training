@@ -140,6 +140,89 @@ const workoutData = {
         ]
     },
     "dia2": {
+        name: "Pierna Completa (ANTERIOR)",
+        exercises: [
+            {
+                order: 1,
+                name: "Aducción de Piernas en Máquina",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Aducción de Piernas en Máquina",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Sentadilla Anterior en Máquina Jaca",
+                sets: 4,
+                reps: "6, 6, 12, 12",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
+                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Peso Muerto Rumano con Barra",
+                sets: 3,
+                reps: "6, 12, 12",
+                rest: "120s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                sets: 3,
+                reps: "16",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Extensión de Cuádriceps en Máquina",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Extensión de Cuádriceps en Máquina",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "8-10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia3": {
         name: "Torso Completo (PULL)",
         exercises: [
             {
@@ -277,89 +360,6 @@ const workoutData = {
             }
         ]
     },
-    "dia3": {
-        name: "Pierna Completa (ANTERIOR)",
-        exercises: [
-            {
-                order: 1,
-                name: "Aducción de Piernas en Máquina",
-                isWarmup: true,
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Aducción de Piernas en Máquina",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
-                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
-                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
-                sets: 4,
-                reps: "6, 6, 12, 12",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Peso Muerto Rumano con Barra",
-                sets: 3,
-                reps: "6, 12, 12",
-                rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtu.be/R7FKam5GyNw",
-                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
-                reps: "16",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Extensión de Cuádriceps en Máquina",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Extensión de Cuádriceps en Máquina",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "8-10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            }
-        ]
-    },
     "dia4": {
         name: "Pierna Completa (POSTERIOR)",
         exercises: [
@@ -452,16 +452,16 @@ const exerciseAlternatives = {
     "Máquina de Remo (Gironda)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Dominadas Supinas": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
-    ],
-    "Press Militar en Multipower": [
-        { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
-    ],
     "Sentadilla Anterior en Máquina Jaca": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
+        { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
+    ],
+    "Dominadas Supinas": [
+        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
+    ],
+    "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (ExPLICADO)": [
