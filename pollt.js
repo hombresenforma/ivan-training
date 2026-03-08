@@ -201,6 +201,127 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "Activación y Descarga PIERNAS",
+        exercises: [
+            {
+                order: 1,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 1,
+                    restBetweenExercisesSeconds: 5,
+                    restBetweenRoundsSeconds: 0
+                },
+                items: [
+                    {
+                        name: "Liberación Miofascial - Gastrocnemios",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Liberación.",
+                        videoUrl: "https://youtu.be/juUqLPfhF2I",
+                        imageUrl: "https://i.ytimg.com/vi/juUqLPfhF2I/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Gastrocnemios",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/juUqLPfhF2I",
+                        imageUrl: "https://i.ytimg.com/vi/juUqLPfhF2I/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Isquiosurales",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/wfP97EW_3B0",
+                        imageUrl: "https://i.ytimg.com/vi/wfP97EW_3B0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Isquiosurales",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/wfP97EW_3B0",
+                        imageUrl: "https://i.ytimg.com/vi/wfP97EW_3B0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Glúteo y Piramidal",
+                        subOrder: 5,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/H4TxDBt9Oew",
+                        imageUrl: "https://i.ytimg.com/vi/H4TxDBt9Oew/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Glúteo y Piramidal",
+                        subOrder: 6,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/H4TxDBt9Oew",
+                        imageUrl: "https://i.ytimg.com/vi/H4TxDBt9Oew/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Cuádriceps Distal",
+                        subOrder: 7,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/q27nZmlg_x8",
+                        imageUrl: "https://i.ytimg.com/vi/q27nZmlg_x8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Cuádriceps Distal",
+                        subOrder: 8,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/q27nZmlg_x8",
+                        imageUrl: "https://i.ytimg.com/vi/q27nZmlg_x8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Iliopsoas y Cuádriceps",
+                        subOrder: 9,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/4Ic63y0cRgQ",
+                        imageUrl: "https://i.ytimg.com/vi/4Ic63y0cRgQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Liberación Miofascial - Iliopsoas y Cuádriceps",
+                        subOrder: 10,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/4Ic63y0cRgQ",
+                        imageUrl: "https://i.ytimg.com/vi/4Ic63y0cRgQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Liberación.",
+                videoUrl: "https://youtu.be/juUqLPfhF2I",
+                imageUrl: "https://i.ytimg.com/vi/juUqLPfhF2I/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Liberación Miofascial - Isquiosurales",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "Liberación.",
+                videoUrl: "https://youtu.be/wfP97EW_3B0",
+                imageUrl: "https://i.ytimg.com/vi/wfP97EW_3B0/mqdefault.jpg"
+            }
+        ]
     }
 };
 
