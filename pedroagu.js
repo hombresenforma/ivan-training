@@ -100,54 +100,44 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Aducción de Piernas en Máquina",
+                name: "Abducción de Glúteo Unilat en el Suelo",
                 sets: 2,
                 reps: "12-15",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
-                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
+                name: "Sentadilla Trasera con Barra Talones Elevados",
                 setTechniques: {"3":"CLUSTER"},
                 sets: 3,
                 reps: "6, 6, 25",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
+                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 3,
-                reps: "10",
+                reps: "15",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Extensión de Cuádriceps en Máquina",
+                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 sets: 2,
                 reps: "FALLO",
                 rest: "90s",
                 notes: "2 series AL FALLO (Con peso para hacer entre 12 y 15 reps teóricas). Anota las repeticiones. ",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Curl Femoral Tumbado en Máquina",
-                sets: 2,
-                reps: "FALLO",
-                rest: "90s",
-                notes: "2 series AL FALLO (Con peso para hacer entre 12 y 15 reps teóricas). Anota las repeticiones. ",
-                videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
-                imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -199,14 +189,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo en Máquina T Agarre Estrecho",
+                name: "Remo Seal con Mancuernas",
                 setTechniques: {"3":"CLUSTER"},
                 sets: 3,
                 reps: "6, 6, 25",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
-                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -217,16 +207,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
                 imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Dominadas Supinas Asistidas en Máquina",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
-                imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -258,13 +238,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
                     },
                     {
-                        name: "Face Pull con TRX",
+                        name: "Face Pull con KTB",
                         subOrder: 2,
                         sets: 1,
                         reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
-                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                        notes: "Puedes hacerlo con mancuernas si prefieres",
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
@@ -326,31 +307,32 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Crunch en Polea Alta",
+                name: "Crunch Abdominal Piernas Extendidas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Crunch en Polea Alta",
+                        name: "Crunch Abdominal Piernas Extendidas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
                     },
                     {
-                        name: "Press Pallof Excéntrico Unilat en Polea",
+                        name: "Press Pallof Excéntrico con Banda Elástica",
                         subOrder: 2,
                         sets: 3,
-                        reps: "8",
+                        reps: "16",
+                        notes: "8 por lado",
                         rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
-                        imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/K4zseqb-hvo",
+                        imageUrl: "https://i.ytimg.com/vi/K4zseqb-hvo/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
             }
         ]
     }
@@ -360,16 +342,13 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "Sentadilla Anterior en Máquina Jaca": [
+    "Sentadilla Trasera con Barra Talones Elevados": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Prensa Inclinada en Máquina de Discos": [
+    "Sentadilla Búlgara con Mancuerna o KTB": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Curl Femoral Tumbado en Máquina": [
-        { name: "Curl Femoral Tumbado en Máquina", videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM", imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg" }
-    ],
-    "Remo en Máquina T Agarre Estrecho": [
+    "Remo Seal con Mancuernas": [
         { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Press Banca con Mancuernas": [
