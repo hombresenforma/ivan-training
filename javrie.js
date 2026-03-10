@@ -155,6 +155,34 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
+                order: 5,
+                name: "Cardio - Press Dinámico Unilat con Landmine",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Cardio - Press Dinámico Unilat con Landmine",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/9_faYEjxCTU",
+                        imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Unilat con Rotación en Polea",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/5lo528rQAx8",
+                        imageUrl: "https://i.ytimg.com/vi/5lo528rQAx8/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/9_faYEjxCTU",
+                imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+            },
+            {
                 order: 6,
                 name: "Circuito Metabólico",
                 isSuperset: true,
