@@ -425,7 +425,7 @@ const workoutData = {
                 order: 2,
                 name: "Press Banca con Barra",
                 sets: 3,
-                reps: "8-10",
+                reps: "6, 6, 10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -433,54 +433,36 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar con Barra de Pie",
+                name: "Remo Gironda en Polea",
                 sets: 3,
-                reps: "8",
-                rest: "90s",
+                reps: "6, 6, 10",
+                rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Fondos en Paralelas para Pecho",
+                name: "Press Militar con Barra Sentado (Half Press)",
                 sets: 3,
-                reps: "12-15",
+                reps: "8-10",
                 rest: "90s",
-                notes: "No bajes más de lo que tu movilidad de hombro te permita (unos 90 grados)",
-                videoUrl: "https://youtu.be/W9TfhUAvteE",
-                imageUrl: "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc",
+                imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Extensión de Cuádriceps en Máquina",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Extensión de Cuádriceps en Máquina",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-                    }
-                ],
+                name: "Jalón al Pecho Unilateral con Polea",
+                sets: 3,
+                reps: "8-10",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                videoUrl: "https://youtu.be/fxMPLrCpzeA",
+                imageUrl: "https://i.ytimg.com/vi/fxMPLrCpzeA/mqdefault.jpg"
             },
             {
-                order: 6,
+                order: 7,
                 name: "Cruces en Polea Alta",
                 isSuperset: true,
                 items: [
@@ -488,7 +470,7 @@ const workoutData = {
                         name: "Cruces en Polea Alta",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12",
+                        reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/Ht9awbF2fBA",
                         imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
@@ -556,5 +538,8 @@ const exerciseAlternatives = {
     ],
     "Curl con Mancuernas Sentado en Banco Inclinado": [
         { name: "", videoUrl: "", imageUrl: "" }
+    ],
+    "Remo Gironda en Polea": [
+        { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ]
 };
