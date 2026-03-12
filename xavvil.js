@@ -1,4 +1,6 @@
-// Titulo: P3_3D_APFB_INOUT_1
+// Titulo: P3_3D_APFB_INOUT_2
+// Notas: Ejercicio 1 subimos a 4 rondas
+// Ejercicio 4 subimos a 4 rondas
 
 const workoutData = {
     "dia1": {
@@ -7,7 +9,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca Inclinado en Multipower",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -60,7 +62,7 @@ const workoutData = {
                     {
                         name: "Press Banca con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -69,7 +71,7 @@ const workoutData = {
                     {
                         name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
@@ -122,7 +124,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Jalón al Pecho Supino en Polea",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -175,7 +177,7 @@ const workoutData = {
                     {
                         name: "Face Pull en Polea Alta",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
@@ -184,7 +186,7 @@ const workoutData = {
                     {
                         name: "Curl en Polea Baja con Cuerda",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic",
@@ -237,7 +239,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Curl con Barra Z",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -272,7 +274,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -281,7 +283,7 @@ const workoutData = {
                     {
                         name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15, 12, 10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/jGTquNttoRU",
@@ -325,6 +327,63 @@ const workoutData = {
                 notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
+        name: "HITT",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 8,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "25",
+                        isEMOMItem: true,
+                        notes: "Mantén la Lumbar pegada al suelo",
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "35s",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    },
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "45",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mantén la Lumbar pegada al suelo",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
             }
         ]
     }
