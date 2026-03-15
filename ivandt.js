@@ -26,14 +26,14 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Unilateral Lateral en Landmine",
-                setTechniques: {"3":"DROPSET"},
+                name: "Remo Diagonal Unilat en Polea Alta",
+                setTechniques: {"3":"REST-PAUSE"},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/6uECO7vAmCc",
-                imageUrl: "https://i.ytimg.com/vi/6uECO7vAmCc/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -500,8 +500,8 @@ const exerciseAlternatives = {
     "Peso Muerto Rumano con Barra": [
         { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
-    "Remo Unilateral Lateral en Landmine": [
-        { name: "Remo Unilat con Mancuerna/KTB (Explicado)", videoUrl: "https://youtu.be/uH9Hg4nWOG8", imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg" }
+    "Remo Diagonal Unilat en Polea Alta": [
+        { name: "Gorilla Row con Kettlebells/Mancuernas", videoUrl: "https://youtu.be/4hKPsdWsXl8", imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg" }
     ],
     "Jalón al Pecho Neutro en Polea": [
         { name: "", videoUrl: "", imageUrl: "" }
