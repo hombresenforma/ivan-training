@@ -1,4 +1,4 @@
-// Titulo: P1_3D_fb_02
+// Titulo: P1_3D_fb_02_Movilidad
 // Notas: - Añadimos 1 serie al PRINCIPAL y subimos de 8 a 12 repeticiones.
 // - Subimos volumen del trabajo de abdomen en la superserie 2. 
 // - Añadimos 1 vuelta al circuito final y subimos repeticiones/tiempo.
@@ -28,9 +28,33 @@ const workoutData = {
                         sets: 2,
                         reps: "10",
                         notes: "Puedes hacerlas sin salto si lo prefieres.",
-                        rest: "30s",
                         videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
                         imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Cadera",
+                        subOrder: 3,
+                        sets: 2,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/ltzWjXiHXao",
+                        imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Escápulas",
+                        subOrder: 4,
+                        sets: 2,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/6Kj_rg_7tYQ",
+                        imageUrl: "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Columna",
+                        subOrder: 5,
+                        sets: 2,
+                        reps: "10",
+                        rest: "30s",
+                        videoUrl: "https://youtu.be/48_aYaSLNRY",
+                        imageUrl: "https://i.ytimg.com/vi/48_aYaSLNRY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -140,6 +164,44 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                 imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Estiramiento - Aductor Unilateral",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Estiramiento - Aductor Unilateral",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "15\"",
+                        isSupersetStart: true,
+                        notes: "Cada lado",
+                        videoUrl: "https://youtu.be/oEzUXXCBAFU",
+                        imageUrl: "https://i.ytimg.com/vi/oEzUXXCBAFU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Glúteo Medio",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "15\"",
+                        notes: "Cada lado",
+                        videoUrl: "https://youtu.be/YS_qsVW3QQE",
+                        imageUrl: "https://i.ytimg.com/vi/YS_qsVW3QQE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Lumbar \"Bebé\"",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "15\"",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/5Jcr_KPTOUM",
+                        imageUrl: "https://i.ytimg.com/vi/5Jcr_KPTOUM/mqdefault.jpg"
+                    }
+                ],
+                notes: "Cada lado",
+                videoUrl: "https://youtu.be/oEzUXXCBAFU",
+                imageUrl: "https://i.ytimg.com/vi/oEzUXXCBAFU/mqdefault.jpg"
             }
         ]
     },
@@ -148,6 +210,44 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "Movilidad - Activación de Cadera",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Movilidad - Activación de Cadera",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "Controlar que los pies no se desplacen del sitio.",
+                        videoUrl: "https://youtu.be/ltzWjXiHXao",
+                        imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Escápulas",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/6Kj_rg_7tYQ",
+                        imageUrl: "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Columna",
+                        subOrder: 3,
+                        sets: 2,
+                        reps: "10",
+                        rest: "20s",
+                        videoUrl: "https://youtu.be/48_aYaSLNRY",
+                        imageUrl: "https://i.ytimg.com/vi/48_aYaSLNRY/mqdefault.jpg"
+                    }
+                ],
+                notes: "Controlar que los pies no se desplacen del sitio.",
+                videoUrl: "https://youtu.be/ltzWjXiHXao",
+                imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+            },
+            {
+                order: 2,
                 name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                 isWarmup: true,
                 isSuperset: true,
@@ -176,7 +276,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
             },
             {
-                order: 2,
+                order: 3,
                 name: "Dominadas Australianas con Pies en el Suelo",
                 sets: 4,
                 reps: "12-15",
@@ -186,7 +286,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 4,
                 name: "Sentadilla Trasera en Multipower",
                 isSuperset: true,
                 items: [
@@ -215,7 +315,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Press Militar en Multipower",
                 isSuperset: true,
                 items: [
@@ -243,7 +343,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Gorilla Row con Kettlebells/Mancuernas",
                 isSuperset: true,
                 items: [
@@ -278,6 +378,43 @@ const workoutData = {
                 notes: "Mantén una inclinación paralela al suelo.",
                 videoUrl: "https://youtu.be/4hKPsdWsXl8",
                 imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "Estiramiento - Aductor de Rodillas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Estiramiento - Aductor de Rodillas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "20\"",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/_mINW_scaNg",
+                        imageUrl: "https://i.ytimg.com/vi/_mINW_scaNg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Piramidal Tumbado",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "20\"",
+                        notes: "Por cada lado",
+                        videoUrl: "https://youtu.be/T90vj-kAYH0",
+                        imageUrl: "https://i.ytimg.com/vi/T90vj-kAYH0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Lumbar \"Bebé\"",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30\"",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/5Jcr_KPTOUM",
+                        imageUrl: "https://i.ytimg.com/vi/5Jcr_KPTOUM/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/_mINW_scaNg",
+                imageUrl: "https://i.ytimg.com/vi/_mINW_scaNg/mqdefault.jpg"
             }
         ]
     },
@@ -286,6 +423,44 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
+                name: "Movilidad - Activación de Cadera",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Movilidad - Activación de Cadera",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "Controlar que los pies no se desplacen del sitio.",
+                        videoUrl: "https://youtu.be/ltzWjXiHXao",
+                        imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Activación de Escápulas",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/6Kj_rg_7tYQ",
+                        imageUrl: "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Columna",
+                        subOrder: 3,
+                        sets: 2,
+                        reps: "10",
+                        rest: "20s",
+                        videoUrl: "https://youtu.be/48_aYaSLNRY",
+                        imageUrl: "https://i.ytimg.com/vi/48_aYaSLNRY/mqdefault.jpg"
+                    }
+                ],
+                notes: "Controlar que los pies no se desplacen del sitio.",
+                videoUrl: "https://youtu.be/ltzWjXiHXao",
+                imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+            },
+            {
+                order: 2,
                 name: "Abducción de Glúteo Unilat en el Suelo",
                 isWarmup: true,
                 isSuperset: true,
@@ -314,7 +489,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
             },
             {
-                order: 2,
+                order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
                 sets: 4,
                 reps: "12-15",
@@ -324,7 +499,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 4,
                 name: "Press Inclinado con Mancuernas",
                 isSuperset: true,
                 items: [
@@ -353,7 +528,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Jalón al Pecho Supino en Polea",
                 isSuperset: true,
                 items: [
@@ -381,7 +556,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Split Unilateral con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
@@ -415,6 +590,43 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
                 imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "Estiramiento - Cuádriceps y Psoas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Estiramiento - Cuádriceps y Psoas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15\"",
+                        isSupersetStart: true,
+                        notes: "Por cada pierna",
+                        videoUrl: "https://youtu.be/wj2iC44DU0M",
+                        imageUrl: "https://i.ytimg.com/vi/wj2iC44DU0M/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Triángulo Fácil",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "20\"",
+                        videoUrl: "https://youtu.be/QydWRuCH_rY",
+                        imageUrl: "https://i.ytimg.com/vi/QydWRuCH_rY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Estiramiento - Lumbar \"Bebé\"",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "30\"",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/5Jcr_KPTOUM",
+                        imageUrl: "https://i.ytimg.com/vi/5Jcr_KPTOUM/mqdefault.jpg"
+                    }
+                ],
+                notes: "Por cada pierna",
+                videoUrl: "https://youtu.be/wj2iC44DU0M",
+                imageUrl: "https://i.ytimg.com/vi/wj2iC44DU0M/mqdefault.jpg"
             }
         ]
     }
