@@ -1,5 +1,5 @@
 // Titulo: P4_3D_APTOR_HIIT_2 (HOME)
-// Notas: - Básicos: Añadimos una 3a serie al FALLO. 
+// Notas: - Básicos: Añadimos una 3a serie al FALLO.
 // - HIIT subimos 15 segundos al TRABAJO (No al descanso) y añadimos un 2o ejercicio. 
 // - Día de TORSO, añadimos como básico THRUSTER al FALLO (con 10kg por brazo) y añadimos 2 ejercicios en superserie a los básicos de brazo. 
 
@@ -9,13 +9,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Flexiones con Peso Corporal",
+                name: "Press Banca Contralat Unilat con Mancuerna",
                 sets: 3,
-                reps: "FALLO",
+                reps: "10",
                 rest: "90s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
-                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/7kAl5bVSYUc",
+                imageUrl: "https://i.ytimg.com/vi/7kAl5bVSYUc/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -77,8 +77,9 @@ const workoutData = {
             {
                 order: 4,
                 name: "Floor Press con Mancuernas",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
-                reps: "15, 12, 10",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
@@ -124,13 +125,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Australianas en TRX",
+                name: "Remo Contralat Unilat con Mancuerna",
                 sets: 3,
-                reps: "FALLO",
+                reps: "10",
                 rest: "90s",
                 notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/O7PAUd4ZMB4",
+                imageUrl: "https://i.ytimg.com/vi/O7PAUd4ZMB4/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -163,27 +164,10 @@ const workoutData = {
             {
                 order: 3,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
-                    }
-                ],
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://youtu.be/uH9Hg4nWOG8",
                 imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
