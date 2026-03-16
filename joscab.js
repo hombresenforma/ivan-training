@@ -308,6 +308,82 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/bzzJ0zeO70A/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "CORE",
+        exercises: [
+            {
+                order: 1,
+                name: "Crunch en Polea Alta",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch Bicicleta Alterno",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
+                        imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha Lateral Dinámica sobre Antebrazo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
+                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha Lateral Dinámica sobre Antebrazo",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=fhCo3uoboAU",
+                        imageUrl: "https://i.ytimg.com/vi/fhCo3uoboAU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Encogido",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
+                        imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
+                imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Pallof Excéntrico Unilat en Polea",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
+                imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
+            }
+        ]
     }
 };
 
