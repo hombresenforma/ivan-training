@@ -1,4 +1,6 @@
 // Titulo: P1_3D_fb_01 SIN IMPACTO/SUAVE
+// Notas: Ejercicio principal 10 reps
+// ejercicio 5 4 rondas
 
 const workoutData = {
     "dia1": {
@@ -38,7 +40,7 @@ const workoutData = {
                 order: 2,
                 name: "Press Banca en Multipower",
                 sets: 3,
-                reps: "8",
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/w-5ovE5O5iU",
@@ -110,7 +112,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "No bajes mucho por las rodillas!",
@@ -120,7 +122,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -128,7 +130,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -177,7 +179,7 @@ const workoutData = {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
                 sets: 3,
-                reps: "8",
+                reps: "10",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
                 videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
@@ -248,7 +250,7 @@ const workoutData = {
                     {
                         name: "Remo Horizontal en TRX",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "Mantén una inclinación paralela al suelo.",
@@ -258,7 +260,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -266,7 +268,7 @@ const workoutData = {
                     {
                         name: "Hollow Abdominal Encogido",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
@@ -315,7 +317,7 @@ const workoutData = {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
                 sets: 3,
-                reps: "8",
+                reps: "10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -386,7 +388,7 @@ const workoutData = {
                     {
                         name: "Muscle Snatch Unilat con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 10,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "5 por lado!",
@@ -396,7 +398,7 @@ const workoutData = {
                     {
                         name: "Mountain Climber",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 10,
                         reps: "20",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
                         imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
@@ -404,7 +406,7 @@ const workoutData = {
                     {
                         name: "Crunch Abdominal Piernas Extendidas",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 10,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtu.be/TYNp3OsGKL0",
