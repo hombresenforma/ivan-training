@@ -1,4 +1,4 @@
-// Titulo: P1_3D_fb_01 SIN IMPACTO/SUAVE
+// Titulo: P1_3D_fb_02 SIN IMPACTO/SUAVE
 // Notas: Ejercicio principal 10 reps
 // ejercicio 5 4 rondas
 
