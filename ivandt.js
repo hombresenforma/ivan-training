@@ -6,24 +6,15 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Movilidad - General",
+                name: "Flexiones / Push Ups",
                 sets: 2,
                 reps: "8",
                 notes: "",
-                videoUrl: "https://youtu.be/5oPBRo8oaag",
-                imageUrl: "https://i.ytimg.com/vi/5oPBRo8oaag/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Movilidad - Cintura Escapular",
-                sets: 2,
-                reps: "10",
-                notes: "",
-                videoUrl: "https://youtu.be/qFt3RmTDmXI",
-                imageUrl: "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Press Banca con Barra",
                 sets: 5,
                 reps: "5",
@@ -33,7 +24,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 3,
                 name: "Aperturas en Banco con Mancuernas",
                 isSuperset: true,
                 items: [
@@ -60,7 +51,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/dfmq1UOuUXo/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 4,
                 name: "Press Inclinado con Mancuernas",
                 sets: 3,
                 reps: "10",
@@ -70,8 +61,8 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
-                order: 6,
-                name: "10 min AMRAP",
+                order: 5,
+                name: "40s trabajo + 20s descanso",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 1,
@@ -80,27 +71,8 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Flexiones / Push Ups",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "10",
-                        isSupersetStart: true,
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
-                        imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
-                    },
-                    {
-                        name: "Elevaciones Frontales con Mancuerna",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "15",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/7rBxeUNd5tA",
-                        imageUrl: "https://i.ytimg.com/vi/7rBxeUNd5tA/mqdefault.jpg"
-                    },
-                    {
                         name: "Face Pull en Polea Alta",
-                        subOrder: 3,
+                        subOrder: 1,
                         sets: 1,
                         reps: "5",
                         isCircuitItem: true,
@@ -118,24 +90,15 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Movilidad - De Cadera",
+                name: "Sentadilla Búlgara con Peso Corporal",
                 sets: 2,
                 reps: "8",
                 notes: "",
-                videoUrl: "https://youtu.be/7TmNRUP7N_0",
-                imageUrl: "https://i.ytimg.com/vi/7TmNRUP7N_0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/YtzdcxjEb8s",
+                imageUrl: "https://i.ytimg.com/vi/YtzdcxjEb8s/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Movilidad - Rodilla y Tobillo",
-                sets: 2,
-                reps: "10",
-                notes: "",
-                videoUrl: "https://youtu.be/wdOGeCaNKS8",
-                imageUrl: "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Sentadilla Trasera con Barra",
                 sets: 5,
                 reps: "5",
@@ -145,31 +108,23 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 3,
                 name: "Peso Muerto Rumano con Barra",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Peso Muerto Rumano con Barra",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/R7FKam5GyNw",
-                        imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
-                    },
-                    {
-                        name: "Zancada Unilateral con Barra",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/6Mjkjmkhd5o",
-                        imageUrl: "https://i.ytimg.com/vi/6Mjkjmkhd5o/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "10",
+                notes: "",
                 videoUrl: "https://youtu.be/R7FKam5GyNw",
                 imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Zancada Unilateral con Barra",
+                sets: 3,
+                reps: "12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/6Mjkjmkhd5o",
+                imageUrl: "https://i.ytimg.com/vi/6Mjkjmkhd5o/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -183,7 +138,7 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "10 min EMOM",
+                name: "4 rondas",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 1,
@@ -230,24 +185,15 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Movilidad - General",
+                name: "Flexiones / Push Ups",
                 sets: 2,
                 reps: "8",
                 notes: "",
-                videoUrl: "https://youtu.be/5oPBRo8oaag",
-                imageUrl: "https://i.ytimg.com/vi/5oPBRo8oaag/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
+                imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Movilidad - Activación de Escápulas",
-                sets: 2,
-                reps: "10",
-                notes: "",
-                videoUrl: "https://youtu.be/6Kj_rg_7tYQ",
-                imageUrl: "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Press Banca en Multipower",
                 sets: 5,
                 reps: "5",
@@ -257,7 +203,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 3,
                 name: "Aperturas en Banco Inclinado con Mancuernas",
                 isSuperset: true,
                 items: [
@@ -284,7 +230,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 4,
                 name: "Press Inclinado con Barra",
                 sets: 3,
                 reps: "10",
@@ -292,8 +238,8 @@ const workoutData = {
                 notes: ""
             },
             {
-                order: 6,
-                name: "10 min AMRAP",
+                order: 5,
+                name: "40s trabajo + 20s descanso",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 1,
@@ -338,24 +284,15 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Movilidad - De Cadera",
+                name: "Sentadilla Trasera con Barra",
                 sets: 2,
                 reps: "8",
                 notes: "",
-                videoUrl: "https://youtu.be/7TmNRUP7N_0",
-                imageUrl: "https://i.ytimg.com/vi/7TmNRUP7N_0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Movilidad - Rodilla y Tobillo",
-                sets: 2,
-                reps: "10",
-                notes: "",
-                videoUrl: "https://youtu.be/wdOGeCaNKS8",
-                imageUrl: "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Sentadilla Frontal con Barra",
                 sets: 5,
                 reps: "5",
@@ -365,31 +302,23 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 3,
                 name: "Peso Muerto Convencional con Barra",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Peso Muerto Convencional con Barra",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/wgq70sy0c_xA",
-                        imageUrl: "https://i.ytimg.com/vi/wgq70sy0c_xA/mqdefault.jpg"
-                    },
-                    {
-                        name: "Zancada Unilateral en Multipower",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/yfNWlh9rp6o",
-                        imageUrl: "https://i.ytimg.com/vi/yfNWlh9rp6o/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "10",
+                notes: "",
                 videoUrl: "https://youtu.be/wgq70sy0c_xA",
                 imageUrl: "https://i.ytimg.com/vi/wgq70sy0c_xA/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Zancada Unilateral en Multipower",
+                sets: 3,
+                reps: "12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/yfNWlh9rp6o",
+                imageUrl: "https://i.ytimg.com/vi/yfNWlh9rp6o/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -401,7 +330,7 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "10 min EMOM",
+                name: "4 rondas",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 1,
