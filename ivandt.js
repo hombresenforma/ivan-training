@@ -1,4 +1,5 @@
 // Titulo: P1_4D_hyp_01
+// [PRUEBA CLAUDE] Modificación de prueba - Se puede eliminar
 
 const workoutData = {
     "dia1": {
