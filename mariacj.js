@@ -11,17 +11,6 @@ const workoutData = {
         name: "Empuje COMPLETO",
         exercises: [
             {
-                order: 1,
-                name: "Elevación Lateral Unilat en Polea Alta",
-                setTechniques: {},
-                sets: 2,
-                reps: "12-15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/8h_6GaA47HA",
-                imageUrl: "https://i.ytimg.com/vi/8h_6GaA47HA/mqdefault.jpg"
-            },
-            {
                 order: 2,
                 name: "Press Militar en Multipower",
                 setTechniques: {},
@@ -86,17 +75,6 @@ const workoutData = {
         name: "Tracción Completa",
         exercises: [
             {
-                order: 1,
-                name: "Patada de Glúteo en Polea",
-                setTechniques: {},
-                sets: 2,
-                reps: "12-15",
-                rest: "60s",
-                notes: "Usa un disco o step para elevar el otro pie",
-                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
-            },
-            {
                 order: 2,
                 name: "Remo en Máquina T Agarre Estrecho",
                 setTechniques: {},
@@ -109,13 +87,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -260,14 +238,6 @@ const workoutData = {
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
                         imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sit Up Abdominal con Disco",
-                        subOrder: 3,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
-                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     }
                 ],
                 notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
@@ -318,14 +288,8 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Elevación Lateral Unilat en Polea Alta": [
-        { name: "Elevaciones Laterales con Mancuernas", videoUrl: "https://youtu.be/rhmW_fhB4cs", imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg" }
-    ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
-    ],
-    "Patada de Glúteo en Polea": [
-        { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Remo en Máquina T Agarre Estrecho": [
         { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
