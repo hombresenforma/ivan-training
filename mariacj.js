@@ -284,6 +284,21 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "NATACIÓN",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Bicicleta (Ritmo Suave)",
+                sets: 1,
+                reps: "1",
+                rest: "1",
+                notes: "- 200m suaves - WARMUP\nCROLL:\n- 2x(50mBrazos-50mPiernas-100mCompletos) 90\"\nESPALDA:\n- 2x(50mBrazos-50mPiernas-100mCompletos) 90\"\nBRAZA:\n- 2x(50mBrazos-50mPiernas-100mCompletos)v 90\"\nFINAL:\n2x(50fuertes-50suaves-25fuertes-25suaves). 120\"",
+                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+            }
+        ]
     }
 };
 
