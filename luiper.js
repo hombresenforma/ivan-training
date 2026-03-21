@@ -388,7 +388,7 @@ const workoutData = {
                     {
                         name: "Muscle Snatch Unilat con Mancuerna/KTB",
                         subOrder: 1,
-                        sets: 10,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "5 por lado!",
@@ -398,7 +398,7 @@ const workoutData = {
                     {
                         name: "Mountain Climber",
                         subOrder: 2,
-                        sets: 10,
+                        sets: 4,
                         reps: "20",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
                         imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
@@ -406,7 +406,7 @@ const workoutData = {
                     {
                         name: "Crunch Abdominal Piernas Extendidas",
                         subOrder: 3,
-                        sets: 10,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtu.be/TYNp3OsGKL0",
