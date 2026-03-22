@@ -11,22 +11,11 @@ const workoutData = {
         name: "Empuje COMPLETO",
         exercises: [
             {
-                order: 1,
-                name: "Elevación Lateral Unilat en Polea Alta",
-                setTechniques: {},
-                sets: 2,
-                reps: "12-15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/8h_6GaA47HA",
-                imageUrl: "https://i.ytimg.com/vi/8h_6GaA47HA/mqdefault.jpg"
-            },
-            {
                 order: 2,
                 name: "Press Militar en Multipower",
                 setTechniques: {},
                 sets: 4,
-                reps: "6, 6, 6, 12",
+                reps: "12, 10, 8, 8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
@@ -79,6 +68,40 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                 imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Step Up Alterno en Step",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        notes: "Puedes hacerlo en CAJA.",
+                        videoUrl: "https://youtu.be/IwixiNKjpCA",
+                        imageUrl: "https://i.ytimg.com/vi/IwixiNKjpCA/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     },
@@ -101,7 +124,7 @@ const workoutData = {
                 name: "Remo en Máquina T Agarre Estrecho",
                 setTechniques: {},
                 sets: 4,
-                reps: "6, 6, 6, 12",
+                reps: "12, 10, 8, 8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
@@ -154,6 +177,39 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/fcFsPoJY9lg",
                 imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Alterno en Plancha Codo con Mancuerna",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtube.com/shorts/MsqprN77-X8",
+                        imageUrl: "https://i.ytimg.com/vi/MsqprN77-X8/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
             }
         ]
     },
@@ -175,7 +231,7 @@ const workoutData = {
                 name: "Sentadilla Posterior en Máquina Jaca",
                 setTechniques: {},
                 sets: 4,
-                reps: "6, 6, 6, 12",
+                reps: "12, 10, 8, 8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/KII1KHKgr8o",
@@ -229,98 +285,54 @@ const workoutData = {
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
-        name: "2 FOR TIME (ThWormSitUp) (CleRenegLung)",
-        exercises: [
-            {
-                order: 1,
-                name: "FOR TIME (Thruster+Worm+SitUp)",
-                isSuperset: true,
-                isForTime: true,
-                forTimeDetails: {
-                    totalRounds: 3
-                },
-                items: [
-                    {
-                        name: "Thruster con Mancuernas",
-                        subOrder: 1,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Worm + Burpee",
-                        subOrder: 2,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
-                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sit Up Abdominal con Disco",
-                        subOrder: 3,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
-                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
-                    }
-                ],
-                notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             },
             {
-                order: 2,
-                name: "FOR TIME (Thruster+Worm+SitUp)",
+                order: 6,
+                name: "Circuito",
                 isSuperset: true,
-                isForTime: true,
-                forTimeDetails: {
-                    totalRounds: 3
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
                 },
                 items: [
                     {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        name: "Sit Up Abdominal con Disco",
                         subOrder: 1,
-                        reps: "24, 20, 16",
-                        isForTimeItem: true,
-                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Renegade Alterno con Mancuernas",
-                        subOrder: 2,
-                        reps: "24, 20, 16",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
-                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     },
                     {
                         name: "Zancadas Caminando con Mancuernas/KTB",
-                        subOrder: 3,
-                        reps: "24, 20, 16",
-                        isForTimeItem: true,
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
                     }
                 ],
-                notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Elevación Lateral Unilat en Polea Alta": [
-        { name: "Elevaciones Laterales con Mancuernas", videoUrl: "https://youtu.be/rhmW_fhB4cs", imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg" }
-    ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
