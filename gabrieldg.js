@@ -19,8 +19,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar en Multipower",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
@@ -140,8 +141,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
@@ -243,8 +245,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera en Multipower",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "7",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/la-dqygoIuk",
@@ -253,8 +256,9 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Banca con Barra",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
