@@ -1,4 +1,12 @@
-// Titulo: P5_3D_TPFB_1
+// Titulo: P5_3D_TPFB_2
+// Notas: Primer ejercicio subimos repes 10-12
+// Ejercicio 4 4 rondas
+// Ejercicio 5 12-15 reps
+// circuito final subimos 4 ronda
+// 
+// Ultimo día primer ejercicio subimos serie 10-12
+// Superserie 3 plancha subimos 10 seg extra
+// Superserie 4 subimos ronda 4
 
 // Contenido de app_datos.js
 
@@ -41,7 +49,7 @@ const workoutData = {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
                 sets: 3,
-                reps: "8-10",
+                reps: "10-12",
                 rest: "60s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
                 videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
@@ -60,7 +68,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -71,7 +79,7 @@ const workoutData = {
                 order: 5,
                 name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 sets: 3,
-                reps: "10-12",
+                reps: "12-15",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
@@ -79,7 +87,7 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Ejercicio por tiempo",
+                name: "Circuito",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 3,
@@ -115,7 +123,7 @@ const workoutData = {
                         name: "Curl en Polea Baja con Barra Recta",
                         subOrder: 1,
                         sets: 1,
-                        reps: "15",
+                        reps: "10",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
                         imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
@@ -171,7 +179,7 @@ const workoutData = {
                 order: 2,
                 name: "Kettlebell - Swing con Sentadilla",
                 sets: 3,
-                reps: "10-12",
+                reps: "12-15",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
@@ -190,7 +198,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Zancadas Caminando con Mancuernas/Kettlebells",
-                sets: 3,
+                sets: 4,
                 reps: "12-15",
                 rest: "60s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
@@ -201,7 +209,7 @@ const workoutData = {
                 order: 5,
                 name: "Curl Femoral Sentado en Máquina",
                 sets: 3,
-                reps: "10-12",
+                reps: "12-15",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
@@ -213,7 +221,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 10,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -221,7 +229,7 @@ const workoutData = {
                         name: "Hip Thrust con Banda Elástica",
                         subOrder: 1,
                         sets: 1,
-                        reps: "15",
+                        reps: "10",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
                         imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
@@ -282,7 +290,7 @@ const workoutData = {
                         name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "8-10",
+                        reps: "10-12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
                         imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
@@ -320,7 +328,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -328,7 +336,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
@@ -346,7 +354,7 @@ const workoutData = {
                     {
                         name: "Remo con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10-12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/MjnZ52mZgT0",
@@ -355,7 +363,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo Alterno Sentado con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         notes: "En caso de no tener el banco cerca lo puedes hacer de pie",
                         rest: "90s",
