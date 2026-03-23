@@ -1,4 +1,4 @@
-// Titulo: p2_3d_fbcardio_1
+// Titulo: p2_3d_fbcardio_2
 
 const workoutData = {
     "dia1": {
