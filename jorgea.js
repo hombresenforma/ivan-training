@@ -36,8 +36,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca Inclinado en Multipower",
+                setTechniques: {},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
@@ -165,8 +166,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Anterior en Máquina Jaca",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
@@ -257,8 +259,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
@@ -386,8 +389,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "8",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
@@ -452,20 +456,11 @@ const exerciseAlternatives = {
     "Máquina de Remo (Gironda)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Sentadilla Anterior en Máquina Jaca": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
-    ],
     "Peso Muerto Rumano con Barra": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
-    "Dominadas Supinas": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
-    ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
-    ],
-    "Hip Thrust con Barra (ExPLICADO)": [
-        { name: "Sentadilla Posterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
     ],
     "Sentadilla Trasera con Barra Talones Elevados": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
