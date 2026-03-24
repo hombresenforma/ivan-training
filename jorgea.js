@@ -36,7 +36,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca Inclinado en Multipower",
-                setTechniques: {},
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
