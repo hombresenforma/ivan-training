@@ -1,5 +1,6 @@
-// Titulo: P14_3D_FUERZA_1 (HOME)
-// Notas: Entrenamiento enfocado en FUERZA (Básicos 5x6-8reps). Sin trabajo metabólico.
+// Titulo: P14_3D_FUERZA_2 (HOME)
+// Notas: - Básico + 1 serie de 6 reps.
+// - Secundario pasamos de Dropsetx1 a Dropsetx2
 
 const workoutData = {
     "dia1": {
@@ -19,8 +20,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Unilat de Pie con Mancuerna/KTB",
-                sets: 3,
-                reps: "6, 12, 12",
+                sets: 4,
+                reps: "6, 6, 12, 12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
@@ -29,7 +30,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                setTechniques: {"1":"DROPSET X2","2":"DROPSET X2","3":"DROPSET X2"},
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -140,8 +141,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Seal con Mancuernas",
-                sets: 3,
-                reps: "6, 12, 12",
+                sets: 4,
+                reps: "6, 6, 12, 12",
                 rest: "120s",
                 notes: "Trata de despegar el pecho al final del movimiento",
                 videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
@@ -149,13 +150,14 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Peso Muerto Rumano con Mancuernas/KTB",
+                name: "Remo en TRX",
+                setTechniques: {"1":"DROPSET X2","2":"DROPSET X2","3":"DROPSET X2"},
                 sets: 3,
-                reps: "12, 10, 8",
+                reps: "8",
                 rest: "90s",
                 notes: "Espalda recta en todo momento",
-                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
+                imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -261,8 +263,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Frontal con Mancuernas/Kettlebells",
-                sets: 3,
-                reps: "6, 12, 12",
+                sets: 4,
+                reps: "6, 6, 12, 12",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/lfb6neUpfP8",
@@ -271,7 +273,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Banca Contralat Unilat con Mancuerna",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -281,7 +283,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Remo Contralat Unilat con Mancuerna",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -356,19 +358,12 @@ const exerciseAlternatives = {
     "Remo Seal con Mancuernas": [
         { name: "Remo en Máquina T Agarre Abierto", videoUrl: "https://youtube.com/shorts/_XOaMY5NumY", imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg" }
     ],
-    "Peso Muerto Rumano con Mancuernas/KTB": [
-        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
-    ],
     "Curl Femoral desde Puente (Con TRX)": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
     ],
     "Sentadilla Frontal con Mancuernas/Kettlebells": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
-    ],
-    "Press Banca Contralat Unilat con Mancuerna": [
-        { name: "Press Banca en Multipower (Explicado)", videoUrl: "", imageUrl: "" }
-    ],
-    "Remo Contralat Unilat con Mancuerna": [
-        { name: "Dominadas Supinas", videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y", imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg" }
     ]
 };
+
+
