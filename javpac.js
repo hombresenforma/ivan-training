@@ -1,4 +1,4 @@
-// Titulo: p2_3d_fbcardio_2
+// Titulo: p2_4d_fbcardio
 
 const workoutData = {
     "dia1": {
@@ -71,7 +71,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
+                sets: 4,
                 reps: "12",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
@@ -106,16 +106,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "Saca bien pecho",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -386,5 +376,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
