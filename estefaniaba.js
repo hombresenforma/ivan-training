@@ -6,14 +6,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Posterior en Máquina Jaca",
+                name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/KII1KHKgr8o",
-                imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -182,7 +182,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Sentadilla Posterior en Máquina Jaca": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
     ],
     "Máquina de Remo (Gironda)": [
