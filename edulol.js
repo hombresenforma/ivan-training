@@ -317,6 +317,55 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Hitt",
+        exercises: [
+            {
+                order: 1,
+                name: "Burpee Completo",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Burpee Completo",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "30",
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "25",
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 4,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/qfBhsTabWN0",
+                imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -328,4 +377,3 @@ const exerciseAlternatives = {
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
