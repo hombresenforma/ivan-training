@@ -1,4 +1,4 @@
-// Titulo: P16_4D_TORPIER_FUERZATOP_1
+// Titulo: P16_4D_TORPIER_FUERZATOP_1_ FEM 2
 
 const workoutData = {
     "dia1": {
@@ -56,13 +56,13 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Peso Muerto Rumano con Mancuernas/KTB",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                notes: "Espalda recta en todo momento",
+                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -178,6 +178,97 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "Foco GLÚTEO",
+        exercises: [
+            {
+                order: 1,
+                name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                sets: 3,
+                reps: "8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Box Glute Step Up Unilat con Mancuerna/KTB",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/h73RCZp007M",
+                imageUrl: "https://i.ytimg.com/vi/h73RCZp007M/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Patada de Glúteo en Polea",
+                sets: 3,
+                reps: "12",
+                rest: "60s",
+                notes: "Usa un disco o step para elevar el otro pie",
+                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Sit Up Abdominal con Disco",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch Abdominal Piernas Extendidas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Abducción de Glúteo Unilat en el Suelo",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "10",
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+                    },
+                    {
+                        name: "Abducción de Glúteo Unilat en el Suelo",
+                        subOrder: 4,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -193,5 +284,8 @@ const exerciseAlternatives = {
     ],
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
+    ],
+    "Hip Thrust con Barra (ExPLICADO)": [
+        { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
     ]
 };
