@@ -65,18 +65,18 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Zancadas Caminando con Mancuernas/KTB",
+                name: "Sentadilla con Peso Corporal",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        name: "Sentadilla con Peso Corporal",
                         subOrder: 1,
                         sets: 3,
                         reps: "16",
                         isSupersetStart: true,
                         notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/NWes6fd1Sxs",
+                        imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones + Mountain Climbers",
@@ -89,8 +89,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/NWes6fd1Sxs",
+                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
             }
         ]
     },
@@ -295,5 +295,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
