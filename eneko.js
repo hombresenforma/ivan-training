@@ -126,6 +126,135 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
+    },
+    "dia2": {
+        name: "Torso COMPLETO",
+        exercises: [
+            {
+                order: 1,
+                name: "Remo Horizontal en TRX",
+                isWarmup: true,
+                sets: 2,
+                reps: "12",
+                rest: "30s",
+                notes: "Mantén una inclinación paralela al suelo.",
+                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Dominadas Supinas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Dominadas Supinas",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "6",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                        imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull con TRX",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Cerrado con Barra",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Cerrado con Barra",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "6",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/_062fQmtry8",
+                        imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Fondos de Tríceps con Pies Elevados",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/_062fQmtry8",
+                imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Press Militar con Barra de Pie",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar con Barra de Pie",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "8",
+                        isSupersetStart: true,
+                        notes: "Utiliza 10kg más en REMO (añade 5kg por lado)",
+                        videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                        imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo con Barra",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                        imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                    }
+                ],
+                notes: "Utiliza 10kg más en REMO (añade 5kg por lado)",
+                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Press Banca con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Banca con Mancuernas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                        imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Curl Martillo con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+            }
+        ]
     }
 };
 
