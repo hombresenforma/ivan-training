@@ -1,17 +1,19 @@
-// Titulo: P5_3D_TPFB_1
+// Titulo: P5_3D_TPFB_2
+// Notas: Primer ejercicio subimos reps y 1 ronda. 
+// circuito final subimos 4 rondas
+// 
+// Ultimo día primer ejercicio subimos reps.
+// Superserie 3 plancha subimos 10 seg extra
+// Superserie 4 subimos ronda 4
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
-        name: "DÍA 1: Tren superior",
+        name: "Tren superior",
         exercises: [
             {
                 order: 1,
                 name: "Dominadas Australianas en TRX",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -28,7 +30,7 @@ const workoutData = {
                         subOrder: 2,
                         sets: 1,
                         reps: "15",
-                        rest: "90s",
+                        rest: "30s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
                         imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
@@ -40,22 +42,22 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
-                sets: 3,
-                reps: "8-10",
-                rest: "60s",
+                sets: 4,
+                reps: "10-12",
+                rest: "90s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
                 videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
                 imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Gironda Sentado en Polea",
+                name: "Remo Gironda en Polea",
                 sets: 3,
                 reps: "8-10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s",
-                imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -107,7 +109,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -124,7 +126,7 @@ const workoutData = {
                         name: "Crunch - Normal",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/wNqGgCjBVaE",
                         imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
@@ -137,30 +139,31 @@ const workoutData = {
         ]
     },
     "dia2": {
-        name: "DÍA 1: Tren inferior",
+        name: "Tren inferior",
         exercises: [
             {
                 order: 1,
-                name: "Cuerpo Libre - Cardio - Jumping Jack",
+                name: "Jumping Jack",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Cuerpo Libre - Cardio - Jumping Jack",
+                        name: "Jumping Jack",
                         subOrder: 1,
                         sets: 2,
-                        reps: "30s",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/K5PMB8CauGM",
                         imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
+                        name: "Sentadilla con Salto",
                         subOrder: 2,
                         sets: 2,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/7ckSQy2BtWw",
-                        imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
+                        reps: "15",
+                        rest: "30s",
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -169,6 +172,16 @@ const workoutData = {
             },
             {
                 order: 2,
+                name: "Prensa Inclinada en Máquina de Discos",
+                sets: 4,
+                reps: "10-12",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+            },
+            {
+                order: 3,
                 name: "Kettlebell - Swing con Sentadilla",
                 sets: 3,
                 reps: "10-12",
@@ -178,20 +191,10 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "8-10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
-            },
-            {
                 order: 4,
-                name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                name: "Zancadas Caminando con Mancuernas/KTB",
                 sets: 3,
-                reps: "12-15",
+                reps: "20",
                 rest: "60s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -213,7 +216,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -227,13 +230,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
                     },
                     {
-                        name: "Crunch - Pierna Cruzada",
+                        name: "Crunch Bicicleta Alterno",
                         subOrder: 2,
                         sets: 1,
-                        reps: "",
+                        reps: "20",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/0r0GqczoZu4",
-                        imageUrl: "https://i.ytimg.com/vi/0r0GqczoZu4/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/nUIfDzuMR00",
+                        imageUrl: "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -243,30 +246,31 @@ const workoutData = {
         ]
     },
     "dia3": {
-        name: "DÍA 3: Fullbody",
+        name: "Fullbody",
         exercises: [
             {
                 order: 1,
                 name: "Worm",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
                         name: "Worm",
                         subOrder: 1,
-                        sets: 1,
-                        reps: "15",
+                        sets: 2,
+                        reps: "5",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla con Salto",
+                        name: "Face Pull con KTB",
                         subOrder: 2,
-                        sets: 1,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        sets: 2,
+                        reps: "10",
+                        rest: "30s",
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -282,20 +286,20 @@ const workoutData = {
                         name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "8-10",
+                        reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
                         imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones / Push Ups",
+                        name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12-15",
+                        reps: "15",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
-                        imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -311,7 +315,7 @@ const workoutData = {
                         name: "Kettlebell - Soft Swing",
                         subOrder: 1,
                         sets: 3,
-                        reps: "8-10",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
                         imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
@@ -320,7 +324,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -328,7 +332,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
@@ -347,7 +351,7 @@ const workoutData = {
                         name: "Remo con Barra",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10-12",
+                        reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/MjnZ52mZgT0",
                         imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
@@ -366,12 +370,42 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "16",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Cambios de apoyo",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/Yg74EfwLBQY",
+                        imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
+    "Dominadas Supinas Asistidas en Máquina": [
+        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
+    ]
 };
 
-console.log("Datos de rutina cargados desde el creador.");
