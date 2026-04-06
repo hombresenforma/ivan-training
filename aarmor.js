@@ -364,7 +364,7 @@ const workoutData = {
         ]
     },
     "dia4": {
-        name: "Pierna Completa (POSTERIOR)",
+        name: "FULLBODY Hyrox",
         exercises: [
             {
                 order: 1,
