@@ -45,6 +45,17 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
+                order: 3,
+                name: "Dominadas con Peso Corporal",
+                setTechniques: {},
+                sets: 3,
+                reps: "5",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+            },
+            {
                 order: 4,
                 name: "Press Militar con Barra Sentado (Half Press)",
                 setTechniques: {},
@@ -93,17 +104,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vll2f1bqDlA",
                 imageUrl: "https://i.ytimg.com/vi/vll2f1bqDlA/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Dominadas con Peso Corporal",
-                setTechniques: {},
-                sets: 3,
-                reps: "5",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             }
         ]
     },
@@ -142,6 +142,17 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
+                order: 3,
+                name: "Peso Muerto Rumano con Barra",
+                setTechniques: {},
+                sets: 3,
+                reps: "5",
+                rest: "120s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
                 order: 4,
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {},
@@ -162,17 +173,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Peso Muerto Rumano con Barra",
-                setTechniques: {},
-                sets: 3,
-                reps: "5",
-                rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtu.be/R7FKam5GyNw",
-                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             }
         ]
     },
@@ -209,6 +209,17 @@ const workoutData = {
                 notes: "NO FUERZA. POTENCIA",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                 imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo en Máquina T Agarre Abierto",
+                setTechniques: {},
+                sets: 4,
+                reps: "10",
+                rest: "90s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -258,17 +269,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
                 imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Remo en Máquina T Agarre Abierto",
-                setTechniques: {},
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
-                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             }
         ]
     },
@@ -307,6 +307,17 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
+                order: 3,
+                name: "Press Inclinado con Mancuernas",
+                setTechniques: {},
+                sets: 4,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+            },
+            {
                 order: 4,
                 name: "Cruces en Polea Alta",
                 setTechniques: {},
@@ -336,17 +347,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
                 imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Press Inclinado con Mancuernas",
-                setTechniques: {},
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             }
         ]
     },
@@ -385,6 +385,17 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
+                order: 3,
+                name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {},
+                sets: 4,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
                 order: 4,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 setTechniques: {},
@@ -404,17 +415,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Hip Thrust con Barra (ExPLICADO)",
-                setTechniques: {},
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             }
         ]
     }
