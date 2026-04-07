@@ -57,9 +57,28 @@ const workoutData = {
             {
                 order: 4,
                 name: "Peso Muerto Rumano con Mancuernas/KTB",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Peso Muerto Rumano con Mancuernas/KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "Espalda recta en todo momento",
+                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "90s",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    }
+                ],
                 notes: "Espalda recta en todo momento",
                 videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
                 imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
@@ -70,7 +89,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -145,16 +164,6 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
-            },
-            {
-                order: 5,
                 name: "Press Militar Unilateral en Landmine",
                 sets: 3,
                 reps: "10-12",
@@ -164,12 +173,40 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
             },
             {
+                order: 5,
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "16",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Correr (Sprint)",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "90s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            },
+            {
                 order: 6,
                 name: "EMOM",
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
