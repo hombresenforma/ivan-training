@@ -1,5 +1,5 @@
 // Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_2
-// Notas: - EJERCICIO 1: PASAMOS DE 1 A 3 SERIES CLUSTERS. 
+// Notas: - EJERCICIO 1: PASAMOS DE 1 A 3 SERIES CLUSTERS.
 // - EJERCICIO 2: CAMBIAMOS VARIANTE. 
 // - CIRCUITO FINAL: SUBIMOS REPETICIONES EN LOS 3 EJERCICIOS. 
 
@@ -20,13 +20,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Jalón al Pecho Supino en Polea",
+                name: "Remo Inclinado en Landmine",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://youtu.be/5gakUsid-Lg",
+                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -119,13 +119,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Zancada Unilateral en Multipower",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                videoUrl: "https://youtu.be/yfNWlh9rp6o",
-                imageUrl: "https://i.ytimg.com/vi/yfNWlh9rp6o/mqdefault.jpg"
+                videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -340,5 +340,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
