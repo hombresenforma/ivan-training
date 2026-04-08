@@ -1,10 +1,7 @@
-// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1_HOME
-// Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
-// For Time 21,15,9 + Trabajo de abdomen POLEA
-// Contenido de app_datos.js
-// =================================================================================
-// DATOS DE LA RUTINA (4 DÍAS)
-// =================================================================================
+// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_2
+// Notas: - EJERCICIO 1: PASAMOS DE 1 A 3 SERIES CLUSTERS. 
+// - EJERCICIO 2: CAMBIAMOS VARIANTE. 
+// - CIRCUITO FINAL: SUBIMOS REPETICIONES EN LOS 3 EJERCICIOS. 
 
 const workoutData = {
     "dia1": {
@@ -13,9 +10,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca Inclinado con Barra",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "25",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
@@ -23,23 +20,23 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Jalón al Pecho en Polea",
+                name: "Jalón al Pecho Supino en Polea",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
+                videoUrl: "https://youtu.be/rimdRzyIJkA",
+                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press Militar Sentado con Mancuernas",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -65,7 +62,7 @@ const workoutData = {
                         name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 1,
                         sets: 1,
-                        reps: "10",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                         imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
@@ -74,7 +71,7 @@ const workoutData = {
                         name: "Worm + Flexión",
                         subOrder: 2,
                         sets: 1,
-                        reps: "5",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
                         imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
@@ -83,7 +80,7 @@ const workoutData = {
                         name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
                         subOrder: 3,
                         sets: 1,
-                        reps: "10",
+                        reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
                         imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
@@ -101,6 +98,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Worm + Flexión",
+                isWarmup: true,
                 sets: 2,
                 reps: "6",
                 rest: "60s",
@@ -111,9 +109,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Barra Talones Elevados",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "25",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
@@ -121,13 +119,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                name: "Zancada Unilateral en Multipower",
                 sets: 3,
-                reps: "16",
+                reps: "8",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
+                videoUrl: "https://youtu.be/yfNWlh9rp6o",
+                imageUrl: "https://i.ytimg.com/vi/yfNWlh9rp6o/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -153,7 +151,7 @@ const workoutData = {
                         name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "24",
                         isEMOMItem: true,
                         notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -163,7 +161,7 @@ const workoutData = {
                         name: "Kettlebell - Swing con Sentadilla",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12",
+                        reps: "20",
                         isEMOMItem: true,
                         videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
                         imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
@@ -172,7 +170,7 @@ const workoutData = {
                         name: "Plancha - Normal",
                         subOrder: 3,
                         sets: 1,
-                        reps: "30s",
+                        reps: "60s",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
                         imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
@@ -190,9 +188,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo Seal con Mancuernas",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "25",
                 rest: "120s",
                 notes: "Trata de despegar el pecho al final del movimiento",
                 videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
@@ -200,13 +198,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca con Mancuernas",
+                name: "Press Inclinado con Mancuernas",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -232,7 +230,7 @@ const workoutData = {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
                         imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
@@ -241,7 +239,7 @@ const workoutData = {
                         name: "Face Pull con TRX",
                         subOrder: 2,
                         sets: 1,
-                        reps: "10",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
                         imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
@@ -250,7 +248,7 @@ const workoutData = {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 3,
                         sets: 1,
-                        reps: "8",
+                        reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
                         imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
@@ -335,13 +333,12 @@ const exerciseAlternatives = {
     "Sentadilla Trasera con Barra Talones Elevados": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Zancada Trasera Alterna con Mancuernas/KTB": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
-    ],
     "Remo Seal con Mancuernas": [
         { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
-    "Press Banca con Mancuernas": [
+    "Press Inclinado con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
+
+
