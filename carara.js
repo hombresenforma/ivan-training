@@ -207,6 +207,115 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "Fullbody  SIN MATERIAL",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - Zancada Avançada",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/rlfgAEO58no",
+                imageUrl: "https://i.ytimg.com/vi/rlfgAEO58no/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Sentadilla Goblet con Mancuerna y Banda",
+                sets: 3,
+                reps: "15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=9mklrUcruWk",
+                imageUrl: "https://i.ytimg.com/vi/9mklrUcruWk/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Gomas - Thruster",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Gomas - Thruster",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "12-15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/fCXPsC8Mk6A",
+                        imageUrl: "https://i.ytimg.com/vi/fCXPsC8Mk6A/mqdefault.jpg"
+                    },
+                    {
+                        name: "Gomas - Squat",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "12-15",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/203_Zzz_Z_0",
+                        imageUrl: "https://i.ytimg.com/vi/203_Zzz_Z_0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/fCXPsC8Mk6A",
+                imageUrl: "https://i.ytimg.com/vi/fCXPsC8Mk6A/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Fondos de Tríceps con Pies Elevados",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Fondos de Tríceps con Pies Elevados",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15-20",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancada Dinámica + Sentadilla",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=kRm4s1Aemew",
+                        imageUrl: "https://i.ytimg.com/vi/kRm4s1Aemew/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Worm + Flexión",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Worm + Flexión",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "6",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 3",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
+                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -219,5 +328,8 @@ const exerciseAlternatives = {
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
+    ],
+    "Gomas - Zancada Avançada": [
+        { name: "Gomas - Zancada Básica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
     ]
 };
