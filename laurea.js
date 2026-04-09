@@ -7,7 +7,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Posterior en Máquina Jaca",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -18,7 +18,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -133,7 +133,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Trasera en Multipower",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -144,7 +144,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -251,7 +251,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "120s",
@@ -262,7 +262,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Box Glute Step Up Unilat con Mancuerna/KTB",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                setTechniques: {},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
