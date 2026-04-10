@@ -17,13 +17,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Dominadas con Peso Corporal",
+                name: "Remo Diagonal Unilat en Polea Alta",
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
-                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -240,29 +240,29 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Máquina de Remo (Gironda)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                name: "Dominadas Supinas",
+                setTechniques: {},
                 sets: 4,
-                reps: "8",
+                reps: "6",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Dead Curl con Barra",
                 sets: 3,
-                reps: "12, 10, 8",
+                reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/HWs4EYCI8iE",
+                imageUrl: "https://i.ytimg.com/vi/HWs4EYCI8iE/mqdefault.jpg"
             },
             {
                 order: 4,
                 name: "Remo Diagonal Unilat en Polea Alta",
-                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                setTechniques: {},
                 sets: 3,
                 reps: "8",
                 rest: "60s",
@@ -272,31 +272,31 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl con Barra Z",
+                name: "Curl Bayesian Unilateral en Polea Baja",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl con Barra Z",
+                        name: "Curl Bayesian Unilateral en Polea Baja",
                         subOrder: 1,
                         sets: 3,
                         reps: "10-12",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/4gYLTjNaTmw",
-                        imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/dCI2pPQmq_k",
+                        imageUrl: "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Horizontal en TRX",
+                        name: "Face Pull en Polea Alta",
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
                         rest: "60s",
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                        imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/4gYLTjNaTmw",
-                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/dCI2pPQmq_k",
+                imageUrl: "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -436,23 +436,17 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Press Banca con Barra": [
+        { name: "Press Banca en Multipower (Explicado)", videoUrl: "", imageUrl: "" }
+    ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
-        { name: "Remo en Máquina T Agarre Abierto", videoUrl: "https://youtube.com/shorts/_XOaMY5NumY", imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg" }
-    ],
-    "Hip Thrust con Barra (ExPLICADO)": [
-        { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
-    ],
-    "Curl Femoral Tumbado en Máquina": [
-        { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
+    "Dominadas Supinas": [
+        { name: "Jalón al Pecho Neutro en Polea", videoUrl: "https://youtu.be/5YzMH2KkMHc", imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
-    ],
-    "Press Banca con Barra": [
-        { name: "Press Banca en Multipower (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Jalón al Pecho Supino en Polea": [
         { name: "Dominadas Supinas", videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y", imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg" }
