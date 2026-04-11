@@ -10,18 +10,18 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Australianas en TRX",
+                name: "Face Pull con TRX",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Dominadas Australianas en TRX",
+                        name: "Face Pull con TRX",
                         subOrder: 1,
                         sets: 1,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
@@ -34,8 +34,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -151,18 +151,18 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Jumping Jack",
+                name: "Gomas - FacePull en Columna",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jumping Jack",
+                        name: "Gomas - FacePull en Columna",
                         subOrder: 1,
                         sets: 2,
                         reps: "15",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/K5PMB8CauGM",
-                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/KnnWfHUjsKg",
+                        imageUrl: "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg"
                     },
                     {
                         name: "Sentadilla con Salto",
@@ -175,8 +175,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/K5PMB8CauGM",
-                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+                videoUrl: "https://youtu.be/KnnWfHUjsKg",
+                imageUrl: "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -272,13 +272,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
-                        name: "Face Pull con TRX",
+                        name: "Gomas - FacePull Tumbado en Columna",
                         subOrder: 2,
                         sets: 2,
-                        reps: "10",
+                        reps: "15",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
-                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/X5YTwqj12Kw",
+                        imageUrl: "https://i.ytimg.com/vi/X5YTwqj12Kw/mqdefault.jpg"
                     }
                 ],
                 notes: "",
