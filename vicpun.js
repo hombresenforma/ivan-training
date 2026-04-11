@@ -1,5 +1,5 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME+BARRA
+// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio. 
 
 const workoutData = {
     "dia1": {
@@ -7,14 +7,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                name: "Sentadilla Goblet con Barra (Zercher)",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/lfb6neUpfP8",
-                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/K31mSKkOEL8",
+                imageUrl: "https://i.ytimg.com/vi/K31mSKkOEL8/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -58,27 +58,9 @@ const workoutData = {
             {
                 order: 4,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Sentadilla Búlgara con Mancuerna o KTB",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "16",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                        imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
-                    },
-                    {
-                        name: "Extensión de Cuádriceps en Máquina",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-                    }
-                ],
+                sets: 3,
+                reps: "10",
+                rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
@@ -102,9 +84,17 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
-                        rest: "90s",
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
                         imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancada Dinámica",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
+                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -118,14 +108,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Mancuernas",
+                name: "Press Banca con Barra",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -187,9 +177,17 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
-                        rest: "90s",
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                         imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Flexión",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "8",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
+                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -221,13 +219,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
                     },
                     {
-                        name: "Press Banca con Barra",
+                        name: "Press Banca Inclinado con Barra",
                         subOrder: 2,
                         sets: 1,
                         reps: "8",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/PKpsrFS2uac",
-                        imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ",
+                        imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -303,13 +301,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Worm + Flexión",
+                        name: "Burpee Completo",
                         subOrder: 1,
                         sets: 1,
                         reps: "5",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
                     },
                     {
                         name: "Crunch Abdominal Piernas Extendidas",
@@ -319,21 +317,32 @@ const workoutData = {
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/TYNp3OsGKL0",
                         imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Spider Climber",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/bzzJ0zeO70A",
+                        imageUrl: "https://i.ytimg.com/vi/bzzJ0zeO70A/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                videoUrl: "https://youtu.be/qfBhsTabWN0",
+                imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Sentadilla Frontal con Mancuernas/Kettlebells": [
+    "Sentadilla Goblet con Barra (Zercher)": [
         { name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY", imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg" }
     ],
-    "Press Banca con Mancuernas": [
+    "Press Banca con Barra": [
         { name: "Floor Press con Mancuernas", videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ", imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg" }
     ]
 };
+
+
