@@ -1,5 +1,5 @@
 // Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio. 
+// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
 
 const workoutData = {
     "dia1": {
@@ -58,9 +58,27 @@ const workoutData = {
             {
                 order: 4,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sentadilla Búlgara con Mancuerna o KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "16",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/kA6bHiDdTO4",
+                        imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión de Cuádriceps en Máquina",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
@@ -111,14 +129,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                name: "Press Militar con Barra Sentado (Half Press)",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc",
+                imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -194,27 +212,27 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+                        name: "Remo con Barra",
                         subOrder: 1,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
-                        imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                        imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
                     },
                     {
-                        name: "Press Inclinado con Mancuernas",
+                        name: "Press Banca con Barra",
                         subOrder: 2,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                        imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/PKpsrFS2uac",
+                        imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
-                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -319,5 +337,3 @@ const exerciseAlternatives = {
         { name: "Floor Press con Mancuernas", videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ", imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg" }
     ]
 };
-
-
