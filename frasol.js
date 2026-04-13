@@ -1,11 +1,10 @@
 // Titulo: P3_3D_APFB_INOUT_3 (HOME)
-// Notas: - CAMBIAMOS EJERCICIOS SUPERSERIE 5 Y CIRCUITO IN-OUT. 
-
+// Notas: - CAMBIAMOS EJERCICIOS SUPERSERIE 5 Y CIRCUITO IN-OUT.
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Anterior IN-OUT",
@@ -143,8 +142,8 @@ const workoutData = {
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 4,
@@ -316,8 +315,8 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/xWUxD4rzmfQ",
-                        imageUrl: "https://i.ytimg.com/vi/xWUxD4rzmfQ/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Devil Press Unilateral Alterno con Mancuerna",
@@ -330,8 +329,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/xWUxD4rzmfQ",
-                imageUrl: "https://i.ytimg.com/vi/xWUxD4rzmfQ/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             }
         ]
     },
@@ -386,8 +385,8 @@ const workoutData = {
                         sets: 3,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
@@ -461,12 +460,69 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "Hitt abs",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 10,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "25",
+                        isEMOMItem: true,
+                        notes: "Mantén la Lumbar pegada al suelo",
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 4",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "40seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/RxFdlQ4oelM",
+                        imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Abrir y Cerrar Piernas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "25",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/G8GPAq4110U",
+                        imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
+                    },
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "45",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mantén la Lumbar pegada al suelo",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
 const exerciseAlternatives = {
     "Press Militar Unilat de Pie con Mancuerna/KTB": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Dominadas Australianas en TRX": [
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
@@ -475,5 +531,3 @@ const exerciseAlternatives = {
         { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
