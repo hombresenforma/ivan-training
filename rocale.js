@@ -7,8 +7,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -72,8 +72,8 @@ const workoutData = {
                     {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "8-10",
+                        sets: 4,
+                        reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
@@ -81,7 +81,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -100,8 +100,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Trasera en Multipower",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -157,7 +157,7 @@ const workoutData = {
                     {
                         name: "Extensión de Tríceps Unilat en Polea",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtube.com/shorts/yH6WAUNKO6c",
@@ -166,7 +166,7 @@ const workoutData = {
                     {
                         name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
@@ -185,8 +185,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Hip Thrust con Barra (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -232,7 +232,7 @@ const workoutData = {
                     {
                         name: "Sit Up Abdominal con Disco",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
@@ -241,7 +241,7 @@ const workoutData = {
                     {
                         name: "Crunch Abdominal Piernas Extendidas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         videoUrl: "https://youtu.be/TYNp3OsGKL0",
                         imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
@@ -249,7 +249,7 @@ const workoutData = {
                     {
                         name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
                         imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
@@ -257,7 +257,7 @@ const workoutData = {
                     {
                         name: "Abducción de Glúteo Unilat en el Suelo",
                         subOrder: 4,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
@@ -284,6 +284,9 @@ const exerciseAlternatives = {
     ],
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
+    ],
+    "Press Militar Unilateral en Landmine": [
+        { name: "Press Militar Unilat de Pie con Mancuerna/KTB", videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0", imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (ExPLICADO)": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
