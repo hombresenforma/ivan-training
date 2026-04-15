@@ -66,17 +66,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Dominadas Australianas en TRX",
+                name: "Gorilla Row con Kettlebells/Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Dominadas Australianas en TRX",
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "8-10",
+                        reps: "16",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
                     },
                     {
                         name: "Curl Martillo con Mancuernas",
@@ -89,8 +89,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
             }
         ]
     },
@@ -141,13 +141,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Press Militar Unilateral en Landmine",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 sets: 3,
-                reps: "10-12",
+                reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
-                imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -330,5 +330,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
