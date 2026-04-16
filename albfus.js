@@ -222,13 +222,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
                     },
                     {
-                        name: "Curl Martillo con Cuerda en Polea Baja",
+                        name: "Crunch en Polea Alta",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "60s",
-                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
                     }
                 ],
                 notes: "",
