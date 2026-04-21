@@ -12,39 +12,39 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/E2n7V0o8B5A",
+                imageUrl: "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Máquina de Remo (Gironda)",
+                name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                 setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Jalón al Pecho Supino en Polea",
+                name: "Sit Up Unilateral con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Supino en Polea",
+                        name: "Sit Up Unilateral con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/INcd--4kK5k",
+                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas",
@@ -57,8 +57,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/INcd--4kK5k",
+                imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -105,14 +105,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca en Multipower",
+                name: "Press Banca con Mancuernas",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -157,17 +157,17 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Extensión de Tríceps Unilat en Polea",
+                name: "Press Pallof Excéntrico Unilat en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Extensión de Tríceps Unilat en Polea",
+                        name: "Press Pallof Excéntrico Unilat en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/yH6WAUNKO6c",
-                        imageUrl: "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
+                        imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
                     },
                     {
                         name: "Fondos de Tríceps con Pies Elevados",
@@ -180,8 +180,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/yH6WAUNKO6c",
-                imageUrl: "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
+                imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
             }
         ]
     },
@@ -199,27 +199,28 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Dominadas Supinas",
+                        name: "Remo Horizontal en TRX",
                         subOrder: 1,
                         sets: 1,
                         reps: "6",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
-                        imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+                        notes: "Mantén una inclinación paralela al suelo.",
+                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Paralelas Lastrados",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
                         sets: 1,
                         reps: "6",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                        imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
-                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+                notes: "Mantén una inclinación paralela al suelo.",
+                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -326,13 +327,13 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Prensa Inclinada en Máquina de Discos": [
+    "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
+    "Remo Inclinado con Mancuernas/KTB (ExPLICADO)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Press Banca en Multipower": [
+    "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
