@@ -184,29 +184,24 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "EMOM",
+                name: "Dominadas Supinas",
                 isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
-                },
                 items: [
                     {
                         name: "Dominadas Supinas",
                         subOrder: 1,
-                        sets: 1,
+                        sets: 3,
                         reps: "6",
-                        isEMOMItem: true,
+                        isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
                         imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
                     },
                     {
                         name: "Fondos en Paralelas Lastrados",
                         subOrder: 2,
-                        sets: 1,
+                        sets: 3,
                         reps: "6",
-                        isEMOMItem: true,
+                        rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
                         imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
                     }
@@ -217,29 +212,24 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "EMOM",
+                name: "Sentadilla Búlgara con Mancuerna o KTB",
                 isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
-                },
                 items: [
                     {
                         name: "Sentadilla Búlgara con Mancuerna o KTB",
                         subOrder: 1,
-                        sets: 1,
+                        sets: 3,
                         reps: "10",
-                        isEMOMItem: true,
+                        isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
                         imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
                     },
                     {
                         name: "Kettlebell - Soft Swing",
                         subOrder: 2,
-                        sets: 1,
+                        sets: 3,
                         reps: "20",
-                        isEMOMItem: true,
+                        rest: "90s",
                         videoUrl: "https://youtube.com/shorts/-i4ReGBb26g",
                         imageUrl: "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
                     }
@@ -250,29 +240,24 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "EMOM",
+                name: "Curl Araña con Barra Z",
                 isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 90
-                },
                 items: [
                     {
                         name: "Curl Araña con Barra Z",
                         subOrder: 1,
-                        sets: 1,
+                        sets: 3,
                         reps: "10",
-                        isEMOMItem: true,
+                        isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg",
                         imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg"
                     },
                     {
                         name: "Press Francés con Barra Z en Banco Inclinado",
                         subOrder: 2,
-                        sets: 1,
+                        sets: 3,
                         reps: "10",
-                        isEMOMItem: true,
+                        rest: "90s",
                         videoUrl: "https://youtu.be/hFk6xzt1DWM",
                         imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
                     }
@@ -283,20 +268,15 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "EMOM",
+                name: "Extensión de Cuádriceps en Máquina",
                 isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 4,
-                    workIntervalSeconds: 60
-                },
                 items: [
                     {
                         name: "Extensión de Cuádriceps en Máquina",
                         subOrder: 1,
-                        sets: 1,
+                        sets: 3,
                         reps: "16",
-                        isEMOMItem: true,
+                        isSupersetStart: true,
                         notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
@@ -304,9 +284,9 @@ const workoutData = {
                     {
                         name: "Hollow Abdominal Encogido",
                         subOrder: 2,
-                        sets: 1,
+                        sets: 3,
                         reps: "60",
-                        isEMOMItem: true,
+                        rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/DUYZEFKjYxs",
                         imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
