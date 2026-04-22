@@ -1,4 +1,5 @@
-// Titulo: P16_4D_TORPIER_FUERZATOP_1
+// Titulo: P16_4D_TORPIER_FUERZATOP_2
+// Notas: Series al FALLO bajando un 25% + cambiamos un par de ejercicios básicos.
 
 const workoutData = {
     "dia1": {
@@ -35,23 +36,23 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca Inclinado en Multipower",
+                name: "Aperturas en Banco Inclinado con Mancuernas",
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "6, 6, FALLO, FALLO",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtu.be/3GS7EjN7KSk",
-                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                notes: "Para las series al fallo baja la carga un 25%",
+                videoUrl: "https://youtu.be/Lx8d28YlcbQ",
+                imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Máquina de Remo (Gironda)",
+                name: "Remo Unilat de Rodillas en Polea Media",
                 sets: 3,
-                reps: "6, 12, 12",
+                reps: "6, 6, FALLO",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                notes: "Para las series al fallo baja la carga un 25%",
+                videoUrl: "https://youtube.com/shorts/QIXtVCov-Wc",
+                imageUrl: "https://i.ytimg.com/vi/QIXtVCov-Wc/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -151,7 +152,7 @@ const workoutData = {
                     {
                         name: "Aducción de Piernas en Máquina",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
@@ -166,9 +167,9 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "6, 6, FALLO, FALLO",
                 rest: "120s",
-                notes: "",
+                notes: "Para las series al fallo baja la carga un 25%",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
                 imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
             },
@@ -256,21 +257,21 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Dominadas Supinas",
+                name: "Jalón al Pecho Supino en Polea",
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "6, 6, FALLO, FALLO",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
-                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+                notes: "Para las series al fallo baja la carga un 25%",
+                videoUrl: "https://youtu.be/rimdRzyIJkA",
+                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 order: 3,
                 name: "Press Militar en Multipower",
                 sets: 3,
-                reps: "6, 12, 12",
+                reps: "6, FALLO, FALLO",
                 rest: "120s",
-                notes: "",
+                notes: "Para las series al fallo baja la carga un 25%",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
             },
@@ -372,7 +373,7 @@ const workoutData = {
                     {
                         name: "Aducción de Piernas en Máquina",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
@@ -387,9 +388,9 @@ const workoutData = {
                 order: 2,
                 name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 4,
-                reps: "6, 6, 12, 12",
+                reps: "6, 6, FALLO, FALLO",
                 rest: "120s",
-                notes: "",
+                notes: "Para las series al fallo baja la carga un 25%",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
                 imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
@@ -397,9 +398,9 @@ const workoutData = {
                 order: 3,
                 name: "Sentadilla Trasera con Barra Talones Elevados",
                 sets: 3,
-                reps: "6, 12, 12",
+                reps: "6, FALLO, FALLO",
                 rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                notes: "Para las series al fallo baja la carga un 25%",
                 videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
                 imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
             },
@@ -446,10 +447,10 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Banca Inclinado en Multipower": [
+    "Aperturas en Banco Inclinado con Mancuernas": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
+    "Remo Unilat de Rodillas en Polea Media": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
     "Sentadilla Anterior en Máquina Jaca": [
@@ -457,9 +458,6 @@ const exerciseAlternatives = {
     ],
     "Peso Muerto Rumano con Barra": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
-    ],
-    "Dominadas Supinas": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
