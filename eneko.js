@@ -2,7 +2,7 @@
 
 const workoutData = {
     "dia1": {
-        name: "Fullbody Push",
+        name: "PIERNAS",
         exercises: [
             {
                 order: 1,
@@ -36,21 +36,12 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Cerrado con Barra",
-                sets: 3,
-                reps: "12, 10, 8",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/_062fQmtry8",
-                imageUrl: "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
-            },
-            {
-                order: 3,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
-                reps: "10-12",
-                rest: "60s",
-                notes: "",
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                sets: 4,
+                reps: "8",
+                rest: "90s",
+                notes: "USA DOS MANCUENRAS Y DEJA UNA EN LA DROPSET. (50%)",
                 videoUrl: "https://youtu.be/kA6bHiDdTO4",
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
@@ -69,14 +60,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos de Tríceps con Pies Elevados",
+                        name: "Zancada Dinámica",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
-                        notes: "Puedes hacerlas de rodillas.",
+                        reps: "20",
                         rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
-                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
+                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -103,13 +93,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+                        name: "Peso Muerto Rumano con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 1,
                         reps: "45s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
+                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
                     },
                     {
                         name: "Hollow Abdominal con Brazos a los Lados",
@@ -119,6 +109,15 @@ const workoutData = {
                         isCircuitItem: true,
                         videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
                         imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
+                    },
+                    {
+                        name: "",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
