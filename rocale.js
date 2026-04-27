@@ -1,4 +1,4 @@
-// Titulo: P16_4D_TORPIER_FUERZATOP_1_ FEM 2
+// Titulo: P16_4D_TORPIER_FUERZATOP_1_ FEM 3
 
 const workoutData = {
     "dia1": {
@@ -9,7 +9,7 @@ const workoutData = {
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
                 sets: 4,
-                reps: "8",
+                reps: "10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -102,7 +102,7 @@ const workoutData = {
                 name: "Sentadilla Trasera en Multipower",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
                 sets: 4,
-                reps: "8",
+                reps: "10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/la-dqygoIuk",
@@ -141,13 +141,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Press Militar Unilateral en Landmine",
+                name: "Muscle Clean-Jerk Unilat con Mancuerna",
                 sets: 3,
-                reps: "10-12",
+                reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
-                imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/_KLu6BsWY64",
+                imageUrl: "https://i.ytimg.com/vi/_KLu6BsWY64/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -187,7 +187,7 @@ const workoutData = {
                 name: "Hip Thrust con Barra (ExPLICADO)",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"DROPSET"},
                 sets: 4,
-                reps: "8",
+                reps: "10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
@@ -285,7 +285,7 @@ const exerciseAlternatives = {
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Press Militar Unilateral en Landmine": [
+    "Muscle Clean-Jerk Unilat con Mancuerna": [
         { name: "Press Militar Unilat de Pie con Mancuerna/KTB", videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0", imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (ExPLICADO)": [
