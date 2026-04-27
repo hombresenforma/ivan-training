@@ -8,7 +8,7 @@ const workoutData = {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -19,7 +19,7 @@ const workoutData = {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -101,7 +101,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca en Multipower",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -112,7 +112,7 @@ const workoutData = {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -188,7 +188,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 120
                 },
                 items: [
@@ -221,7 +221,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 120
                 },
                 items: [
