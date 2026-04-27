@@ -1,4 +1,10 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2
+// Notas: AntPost:
+// - Ejercicio 1 añadimos 1 serie más con REST-PAUSE.
+// - Ejercicio 2 añadimos 1 serie más y cambiamos todo a DROP-SET.
+// 
+// Fullbody:
+// - EMOMs 1 y 2: Añadimos 1 vuelta y bajamos tiempo de 120 a 90s
 
 const workoutData = {
     "dia1": {
@@ -7,8 +13,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -18,8 +24,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -100,8 +106,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca en Multipower",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -111,8 +117,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -188,8 +194,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -221,8 +227,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -330,5 +336,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
