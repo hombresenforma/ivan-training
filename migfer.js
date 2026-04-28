@@ -1,5 +1,6 @@
 // Titulo: P1_3D_fb_01
-export const workoutData = {
+
+const workoutData = {
     "dia1": {
         name: "Fullbody Push",
         exercises: [
@@ -84,7 +85,7 @@ export const workoutData = {
                         reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                        imageUrl: "https://www.youtube.com/shorts/SMll4DOYvEs"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
@@ -99,7 +100,7 @@ export const workoutData = {
                 ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+                imageUrl: "https://www.youtube.com/shorts/SMll4DOYvEs"
             },
             {
                 order: 5,
@@ -413,4 +414,16 @@ export const workoutData = {
             }
         ]
     }
+};
+
+const exerciseAlternatives = {
+    "Press Banca en Multipower": [
+        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+    ],
+    "Dominadas Australianas con Pies en el Suelo": [
+        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
+    ],
+    "Prensa Inclinada en Máquina de Discos": [
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
+    ]
 };
