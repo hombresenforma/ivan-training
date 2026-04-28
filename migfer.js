@@ -1,4 +1,4 @@
-// Titulo: P1_3D_fb_01
+// Titulo: P1_3D_fb_01_box
 
 const workoutData = {
     "dia1": {
@@ -36,13 +36,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
+                name: "Press Banca con Barra",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -85,7 +85,7 @@ const workoutData = {
                         reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                        imageUrl: "https://www.youtube.com/shorts/SMll4DOYvEs"
+                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
@@ -100,7 +100,7 @@ const workoutData = {
                 ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://www.youtube.com/shorts/SMll4DOYvEs"
+                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -184,17 +184,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Trasera en Multipower",
+                name: "Sentadilla Trasera con Barra",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera en Multipower",
+                        name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/la-dqygoIuk",
-                        imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Lateral elevando Rodilla",
@@ -208,22 +208,22 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/la-dqygoIuk",
-                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Press Militar en Multipower",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar en Multipower",
+                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                        imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
                     },
                     {
                         name: "Fondos de Tríceps con Pies en el Suelo",
@@ -236,8 +236,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -250,6 +250,7 @@ const workoutData = {
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
+                        notes: "Mantén una inclinación paralela al suelo.",
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
                         imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
                     },
@@ -311,13 +312,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -350,17 +351,17 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Jalón al Pecho Supino en Polea",
+                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Supino en Polea",
+                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     },
                     {
                         name: "Curl con Mancuernas de Pie",
@@ -373,8 +374,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -417,13 +418,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Banca en Multipower": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
-    ],
     "Dominadas Australianas con Pies en el Suelo": [
-        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
-    ],
-    "Prensa Inclinada en Máquina de Discos": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
+        { name: "Dominadas Australianas en TRX", videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ", imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg" }
     ]
 };
