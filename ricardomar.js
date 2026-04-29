@@ -322,6 +322,78 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "FOR TIME (TWS) - ABS CARGA",
+        exercises: [
+            {
+                order: 1,
+                name: "FOR TIME (Thruster+Worm+SitUp)",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 3
+                },
+                items: [
+                    {
+                        name: "Thruster con Mancuernas",
+                        subOrder: 1,
+                        reps: "21, 15, 9",
+                        isForTimeItem: true,
+                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 2,
+                        reps: "21, 15, 9",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 3,
+                        reps: "21, 15, 9",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    }
+                ],
+                notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Crunch en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Excéntrico Unilat en Polea",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "8",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
+                        imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+            }
+        ]
     }
 };
 
