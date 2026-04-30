@@ -1,4 +1,4 @@
-// ç
+// Titulo: Plan de Entrenamiento
 
 const workoutData = {
     "dia1": {
@@ -79,13 +79,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones + Mountain Climbers",
+                        name: "Plancha - Abrir y Cerrar Piernas",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "16",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/G8GPAq4110U",
+                        imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
                     }
                 ],
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
@@ -171,13 +171,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Burpees con Jumping Jacks",
+                        name: "Worm",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "12",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
-                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -295,5 +295,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-
