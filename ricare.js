@@ -1,7 +1,8 @@
-// Titulo: P1_3D_fb_02
+// Titulo: P1_3D_fb_GYM-HOME-02
 // Notas: - Añadimos 1 serie al PRINCIPAL y subimos de 8 a 12 repeticiones.
 // - Subimos volumen del trabajo de abdomen en la superserie 2. 
 // - Añadimos 1 vuelta al circuito final y subimos repeticiones/tiempo.
+// - En ejercicios alternativo siempre encontrarás un ejercicio que puedas realizar en casa. 
 
 const workoutData = {
     "dia1": {
@@ -338,14 +339,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
                     },
                     {
-                        name: "Sit Up Unilateral con Mancuerna/KTB",
+                        name: "Pike Push-Up",
                         subOrder: 2,
                         sets: 3,
                         reps: "6",
-                        notes: "Puedes usar una mancuerna de poco peso si lo prefieres o el peso de la Kettlebell es demasiado elevado.",
+                        notes: "Cuanto más vertical tengas el cuerpo mayor intensidad",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/INcd--4kK5k",
-                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/5d8ft4ktyeA",
+                        imageUrl: "https://i.ytimg.com/vi/5d8ft4ktyeA/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -367,13 +368,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
                     },
                     {
-                        name: "Curl con Mancuernas de Pie",
+                        name: "Curl de Biceps con TRX",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/8STuQuoDMR0",
-                        imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/W1C5ABPg_Ak",
+                        imageUrl: "https://i.ytimg.com/vi/W1C5ABPg_Ak/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -422,12 +423,36 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Banca en Multipower": [
-        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
+        { name: "Flexiones / Push Ups", videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk", imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg" }
+    ],
+    "Remo Inclinado en Landmine": [
+        { name: "Remo Horizontal en TRX", videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM", imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg" }
+    ],
+    "Thruster con Mancuernas": [
+        { name: "Pike Push-Up", videoUrl: "https://youtu.be/5d8ft4ktyeA", imageUrl: "https://i.ytimg.com/vi/5d8ft4ktyeA/mqdefault.jpg" }
+    ],
+    "Remo Inclinado con Mancuernas/KTB (ExPLICADO)": [
+        { name: "Gomas - Remo Unilateral de Pie", videoUrl: "https://youtu.be/KinZhmw9tIs", imageUrl: "https://i.ytimg.com/vi/KinZhmw9tIs/mqdefault.jpg" }
     ],
     "Dominadas Australianas con Pies en el Suelo": [
-        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
+        { name: "Dominadas Australianas en TRX", videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ", imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg" }
+    ],
+    "Sentadilla Trasera en Multipower": [
+        { name: "Sentadilla Búlgara con Mancuerna o KTB", videoUrl: "https://youtu.be/kA6bHiDdTO4", imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg" }
+    ],
+    "Press Militar en Multipower": [
+        { name: "Pike Push-Up", videoUrl: "https://youtu.be/5d8ft4ktyeA", imageUrl: "https://i.ytimg.com/vi/5d8ft4ktyeA/mqdefault.jpg" }
+    ],
+    "Gorilla Row con Kettlebells/Mancuernas": [
+        { name: "Gomas - Remo Vertical en Columna", videoUrl: "https://youtu.be/KFCTeV1AIGU", imageUrl: "https://i.ytimg.com/vi/KFCTeV1AIGU/mqdefault.jpg" }
     ],
     "Prensa Inclinada en Máquina de Discos": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
+        { name: "Sentadilla Búlgara con Peso Corporal", videoUrl: "https://youtu.be/YtzdcxjEb8s", imageUrl: "https://i.ytimg.com/vi/YtzdcxjEb8s/mqdefault.jpg" }
+    ],
+    "Press Inclinado con Mancuernas": [
+        { name: "Flexiones / Push Ups", videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk", imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg" }
+    ],
+    "Jalón al Pecho Supino en Polea": [
+        { name: "Remo Horizontal en TRX", videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM", imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg" }
     ]
 };
