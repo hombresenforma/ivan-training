@@ -2,7 +2,7 @@
 
 const workoutData = {
     "dia1": {
-        name: "PIERNAS",
+        name: "PIERNAS FOCO POSTERIOR",
         exercises: [
             {
                 order: 1,
@@ -46,83 +46,43 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
+                order: 3,
+                name: "Peso Muerto Rumano con Barra",
+                sets: 3,
+                reps: "12, 10, 8",
+                rest: "60s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
                 order: 4,
-                name: "Sentadilla Trasera con Barra Talones Elevados",
+                name: "Box Glute Step Up Unilat con Mancuerna/KTB",
+                sets: 3,
+                reps: "10",
+                rest: "90s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtube.com/shorts/h73RCZp007M",
+                imageUrl: "https://i.ytimg.com/vi/h73RCZp007M/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Curl Femoral desde Puente (Con TRX)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera con Barra Talones Elevados",
+                        name: "Curl Femoral desde Puente (Con TRX)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
-                        imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
-                    },
-                    {
-                        name: "Zancada Dinámica",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "20",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
-                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+                        imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
-                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Circuito",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 15,
-                    restBetweenRoundsSeconds: 90
-                },
-                items: [
-                    {
-                        name: "Thruster con Mancuernas",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Peso Muerto Rumano con Mancuernas/KTB",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Hollow Abdominal con Brazos a los Lados",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
-                        imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
-                    },
-                    {
-                        name: "",
-                        subOrder: 4,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
-                        videoUrl: "",
-                        imageUrl: ""
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+                imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
             }
         ]
     },
