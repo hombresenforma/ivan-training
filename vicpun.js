@@ -44,16 +44,6 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
-                sets: 3,
-                reps: "8-10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
-                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
-            },
-            {
                 order: 4,
                 name: "Press Banca con Mancuernas",
                 sets: 3,
