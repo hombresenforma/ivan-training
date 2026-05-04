@@ -1,4 +1,7 @@
-// Titulo: P17_3D_FUERZA (1)
+// Titulo: P17_3D_FUERZA (2)
+// Notas: Básico: 4x4 -> 5x4
+// Secundarios: 4x4 > 3x6
+// Cambiamos accesorios
 
 const workoutData = {
     "dia1": {
@@ -45,7 +48,7 @@ const workoutData = {
                 order: 2,
                 name: "Press Banca con Barra",
                 setTechniques: {},
-                sets: 4,
+                sets: 5,
                 reps: "4",
                 rest: "120s",
                 notes: "",
@@ -56,8 +59,8 @@ const workoutData = {
                 order: 3,
                 name: "Remo con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
@@ -67,8 +70,8 @@ const workoutData = {
                 order: 4,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
@@ -76,31 +79,31 @@ const workoutData = {
             },
             {
                 order: 7,
-                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                name: "Press Banca Inclinado en Multipower",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                        name: "Press Banca Inclinado en Multipower",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                        imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
                     },
                     {
-                        name: "Press Francés con Mancuernas en Banco Inclinado",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
                         sets: 3,
                         reps: "8-10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/L__Q6Jl9Ics",
-                        imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             }
         ]
     },
@@ -148,7 +151,7 @@ const workoutData = {
                 order: 2,
                 name: "Remo con Barra",
                 setTechniques: {},
-                sets: 4,
+                sets: 5,
                 reps: "4",
                 rest: "120s",
                 notes: "",
@@ -159,8 +162,8 @@ const workoutData = {
                 order: 3,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
@@ -170,8 +173,8 @@ const workoutData = {
                 order: 4,
                 name: "Press Banca con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -179,31 +182,31 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Remo Inclinado en Landmine",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Neutro en Polea",
+                        name: "Remo Inclinado en Landmine",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                        imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/5gakUsid-Lg",
+                        imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
                     },
                     {
-                        name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
+                        name: "Curl Martillo con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "8-10",
                         rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
-                        imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5gakUsid-Lg",
+                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
             }
         ]
     },
@@ -243,7 +246,7 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Anterior en Máquina Jaca",
                 setTechniques: {},
-                sets: 4,
+                sets: 5,
                 reps: "4",
                 rest: "120s",
                 notes: "",
@@ -254,8 +257,8 @@ const workoutData = {
                 order: 3,
                 name: "Press Banca con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -265,8 +268,8 @@ const workoutData = {
                 order: 4,
                 name: "Remo con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "4",
+                sets: 3,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
@@ -274,23 +277,23 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Extensión de Cuádriceps en Máquina",
+                name: "Prensa Inclinada en Máquina de Discos",
                 sets: 3,
                 reps: "8-10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 6,
-                name: "Curl Femoral Tumbado en Máquina",
+                name: "Extensión Lumbar en GHD",
                 sets: 3,
                 reps: "8-10",
                 rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
-                imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+                notes: "No hace falta que sea horizontal el banco. ",
+                videoUrl: "https://www.youtube.com/watch?v=dizQOJZwTDw",
+                imageUrl: "https://i.ytimg.com/vi/dizQOJZwTDw/mqdefault.jpg"
             }
         ]
     }
