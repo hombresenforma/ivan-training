@@ -1,11 +1,10 @@
 // Titulo: P4_3D_APTOR_HIIT_1
 // Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -14,7 +13,7 @@ const workoutData = {
                 order: 1,
                 name: "Flexiones con Peso Corporal",
                 sets: 2,
-                reps: "100",
+                reps: "50",
                 rest: "120s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
                 videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
@@ -64,13 +63,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -93,6 +92,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://youtu.be/KKvRtNn904g",
                         imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     },
@@ -119,7 +119,7 @@ const workoutData = {
                 order: 1,
                 name: "Dominadas Asistidas en Máquina",
                 sets: 2,
-                reps: "100",
+                reps: "50",
                 rest: "120s",
                 notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
                 videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
@@ -145,8 +145,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -197,6 +197,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
@@ -241,11 +242,11 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar Sentado con Mancuernas (Explicado)",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Sentado con Mancuernas (Explicado)",
+                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
@@ -342,12 +343,9 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Militar en Multipower": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-
