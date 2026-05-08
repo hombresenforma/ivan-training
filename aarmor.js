@@ -347,7 +347,7 @@ const workoutData = {
                 sets: 3,
                 reps: "1",
                 rest: "150s",
-                notes: "400m RUN (ritmo moderado-alto)\n- 50m sled push \n- 50m sled pull\n- 500m skierg",
+                notes: "400m RUN (ritmo moderado-alto)\n- 50 brazadas tirón cuerda vertical\n- 500m remo \n- 50 zancadas caminando (Sin peso)",
                 videoUrl: "https://youtu.be/KKvRtNn904g",
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
