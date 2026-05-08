@@ -1,5 +1,7 @@
-// Titulo: P14_3D_FUERZA_1_BOX
-// Notas: Entrenamiento enfocado en FUERZA (Básicos 5x6-8reps). Sin trabajo metabólico.
+// Titulo: P14_3D_FUERZA_2_BOX
+// Notas: - Básico + 1 serie de 6 reps.
+// - Última serie secundario día 1 y 2: Dropsetx2
+// - + Día 3 CONTRALATERALES + 1 serie menos final.
 
 const workoutData = {
     "dia1": {
@@ -19,8 +21,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar con Barra Sentado (Half Press)",
-                sets: 4,
-                reps: "6-8",
+                sets: 5,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc",
@@ -29,6 +31,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
+                setTechniques: {"3":"DROPSET X2"},
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
@@ -139,8 +142,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo con Barra",
-                sets: 4,
-                reps: "6-8",
+                sets: 5,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
@@ -149,6 +152,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {"3":"DROPSET X2"},
                 sets: 3,
                 reps: "15, 12, 10",
                 rest: "90s",
@@ -241,8 +245,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Barra Talones Elevados",
-                sets: 4,
-                reps: "6-8",
+                sets: 5,
+                reps: "6",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
@@ -251,7 +255,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Banca con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "6",
                 rest: "90s",
                 notes: "",
@@ -261,7 +265,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Dominadas Supinas",
-                sets: 3,
+                sets: 4,
                 reps: "6",
                 rest: "90s",
                 notes: "",
@@ -270,43 +274,34 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Press Inclinado con Mancuernas",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Press Inclinado con Mancuernas",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        isSupersetStart: true,
-                        notes: "Trata de despegar el pecho al final del movimiento",
-                        videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                        imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Seal con Mancuernas",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
-                    }
-                ],
-                notes: "Trata de despegar el pecho al final del movimiento",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                name: "Press Banca Contralat Unilat con Mancuerna",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/7kAl5bVSYUc",
+                imageUrl: "https://i.ytimg.com/vi/7kAl5bVSYUc/mqdefault.jpg"
             },
             {
                 order: 6,
+                name: "Remo Contralat Unilat con Mancuerna",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/O7PAUd4ZMB4",
+                imageUrl: "https://i.ytimg.com/vi/O7PAUd4ZMB4/mqdefault.jpg"
+            },
+            {
+                order: 7,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 isSuperset: true,
                 items: [
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "16, 14, 12",
+                        sets: 2,
+                        reps: "20",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
@@ -314,8 +309,8 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "12, 10, 8",
+                        sets: 2,
+                        reps: "15",
                         rest: "90s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
                         imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
@@ -335,9 +330,6 @@ const exerciseAlternatives = {
     ],
     "Remo con Barra": [
         { name: "Remo Unilat con Mancuerna/KTB (Explicado)", videoUrl: "https://youtu.be/uH9Hg4nWOG8", imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg" }
-    ],
-    "Hip Thrust con Barra (ExPLICADO)": [
-        { name: "Peso Muerto Rumano con Mancuernas/KTB", videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs", imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg" }
     ],
     "Kettlebell - Soft Swing": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
