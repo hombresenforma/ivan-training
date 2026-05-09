@@ -8,9 +8,9 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
                 setTechniques: {"1":"CLUSTER"},
-                sets: 4,
-                reps: "6",
-                rest: "90s",
+                sets: 3,
+                reps: "6, 6, 10",
+                rest: "120s",
                 notes: "Stretch: aperturas cable bajo (60s)",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
                 imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
@@ -18,10 +18,10 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar en Multipower",
-                setTechniques: {"1":"CLUSTER","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                sets: 2,
                 reps: "10",
-                rest: "90s",
+                rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
                 videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
                 imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
@@ -29,10 +29,10 @@ const workoutData = {
             {
                 order: 3,
                 name: "Cruces en Polea Alta",
-                setTechniques: {"1":"CLUSTER","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                sets: 2,
                 reps: "10",
-                rest: "90s",
+                rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
                 videoUrl: "https://youtu.be/Ht9awbF2fBA",
                 imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
@@ -40,10 +40,10 @@ const workoutData = {
             {
                 order: 4,
                 name: "Press Francés con Barra Z en Banco Inclinado",
-                setTechniques: {"1":"CLUSTER"},
-                sets: 1,
-                reps: "11-15",
-                rest: "90s",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE"},
+                sets: 2,
+                reps: "10",
+                rest: "120s",
                 notes: "Stretch: extensión overhead cable (45s)",
                 videoUrl: "https://youtu.be/hFk6xzt1DWM",
                 imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
@@ -51,35 +51,123 @@ const workoutData = {
             {
                 order: 5,
                 name: "Jalón al Pecho Supino en Polea",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Jalón al Pecho Supino en Polea",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        notes: "Stretch: pullover cable (60s)",
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
-                    },
-                    {
-                        name: "Extensión de Tríceps en Polea con Cuerda",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
-                    }
-                ],
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE"},
+                sets: 2,
+                reps: "10",
+                rest: "120",
                 notes: "Stretch: pullover cable (60s)",
                 videoUrl: "https://youtu.be/rimdRzyIJkA",
                 imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Extensión de Tríceps en Polea con Cuerda",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Extensión de Tríceps en Polea con Cuerda",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "Stretch: pullover cable (60s)",
+                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Elevaciones Laterales con Mancuernas",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                    }
+                ],
+                notes: "Stretch: pullover cable (60s)",
+                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
             }
         ]
     },
     "dia2": {
+        name: "B1 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
+        exercises: [
+            {
+                order: 1,
+                name: "Remo en Máquina T Agarre Estrecho",
+                setTechniques: {"1":"CLUSTER"},
+                sets: 3,
+                reps: "6, 6, 10",
+                rest: "120s",
+                notes: "Stretch: remo en cable (60s)",
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Curl Scott con Barra Z",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE"},
+                sets: 2,
+                reps: "10",
+                rest: "120s",
+                notes: "Stretch: curl Scott cable (45s)",
+                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Sentadilla Anterior en Máquina Jaca",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE"},
+                sets: 2,
+                reps: "10",
+                rest: "120s",
+                notes: "Stretch: sentadilla sissy (60s)",
+                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
+                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl Femoral Tumbado en Máquina",
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE"},
+                sets: 2,
+                reps: "10",
+                rest: "120s",
+                notes: "Stretch: posición estirada en máquina (60s)",
+                videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
+                imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Curl de Biceps en Polea Baja",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl de Biceps en Polea Baja",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/0GHLPYa_jzo",
+                        imageUrl: "https://i.ytimg.com/vi/0GHLPYa_jzo/mqdefault.jpg"
+                    },
+                    {
+                        name: "Face Pull al Cuello en Polea Alta",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
+                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/0GHLPYa_jzo",
+                imageUrl: "https://i.ytimg.com/vi/0GHLPYa_jzo/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia3": {
         name: "A2 - Pecho/Hombros/Tríceps/Espalda",
         exercises: [
             {
@@ -150,7 +238,7 @@ const workoutData = {
             }
         ]
     },
-    "dia3": {
+    "dia4": {
         name: "A3 - Pecho/Hombros/Tríceps/Espalda",
         exercises: [
             {
@@ -210,88 +298,6 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Gomas - Curl de Bíceps de Pie",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER"},
-                sets: 2,
-                reps: "12-15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtu.be/w4AydDM5bjU",
-                imageUrl: "https://i.ytimg.com/vi/w4AydDM5bjU/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
-        name: "B1 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
-        exercises: [
-            {
-                order: 1,
-                name: "Remo con Barra",
-                setTechniques: {"1":"CLUSTER"},
-                sets: 1,
-                reps: "11-15",
-                rest: "90s",
-                notes: "Stretch: remo en cable (60s)",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Gomas - Curl de Bíceps de Pie",
-                setTechniques: {"1":"CLUSTER"},
-                sets: 1,
-                reps: "11-15",
-                rest: "90s",
-                notes: "Stretch: curl Scott cable (45s)",
-                videoUrl: "https://youtu.be/w4AydDM5bjU",
-                imageUrl: "https://i.ytimg.com/vi/w4AydDM5bjU/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Sentadilla Trasera con Barra",
-                setTechniques: {},
-                sets: 4,
-                reps: "5",
-                rest: "120s",
-                notes: "Stretch: sentadilla sissy (60s)",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Curl Femoral Tumbado en Máquina",
-                setTechniques: {"1":"CLUSTER"},
-                sets: 1,
-                reps: "10-15",
-                rest: "90s",
-                notes: "Stretch: posición estirada en máquina (60s)",
-                videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
-                imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Gomas - Curl de Bíceps de Pie",
-                setTechniques: {"1":"CLUSTER"},
-                sets: 1,
-                reps: "10-15",
-                rest: "90s",
-                notes: "Stretch: estiramiento con peso (30s)",
-                videoUrl: "https://youtu.be/w4AydDM5bjU",
-                imageUrl: "https://i.ytimg.com/vi/w4AydDM5bjU/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Remo con Barra",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER"},
-                sets: 2,
-                reps: "6-8",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
-            },
-            {
-                order: 7,
                 name: "Gomas - Curl de Bíceps de Pie",
                 setTechniques: {"1":"CLUSTER","2":"CLUSTER"},
                 sets: 2,
@@ -470,4 +476,8 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Remo en Máquina T Agarre Estrecho": [
+        { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" },
+        { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
+    ]
 };
