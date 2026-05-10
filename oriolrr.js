@@ -1,4 +1,4 @@
-// Titulo: P16_4D_TORPIER_FUERZATOP_1
+// Titulo: P16_4D_TORPIER_FUERZATOP_2
 
 const workoutData = {
     "dia1": {
@@ -6,12 +6,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Rotación Externa de Hombro Unilat con Polea",
+                name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Rotación Externa de Hombro Unilat con Polea",
+                        name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
@@ -20,7 +20,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
                     },
                     {
-                        name: "Rotación Interna de Hombro Unilat con Polea",
+                        name: "RotaciÃ³n Interna de Hombro Unilat con Polea",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -45,7 +45,7 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Máquina de Remo (Gironda)",
+                name: "MÃ¡quina de Remo (Gironda)",
                 sets: 3,
                 reps: "6, 12, 12",
                 rest: "120s",
@@ -83,11 +83,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "JalÃ³n al Pecho Neutro en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Neutro en Polea",
+                        name: "JalÃ³n al Pecho Neutro en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
@@ -124,7 +124,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Codo en Polea Alta",
+                        name: "ExtensiÃ³n de Codo en Polea Alta",
                         subOrder: 2,
                         sets: 2,
                         reps: "12-15",
@@ -144,12 +144,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Aducción de Piernas en Máquina",
+                name: "AducciÃ³n de Piernas en MÃ¡quina",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Aducción de Piernas en Máquina",
+                        name: "AducciÃ³n de Piernas en MÃ¡quina",
                         subOrder: 1,
                         sets: 2,
                         reps: "12",
@@ -164,7 +164,7 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
+                name: "Sentadilla Anterior en MÃ¡quina Jaca",
                 sets: 4,
                 reps: "6, 6, 12, 12",
                 rest: "120s",
@@ -194,11 +194,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Extensión de Cuádriceps en Máquina",
+                name: "ExtensiÃ³n de CuÃ¡driceps en MÃ¡quina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Extensión de Cuádriceps en Máquina",
+                        name: "ExtensiÃ³n de CuÃ¡driceps en MÃ¡quina",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
@@ -227,12 +227,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Rotación Externa de Hombro Unilat con Polea",
+                name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Rotación Externa de Hombro Unilat con Polea",
+                        name: "RotaciÃ³n Externa de Hombro Unilat con Polea",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
@@ -241,7 +241,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg"
                     },
                     {
-                        name: "Rotación Interna de Hombro Unilat con Polea",
+                        name: "RotaciÃ³n Interna de Hombro Unilat con Polea",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -317,7 +317,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos de Tríceps con Pies en el Suelo",
+                        name: "Fondos de TrÃ­ceps con Pies en el Suelo",
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
@@ -365,12 +365,12 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Aducción de Piernas en Máquina",
+                name: "AducciÃ³n de Piernas en MÃ¡quina",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Aducción de Piernas en Máquina",
+                        name: "AducciÃ³n de Piernas en MÃ¡quina",
                         subOrder: 1,
                         sets: 2,
                         reps: "12",
@@ -405,7 +405,7 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                name: "Sentadilla BÃºlgara con Mancuerna o KTB",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
@@ -415,11 +415,11 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl Femoral Sentado en Máquina",
+                name: "Curl Femoral Sentado en MÃ¡quina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl Femoral Sentado en Máquina",
+                        name: "Curl Femoral Sentado en MÃ¡quina",
                         subOrder: 1,
                         sets: 3,
                         reps: "8-10",
@@ -449,23 +449,23 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
+    "MÃ¡quina de Remo (Gironda)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
-    "Sentadilla Anterior en Máquina Jaca": [
+    "Sentadilla Anterior en MÃ¡quina Jaca": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Peso Muerto Rumano con Barra": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
     "Dominadas Supinas": [
-        { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
+        { name: "JalÃ³n al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ],
     "Press Militar en Multipower": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
     "Hip Thrust con Barra (ExPLICADO)": [
-        { name: "Sentadilla Posterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
+        { name: "Sentadilla Posterior en MÃ¡quina Jaca", videoUrl: "https://youtube.com/shorts/KII1KHKgr8o", imageUrl: "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg" }
     ],
     "Sentadilla Trasera con Barra Talones Elevados": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
