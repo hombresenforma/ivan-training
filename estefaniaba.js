@@ -17,14 +17,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Militar en Multipower",
+                name: "Push Press en Multipower de Rodillas",
                 setTechniques: {"4":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/PY6nrqJazYw?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/PY6nrqJazYw/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -121,14 +121,14 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Zancadas Caminando con Mancuernas/KTB",
+                name: "Sentadilla Trasera en Multipower",
                 setTechniques: {},
                 sets: 3,
-                reps: "16",
+                reps: "12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -165,14 +165,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
                     },
                     {
-                        name: "Step Up Lateral Alterno en Step",
+                        name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 3,
                         reps: "20",
-                        notes: "Aprovecha el banco del hip thrust. (Cuanta más altura tiene el banco, más glúteo trabajamos)",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/N26TyhPhSRI",
-                        imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -313,7 +312,7 @@ const exerciseAlternatives = {
     "Dominadas Asistidas en Máquina": [
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
-    "Press Militar en Multipower": [
+    "Push Press en Multipower de Rodillas": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
     "Sentadilla Anterior en Máquina Jaca": [
