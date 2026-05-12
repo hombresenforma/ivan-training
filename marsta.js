@@ -172,17 +172,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Worm + Flexión",
+                name: "Worm",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Worm + Flexión",
+                        name: "Worm",
                         subOrder: 1,
                         sets: 3,
                         reps: "6",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
                         name: "Hollow - Nivel 2",
@@ -195,8 +195,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
             }
         ]
     },
