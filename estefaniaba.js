@@ -110,14 +110,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
+                name: "Sentadilla Sumo con Mancuerna/Kettlebell",
                 setTechniques: {"4":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+                notes: "Coge peso ELEVADO y sube piernas si hace falta (pon un disco bajo cada pie). ",
+                videoUrl: "https://youtu.be/ifBHyfgLe8k",
+                imageUrl: "https://i.ytimg.com/vi/ifBHyfgLe8k/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -315,8 +315,8 @@ const exerciseAlternatives = {
     "Push Press en Multipower de Rodillas": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
-    "Sentadilla Anterior en Máquina Jaca": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
+    "Sentadilla Sumo con Mancuerna/Kettlebell": [
+        { name: "Sentadilla Sumo con Mancuerna/Kettlebell", videoUrl: "https://youtu.be/ifBHyfgLe8k", imageUrl: "https://i.ytimg.com/vi/ifBHyfgLe8k/mqdefault.jpg" }
     ],
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
