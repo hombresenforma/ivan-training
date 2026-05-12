@@ -106,13 +106,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Gomas - Flexiones con Resistencia",
+                name: "Gomas - Aperturas en Columna",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/5y-98KIMKf0",
-                imageUrl: "https://i.ytimg.com/vi/5y-98KIMKf0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/_FBdkpZ5FTs",
+                imageUrl: "https://i.ytimg.com/vi/_FBdkpZ5FTs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -185,13 +185,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
                     },
                     {
-                        name: "Hollow - Nivel 3",
+                        name: "Hollow - Nivel 2",
                         subOrder: 2,
                         sets: 3,
                         reps: "30s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
-                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/lFEg3UQYM3g",
+                        imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -295,13 +295,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/K1o3Sviayko/mqdefault.jpg"
                     },
                     {
-                        name: "Hollow - Nivel 3",
+                        name: "Hollow - Nivel 2",
                         subOrder: 2,
                         sets: 3,
                         reps: "30s",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
-                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/lFEg3UQYM3g",
+                        imageUrl: "https://i.ytimg.com/vi/lFEg3UQYM3g/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -325,13 +325,31 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Flexiones / Push Ups",
-                sets: 3,
-                reps: "6-8",
-                rest: "60s",
+                name: "Plancha - Cambios de apoyo",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Plancha - Cambios de apoyo",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12\"",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/Yg74EfwLBQY",
+                        imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Spider Climber",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "14",
+                        rest: "60s",
+                        videoUrl: "https://youtu.be/bzzJ0zeO70A",
+                        imageUrl: "https://i.ytimg.com/vi/bzzJ0zeO70A/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=GFUw7S0wDxk",
-                imageUrl: "https://i.ytimg.com/vi/GFUw7S0wDxk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/Yg74EfwLBQY",
+                imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -397,13 +415,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Pike Push-Up",
+                name: "Gomas - Press Militar",
                 sets: 4,
-                reps: "6-8",
-                rest: "90s",
+                reps: "12",
+                rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/5d8ft4ktyeA",
-                imageUrl: "https://i.ytimg.com/vi/5d8ft4ktyeA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PaVq5VuHYEg",
+                imageUrl: "https://i.ytimg.com/vi/PaVq5VuHYEg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -498,5 +516,14 @@ const exerciseAlternatives = {
     ],
     "Gomas - Peso Muerto": [
         { name: "Gomas - Zancada Básica", videoUrl: "https://youtu.be/-NtzcHwp6fo", imageUrl: "https://i.ytimg.com/vi/-NtzcHwp6fo/mqdefault.jpg" }
+    ],
+    "Remo Horizontal en TRX": [
+        { name: "Gomas - Remo Unilateral en Columna", videoUrl: "https://youtu.be/SaitEaEDD5Q", imageUrl: "https://i.ytimg.com/vi/SaitEaEDD5Q/mqdefault.jpg" }
+    ],
+    "Gomas - Press Militar": [
+        { name: "Gomas - Press Militar", videoUrl: "https://youtu.be/PaVq5VuHYEg", imageUrl: "https://i.ytimg.com/vi/PaVq5VuHYEg/mqdefault.jpg" }
+    ],
+    "Dominadas Australianas en TRX": [
+        { name: "Gomas - Remo Vertical en Columna", videoUrl: "https://youtu.be/KFCTeV1AIGU", imageUrl: "https://i.ytimg.com/vi/KFCTeV1AIGU/mqdefault.jpg" }
     ]
 };
