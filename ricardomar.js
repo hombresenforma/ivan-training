@@ -1,12 +1,11 @@
 // Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1
-// Notas: Trabajo por CLUSTERS y SERIES AL FALLO. 
+// Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
 // For Time 21,15,9 + Trabajo de abdomen POLEA
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Torso Empuje",
@@ -161,11 +160,12 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/Kettlebells",
+                        name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
+                        notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
                         imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
@@ -188,7 +188,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
                     }
                 ],
-                notes: "",
+                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
@@ -299,6 +299,7 @@ const workoutData = {
                         subOrder: 1,
                         reps: "21, 15, 9",
                         isForTimeItem: true,
+                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
@@ -325,31 +326,31 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Crunch en Polea Alta",
+                name: "Crunch Abdominal Piernas Extendidas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Crunch en Polea Alta",
+                        name: "Crunch Abdominal Piernas Extendidas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
                     },
                     {
-                        name: "Press Pallof Excéntrico Unilat en Polea",
+                        name: "Secuencia Press Pallof con Banda Elástica (x3)",
                         subOrder: 2,
                         sets: 3,
                         reps: "8",
                         rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
-                        imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/g4uNLacBe_s?feature=share",
+                        imageUrl: "https://i.ytimg.com/vi/g4uNLacBe_s/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/TYNp3OsGKL0",
+                imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
             }
         ]
     }
@@ -369,11 +370,9 @@ const exerciseAlternatives = {
         { name: "Curl Femoral Tumbado en Máquina", videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM", imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg" }
     ],
     "Remo en Máquina T Agarre Estrecho": [
-        { name: "Remo Gironda Sentado en Polea", videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s", imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg" }
+        { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
