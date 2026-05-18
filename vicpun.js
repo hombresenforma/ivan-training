@@ -1,8 +1,12 @@
-// Titulo: P5_3D_TPFB_1_HOME
+// Titulo: P5_3D_TPFB_2_HOME
+// Notas: - Básico: Añadimos una 4a serie con DROPSET.
+// - Secundario: Subimos reps (objetivo mismo peso).
+// - EMOM añadimos un tercer ejercicio.
+// 
 
 const workoutData = {
     "dia1": {
-        name: "Tren superior",
+        name: "Tren Superior",
         exercises: [
             {
                 order: 1,
@@ -36,12 +40,23 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                sets: 3,
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
                 reps: "10",
                 rest: "60s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
                 videoUrl: "https://youtu.be/uH9Hg4nWOG8",
                 imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+                sets: 3,
+                reps: "12-15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -114,6 +129,15 @@ const workoutData = {
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/wNqGgCjBVaE",
                         imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Lateral Climbers",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/IKuy2laTdGY",
+                        imageUrl: "https://i.ytimg.com/vi/IKuy2laTdGY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -123,7 +147,7 @@ const workoutData = {
         ]
     },
     "dia2": {
-        name: "Tren inferior",
+        name: "Tren Inferior",
         exercises: [
             {
                 order: 1,
@@ -157,7 +181,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
                 reps: "10",
                 rest: "60s",
                 notes: "",
@@ -168,7 +193,7 @@ const workoutData = {
                 order: 4,
                 name: "Zancadas Caminando con Mancuernas/KTB",
                 sets: 3,
-                reps: "20",
+                reps: "30",
                 rest: "60s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -268,7 +293,7 @@ const workoutData = {
                     {
                         name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "6",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
@@ -277,7 +302,7 @@ const workoutData = {
                     {
                         name: "Flexiones con Peso Corporal",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
                         rest: "90s",
@@ -298,7 +323,7 @@ const workoutData = {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "8",
+                        reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
                         imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
@@ -307,7 +332,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "40s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -315,7 +340,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "40s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
@@ -357,26 +382,40 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                name: "EMOM",
                 isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 3,
+                    workIntervalSeconds: 60
+                },
                 items: [
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "16",
-                        isSupersetStart: true,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Abrir y Cerrar Piernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 1,
                         reps: "10",
-                        rest: "90s",
+                        isEMOMItem: true,
                         videoUrl: "https://youtu.be/G8GPAq4110U",
                         imageUrl: "https://i.ytimg.com/vi/G8GPAq4110U/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
