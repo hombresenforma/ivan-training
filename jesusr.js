@@ -1,6 +1,4 @@
-// Titulo: P19_4D_PHAT_2
-// Notas: -FUERZA: Invertimos orden ejercicios.
-// -VOLUMEN:  Cambiamos ejercicio potencia y ejercicio secundario de cada día. 
+// Titulo: P19_4D_PHAT_1
 
 const workoutData = {
     "dia1": {
@@ -37,28 +35,17 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Remo con Barra",
+                name: "Press Banca con Barra",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
-                rest: "90",
+                rest: "120s",
                 notes: "",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Press MIlitar en Multipower - Rodillas",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
-                imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
-            },
-            {
-                order: 4,
                 name: "Dominadas con Peso Corporal",
                 setTechniques: {},
                 sets: 3,
@@ -69,15 +56,26 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "Press Banca con Barra",
+                order: 4,
+                name: "Press MIlitar en Multipower - Rodillas",
                 setTechniques: {},
                 sets: 3,
                 reps: "6",
-                rest: "120s",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Remo con Barra",
+                setTechniques: {},
+                sets: 3,
+                reps: "6",
+                rest: "90",
+                notes: "",
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -134,14 +132,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Sentadilla Trasera con Barra",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "6",
-                rest: "90s",
+                rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -156,14 +154,14 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Sentadilla Trasera con Barra",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 setTechniques: {},
-                sets: 4,
+                sets: 3,
                 reps: "6",
-                rest: "120s",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -220,25 +218,25 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Remo con Barra",
+                name: "Dominadas con Peso Corporal",
                 setTechniques: {},
                 sets: 5,
                 reps: "3",
                 rest: "60s",
                 notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Diagonal Unilat en Polea Alta",
+                name: "Remo Gironda en Polea",
                 setTechniques: {},
                 sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
-                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -316,14 +314,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press MIlitar en Multipower - Rodillas",
+                name: "Press Banca con Barra",
                 setTechniques: {},
                 sets: 5,
                 reps: "3",
                 rest: "60s",
                 notes: "NO FUERZA. POTENCIA",
-                videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
-                imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -349,13 +347,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Fondos en Paralelas con Peso Corporal",
+                name: "Press Militar Sentado con Mancuernas",
                 sets: 3,
                 reps: "15",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
-                imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -372,14 +370,14 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Remo con Barra": [
-        { name: "Remo Seal con Mancuernas", videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o", imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg" }
-    ],
-    "Press MIlitar en Multipower - Rodillas": [
-        { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
-    ],
     "Press Banca con Barra": [
         { name: "Press Banca en Multipower (ExPLICADO)", videoUrl: "https://www.youtube.com/shorts/EDFhiF1mSKc", imageUrl: "https://i.ytimg.com/vi/EDFhiF1mSKc/mqdefault.jpg" }
+    ],
+    "Press MIlitar en Multipower - Rodillas": [
+        { name: "Press Militar con Barra de Pie", videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0", imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg" }
+    ],
+    "Remo con Barra": [
+        { name: "Remo Seal con Mancuernas", videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o", imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg" }
     ],
     "Sentadilla Trasera con Barra": [
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
