@@ -92,6 +92,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/1MgU2PO4_rI",
                 imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Secuencia Press Pallof con Banda Elástica (x3)",
+                sets: 2,
+                reps: "8",
+                rest: "60s",
+                notes: "Realiza las repeticiones marcadas por cada una de las 3 posiciones. (Si pone 8 reps, son 8, 8, 8)",
+                videoUrl: "https://youtube.com/shorts/g4uNLacBe_s?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/g4uNLacBe_s/mqdefault.jpg"
             }
         ]
     },
@@ -153,28 +163,9 @@ const workoutData = {
             {
                 order: 6,
                 name: "Hip Thrust con Barra (ExPLICADO)",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Hip Thrust con Barra (ExPLICADO)",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                        imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
-                    },
-                    {
-                        name: "Step Up Lateral Alterno en Step",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "20",
-                        notes: "Aprovecha el banco del hip thrust. (Cuanta más altura tiene el banco, más glúteo trabajamos)",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/N26TyhPhSRI",
-                        imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
-                    }
-                ],
+                sets: 4,
+                reps: "15, 12, 10, 10",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
                 imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
@@ -199,13 +190,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
                     },
                     {
-                        name: "Worm + Flexión",
+                        name: "Crunch - Flexión de Cadera",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/XJFii9NYHNs",
+                        imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -227,13 +218,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        name: "Crunch - V",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/_SCqc7BCW9A",
+                        imageUrl: "https://i.ytimg.com/vi/_SCqc7BCW9A/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -242,6 +233,35 @@ const workoutData = {
             },
             {
                 order: 3,
+                name: "Jalón al Pecho Supino en Polea",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Jalón al Pecho Supino en Polea",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/rimdRzyIJkA",
+                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10",
+                        notes: "Hazlo en la misma polea girando el cuerpo (Puedes hacerlo de pie incluso)",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/rimdRzyIJkA",
+                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Remo con Barra",
                 isSuperset: true,
                 items: [
@@ -255,13 +275,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
                     },
                     {
-                        name: "Thruster con Mancuernas",
+                        name: "Hollow Abdominal Completo",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "30s",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -269,7 +289,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Sentadilla Trasera con Barra",
                 isSuperset: true,
                 items: [
@@ -283,22 +303,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
-                        name: "Dominadas Australianas con Pies en el Suelo",
+                        name: "Plancha - Lateral elevando Pierna",
                         subOrder: 2,
                         sets: 4,
                         reps: "10",
-                        videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
-                        imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones + Mountain Climbers",
-                        subOrder: 3,
-                        sets: 4,
-                        reps: "10",
-                        notes: "Haz las flexiones de rodillas si es necesario",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/-3PDE3ztwzU",
+                        imageUrl: "https://i.ytimg.com/vi/-3PDE3ztwzU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -314,12 +325,15 @@ const exerciseAlternatives = {
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
     "Press Militar en Multipower": [
-        { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
+        { name: "Press MIlitar en Multipower - Rodillas", videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share", imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg" }
     ],
     "Sentadilla Anterior en Máquina Jaca": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
+        { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
+    ],
+    "Jalón al Pecho Supino en Polea": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
     "Remo con Barra": [
