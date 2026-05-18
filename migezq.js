@@ -81,7 +81,7 @@ const workoutData = {
                 name: "HIIT 1:2",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 2,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 60,
                     restBetweenRoundsSeconds: 60
                 },
@@ -186,7 +186,7 @@ const workoutData = {
                 name: "HIIT 1:2",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 2,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 60,
                     restBetweenRoundsSeconds: 60
                 },
@@ -309,7 +309,7 @@ const workoutData = {
                 name: "HIIT 1:2",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 2,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 60,
                     restBetweenRoundsSeconds: 60
                 },
