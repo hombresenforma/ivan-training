@@ -1,4 +1,5 @@
-// Titulo: P19_4D_PHAT_1
+// Titulo: P19_5D_PHAT_1
+// Notas: PHAT: 2 días FUERZA pura + 3 días POTENCIA + HIPERTROFIA
 
 const workoutData = {
     "dia1": {
@@ -38,7 +39,7 @@ const workoutData = {
                 name: "Press Banca con Barra",
                 setTechniques: {},
                 sets: 3,
-                reps: "6",
+                reps: "5",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -49,7 +50,7 @@ const workoutData = {
                 name: "Dominadas con Peso Corporal",
                 setTechniques: {},
                 sets: 3,
-                reps: "6",
+                reps: "5",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
@@ -60,8 +61,8 @@ const workoutData = {
                 name: "Press MIlitar en Multipower - Rodillas",
                 setTechniques: {},
                 sets: 3,
-                reps: "6",
-                rest: "90s",
+                reps: "5",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
                 imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
@@ -71,8 +72,8 @@ const workoutData = {
                 name: "Remo con Barra",
                 setTechniques: {},
                 sets: 3,
-                reps: "6",
-                rest: "90",
+                reps: "5",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/MjnZ52mZgT0",
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
@@ -85,7 +86,7 @@ const workoutData = {
                     {
                         name: "Curl Araña con Mancuernas",
                         subOrder: 1,
-                        sets: 4,
+                        sets: 3,
                         reps: "8",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/vll2f1bqDlA",
@@ -94,7 +95,7 @@ const workoutData = {
                     {
                         name: "Press Francés con Mancuernas en Banco Inclinado",
                         subOrder: 2,
-                        sets: 4,
+                        sets: 3,
                         reps: "8",
                         rest: "90s",
                         videoUrl: "https://youtu.be/L__Q6Jl9Ics",
@@ -134,8 +135,8 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Trasera con Barra",
                 setTechniques: {},
-                sets: 4,
-                reps: "6",
+                sets: 3,
+                reps: "5",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/FK5XU_gaxAE",
@@ -143,50 +144,33 @@ const workoutData = {
             },
             {
                 order: 3,
+                name: "Peso Muerto Rumano con Barra",
+                setTechniques: {},
+                sets: 3,
+                reps: "5",
+                rest: "120s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtu.be/R7FKam5GyNw",
+                imageUrl: "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {},
                 sets: 3,
-                reps: "6",
+                reps: "8",
                 rest: "120s",
-                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
-                order: 4,
-                name: "Hip Thrust con Barra (ExPLICADO)",
-                setTechniques: {},
-                sets: 3,
-                reps: "6",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
-            },
-            {
                 order: 5,
                 name: "Curl Femoral Tumbado en Máquina",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Curl Femoral Tumbado en Máquina",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
-                        imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-                    }
-                ],
+                setTechniques: {},
+                sets: 3,
+                reps: "8",
+                rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
@@ -194,7 +178,7 @@ const workoutData = {
         ]
     },
     "dia3": {
-        name: "TRACCIÓN Volumen",
+        name: "Torso TRACCIÓN",
         exercises: [
             {
                 order: 1,
@@ -229,25 +213,25 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Gironda en Polea",
+                name: "Remo en Máquina T Agarre Abierto",
                 setTechniques: {},
                 sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Jalón al Pecho en Polea",
+                name: "Jalón al Pecho Neutro en Polea",
                 setTechniques: {},
                 sets: 3,
                 reps: "15",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/GYIhmy1P4vY",
-                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -290,7 +274,7 @@ const workoutData = {
         ]
     },
     "dia4": {
-        name: "EMPUJE Volumen",
+        name: "Torso EMPUJE ",
         exercises: [
             {
                 order: 1,
@@ -366,6 +350,74 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "Pierna ",
+        exercises: [
+            {
+                order: 1,
+                name: "Aducción de Piernas en Máquina",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Aducción de Piernas en Máquina",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/7TPklhKZRrc",
+                imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Sentadilla Trasera con Barra",
+                setTechniques: {},
+                sets: 5,
+                reps: "3",
+                rest: "60s",
+                notes: "NO FUERZA. POTENCIA",
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Hip Thrust con Barra (ExPLICADO)",
+                setTechniques: {},
+                sets: 4,
+                reps: "10",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                setTechniques: {},
+                sets: 3,
+                reps: "15",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Extensión de Cuádriceps en Máquina",
+                sets: 3,
+                reps: "15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -384,8 +436,5 @@ const exerciseAlternatives = {
     ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
-    ],
-    "Jalón al Pecho en Polea": [
-        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ]
 };
