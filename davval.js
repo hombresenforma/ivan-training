@@ -32,17 +32,17 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Press Militar con Barra de Pie",
+                name: "Press Militar Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar con Barra de Pie",
+                        name: "Press Militar Sentado con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                        imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas",
@@ -55,8 +55,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -184,7 +184,7 @@ const workoutData = {
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                        videoUrl: "https://www.youtube.com/shorts/OXVOe6UiwxQ",
                         imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
                     },
                     {
@@ -198,7 +198,7 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
+                videoUrl: "https://www.youtube.com/shorts/OXVOe6UiwxQ",
                 imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
             },
             {
@@ -340,8 +340,8 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5A", imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg" }
     ],
-    "Press Militar con Barra de Pie": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
+    "Press Militar Sentado con Mancuernas": [
+        { name: "Press Militar Alterno con Mancuernas", videoUrl: "https://youtube.com/shorts/pKvRPUg6MB8?feature=share", imageUrl: "https://i.ytimg.com/vi/pKvRPUg6MB8/mqdefault.jpg" }
     ],
     "Press Banca con Barra": [
         { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
@@ -353,7 +353,7 @@ const exerciseAlternatives = {
         { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
     "Remo Unilat con Mancuerna/KTB (Explicado)": [
-        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
+        { name: "Remo Unilat Sentado en Polea Media", videoUrl: "https://youtube.com/shorts/kjbRoWIl7eI", imageUrl: "https://i.ytimg.com/vi/kjbRoWIl7eI/mqdefault.jpg" }
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
