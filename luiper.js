@@ -1,11 +1,10 @@
 // Titulo: P4_3D_APTOR_HIIT_1
 // Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -35,14 +34,14 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada Dinámica",
+                        name: "Zancada Unilat con Mancuerna/Kettlebell",
                         subOrder: 2,
                         sets: 3,
                         reps: "24",
-                        notes: "12 por lado.",
+                        notes: "6 por lado.",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
-                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/xyl28TxLlsM",
+                        imageUrl: "https://i.ytimg.com/vi/xyl28TxLlsM/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -69,8 +68,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
@@ -88,27 +87,28 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 1,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     }
                 ],
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             }
         ]
     },
@@ -140,13 +140,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla con Salto",
+                        name: "Sentadilla Isométrica",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
+                        reps: "30 seg",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/epS5o03foYc",
+                        imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -197,6 +197,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
@@ -250,8 +251,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
@@ -272,8 +273,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 4,
@@ -342,11 +343,9 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Militar en Multipower": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
