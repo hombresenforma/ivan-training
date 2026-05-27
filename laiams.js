@@ -6,14 +6,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Supinas Asistidas en Máquina",
+                name: "Remo Diagonal Unilat en Polea Alta",
                 setTechniques: {"4":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
-                imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -299,7 +299,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Dominadas Supinas Asistidas en Máquina": [
+    "Remo Diagonal Unilat en Polea Alta": [
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
     "Push Press en Multipower de Rodillas": [
