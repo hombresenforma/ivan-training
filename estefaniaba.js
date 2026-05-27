@@ -1,4 +1,5 @@
-// Titulo: P17_3D_TorPierFB_1_ FEM 1
+// Titulo: P17_3D_TorPierFB_1_ FEM_2
+// Notas: - Cambiamos ejercicios básicos de cada día y cambiamos ejercicios del circuito final del día 3. 
 
 const workoutData = {
     "dia1": {
@@ -6,14 +7,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Dominadas Asistidas en Máquina",
+                name: "Remo Diagonal Unilat en Polea Alta",
                 setTechniques: {"4":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
-                imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/ikKQhcynKmg",
+                imageUrl: "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -110,14 +111,14 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Sentadilla Sumo con Mancuerna/Kettlebell",
+                name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {"4":"DROPSET"},
                 sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Coge peso ELEVADO y sube piernas si hace falta (pon un disco bajo cada pie). ",
-                videoUrl: "https://youtu.be/ifBHyfgLe8k",
-                imageUrl: "https://i.ytimg.com/vi/ifBHyfgLe8k/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
+                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -185,31 +186,31 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Curl Cruzado + Zancada con KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Prensa Inclinada en Máquina de Discos",
+                        name: "Curl Cruzado + Zancada con KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                        imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                        imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
                     },
                     {
-                        name: "Worm + Flexión",
+                        name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
+                        imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -269,53 +270,52 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Sentadilla Trasera con Barra",
+                name: "Jalón al Pecho en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Trasera con Barra",
+                        name: "Jalón al Pecho en Polea",
                         subOrder: 1,
                         sets: 4,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/GYIhmy1P4vY",
+                        imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
                     },
                     {
-                        name: "Dominadas Australianas con Pies en el Suelo",
+                        name: "Sentadilla Goblet + Sentadilla Sumo con KTB",
                         subOrder: 2,
                         sets: 4,
                         reps: "10",
-                        videoUrl: "https://www.youtube.com/watch?v=-GFyrw9BJVk",
-                        imageUrl: "https://i.ytimg.com/vi/-GFyrw9BJVk/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/oz1SagvDVe8",
+                        imageUrl: "https://i.ytimg.com/vi/oz1SagvDVe8/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones + Mountain Climbers",
+                        name: "Face Pull con KTB",
                         subOrder: 3,
                         sets: 4,
                         reps: "10",
-                        notes: "Haz las flexiones de rodillas si es necesario",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        imageUrl: "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                videoUrl: "https://youtu.be/GYIhmy1P4vY",
+                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Dominadas Asistidas en Máquina": [
+    "Remo Diagonal Unilat en Polea Alta": [
         { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
     ],
     "Push Press en Multipower de Rodillas": [
         { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
     ],
-    "Sentadilla Sumo con Mancuerna/Kettlebell": [
+    "Prensa Inclinada en Máquina de Discos": [
         { name: "Sentadilla Sumo con Mancuerna/Kettlebell", videoUrl: "https://youtu.be/ifBHyfgLe8k", imageUrl: "https://i.ytimg.com/vi/ifBHyfgLe8k/mqdefault.jpg" }
     ],
     "Press Militar Sentado con Mancuernas (ExPLICADO)": [
