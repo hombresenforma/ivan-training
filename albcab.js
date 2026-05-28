@@ -13,7 +13,7 @@ const workoutData = {
                         name: "Sentadilla con Peso Corporal",
                         subOrder: 1,
                         sets: 2,
-                        reps: "15",
+                        reps: "20",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/NWes6fd1Sxs",
                         imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
@@ -22,7 +22,7 @@ const workoutData = {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 2,
                         sets: 2,
-                        reps: "15",
+                        reps: "20",
                         rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
                         imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
@@ -45,7 +45,8 @@ const workoutData = {
             {
                 order: 3,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
                 reps: "8-10",
                 rest: "60s",
                 notes: "",
@@ -75,7 +76,7 @@ const workoutData = {
             {
                 order: 7,
                 name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
-                sets: 2,
+                sets: 3,
                 reps: "12",
                 rest: "60s",
                 notes: "",
@@ -106,7 +107,7 @@ const workoutData = {
                         name: "Worm",
                         subOrder: 1,
                         sets: 2,
-                        reps: "15",
+                        reps: "20",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -115,7 +116,7 @@ const workoutData = {
                         name: "Sentadilla con Salto",
                         subOrder: 2,
                         sets: 2,
-                        reps: "15",
+                        reps: "20",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
                         imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
@@ -138,7 +139,8 @@ const workoutData = {
             {
                 order: 3,
                 name: "Remo Gironda en Polea",
-                sets: 3,
+                setTechniques: {"4":"DROPSET"},
+                sets: 4,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -178,7 +180,7 @@ const workoutData = {
             {
                 order: 7,
                 name: "Extensión de Tríceps Unilat en Polea",
-                sets: 2,
+                sets: 3,
                 reps: "12",
                 rest: "60s",
                 notes: "",
