@@ -206,6 +206,92 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "EXTRAS",
+        exercises: [
+            {
+                order: 1,
+                name: "Abducción de Glúteo Unilat en el Suelo",
+                isWarmup: true,
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                imageUrl: "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Banca con Barra",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Banca con Barra",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/PKpsrFS2uac",
+                        imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Avanzada",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/nH9AQFIJ1rY",
+                        imageUrl: "https://i.ytimg.com/vi/nH9AQFIJ1rY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/PKpsrFS2uac",
+                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 15,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Flexiones + Mountain Climbers",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Buenos Días con Landmine",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "45s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/3j6KS3ZdRU0",
+                        imageUrl: "https://i.ytimg.com/vi/3j6KS3ZdRU0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+                imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
