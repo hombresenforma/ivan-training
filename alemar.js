@@ -1,6 +1,6 @@
 // Titulo: P3_3D_APFB_INOUT_1
 
-const workoutData = {
+NOconst workoutData = {
     "dia1": {
         name: "Anterior IN-OUT",
         exercises: [
