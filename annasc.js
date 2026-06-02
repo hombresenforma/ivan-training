@@ -1,4 +1,4 @@
-// Titulo: P17_3D_TorPierFB_1_ FEM 1
+// Titulo: P18_3D_CIRCUITOS_1_FEM
 
 const workoutData = {
     "dia1": {
