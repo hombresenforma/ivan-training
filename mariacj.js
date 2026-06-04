@@ -1,4 +1,4 @@
-// Titulo: P11_3+1_TorPierTor_TWS_TSBACKOFF_2 (FEM)
+// Titulo: P11_3+1_TorPierTor_TWS_TSBACKOFF_3 (FEM)
 // Notas: Trabajo por TOPSET-BACKOFF y SERIES AL FALLO.
 // For Time 21,15,9 + Trabajo de abdomen POLEA
 // Contenido de app_datos.js
@@ -11,28 +11,18 @@ const workoutData = {
         name: "Empuje COMPLETO",
         exercises: [
             {
-                order: 2,
-                name: "Press Militar en Multipower",
+                order: 1,
+                name: "Push Press en Multipower de Rodillas",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 6, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/PY6nrqJazYw?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/PY6nrqJazYw/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Sentadilla Trasera con Barra Talones Elevados",
-                sets: 4,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/FYuU4CAAT1I",
-                imageUrl: "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg"
-            },
-            {
-                order: 4,
+                order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
                 sets: 3,
                 reps: "10",
@@ -42,7 +32,35 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 3,
+                name: "Sentadilla Trasera en Multipower",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sentadilla Trasera en Multipower",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/la-dqygoIuk",
+                        imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Isométrica",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/epS5o03foYc",
+                        imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/la-dqygoIuk",
+                imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Fondos de Tríceps con Pies Elevados",
                 isSuperset: true,
                 items: [
@@ -76,31 +94,49 @@ const workoutData = {
         exercises: [
             {
                 order: 2,
-                name: "Remo en Máquina T Agarre Estrecho",
+                name: "Remo Unilat de Rodillas en Polea Media",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 6, 12",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
-                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/QIXtVCov-Wc",
+                imageUrl: "https://i.ytimg.com/vi/QIXtVCov-Wc/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 4,
-                reps: "10",
+                reps: "16",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 4,
                 name: "Jalón al Pecho Supino en Polea",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Jalón al Pecho Supino en Polea",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/rimdRzyIJkA",
+                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "16",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
+                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://youtu.be/rimdRzyIJkA",
                 imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
@@ -299,14 +335,29 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
             }
         ]
+    },
+    "dia6": {
+        name: "NATACIÓN 2",
+        exercises: [
+            {
+                order: 1,
+                name: "CARDIO - Bicicleta (Ritmo Suave)",
+                sets: 1,
+                reps: "1",
+                rest: "1",
+                notes: "200m suaves - WARMUP\n\nCROLL:\n1x100m Piernas - 2x50m Brazos - 1x100m Completos - 2x50m Fuertes. 90\"\n\nESPALDA:\n1x100m Piernas - 2x50m Brazos - 1x100m Completos - 2x50m Fuertes. 90\"\n\nBRAZA:\n- 4x50m (3 segundos deslizamiento por cada patada). 30\"\n\nFINAL:\n- 4x50m (25m suaves - 25m a tope). 60\"",
+                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+            }
+        ]
     }
 };
 
 const exerciseAlternatives = {
-    "Press Militar en Multipower": [
-        { name: "Press Militar con Barra Sentado (Half Press)", videoUrl: "https://www.youtube.com/watch?v=q0C0BaHITAc", imageUrl: "https://i.ytimg.com/vi/q0C0BaHITAc/mqdefault.jpg" }
+    "Sentadilla Trasera en Multipower": [
+        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Remo en Máquina T Agarre Estrecho": [
+    "Remo Unilat de Rodillas en Polea Media": [
         { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Sentadilla Posterior en Máquina Jaca": [
