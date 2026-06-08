@@ -334,6 +334,182 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Circuito Metabólico 1",
+        exercises: [
+            {
+                order: 1,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 4
+                },
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "12",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 2,
+                        reps: "10",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 3,
+                        reps: "8",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia5": {
+        name: "Circuito Metabólico 2",
+        exercises: [
+            {
+                order: 1,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 5
+                },
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "12",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 2,
+                        reps: "10",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 3,
+                        reps: "8",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia6": {
+        name: "Circuito Metabólico 3",
+        exercises: [
+            {
+                order: 1,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 3
+                },
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "20",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 2,
+                        reps: "15",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 3,
+                        reps: "8",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia7": {
+        name: "Circuito Metabólico 4",
+        exercises: [
+            {
+                order: 1,
+                name: "FOR TIME",
+                isSuperset: true,
+                isForTime: true,
+                forTimeDetails: {
+                    totalRounds: 6
+                },
+                items: [
+                    {
+                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        reps: "10",
+                        isForTimeItem: true,
+                        notes: "Alterna entre brazos",
+                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 2,
+                        reps: "15",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Worm + Burpee",
+                        subOrder: 3,
+                        reps: "5",
+                        isForTimeItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Alterna entre brazos",
+                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
+                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+            }
+        ]
     }
 };
 
