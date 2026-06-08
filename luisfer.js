@@ -1,4 +1,6 @@
-// Titulo: P7_3D_CIRCUITOSFULLBODY_1
+// Titulo: P7_3D_CIRCUITOSFULLBODY_2
+// Notas: - Cambiamos ejercicios de la primera superserie y el último ejercicio del día.
+// - Bloques de cardio, mismo volumen pero trabajo por intervalos (30s fuertes + 30 suaves)
 
 const workoutData = {
     "dia1": {
@@ -6,38 +8,62 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Militar con Mancuernas Agarre Neutro",
+                name: "Sentadilla Trasera con Barra",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar con Mancuernas Agarre Neutro",
+                        name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=C6NaHhnQavs",
-                        imageUrl: "https://i.ytimg.com/vi/C6NaHhnQavs/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 2,
                         sets: 3,
-                        reps: "15",
+                        reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/lfb6neUpfP8",
-                        imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=C6NaHhnQavs",
-                imageUrl: "https://i.ytimg.com/vi/C6NaHhnQavs/mqdefault.jpg"
+                videoUrl: "https://youtu.be/FK5XU_gaxAE",
+                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "240s",
-                rest: "60s",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Correr (Sprint)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Puedes hacerlo al aire libre si lo prefieres.",
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Correr (Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    }
+                ],
                 notes: "Puedes hacerlo al aire libre si lo prefieres.",
                 videoUrl: "https://youtu.be/KKvRtNn904g",
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
@@ -72,10 +98,34 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "180s",
-                rest: "60s",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Correr (Sprint)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Puedes hacerlo al aire libre si lo prefieres.",
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Correr (Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    }
+                ],
                 notes: "Puedes hacerlo al aire libre si lo prefieres.",
                 videoUrl: "https://youtu.be/KKvRtNn904g",
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
@@ -118,32 +168,57 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "120s",
-                rest: "60s",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 2,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Correr (Sprint)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Puedes hacerlo al aire libre si lo prefieres.",
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Correr (Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/KKvRtNn904g",
+                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                    }
+                ],
                 notes: "Puedes hacerlo al aire libre si lo prefieres.",
                 videoUrl: "https://youtu.be/KKvRtNn904g",
                 imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             },
             {
                 order: 7,
-                name: "Zancadas Caminando con Mancuernas/KTB",
+                name: "Zancada Cruzada Alterna con KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        name: "Zancada Cruzada Alterna con KTB",
                         subOrder: 1,
                         sets: 2,
                         reps: "20",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        notes: "Puedes usar una mancuerna",
+                        videoUrl: "https://youtu.be/tDxEIukiV38",
+                        imageUrl: "https://i.ytimg.com/vi/tDxEIukiV38/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                notes: "Puedes usar una mancuerna",
+                videoUrl: "https://youtu.be/tDxEIukiV38",
+                imageUrl: "https://i.ytimg.com/vi/tDxEIukiV38/mqdefault.jpg"
             }
         ]
     },
@@ -152,40 +227,65 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                name: "Curl + Press con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        name: "Curl + Press con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12",
+                        reps: "10",
                         isSupersetStart: true,
                         notes: "Alterna entre brazos",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/siOTRSu2ORY",
+                        imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
                     },
                     {
-                        name: "Worm + Flexión",
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 2,
                         sets: 3,
-                        reps: "6",
+                        reps: "16",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
-                        imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
                     }
                 ],
                 notes: "Alterna entre brazos",
-                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/siOTRSu2ORY",
+                imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Cardio - Remo en Máquina",
-                sets: 1,
-                reps: "240s",
-                rest: "60s",
-                notes: "",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo FUERTE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo SUAVE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ritmo FUERTE",
                 videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
                 imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             },
@@ -219,11 +319,36 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Cardio - Remo en Máquina",
-                sets: 1,
-                reps: "180s",
-                rest: "60s",
-                notes: "",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo FUERTE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo SUAVE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ritmo FUERTE",
                 videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
                 imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             },
@@ -257,23 +382,48 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Cardio - Remo en Máquina",
-                sets: 1,
-                reps: "120s",
-                rest: "60s",
-                notes: "",
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 2,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo FUERTE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cardio - Remo en Máquina",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Ritmo SUAVE",
+                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                    }
+                ],
+                notes: "Ritmo FUERTE",
                 videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
                 imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             },
             {
                 order: 7,
-                name: "Step Up Lateral Alterno en Step",
+                name: "Devil Press Unilateral Alterno con Mancuerna",
                 sets: 2,
-                reps: "20",
+                reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/N26TyhPhSRI",
-                imageUrl: "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/uAICrzDbN0o",
+                imageUrl: "https://i.ytimg.com/vi/uAICrzDbN0o/mqdefault.jpg"
             }
         ]
     },
@@ -282,41 +432,64 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Cardio - Press Dinámico Unilat con Landmine",
+                name: "Remo Inclinado en Landmine",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Cardio - Press Dinámico Unilat con Landmine",
+                        name: "Remo Inclinado en Landmine",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/9_faYEjxCTU",
-                        imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/5gakUsid-Lg",
+                        imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
                     },
                     {
-                        name: "Gorilla Row con Kettlebells/Mancuernas",
+                        name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "20",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/4hKPsdWsXl8",
-                        imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/9_faYEjxCTU",
-                imageUrl: "https://i.ytimg.com/vi/9_faYEjxCTU/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5gakUsid-Lg",
+                imageUrl: "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "CARDIO - Bicicleta (Ritmo Suave)",
-                sets: 1,
-                reps: "240s",
-                rest: "60s",
-                notes: "Liberación.",
-                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
-                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -349,13 +522,36 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "CARDIO - Bicicleta (Ritmo Suave)",
-                sets: 1,
-                reps: "180s",
-                rest: "60s",
-                notes: "Liberación.",
-                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
-                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 3,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -387,41 +583,46 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "CARDIO - Bicicleta (Ritmo Suave)",
-                sets: 1,
-                reps: "120s",
-                rest: "60s",
-                notes: "Liberación.",
-                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
-                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "Kettlebell - Thruster",
+                name: "Circuito",
                 isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 2,
+                    restBetweenExercisesSeconds: 3,
+                    restBetweenRoundsSeconds: 3
+                },
                 items: [
                     {
-                        name: "Kettlebell - Thruster",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 1,
-                        sets: 2,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/52JAS52W8Hw",
-                        imageUrl: "https://i.ytimg.com/vi/52JAS52W8Hw/mqdefault.jpg"
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
                     {
-                        name: "Kettlebell - Swing Americano",
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
                         subOrder: 2,
-                        sets: 2,
-                        reps: "12",
-                        rest: "60s",
-                        videoUrl: "https://youtu.be/_kVSgpKXc_k",
-                        imageUrl: "https://i.ytimg.com/vi/_kVSgpKXc_k/mqdefault.jpg"
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/52JAS52W8Hw",
-                imageUrl: "https://i.ytimg.com/vi/52JAS52W8Hw/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "Thruster con Mancuernas",
+                sets: 2,
+                reps: "15",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     }
