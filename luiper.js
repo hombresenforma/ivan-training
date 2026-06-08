@@ -2,12 +2,11 @@
 // Notas: - Añadimos 2 ejercicios en super-serie antes del HIIT.
 // - HIIT 1:1 y añadimos 2 vueltas más (6).
 // - En el día de Torso, añadimos 1 serie a los 2 básicos de brazos. 
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -71,8 +70,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
@@ -118,27 +117,28 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 1,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     }
                 ],
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
             }
         ]
     },
@@ -175,8 +175,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -255,6 +255,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
@@ -308,8 +309,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
@@ -330,8 +331,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 4,
@@ -400,7 +401,7 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Militar en Multipower": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
@@ -409,5 +410,3 @@ const exerciseAlternatives = {
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
