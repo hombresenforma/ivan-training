@@ -359,7 +359,7 @@ const workoutData = {
                     {
                         name: "Sit Up Abdominal con Disco",
                         subOrder: 2,
-                        reps: "10",
+                        reps: "12",
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
                         imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
@@ -392,13 +392,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        name: "Sit Up Unilateral con Mancuerna/KTB",
                         subOrder: 1,
                         reps: "12",
                         isForTimeItem: true,
                         notes: "Alterna entre brazos",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/INcd--4kK5k",
+                        imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
                     },
                     {
                         name: "Sit Up Abdominal con Disco",
@@ -418,8 +418,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Alterna entre brazos",
-                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                videoUrl: "https://youtu.be/INcd--4kK5k",
+                imageUrl: "https://i.ytimg.com/vi/INcd--4kK5k/mqdefault.jpg"
             }
         ]
     },
@@ -436,13 +436,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        name: "Devil Press + Thruster con Mancuernas",
                         subOrder: 1,
                         reps: "20",
                         isForTimeItem: true,
                         notes: "Alterna entre brazos",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
                     },
                     {
                         name: "Sit Up Abdominal con Disco",
@@ -462,8 +462,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Alterna entre brazos",
-                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
+                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
             }
         ]
     },
@@ -480,13 +480,13 @@ const workoutData = {
                 },
                 items: [
                     {
-                        name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
+                        name: "Curl Cruzado + Zancada con KTB",
                         subOrder: 1,
                         reps: "10",
                         isForTimeItem: true,
                         notes: "Alterna entre brazos",
-                        videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                        imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                        imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
                     },
                     {
                         name: "Sit Up Abdominal con Disco",
@@ -506,8 +506,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Alterna entre brazos",
-                videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
-                imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/osSjzEvbOAY",
+                imageUrl: "https://i.ytimg.com/vi/osSjzEvbOAY/mqdefault.jpg"
             }
         ]
     }
