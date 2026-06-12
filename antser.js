@@ -76,7 +76,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 8,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
@@ -181,7 +181,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 8,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
@@ -305,7 +305,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 8,
+                    totalRounds: 4,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
