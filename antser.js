@@ -1,10 +1,5 @@
 // Titulo: P4_3D_APTOR_HIIT_1
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -50,11 +45,11 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Militar Sentado con Mancuernas (Explicado)",
+                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar Sentado con Mancuernas (Explicado)",
+                        name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
@@ -63,13 +58,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
                     },
                     {
-                        name: "Fondos en Banco",
+                        name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
+                        imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -78,36 +73,37 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 8,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 0
                 },
                 items: [
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "Burpee Completo",
                         subOrder: 1,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Correr (Sprint)",
+                        name: "Worm",
                         subOrder: 2,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     }
                 ],
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                videoUrl: "https://youtu.be/qfBhsTabWN0",
+                imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
             }
         ]
     },
@@ -144,8 +140,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -182,36 +178,38 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 8,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 0
                 },
                 items: [
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        name: "Jumping Jack",
                         subOrder: 1,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
+                        videoUrl: "https://youtu.be/K5PMB8CauGM",
+                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        name: "Sit Up Abdominal con Disco",
                         subOrder: 2,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        notes: "Usa disco o pesa",
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     }
                 ],
                 notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                videoUrl: "https://youtu.be/K5PMB8CauGM",
+                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
             }
         ]
     },
@@ -220,13 +218,13 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Curl Scott con Barra Z",
+                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                 sets: 3,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -304,36 +302,37 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "HIIT 1:2",
+                name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                    totalRounds: 8,
+                    restBetweenExercisesSeconds: 10,
+                    restBetweenRoundsSeconds: 0
                 },
                 items: [
                     {
-                        name: "Cardio - Remo en Máquina",
+                        name: "Burpee Completo",
                         subOrder: 1,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - Remo en Máquina",
+                        name: "Worm",
                         subOrder: 2,
                         sets: 1,
-                        reps: "30s",
+                        reps: "20s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                notes: "Haz el descanso a ritmo suave, pero no pares.",
+                videoUrl: "https://youtu.be/qfBhsTabWN0",
+                imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
             }
         ]
     }
@@ -343,10 +342,7 @@ const exerciseAlternatives = {
     "Dominadas / Pull Ups asistidas con Goma": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
     ],
-    "Curl Scott con Barra Z": [
+    "Curl de Bíceps Apoyado en Banco con Mancuernas": [
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-
