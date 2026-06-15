@@ -198,6 +198,62 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "Hitt",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 8,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Jumping Jack",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/K5PMB8CauGM",
+                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla con Salto",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "20",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Burpee Completo",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/K5PMB8CauGM",
+                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+            }
+        ]
     }
 };
 
