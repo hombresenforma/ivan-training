@@ -1,5 +1,5 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME 
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio. 
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
+// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
 
 const workoutData = {
     "dia1": {
@@ -100,6 +100,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/4hKPsdWsXl8",
                 imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10",
+                rest: "60s",
+                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -193,6 +203,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/1MgU2PO4_rI",
                 imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10",
+                rest: "60s",
+                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -331,6 +351,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/qfBhsTabWN0",
                 imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10",
+                rest: "60s",
+                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     }
