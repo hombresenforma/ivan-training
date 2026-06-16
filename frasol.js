@@ -316,6 +316,63 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Hitt Abdominales",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 8,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30 seg",
+                        isEMOMItem: true,
+                        notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow - Nivel 1",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30 seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/hqB_aA5phBA",
+                        imageUrl: "https://i.ytimg.com/vi/hqB_aA5phBA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
+                videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+            }
+        ]
     }
 };
 
