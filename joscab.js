@@ -1,4 +1,4 @@
-// Titulo: P7_3D_CIRCUITOSFULLBODY_1
+-// Titulo: P7_3D_CIRCUITOSFULLBODY_1
 
 const workoutData = {
     "dia1": {
