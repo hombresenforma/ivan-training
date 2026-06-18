@@ -6,13 +6,13 @@ const workoutData = {
         exercises: [
             {
                 order: 2,
-                name: "Press Inclinado con Mancuernas",
+                name: "Floor Press con Mancuernas",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -247,13 +247,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Press Francés con Mancuernas en Banco Inclinado",
+                name: "Flexiones Diamante / Diamond Pushups",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/L__Q6Jl9Ics",
-                imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=6K5n0Lja4Uc",
+                imageUrl: "https://i.ytimg.com/vi/6K5n0Lja4Uc/mqdefault.jpg"
             },
             {
                 order: 4,
