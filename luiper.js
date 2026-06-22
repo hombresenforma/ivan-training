@@ -30,7 +30,7 @@ const workoutData = {
                         name: "Sentadilla Isométrica",
                         subOrder: 1,
                         sets: 3,
-                        reps: "15",
+                        reps: "30s",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/epS5o03foYc",
                         imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
