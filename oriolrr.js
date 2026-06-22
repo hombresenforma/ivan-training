@@ -1,4 +1,6 @@
-// Titulo: Iván JUNIO
+// Titulo: Iván JUNIO_2
+// Notas: - Añadimos en el principal 4ta serie a 20 reps.
+// - Añadimos día de TORSO COMPLETO. 
 
 const workoutData = {
     "dia1": {
@@ -18,8 +20,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo en Máquina T Agarre Estrecho",
-                sets: 3,
-                reps: "6, 6, 12",
+                sets: 4,
+                reps: "6, 6, 12, 20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
@@ -53,7 +55,7 @@ const workoutData = {
                     {
                         name: "Jalón al Pecho en Polea",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
@@ -63,7 +65,7 @@ const workoutData = {
                     {
                         name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
@@ -82,7 +84,7 @@ const workoutData = {
                     {
                         name: "Curl Femoral Tumbado en Máquina",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
@@ -91,7 +93,7 @@ const workoutData = {
                     {
                         name: "Face Pull al Cuello en Polea Alta",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
@@ -121,8 +123,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Barra",
-                sets: 3,
-                reps: "6, 6, 12",
+                sets: 4,
+                reps: "6, 6, 12, 20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/PKpsrFS2uac",
@@ -156,7 +158,7 @@ const workoutData = {
                     {
                         name: "Aperturas en Máquina Contractora",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
@@ -166,7 +168,7 @@ const workoutData = {
                     {
                         name: "Extensión de Tríceps Trasnuca en Polea Alta",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/HSPEHrwmOv8",
@@ -185,7 +187,7 @@ const workoutData = {
                     {
                         name: "Extensión de Cuádriceps en Máquina",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
@@ -194,7 +196,7 @@ const workoutData = {
                     {
                         name: "Extensión de Tríceps en Polea con Cuerda",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
@@ -206,12 +208,115 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        name: "Torso Completo",
+        exercises: [
+            {
+                order: 1,
+                name: "Crunch - V",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch - V",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/_SCqc7BCW9A",
+                        imageUrl: "https://i.ytimg.com/vi/_SCqc7BCW9A/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal con Brazos a los Lados",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "30s",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/Ewp7N3-NYAY",
+                        imageUrl: "https://i.ytimg.com/vi/Ewp7N3-NYAY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/_SCqc7BCW9A",
+                imageUrl: "https://i.ytimg.com/vi/_SCqc7BCW9A/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Militar con Barra de Pie",
+                sets: 4,
+                reps: "6, 6, 12, 20",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0",
+                imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Dominadas Supinas",
+                sets: 4,
+                reps: "6, 6, 12, 20",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Press Inclinado Alterno con Mancuernas",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtube.com/shorts/s6AaBOdiE6M?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/s6AaBOdiE6M/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Remo Abierto Alterno en Máquina",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://youtube.com/shorts/13Xv87XBLLA?feature=share",
+                imageUrl: "https://i.ytimg.com/vi/13Xv87XBLLA/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Curl de Biceps Sentado con Barra Z",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl de Biceps Sentado con Barra Z",
+                        subOrder: 1,
+                        sets: 4,
+                        reps: "10",
+                        isSupersetStart: true,
+                        notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                        videoUrl: "https://www.youtube.com/shorts/D1Ix4-fxyhE",
+                        imageUrl: "https://i.ytimg.com/vi/D1Ix4-fxyhE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Francés + Press Cerrado con Barra Z",
+                        subOrder: 2,
+                        sets: 4,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/MpF94C3Z8_g",
+                        imageUrl: "https://i.ytimg.com/vi/MpF94C3Z8_g/mqdefault.jpg"
+                    }
+                ],
+                notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                videoUrl: "https://www.youtube.com/shorts/D1Ix4-fxyhE",
+                imageUrl: "https://i.ytimg.com/vi/D1Ix4-fxyhE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
 const exerciseAlternatives = {
     "Remo en Máquina T Agarre Estrecho": [
-        { name: "Dominadas Supinas", videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y", imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg" }
+        { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl con Barra Recta", videoUrl: "https://youtu.be/0TjnWWqQfUw", imageUrl: "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg" }
@@ -227,5 +332,17 @@ const exerciseAlternatives = {
     ],
     "Press Militar Sentado con Mancuernas": [
         { name: "Press Militar en Multipower", videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI", imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg" }
+    ],
+    "Press Militar con Barra de Pie": [
+        { name: "Press MIlitar en Multipower - Rodillas", videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share", imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg" }
+    ],
+    "Dominadas Supinas": [
+        { name: "Press MIlitar en Multipower - Rodillas", videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share", imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg" }
+    ],
+    "Press Inclinado Alterno con Mancuernas": [
+        { name: "Press Militar en Multipower", videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI", imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg" }
+    ],
+    "Remo Abierto Alterno en Máquina": [
+        { name: "Remo Seal con Mancuernas", videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o", imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg" }
     ]
 };
