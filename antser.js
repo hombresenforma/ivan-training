@@ -22,7 +22,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Trasera con Barra",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/FK5XU_gaxAE",
@@ -31,10 +31,10 @@ const workoutData = {
                     {
                         name: "Zancada Dinámica",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "24",
                         notes: "12 por lado.",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
                         imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
                     }
@@ -51,7 +51,7 @@ const workoutData = {
                     {
                         name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
@@ -60,9 +60,9 @@ const workoutData = {
                     {
                         name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                         imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
@@ -76,7 +76,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
@@ -128,7 +128,7 @@ const workoutData = {
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
@@ -137,9 +137,9 @@ const workoutData = {
                     {
                         name: "Sentadilla con Salto",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
                         imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
@@ -156,7 +156,7 @@ const workoutData = {
                     {
                         name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/uH9Hg4nWOG8",
@@ -165,9 +165,9 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
                         imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
                     }
@@ -181,7 +181,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
@@ -219,9 +219,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
-                rest: "90s",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
                 imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
@@ -229,9 +229,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Fondos en Paralelas con Peso Corporal",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
-                rest: "90s",
+                rest: "60s",
                 notes: "Utiliza la máquina asistida o banda elástica si lo necesitas. ",
                 videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
                 imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
@@ -244,7 +244,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -253,7 +253,7 @@ const workoutData = {
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/S32a3nYiWko",
                         imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
@@ -261,9 +261,9 @@ const workoutData = {
                     {
                         name: "Flexiones Diamante / Diamond Pushups",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/watch?v=6K5n0Lja4Uc",
                         imageUrl: "https://i.ytimg.com/vi/6K5n0Lja4Uc/mqdefault.jpg"
                     }
@@ -280,7 +280,7 @@ const workoutData = {
                     {
                         name: "Gorilla Row con Kettlebells/Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/4hKPsdWsXl8",
@@ -289,9 +289,9 @@ const workoutData = {
                     {
                         name: "Muscle Snatch Unilat con Mancuerna/KTB",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/00FzH7YaDwc",
                         imageUrl: "https://i.ytimg.com/vi/00FzH7YaDwc/mqdefault.jpg"
                     }
@@ -305,7 +305,7 @@ const workoutData = {
                 name: "TABATA",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 10,
                     restBetweenRoundsSeconds: 10
                 },
