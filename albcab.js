@@ -92,6 +92,16 @@ const workoutData = {
                 notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
                 videoUrl: "https://youtu.be/DQ4wYExQRJo",
                 imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+            },
+            {
+                order: 8,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10min",
+                rest: "60s",
+                notes: "Andar, con inclinación 5 a velocidad 5-6 durante 10 min",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -196,6 +206,16 @@ const workoutData = {
                 notes: "Mantén la Lumbar pegada al suelo",
                 videoUrl: "https://youtu.be/wNqGgCjBVaE",
                 imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            },
+            {
+                order: 9,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10min",
+                rest: "60s",
+                notes: "Andar con inclinación 5 a velocidad 5-6 durante 10 min",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
