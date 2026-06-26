@@ -2,12 +2,11 @@
 // Notas: - Añadimos 2 ejercicios en super-serie antes del HIIT.
 // - HIIT 1:1 y añadimos 2 vueltas más (6).
 // - En el día de Torso, añadimos 1 serie a los 2 básicos de brazos. 
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Anterior HIIT",
@@ -71,8 +70,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/NSB_HrDwd6I",
-                        imageUrl: "https://i.ytimg.com/vi/NSB_HrDwd6I/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
@@ -123,6 +122,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://youtu.be/KKvRtNn904g",
                         imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
                     },
@@ -175,8 +175,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -255,6 +255,7 @@ const workoutData = {
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
+                        notes: "Haz el descanso a ritmo suave, pero no pares.",
                         videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
                         imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
                     },
@@ -308,8 +309,8 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Curl con Mancuernas Sentado en Banco Inclinado",
@@ -330,8 +331,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 4,
@@ -395,12 +396,114 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "DÍA 4: ",
+        exercises: [
+            {
+                order: 1,
+                name: "Jumping Jack",
+                isWarmup: true,
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Jumping Jack",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "30",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/K5PMB8CauGM",
+                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+                    },
+                    {
+                        name: "Burpee Completo",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/qfBhsTabWN0",
+                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/K5PMB8CauGM",
+                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/lfb6neUpfP8",
+                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Floor Press con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Curl + Press con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/siOTRSu2ORY",
+                imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Mountain Climber",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Mountain Climber",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "30",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/GZWmYzClS3s",
+                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones con Peso Corporal",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/GZWmYzClS3s",
+                imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Crunch - Normal",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "Mantén la Lumbar pegada al suelo",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
 const exerciseAlternatives = {
     "Press Militar en Multipower": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o", imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg" }
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
     ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
@@ -409,5 +512,3 @@ const exerciseAlternatives = {
         { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
