@@ -1,5 +1,8 @@
-// Titulo: P18_3D_DESCARGA_1
-// Notas: 2 Semanas de DESCARGA: Lejos del Fallo y volumen. 
+// Titulo: P18_3D_DESCARGA_2
+// Notas: 2 Semanas de TRANSICIÓN a PHAT u OTRA DE "HIPERTROFIA": 
+// - Básico: Añadimos 1 serie y empezamos a apretar.
+// - Superserie Volumen: Añadimos 25 reps de cada ejercicio. 
+// - + Añadimos un ejercicio más al final.
 
 const workoutData = {
     "dia1": {
@@ -32,8 +35,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
-                reps: "12",
+                sets: 4,
+                reps: "12, 18, 8, 8",
                 rest: "90s",
                 notes: "Lejos del fallo. Coge un peso para 15-16reps. ",
                 videoUrl: "https://youtu.be/hXCJC2Apcdg",
@@ -45,7 +48,7 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 15
+                    totalRounds: 20
                 },
                 items: [
                     {
@@ -71,6 +74,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Cruces en Polea Alta",
+                sets: 3,
+                reps: "12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/Ht9awbF2fBA",
+                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Extensión de Tríceps en Polea con Cuerda",
                 sets: 3,
                 reps: "12",
@@ -110,8 +123,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Jalón al Pecho Supino en Polea",
-                sets: 3,
-                reps: "12",
+                sets: 4,
+                reps: "12, 10, 8, 8",
                 rest: "90s",
                 notes: "Lejos del fallo. Coge un peso para 15-16reps. ",
                 videoUrl: "https://youtu.be/rimdRzyIJkA",
@@ -123,7 +136,7 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 15
+                    totalRounds: 20
                 },
                 items: [
                     {
@@ -151,6 +164,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Remo Gironda en Polea",
+                sets: 3,
+                reps: "12",
+                rest: "60s",
+                notes: "Puedes estirarte en el suelo o hacerlo de pie si lo prefieres",
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Curl de Biceps en Polea Baja",
                 sets: 3,
                 reps: "12",
@@ -190,8 +213,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "12",
+                sets: 4,
+                reps: "12, 10, 8, 8",
                 rest: "90s",
                 notes: "Lejos del fallo. Coge un peso para 15-16reps. ",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -203,7 +226,7 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 15
+                    totalRounds: 20
                 },
                 items: [
                     {
@@ -231,6 +254,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Extensión de Cuádriceps en Máquina",
+                sets: 3,
+                reps: "12",
+                rest: "60s",
+                notes: "Puedes estirarte en el suelo o hacerlo de pie si lo prefieres",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Curl Femoral Tumbado en Máquina",
                 sets: 3,
                 reps: "12",
@@ -244,6 +277,9 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Extensión de Cuádriceps en Máquina": [
+        { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
+    ],
     "Curl Femoral Tumbado en Máquina": [
         { name: "Curl Femoral Sentado en Máquina", videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4", imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg" }
     ]
