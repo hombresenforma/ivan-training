@@ -1,4 +1,10 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2
+// Notas: AntPost:
+// - Ejercicio 1 añadimos 1 serie más con REST-PAUSE.
+// - Ejercicio 2 añadimos 1 serie más y cambiamos todo a DROP-SET.
+// 
+// Fullbody:
+// - EMOMs 1 y 2: Añadimos 1 vuelta y bajamos tiempo de 120 a 90s
 
 const workoutData = {
     "dia1": {
@@ -7,8 +13,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Prensa Inclinada en Máquina de Discos",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -18,8 +24,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Máquina de Remo (Gironda)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -100,8 +106,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca en Multipower",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -111,8 +117,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET","4":"DROPSET"},
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -188,8 +194,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -221,8 +227,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -314,63 +320,6 @@ const workoutData = {
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                 videoUrl: "https://youtu.be/7tRy9X0ibnk",
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
-        name: "Hitt Abdominales",
-        exercises: [
-            {
-                order: 1,
-                name: "EMOM",
-                isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 8,
-                    workIntervalSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Plancha - Normal",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "30 seg",
-                        isEMOMItem: true,
-                        notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
-                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
-                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch - Normal",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
-                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
-                    },
-                    {
-                        name: "Hollow - Nivel 1",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "30 seg",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/hqB_aA5phBA",
-                        imageUrl: "https://i.ytimg.com/vi/hqB_aA5phBA/mqdefault.jpg"
-                    },
-                    {
-                        name: "Mountain Climber",
-                        subOrder: 4,
-                        sets: 1,
-                        reps: "30",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/GZWmYzClS3s",
-                        imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
-                    }
-                ],
-                notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
-                videoUrl: "https://youtu.be/DQ4wYExQRJo",
-                imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
             }
         ]
     }
