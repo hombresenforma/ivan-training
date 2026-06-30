@@ -344,43 +344,43 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Cerrado en Banco Inclinado con Mancuernas",
+                name: "Floor Press con Mancuernas",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/tdh7LSxUj1s",
-                imageUrl: "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Aperturas en Banco Inclinado con Mancuernas",
+                name: "Elevaciones Frontales con Mancuerna",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/Lx8d28YlcbQ",
-                imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
+                videoUrl: "https://youtu.be/7rBxeUNd5tA",
+                imageUrl: "https://i.ytimg.com/vi/7rBxeUNd5tA/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Press Militar Sentado con Mancuernas",
+                name: "Press Militar Alterno de Pie con Mancuernas",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "Trata de despegar el pecho al final del movimiento",
-                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/0OGSDz6x-QQ",
+                imageUrl: "https://i.ytimg.com/vi/0OGSDz6x-QQ/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
+                imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
             },
             {
                 order: 6,
