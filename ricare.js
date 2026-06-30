@@ -328,6 +328,71 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Torso",
+        exercises: [
+            {
+                order: 1,
+                name: "Curl + Press con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/siOTRSu2ORY",
+                imageUrl: "https://i.ytimg.com/vi/siOTRSu2ORY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Cerrado en Banco Inclinado con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/tdh7LSxUj1s",
+                imageUrl: "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Aperturas en Banco Inclinado con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/Lx8d28YlcbQ",
+                imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Press Militar Sentado con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Jalón al Pecho Neutro en Polea",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Hollow - Nivel 4",
+                sets: 3,
+                reps: "15seg",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/RxFdlQ4oelM",
+                imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
+            }
+        ]
     }
 };
 
