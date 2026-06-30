@@ -1,5 +1,10 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2_HOME
+// Notas: AntPost:
+// - Ejercicio 1 añadimos 1 serie más con REST-PAUSE.
+// - Ejercicio 2 añadimos 1 serie más y cambiamos todo a DROP-SET.
+// 
+// Fullbody:
+// - EMOMs 1 y 2: Añadimos 1 vuelta y bajamos tiempo de 120 a 90s
 
 const workoutData = {
     "dia1": {
@@ -8,8 +13,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla Frontal con Mancuernas/Kettlebells",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "10",
                 rest: "120s",
                 notes: "",
@@ -19,7 +24,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
@@ -100,16 +105,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/4hKPsdWsXl8",
                 imageUrl: "https://i.ytimg.com/vi/4hKPsdWsXl8/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "10",
-                rest: "60s",
-                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -119,8 +114,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca con Mancuernas",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
-                sets: 3,
+                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE","4":"REST-PAUSE"},
+                sets: 4,
                 reps: "10",
                 rest: "120s",
                 notes: "",
@@ -130,7 +125,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                setTechniques: {"1":"REST-PAUSE","2":"REST-PAUSE","3":"REST-PAUSE"},
+                setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
@@ -203,16 +198,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/1MgU2PO4_rI",
                 imageUrl: "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
-            },
-            {
-                order: 7,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "10",
-                rest: "60s",
-                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -225,15 +210,15 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
                         name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
                         imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
@@ -242,7 +227,7 @@ const workoutData = {
                         name: "Press Inclinado con Mancuernas",
                         subOrder: 2,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/ZE4M73kXB5A",
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
@@ -258,8 +243,8 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
@@ -351,16 +336,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtu.be/qfBhsTabWN0",
                 imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "CARDIO - Correr (Suave)",
-                sets: 1,
-                reps: "10",
-                rest: "60s",
-                notes: "Andar a inclinación 5 ritmo (5-6) 10 min",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     }
