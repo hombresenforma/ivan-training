@@ -97,6 +97,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
                 imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10min",
+                rest: "60s",
+                notes: "Andar 10 min a inclinación 5 ritmo 5-6",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
@@ -182,6 +192,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/yH6WAUNKO6c",
                 imageUrl: "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
+            },
+            {
+                order: 7,
+                name: "CARDIO - Correr (Suave)",
+                sets: 1,
+                reps: "10min",
+                rest: "60s",
+                notes: "Andar 10 min con inclinación 5 a ritmo 5-6",
+                videoUrl: "https://youtu.be/KKvRtNn904g",
+                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             }
         ]
     },
