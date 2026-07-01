@@ -1,4 +1,4 @@
--// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2
+pendiente // Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_2
 // Notas: AntPost:
 // - Ejercicio 1 añadimos 1 serie más con REST-PAUSE.
 // - Ejercicio 2 añadimos 1 serie más y cambiamos todo a DROP-SET.
