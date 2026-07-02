@@ -393,6 +393,71 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/RxFdlQ4oelM/mqdefault.jpg"
             }
         ]
+    },
+    "dia5": {
+        name: "Corrección de Postura",
+        exercises: [
+            {
+                order: 1,
+                name: "Face Pull con TRX",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "Activación.",
+                videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Dead Bug",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/0CteMtiMChQ",
+                imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Bird Dog",
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/KizkN2buzMw",
+                imageUrl: "https://i.ytimg.com/vi/KizkN2buzMw/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Plancha - Normal",
+                sets: 3,
+                reps: "30-45seg",
+                rest: "60s",
+                notes: "Mantener espalda recta y glúteo apretado (retroversión de cadera)",
+                videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Estiramiento - Psoas",
+                sets: 2,
+                reps: "40seg",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/e5QJv-ORR-E",
+                imageUrl: "https://i.ytimg.com/vi/e5QJv-ORR-E/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Estiramiento - Lumbar \"Bebé\"",
+                sets: 2,
+                reps: "25seg",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/5Jcr_KPTOUM",
+                imageUrl: "https://i.ytimg.com/vi/5Jcr_KPTOUM/mqdefault.jpg"
+            }
+        ]
     }
 };
 
