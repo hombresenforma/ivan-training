@@ -1,5 +1,6 @@
 // Titulo: P1_3D_fb_01
-export const workoutData = {
+
+const workoutData = {
     "dia1": {
         name: "Fullbody Push",
         exercises: [
@@ -35,13 +36,13 @@ export const workoutData = {
             },
             {
                 order: 2,
-                name: "Press Banca en Multipower",
+                name: "Hip Thrust con Barra (ExPLICADO)",
                 sets: 3,
                 reps: "8",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/w-5ovE5O5iU",
-                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -212,17 +213,17 @@ export const workoutData = {
             },
             {
                 order: 4,
-                name: "Press Militar en Multipower",
+                name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Press Militar en Multipower",
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                        imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
                     },
                     {
                         name: "Fondos de Tríceps con Pies en el Suelo",
@@ -235,8 +236,8 @@ export const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
-                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -249,6 +250,7 @@ export const workoutData = {
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
+                        notes: "Mantén una inclinación paralela al suelo.",
                         videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
                         imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
                     },
@@ -413,4 +415,16 @@ export const workoutData = {
             }
         ]
     }
+};
+
+const exerciseAlternatives = {
+    "Hip Thrust con Barra (ExPLICADO)": [
+        { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
+    ],
+    "Dominadas Australianas con Pies en el Suelo": [
+        { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
+    ],
+    "Prensa Inclinada en Máquina de Discos": [
+        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
+    ]
 };
