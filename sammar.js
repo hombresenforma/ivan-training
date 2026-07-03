@@ -1,5 +1,5 @@
-// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME 
-// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio. 
+// Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1_HOME
+// Notas: 3 sesiones FULLBODY (foco TORSO) con REST-PAUSE en todas las series del primer y segundo ejercicio.
 
 const workoutData = {
     "dia1": {
@@ -141,7 +141,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                sets: 3,
+                sets: 2,
                 reps: "20",
                 rest: "90s",
                 notes: "",
@@ -205,15 +205,15 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
-                    workIntervalSeconds: 120
+                    totalIntervals: 4,
+                    workIntervalSeconds: 90
                 },
                 items: [
                     {
                         name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                         subOrder: 1,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
                         imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
@@ -222,7 +222,7 @@ const workoutData = {
                         name: "Press Inclinado con Mancuernas",
                         subOrder: 2,
                         sets: 1,
-                        reps: "6",
+                        reps: "8",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/ZE4M73kXB5A",
                         imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
@@ -238,7 +238,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 120
                 },
                 items: [
@@ -296,41 +296,41 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 4,
+                    totalIntervals: 3,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "Burpee Completo",
+                        name: "Curl Cruzado + Press con KTB",
                         subOrder: 1,
                         sets: 1,
-                        reps: "5",
+                        reps: "6",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/qfBhsTabWN0",
-                        imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/XDcz23as3mE",
+                        imageUrl: "https://i.ytimg.com/vi/XDcz23as3mE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Curl Cruzado + Press con KTB",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "6",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/XDcz23as3mE",
+                        imageUrl: "https://i.ytimg.com/vi/XDcz23as3mE/mqdefault.jpg"
                     },
                     {
                         name: "Crunch Abdominal Piernas Extendidas",
-                        subOrder: 2,
+                        subOrder: 3,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/TYNp3OsGKL0",
                         imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
-                    },
-                    {
-                        name: "Spider Climber",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "12",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/bzzJ0zeO70A",
-                        imageUrl: "https://i.ytimg.com/vi/bzzJ0zeO70A/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/qfBhsTabWN0",
-                imageUrl: "https://i.ytimg.com/vi/qfBhsTabWN0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/XDcz23as3mE",
+                imageUrl: "https://i.ytimg.com/vi/XDcz23as3mE/mqdefault.jpg"
             }
         ]
     }
