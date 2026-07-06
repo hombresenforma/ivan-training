@@ -1,4 +1,4 @@
-// Titulo: P19_4D_PHAT_1
+OUT // Titulo: P19_4D_PHAT_1
 
 const workoutData = {
     "dia1": {
