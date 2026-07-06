@@ -1,4 +1,4 @@
-// Titulo: P18_3D_CIRCUITOSFULLBODY_1_FEM
+INACTIVO // Titulo: P18_3D_CIRCUITOSFULLBODY_1_FEM
 
 const workoutData = {
     "dia1": {
