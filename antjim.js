@@ -364,31 +364,31 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                name: "Extensión de Cuádriceps en Máquina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        name: "Extensión de Cuádriceps en Máquina",
                         subOrder: 1,
-                        sets: 3,
-                        reps: "16",
+                        sets: 4,
+                        reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Cambios de apoyo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://youtu.be/Yg74EfwLBQY",
                         imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             }
         ]
     }
@@ -399,5 +399,3 @@ const exerciseAlternatives = {
         { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ]
 };
-
-
