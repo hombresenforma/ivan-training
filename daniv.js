@@ -105,6 +105,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM",
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Peso Muerto Unipodal con Mancuerna/KTB",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=1bAi304kd7s",
+                imageUrl: "https://i.ytimg.com/vi/1bAi304kd7s/mqdefault.jpg"
             }
         ]
     },
@@ -212,6 +222,16 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
                 imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "SS Box Step Up Unilat con Mancuerna/KTB",
+                sets: 3,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/NuhlISUIU_c",
+                imageUrl: "https://i.ytimg.com/vi/NuhlISUIU_c/mqdefault.jpg"
             }
         ]
     },
