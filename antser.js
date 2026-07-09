@@ -44,13 +44,13 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Remo Gironda en Polea",
+                name: "Remo Contralat Unilat con Mancuerna",
                 sets: 3,
                 reps: "8-10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/O7PAUd4ZMB4",
+                imageUrl: "https://i.ytimg.com/vi/O7PAUd4ZMB4/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -164,13 +164,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Prensa Inclinada en Máquina de Discos",
+                name: "Sentadilla Frontal con Barra",
                 sets: 3,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
-                imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+                videoUrl: "https://youtu.be/ErXO1WKVlPI",
+                imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -194,13 +194,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl Femoral Sentado en Máquina",
+                name: "Curl Femoral desde Puente (Con TRX)",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
-                imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+                imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -399,5 +399,3 @@ const exerciseAlternatives = {
         { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ]
 };
-
-
