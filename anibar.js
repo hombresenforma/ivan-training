@@ -43,6 +43,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                setTechniques: {"2":"REST-PAUSE","3":"REST-PAUSE"},
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
@@ -88,7 +89,7 @@ const workoutData = {
                         name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 2,
-                        reps: "15",
+                        reps: "20",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
                         imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
@@ -151,7 +152,7 @@ const workoutData = {
                         name: "CARDIO - Burpees con Jumping Jacks",
                         subOrder: 1,
                         sets: 3,
-                        reps: "10",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/A21AiXaXi40",
                         imageUrl: "https://i.ytimg.com/vi/A21AiXaXi40/mqdefault.jpg"
@@ -173,18 +174,18 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Hip Thrust con Barra (ExPLICADO)",
+                name: "Gomas - Banded hip thrust",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Hip Thrust con Barra (ExPLICADO)",
+                        name: "Gomas - Banded hip thrust",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
                         notes: "Con Mancuernas",
-                        videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                        imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=z8z0biVVaQY",
+                        imageUrl: "https://i.ytimg.com/vi/z8z0biVVaQY/mqdefault.jpg"
                     },
                     {
                         name: "Mountain Climber",
@@ -197,8 +198,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Con Mancuernas",
-                videoUrl: "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                imageUrl: "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=z8z0biVVaQY",
+                imageUrl: "https://i.ytimg.com/vi/z8z0biVVaQY/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -209,7 +210,7 @@ const workoutData = {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 1,
                         sets: 3,
-                        reps: "12",
+                        reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
                         imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
@@ -218,7 +219,7 @@ const workoutData = {
                         name: "Truster con Barra",
                         subOrder: 2,
                         sets: 3,
-                        reps: "10",
+                        reps: "12",
                         notes: "Con Mancuernas",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IKNPwb8BSmM",
