@@ -62,6 +62,16 @@ const workoutData = {
             },
             {
                 order: 4,
+                name: "Extensión de Cuádriceps en Máquina",
+                sets: 3,
+                reps: "10-12",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                order: 5,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
                 sets: 3,
                 reps: "10",
@@ -71,7 +81,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Gorilla Row con Kettlebells/Mancuernas",
                 isSuperset: true,
                 items: [
@@ -127,7 +137,7 @@ const workoutData = {
                 name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
                 setTechniques: {"1":"DROPSET","2":"DROPSET","3":"DROPSET"},
                 sets: 3,
-                reps: "10",
+                reps: "8",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
@@ -137,7 +147,7 @@ const workoutData = {
                 order: 3,
                 name: "Flexiones / Deficit Push Ups con Discos al lado",
                 sets: 3,
-                reps: "12",
+                reps: "15",
                 rest: "60s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=nLnrNuQFlao",
@@ -147,7 +157,7 @@ const workoutData = {
                 order: 4,
                 name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 3,
-                reps: "20",
+                reps: "12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
