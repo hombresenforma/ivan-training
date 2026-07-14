@@ -259,17 +259,9 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "12",
+                        rest: "90s",
                         videoUrl: "https://youtu.be/S32a3nYiWko",
                         imageUrl: "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones Diamante / Diamond Pushups",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=6K5n0Lja4Uc",
-                        imageUrl: "https://i.ytimg.com/vi/6K5n0Lja4Uc/mqdefault.jpg"
                     }
                 ],
                 notes: "",
