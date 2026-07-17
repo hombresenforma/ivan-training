@@ -1,4 +1,4 @@
-// Titulo: P3_3D_APFB_INOUT_1 (HOME)
+OUT // Titulo: P3_3D_APFB_INOUT_1 (HOME)
 
 const workoutData = {
     "dia1": {
