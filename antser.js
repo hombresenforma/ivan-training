@@ -194,13 +194,13 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl Femoral desde Puente (Con TRX)",
+                name: "Puente de Glúteo desde el Suelo con Barra",
                 sets: 3,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
-                imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=soGI_iVLya0",
+                imageUrl: "https://i.ytimg.com/vi/soGI_iVLya0/mqdefault.jpg"
             },
             {
                 order: 6,
