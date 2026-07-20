@@ -158,17 +158,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Dominadas Australianas en TRX",
+                name: "Dominadas Asistidas en Máquina",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Dominadas Australianas en TRX",
+                        name: "Dominadas Asistidas en Máquina",
                         subOrder: 1,
                         sets: 4,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
+                        imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg"
                     },
                     {
                         name: "CARDIO - Burpees con Jumping Jacks",
@@ -181,8 +181,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
+                imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg"
             }
         ]
     },
