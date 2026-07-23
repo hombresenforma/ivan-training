@@ -1,4 +1,4 @@
-// Titulo: P5_3D_TPFB_1
+// Titulo: P5_3D_TPFB_2
 
 const workoutData = {
     "dia1": {
@@ -13,7 +13,7 @@ const workoutData = {
                         name: "Dominadas Australianas en TRX",
                         subOrder: 1,
                         sets: 1,
-                        reps: "10",
+                        reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
                         imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
@@ -22,7 +22,7 @@ const workoutData = {
                         name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 1,
-                        reps: "15",
+                        reps: "20",
                         rest: "30s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
                         imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
@@ -35,7 +35,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
                 rest: "60s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
@@ -55,7 +55,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Press Banca con Mancuernas",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -102,7 +102,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -142,7 +142,7 @@ const workoutData = {
                     {
                         name: "Jumping Jack",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "15",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/K5PMB8CauGM",
@@ -151,7 +151,7 @@ const workoutData = {
                     {
                         name: "Sentadilla con Salto",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "15",
                         rest: "30s",
                         videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
@@ -165,9 +165,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Frontal con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
-                rest: "90s",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
                 imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
@@ -185,7 +185,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Zancadas Caminando con Mancuernas/KTB",
-                sets: 3,
+                sets: 4,
                 reps: "20",
                 rest: "60s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
@@ -195,7 +195,7 @@ const workoutData = {
             {
                 order: 5,
                 name: "Puente de Glúteo desde el Suelo con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "60s",
                 notes: "",
@@ -208,7 +208,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -248,7 +248,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "5",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
@@ -257,7 +257,7 @@ const workoutData = {
                     {
                         name: "Face Pull con KTB",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "30s",
                         videoUrl: "https://www.youtube.com/shorts/RIS2s-UkKOk",
@@ -288,7 +288,7 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
                         imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
@@ -315,7 +315,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -323,7 +323,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
@@ -353,7 +353,7 @@ const workoutData = {
                         sets: 3,
                         reps: "12",
                         notes: "En caso de no tener el banco cerca lo puedes hacer de pie",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/1cRT5C0klJc",
                         imageUrl: "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
                     }
@@ -381,7 +381,7 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "10",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://youtu.be/Yg74EfwLBQY",
                         imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
                     }
