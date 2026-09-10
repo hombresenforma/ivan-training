@@ -364,6 +364,70 @@ const workoutData = {
         ]
     },
     "dia5": {
+        name: "PECHO",
+        exercises: [
+            {
+                order: 1,
+                name: "Gomas - Remo en Columna",
+                isWarmup: true,
+                sets: 3,
+                reps: "10",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://youtu.be/oaNDZ4glMKY",
+                imageUrl: "https://i.ytimg.com/vi/oaNDZ4glMKY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Banca con Mancuernas",
+                sets: 3,
+                reps: "8",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press en Máquina",
+                sets: 3,
+                reps: "8, 8, 12",
+                rest: "120s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=QrnVDLSBdMo",
+                imageUrl: "https://i.ytimg.com/vi/QrnVDLSBdMo/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Aperturas en Máquina Contractora / Mariposa",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Aperturas en Máquina Contractora / Mariposa",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=gMzwVArofx0",
+                        imageUrl: "https://i.ytimg.com/vi/gMzwVArofx0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Pullover con Kettlebell",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "10",
+                        notes: "Pelvis en retroversión y recorrido corto: no bajes más allá de donde puedas mantener las lumbares pegadas al banco.",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/watch?v=aGiAvWpeyAE",
+                        imageUrl: "https://i.ytimg.com/vi/aGiAvWpeyAE/mqdefault.jpg"
+                    }
+                ],
+                videoUrl: "https://www.youtube.com/watch?v=gMzwVArofx0",
+                imageUrl: "https://i.ytimg.com/vi/gMzwVArofx0/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia6": {
         name: "CORE Y BRAZOS",
         exercises: [
             {
