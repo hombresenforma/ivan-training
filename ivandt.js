@@ -428,47 +428,78 @@ const workoutData = {
         ]
     },
     "dia6": {
-        name: "CORE Y BRAZOS",
+        name: "METABÓLICO FULL BODY",
         exercises: [
             {
                 order: 1,
                 name: "Press Pallof Excéntrico Unilat en Polea",
                 sets: 3,
                 reps: "8",
-                rest: "60s",
-                notes: "",
+                rest: "45s",
+                notes: "Activación de core. Controla la vuelta y evita que el tronco rote.",
                 videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
                 imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
             },
             {
                 order: 2,
                 name: "Dead Bug",
-                sets: 3,
+                sets: 2,
                 reps: "10",
-                rest: "60s",
-                notes: "",
+                rest: "45s",
+                notes: "Mantén las lumbares pegadas al suelo durante todo el movimiento.",
                 videoUrl: "https://youtu.be/0CteMtiMChQ",
                 imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Curl con Barra Z",
-                sets: 3,
-                reps: "10, 12",
-                rest: "75s",
-                notes: "",
-                videoUrl: "https://youtu.be/4gYLTjNaTmw",
-                imageUrl: "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Extensión de Tríceps en Polea con Cuerda",
-                sets: 3,
-                reps: "10, 12",
-                rest: "75s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                name: "Circuito Metabólico",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 16,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Kettlebell - Swing Ruso",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "15",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/eKN0tj8q6Qc",
+                        imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Flexiones + Mountain Climbers",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Remo Renegade Alterno con Mancuernas",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    },
+                    {
+                        name: "Kettlebell - Thruster",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtube.com/shorts/52JAS52W8Hw",
+                        imageUrl: "https://i.ytimg.com/vi/52JAS52W8Hw/mqdefault.jpg"
+                    }
+                ],
+                notes: "EMOM de 16 minutos (4 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante. Usa una carga que te deje 15-20 segundos de margen por minuto.",
+                videoUrl: "https://youtu.be/eKN0tj8q6Qc",
+                imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
             }
         ]
     }
