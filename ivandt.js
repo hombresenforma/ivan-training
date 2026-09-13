@@ -428,78 +428,91 @@ const workoutData = {
         ]
     },
     "dia6": {
-        name: "METABÓLICO FULL BODY",
+        name: "METABÓLICO — 2 EMOM",
         exercises: [
             {
                 order: 1,
-                name: "Press Pallof Excéntrico Unilat en Polea",
-                sets: 3,
-                reps: "8",
-                rest: "45s",
-                notes: "Activación de core. Controla la vuelta y evita que el tronco rote.",
-                videoUrl: "https://youtube.com/shorts/r89c9qr-CB0",
-                imageUrl: "https://i.ytimg.com/vi/r89c9qr-CB0/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Dead Bug",
-                sets: 2,
-                reps: "10",
-                rest: "45s",
-                notes: "Mantén las lumbares pegadas al suelo durante todo el movimiento.",
-                videoUrl: "https://youtu.be/0CteMtiMChQ",
-                imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Circuito Metabólico",
+                name: "EMOM 1 — DOMINADAS, FLEXIONES Y HOLLOW",
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 16,
+                    totalIntervals: 9,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "Kettlebell - Swing Ruso",
+                        name: "Dominadas con Peso Corporal",
                         subOrder: 1,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/eKN0tj8q6Qc",
-                        imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                        imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
                     },
                     {
-                        name: "Flexiones + Mountain Climbers",
+                        name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 1,
-                        reps: "10",
+                        reps: "30",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
-                        imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Renegade Alterno con Mancuernas",
+                        name: "Hollow Abdominal Completo",
                         subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    }
+                ],
+                notes: "EMOM de 9 minutos (3 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
+                videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
+                imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "EMOM 2 — DOMINADAS SUPINAS, FONDOS Y SIT UP",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 9,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Dominadas Supinas",
+                        subOrder: 1,
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
-                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                        imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
                     },
                     {
-                        name: "Kettlebell - Thruster",
-                        subOrder: 4,
+                        name: "Fondos en Paralelas con Peso Corporal",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "20",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtube.com/shorts/om9U8WY5HoY",
+                        imageUrl: "https://i.ytimg.com/vi/om9U8WY5HoY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 3,
                         sets: 1,
                         reps: "10",
                         isEMOMItem: true,
-                        videoUrl: "https://youtube.com/shorts/52JAS52W8Hw",
-                        imageUrl: "https://i.ytimg.com/vi/52JAS52W8Hw/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     }
                 ],
-                notes: "EMOM de 16 minutos (4 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante. Usa una carga que te deje 15-20 segundos de margen por minuto.",
-                videoUrl: "https://youtu.be/eKN0tj8q6Qc",
-                imageUrl: "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                notes: "EMOM de 9 minutos (3 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
+                videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             }
         ]
     }
