@@ -515,6 +515,95 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             }
         ]
+    },
+    "dia7": {
+        name: "PIERNAS Y CORE — 2 EMOM",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM 1 — GOBLET SQUAT, ZANCADA Y STEP UP",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 9,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "12",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+                    },
+                    {
+                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "8 por pierna",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        name: "Step Up Unilat al Cajón/Step con Mancuerna/KTB",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "8 por pierna",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/cabSAbO0YLY",
+                        imageUrl: "https://i.ytimg.com/vi/cabSAbO0YLY/mqdefault.jpg"
+                    }
+                ],
+                notes: "EMOM de 9 minutos (3 vueltas por los 3 ejercicios). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante. Mancuernas ligeras, sin prisa en la técnica.",
+                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "EMOM 2 — DEAD BUG, BIRD DOG Y PLANCHA",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 9,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Dead Bug",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "10 por lado",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/0CteMtiMChQ",
+                        imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
+                    },
+                    {
+                        name: "Bird Dog",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "10 por lado",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/KizkN2buzMw",
+                        imageUrl: "https://i.ytimg.com/vi/KizkN2buzMw/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30s",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    }
+                ],
+                notes: "EMOM de 9 minutos (3 vueltas por los 3 ejercicios). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante. Core anti-lumbar: controla la zona sin dejar que la espalda baja se hunda ni se arquee.",
+                videoUrl: "https://youtu.be/0CteMtiMChQ",
+                imageUrl: "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
+            }
+        ]
     }
 };
 
