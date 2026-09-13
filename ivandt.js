@@ -436,7 +436,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 9,
+                    totalIntervals: 3,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -468,7 +468,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
                     }
                 ],
-                notes: "EMOM de 9 minutos (3 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
+                notes: "EMOM de 3 minutos (1 vuelta por los 3 ejercicios). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
                 videoUrl: "https://www.youtube.com/shorts/pb-14sP_R4M",
                 imageUrl: "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
             },
@@ -478,7 +478,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 9,
+                    totalIntervals: 3,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -510,7 +510,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
                     }
                 ],
-                notes: "EMOM de 9 minutos (3 vueltas). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
+                notes: "EMOM de 3 minutos (1 vuelta por los 3 ejercicios). Empieza un ejercicio al inicio de cada minuto y descansa el tiempo restante.",
                 videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
                 imageUrl: "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg"
             }
