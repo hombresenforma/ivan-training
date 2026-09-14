@@ -1,10 +1,5 @@
 // Titulo: p1_3d_fb_01_fem
 
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
         name: "Fullbody Push",
@@ -31,8 +26,8 @@ const workoutData = {
                         reps: "10",
                         notes: "Puedes hacerlas sin salto si lo prefieres.",
                         rest: "30s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -42,7 +37,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Trasera con Barra",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "",
@@ -115,7 +110,7 @@ const workoutData = {
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -124,7 +119,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
                         imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
@@ -132,7 +127,7 @@ const workoutData = {
                     {
                         name: "Plancha - Normal",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/DQ4wYExQRJo",
@@ -180,7 +175,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
@@ -252,16 +247,17 @@ const workoutData = {
                     {
                         name: "Remo Unilat Sentado en Polea Media",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
+                        notes: "Mantén una inclinación paralela al suelo.",
                         videoUrl: "https://youtube.com/shorts/kjbRoWIl7eI",
                         imageUrl: "https://i.ytimg.com/vi/kjbRoWIl7eI/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
                         imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
@@ -269,7 +265,7 @@ const workoutData = {
                     {
                         name: "Hollow - Nivel 2",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/lFEg3UQYM3g",
@@ -317,7 +313,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
+                sets: 4,
                 reps: "10-12",
                 rest: "90s",
                 notes: "",
@@ -389,7 +385,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Búlgara con Mancuerna o KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/kA6bHiDdTO4",
@@ -398,7 +394,7 @@ const workoutData = {
                     {
                         name: "Worm",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "5",
                         videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
                         imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
@@ -406,7 +402,7 @@ const workoutData = {
                     {
                         name: "Mountain Climber",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "30",
                         rest: "90s",
                         videoUrl: "https://youtu.be/GZWmYzClS3s",
@@ -432,7 +428,3 @@ const exerciseAlternatives = {
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
-// Export if using modules in the target app, or remove if it's a simple script include
-// export { workoutData, exerciseAlternatives };
