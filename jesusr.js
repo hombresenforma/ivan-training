@@ -1,6 +1,7 @@
-// Titulo: P23_4D_PostAntTorPier_VOLUMEN_2
+// Titulo: P23_5D_PostAntTorPier_VOLUMEN_2_PERSONALIZADO
 // Notas: - Añadimos 1 serie a los básicos (máximo 5)
 // - Añadimos tercer ejercicio a las series de Pecho y Espalda
+// - Día 5 complementario de deltoides, brazos, core y cardio suave (45-60 min)
 
 const workoutData = {
     "dia1": {
@@ -321,7 +322,116 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             }
         ]
-    }
+    },
+    "dia5": {
+        name: "Deltoides, Brazos y Core",
+        exercises: [
+            {
+                order: 1,
+                name: "Movilidad - General",
+                isWarmup: true,
+                sets: 2,
+                reps: "10",
+                rest: "60s",
+                notes: "Calentamiento general antes del trabajo accesorio.",
+                videoUrl: "https://youtu.be/5oPBRo8oaag",
+                imageUrl: "https://i.ytimg.com/vi/5oPBRo8oaag/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Elevaciones Laterales en Poleas Cruzadas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Elevaciones Laterales en Poleas Cruzadas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/MtLsD20-EdE",
+                        imageUrl: "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Pájaros con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "75s",
+                        videoUrl: "https://youtu.be/EMrOS6P90lM",
+                        imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
+                    }
+                ],
+                notes: "Trabajo accesorio controlado; deja 2 repeticiones en recámara.",
+                videoUrl: "https://youtu.be/MtLsD20-EdE",
+                imageUrl: "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Curl Scott con Barra Z",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl Scott con Barra Z",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                        imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión de Tríceps en Polea con Cuerda",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "75s",
+                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                    }
+                ],
+                notes: "Sin llegar al fallo para no interferir con los otros días de torso.",
+                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Crunch en Polea Alta",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Crunch en Polea Alta",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                        imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Press Pallof Alterno con Rotación en Polea",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "10 por lado",
+                        rest: "60s",
+                        videoUrl: "https://youtube.com/shorts/vqBP-GHoW5k",
+                        imageUrl: "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mantén el tronco estable y controla la vuelta.",
+                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
+                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "CARDIO - Bicicleta (Ritmo Suave)",
+                sets: 1,
+                reps: "15 min",
+                rest: "0s",
+                notes: "Ritmo continuo cómodo para terminar la sesión sin añadir fatiga muscular alta.",
+                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+            }
+        ]
 };
 
 const exerciseAlternatives = {
