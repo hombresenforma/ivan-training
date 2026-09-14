@@ -1,6 +1,7 @@
 // Titulo: P20_4D_TorPier_DC_0
 // Notas: Rutina para AVANZADOS -> ALTA INTENSIDAD, Bajo Volumen
 // - Adaptación sencilla de 4 días. Dropsets en lugar de Clusters.
+// - Básico principal de cada día sustituido por una alternativa y ampliado con una cuarta serie de 15 repeticiones.
 
 const workoutData = {
     "dia1": {
@@ -8,14 +9,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca con Barra",
+                name: "Press Banca en Multipower",
                 setTechniques: {},
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 10, 15",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://youtu.be/PKpsrFS2uac",
-                imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
+                videoUrl: "https://youtu.be/w-5ovE5O5iU",
+                imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -86,14 +87,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo en Máquina T Agarre Estrecho",
+                name: "Remo con Barra",
                 setTechniques: {},
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "120",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
-                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                sets: 4,
+                reps: "6, 6, 10, 15",
+                rest: "120s",
+                notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -163,14 +164,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Banca Inclinado en Multipower",
+                name: "Press Inclinado con Mancuernas",
                 setTechniques: {},
-                sets: 3,
-                reps: "6, 6, 10",
-                rest: "120",
-                notes: "",
-                videoUrl: "https://youtu.be/3GS7EjN7KSk",
-                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                sets: 4,
+                reps: "6, 6, 10, 15",
+                rest: "120s",
+                notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -240,14 +241,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Máquina de Remo (Gironda)",
+                name: "Remo Gironda en Polea",
                 setTechniques: {},
-                sets: 3,
-                reps: "6, 6, 10",
+                sets: 4,
+                reps: "6, 6, 10, 15",
                 rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-                imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+                notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -316,22 +317,22 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-    "Press Banca con Barra": [
-        { name: "Press Banca en Multipower", videoUrl: "https://youtu.be/w-5ovE5O5iU", imageUrl: "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg" }
+    "Press Banca en Multipower": [
+        { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ],
     "Press MIlitar en Multipower - Rodillas": [
         { name: "Press Militar con Barra de Pie", videoUrl: "https://www.youtube.com/watch?v=idnuMZx6mS0", imageUrl: "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg" }
     ],
-    "Remo en Máquina T Agarre Estrecho": [
-        { name: "Remo con Barra", videoUrl: "https://youtu.be/MjnZ52mZgT0", imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg" }
+    "Remo con Barra": [
+        { name: "Remo en Máquina T Agarre Estrecho", videoUrl: "https://youtube.com/shorts/_XOaMY5NumY", imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg" }
     ],
     "Sentadilla Anterior en Máquina Jaca": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
     ],
-    "Press Banca Inclinado en Multipower": [
-        { name: "Press en Máquina inclinado", videoUrl: "https://www.youtube.com/watch?v=nna4gQD-v9Y", imageUrl: "https://i.ytimg.com/vi/nna4gQD-v9Y/mqdefault.jpg" }
+    "Press Inclinado con Mancuernas": [
+        { name: "Press Banca Inclinado en Multipower", videoUrl: "https://youtu.be/3GS7EjN7KSk", imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg" }
     ],
-    "Máquina de Remo (Gironda)": [
-        { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
+    "Remo Gironda en Polea": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
     ]
 };
