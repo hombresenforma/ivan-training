@@ -432,6 +432,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
             }
         ]
+    }
 };
 
 const exerciseAlternatives = {
