@@ -270,5 +270,91 @@ export const workoutData = {
                 "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        "name": "Piernas y core · empuje unilateral y anti-rotación",
+        "exercises": [
+            {
+                "order": 1,
+                "name": "Movilidad - Activación de Cadera",
+                "sets": 2,
+                "reps": "8",
+                "rest": "30s",
+                "notes": "Movilidad controlada; después haz 2 series de aproximación con carga progresiva del primer básico.",
+                "videoUrl": "https://youtu.be/ltzWjXiHXao",
+                "imageUrl": "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg",
+                "isWarmup": true
+            },
+            {
+                "order": 2,
+                "name": "Sentadilla Anterior en Máquina Jaca",
+                "sets": 3,
+                "reps": "6-8",
+                "rest": "150s",
+                "notes": "Deja 2-3 repeticiones en reserva; cuando completes el extremo alto en todas las series con buena técnica, sube la carga mínima disponible la próxima sesión. Registra peso y repeticiones. Baja hasta donde controles sin perder la zona lumbar pegada al respaldo.",
+                "videoUrl": "https://youtube.com/shorts/saLWdiUe5eE",
+                "imageUrl": "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
+            },
+            {
+                "order": 3,
+                "name": "Hip Thrust con Barra (ExPLICADO)",
+                "sets": 3,
+                "reps": "8-10",
+                "rest": "120s",
+                "notes": "Deja 2-3 repeticiones en reserva; cuando completes el extremo alto en todas las series con buena técnica, sube la carga mínima disponible la próxima sesión. Registra peso y repeticiones. Termina el recorrido apretando glúteo arriba 1 segundo; no arquees la lumbar.",
+                "videoUrl": "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
+                "imageUrl": "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Zancada Unilateral en Multipower",
+                "sets": 2,
+                "reps": "8-10",
+                "rest": "90s",
+                "notes": "Deja 2-3 repeticiones en reserva; cuando completes el extremo alto en todas las series con buena técnica, sube la carga mínima disponible la próxima sesión. Registra peso y repeticiones. Repeticiones indicadas por pierna; empieza siempre por la pierna más débil.",
+                "videoUrl": "https://youtu.be/yfNWlh9rp6o",
+                "imageUrl": "https://i.ytimg.com/vi/yfNWlh9rp6o/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Curl Femoral Tumbado en Máquina",
+                "sets": 2,
+                "reps": "10-12",
+                "rest": "75s",
+                "notes": "Deja 2-3 repeticiones en reserva; cuando completes el extremo alto en todas las series con buena técnica, sube la carga mínima disponible la próxima sesión. Registra peso y repeticiones.",
+                "videoUrl": "https://www.youtube.com/shorts/-VfGwgG23OM",
+                "imageUrl": "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+            },
+            {
+                "order": 6,
+                "name": "Press Pallof Unilat con Rotación en Polea",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Press Pallof Unilat con Rotación en Polea",
+                        "sets": 2,
+                        "reps": "10-12",
+                        "notes": "Aguanta el giro: el tronco no debe rotar. Repeticiones por lado.",
+                        "videoUrl": "https://youtube.com/shorts/5lo528rQAx8",
+                        "imageUrl": "https://i.ytimg.com/vi/5lo528rQAx8/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
+                    },
+                    {
+                        "name": "Plancha - Lateral",
+                        "sets": 2,
+                        "reps": "30-40s",
+                        "rest": "60s",
+                        "notes": "Cadera alta y alineada; aguanta el tiempo marcado por lado.",
+                        "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+                        "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg",
+                        "subOrder": 2
+                    }
+                ],
+                "notes": "Superserie final: alterna ambos ejercicios y descansa al terminar la pareja.",
+                "videoUrl": "https://youtube.com/shorts/5lo528rQAx8",
+                "imageUrl": "https://i.ytimg.com/vi/5lo528rQAx8/mqdefault.jpg"
+            }
+        ]
     }
 };
