@@ -99,23 +99,23 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Remo Unilat Sentado en Polea Media",
+                name: "Remo Contralat Unilat con Mancuerna",
                 sets: 3,
                 reps: "10",
                 rest: "60s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/kjbRoWIl7eI",
-                imageUrl: "https://i.ytimg.com/vi/kjbRoWIl7eI/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/O7PAUd4ZMB4",
+                imageUrl: "https://i.ytimg.com/vi/O7PAUd4ZMB4/mqdefault.jpg"
             },
             {
                 order: 5,
-                name: "Aperturas Sentado en Polea",
+                name: "Pájaros con Mancuernas",
                 sets: 3,
                 reps: "10",
                 rest: "60s",
                 notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://youtu.be/IaODfSloHRo",
-                imageUrl: "https://i.ytimg.com/vi/IaODfSloHRo/mqdefault.jpg"
+                videoUrl: "https://youtu.be/EMrOS6P90lM",
+                imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
             },
             {
                 order: 5,
