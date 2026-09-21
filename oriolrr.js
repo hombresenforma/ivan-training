@@ -84,13 +84,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Tríceps Unilat en Polea Alta",
+                        name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/oWLmfjBi6lM",
-                        imageUrl: "https://i.ytimg.com/vi/oWLmfjBi6lM/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/jGTquNttoRU",
+                        imageUrl: "https://i.ytimg.com/vi/jGTquNttoRU/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -246,14 +246,14 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Aperturas Sentado en Polea",
+                name: "Aperturas en Banco Inclinado con Mancuernas",
                 setTechniques: {},
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "MUY inclinado (60º)",
-                videoUrl: "https://youtu.be/IaODfSloHRo",
-                imageUrl: "https://i.ytimg.com/vi/IaODfSloHRo/mqdefault.jpg"
+                videoUrl: "https://youtu.be/Lx8d28YlcbQ",
+                imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -267,31 +267,31 @@ const workoutData = {
             },
             {
                 order: 7,
-                name: "Cruces en Polea Alta",
+                name: "Flexiones con Lastre",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Cruces en Polea Alta",
+                        name: "Flexiones con Lastre",
                         subOrder: 1,
                         sets: 2,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/Ht9awbF2fBA",
-                        imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
+                        imageUrl: "https://i.ytimg.com/vi/gLBrKowP2eo/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Tríceps Unilat Trasnuca en Polea Alta",
+                        name: "Press Francés con Barra Z en Banco Inclinado",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/_2VPSbsjMQE",
-                        imageUrl: "https://i.ytimg.com/vi/_2VPSbsjMQE/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/hFk6xzt1DWM",
+                        imageUrl: "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/Ht9awbF2fBA",
-                imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
+                imageUrl: "https://i.ytimg.com/vi/gLBrKowP2eo/mqdefault.jpg"
             }
         ]
     },
