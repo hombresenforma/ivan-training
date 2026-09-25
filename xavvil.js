@@ -293,6 +293,63 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Abdominales",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 3,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "15",
+                        isEMOMItem: true,
+                        notes: "Mantén la Lumbar pegada al suelo",
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30 seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sit Up Abdominal con Disco",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "10",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
+                        imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "40 seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    }
+                ],
+                notes: "Mantén la Lumbar pegada al suelo",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
