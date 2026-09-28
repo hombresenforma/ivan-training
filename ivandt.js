@@ -73,6 +73,79 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
             }
         ]
+    },
+    "dia2": {
+        "name": "BÁSICOS TRACCIÓN",
+        "exercises": [
+            {
+                "order": 1,
+                "name": "Dominadas Supinas",
+                "videoUrl": "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                "imageUrl": "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg",
+                "sets": 3,
+                "reps": "8",
+                "rest": "120s",
+                "notes": ""
+            },
+            {
+                "order": 2,
+                "name": "Curl Femoral Sentado en Máquina",
+                "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": ""
+            },
+            {
+                "order": 3,
+                "name": "Remo Seal con Mancuernas",
+                "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
+                "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": ""
+            },
+            {
+                "order": 4,
+                "name": "Curl con Barra Z",
+                "videoUrl": "https://youtu.be/4gYLTjNaTmw",
+                "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": ""
+            },
+            {
+                "order": 5,
+                "name": "Pull Over en Polea Alta",
+                "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Pull Over en Polea Alta",
+                        "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                        "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "10",
+                        "isSupersetStart": true
+                    },
+                    {
+                        "name": "Curl Martillo con Mancuernas",
+                        "videoUrl": "https://youtu.be/fcFsPoJY9lg",
+                        "imageUrl": "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "10",
+                        "rest": "90s"
+                    }
+                ],
+                "notes": ""
+            }
+        ]
     }
 };
 
