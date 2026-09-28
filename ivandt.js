@@ -150,4 +150,7 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Dominadas Supinas": [
+        { name: "Jalón al Pecho Neutro en Polea", videoUrl: "https://youtu.be/5YzMH2KkMHc", imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg" }
+    ]
 };
