@@ -1,5 +1,5 @@
 // Titulo: P9_3D_FULLBODY_2
-// Ajuste individual 29/09/2026: tres días completos con trabajo de pierna gradual, sin día aislado de sentadillas. No forzar dolor de rodilla; avisar si aparece o empeora.
+// Ajuste individual 29/09/2026: entrena en casa con poleas, barra y banco reclinable; tres días completos con trabajo de pierna gradual, sin día aislado de sentadillas. No forzar dolor de rodilla; avisar si aparece o empeora.
 
 const workoutData = {
   "dia1": {
@@ -17,13 +17,13 @@ const workoutData = {
       },
       {
         "order": 2,
-        "name": "Peso Muerto Rumano con Mancuernas/KTB",
+        "name": "Peso Muerto Rumano con Barra",
         "sets": 2,
         "reps": "10-12",
         "rest": "75s",
         "notes": "Carga moderada, recorrido controlado y sin dolor de rodilla. Si molesta, detén el ejercicio y avisa.",
-        "videoUrl": "https://www.youtube.com/shorts/SMll4DOYvEs",
-        "imageUrl": "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+        "videoUrl": "https://youtu.be/R7FKam5GyNw",
+        "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
       },
       {
         "order": 3,
@@ -37,13 +37,13 @@ const workoutData = {
       },
       {
         "order": 4,
-        "name": "Press Militar con Mancuernas Agarre Neutro",
+        "name": "Press Militar con Barra de Pie",
         "sets": 3,
         "reps": "10",
         "rest": "90s",
         "notes": "",
-        "videoUrl": "https://www.youtube.com/watch?v=C6NaHhnQavs",
-        "imageUrl": "https://i.ytimg.com/vi/C6NaHhnQavs/mqdefault.jpg"
+        "videoUrl": "https://www.youtube.com/watch?v=idnuMZx6mS0",
+        "imageUrl": "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
       },
       {
         "order": 5,
@@ -60,13 +60,13 @@ const workoutData = {
             "imageUrl": "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
           },
           {
-            "name": "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
+            "name": "Extensión de Tríceps en Polea con Cuerda",
             "subOrder": 2,
             "sets": 3,
             "reps": "10",
             "rest": "60s",
-            "videoUrl": "https://youtu.be/1MgU2PO4_rI",
-            "imageUrl": "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+            "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
+            "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
           }
         ],
         "notes": "",
@@ -90,22 +90,22 @@ const workoutData = {
       },
       {
         "order": 2,
-        "name": "Press Banca con Mancuernas",
+        "name": "Press Banca con Barra",
         "isSuperset": true,
         "items": [
           {
-            "name": "Press Banca con Mancuernas",
+            "name": "Press Banca con Barra",
             "subOrder": 1,
             "sets": 3,
             "reps": "12",
             "isSupersetStart": true,
-            "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-            "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+            "videoUrl": "https://youtu.be/PKpsrFS2uac",
+            "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
           }
         ],
         "notes": "",
-        "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-        "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+        "videoUrl": "https://youtu.be/PKpsrFS2uac",
+        "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
       },
       {
         "order": 3,
@@ -119,13 +119,13 @@ const workoutData = {
       },
       {
         "order": 4,
-        "name": "Remo Unilat con Mancuerna/KTB (Explicado)",
+        "name": "Remo Unilat en Polea Media",
         "sets": 3,
         "reps": "10",
         "rest": "90s",
         "notes": "",
-        "videoUrl": "https://youtu.be/uH9Hg4nWOG8",
-        "imageUrl": "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+        "videoUrl": "https://youtube.com/shorts/JtKX3g9TYco",
+        "imageUrl": "https://i.ytimg.com/vi/JtKX3g9TYco/mqdefault.jpg"
       },
       {
         "order": 5,
@@ -142,13 +142,13 @@ const workoutData = {
             "imageUrl": "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
           },
           {
-            "name": "Elevaciones Laterales con Mancuernas",
+            "name": "Elevaciones Laterales en Polea",
             "subOrder": 2,
             "sets": 3,
             "reps": "10",
             "rest": "60s",
-            "videoUrl": "https://youtu.be/rhmW_fhB4cs",
-            "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+            "videoUrl": "https://youtu.be/UxII1sPTa9U",
+            "imageUrl": "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
           }
         ],
         "notes": "",
@@ -162,33 +162,33 @@ const workoutData = {
     "exercises": [
       {
         "order": 1,
-        "name": "Press Banca con Mancuernas",
+        "name": "Flexiones con Peso Corporal",
         "sets": 4,
         "reps": "8-10",
         "rest": "120s",
-        "notes": "Deja 2 repeticiones en reserva; progresa solo cuando completes el rango con buena técnica.",
-        "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-        "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+        "notes": "Deja 2 repeticiones en reserva; ajusta la inclinación del apoyo en el banco si necesitas reducir la dificultad.",
+        "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+        "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
       },
       {
         "order": 2,
-        "name": "Remo Seal con Mancuernas",
+        "name": "Remo Gironda en Polea",
         "sets": 3,
         "reps": "10-12",
         "rest": "90s",
         "notes": "Pecho apoyado y movimiento controlado.",
-        "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
-        "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+        "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
+        "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
       },
       {
         "order": 3,
-        "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
-        "sets": 3,
-        "reps": "10-12",
-        "rest": "60s",
-        "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-        "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-        "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+        "name": "Press Militar con Barra de Pie",
+        "sets": 2,
+        "reps": "10",
+        "rest": "90s",
+        "notes": "Carga ligera y técnica controlada; sin llegar al fallo.",
+        "videoUrl": "https://www.youtube.com/watch?v=idnuMZx6mS0",
+        "imageUrl": "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
       },
       {
         "order": 4,
@@ -215,13 +215,6 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
-  "Press Banca Inclinado con Barra": [
-    {
-      "name": "Press Inclinado con Mancuernas",
-      "videoUrl": "https://youtu.be/ZE4M73kXB5A",
-      "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
-    }
-  ],
   "Jalón al Pecho Unilateral con Polea": [
     {
       "name": "Jalón al Pecho en Polea",
