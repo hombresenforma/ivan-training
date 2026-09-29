@@ -1,5 +1,5 @@
 // Titulo: P22_4D_TORPIER_MIXTO_1
-// Adaptación personal 28/09/2026: 3 días TORSO / PIERNA / FULLBODY con prioridad de torso, compatible con fútbol. Sustituye la distribución original de 4 días. Sesiones objetivo 45-60 min. No añadir el cuarto día antiguo.
+// Adaptación personal 29/09/2026: cuatro días; se conservan sin cambios los tres días actuales y se añade COMPLEMENTO TORSO. Trabajo de tren superior con posiciones sentadas o apoyadas para reducir la demanda de la pierna lesionada.
 
 const workoutData = {
     "dia1": {
@@ -281,6 +281,94 @@ const workoutData = {
                 "videoUrl": "https://youtu.be/rhmW_fhB4cs",
                 "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
                 "order": 7
+            }
+        ]
+    },
+    "dia4": {
+        "name": "COMPLEMENTO TORSO",
+        "exercises": [
+            {
+                "name": "Rotación Externa de Hombro Unilat con Polea",
+                "sets": 2,
+                "reps": "10 por lado",
+                "rest": "30s",
+                "notes": "Calentamiento suave sentado y estable.",
+                "videoUrl": "https://youtube.com/shorts/0dw436rzrNU",
+                "imageUrl": "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg",
+                "isWarmup": true,
+                "order": 1
+            },
+            {
+                "name": "Cruces en Polea Alta",
+                "sets": 3,
+                "reps": "12-15",
+                "rest": "60s",
+                "notes": "Realízalo sentado si así evitas cargar la pierna; sin impulso.",
+                "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+                "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+                "order": 2
+            },
+            {
+                "name": "Remo en Máquina T Agarre Estrecho",
+                "sets": 3,
+                "reps": "8-12",
+                "rest": "90s",
+                "notes": "Pecho apoyado si la máquina lo permite; evita impulsarte con las piernas.",
+                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
+                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
+                "order": 3
+            },
+            {
+                "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                "sets": 3,
+                "reps": "10-12",
+                "rest": "75s",
+                "notes": "Sentado con respaldo y sin empuje de piernas.",
+                "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg",
+                "order": 4
+            },
+            {
+                "name": "Elevaciones Laterales en Poleas Cruzadas",
+                "sets": 2,
+                "reps": "12-15",
+                "rest": "60s",
+                "notes": "Hazlas sentado si es más cómodo para la pierna.",
+                "videoUrl": "https://youtu.be/MtLsD20-EdE",
+                "imageUrl": "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Curl Scott con Barra Z",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Curl Scott con Barra Z",
+                        "sets": 2,
+                        "reps": "10-12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                        "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
+                    },
+                    {
+                        "name": "Extensión de Tríceps en Polea con Cuerda",
+                        "sets": 2,
+                        "reps": "10-12",
+                        "rest": "75s",
+                        "notes": "Sentado y estable si lo necesitas.",
+                        "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
+                        "subOrder": 2,
+                        "isSupersetStart": false
+                    }
+                ],
+                "notes": "Dos vueltas, sentado y sin apoyo doloroso de la pierna.",
+                "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
+                "order": 6
             }
         ]
     }
