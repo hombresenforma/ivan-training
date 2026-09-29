@@ -8,7 +8,7 @@
 // =================================================================================
 // DATOS DE LA RUTINA (3 DÍAS)
 // =================================================================================
-// Ajuste individual 29/09/2026: se retira el renegade de los días 2 y 3 por la molestia de antebrazo; se conservan la estructura de tres días y el HIIT.
+// Ajuste individual 29/09/2026: se retira el renegade de los días 2 y 3 por la molestia de antebrazo; el tercer día cambia flexiones diamante por extensión en polea y HIIT en remo por bicicleta. Se conservan tres días y la estructura anterior/posterior/torso.
 const workoutData = {
   "dia1": {
     "name": "Anterior HIIT",
@@ -277,7 +277,7 @@ const workoutData = {
     ]
   },
   "dia3": {
-    "name": "Torso HIIT",
+    "name": "Torso HIIT · antebrazo",
     "exercises": [
       {
         "order": 1,
@@ -322,13 +322,14 @@ const workoutData = {
             "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
           },
           {
-            "name": "Flexiones Diamante / Diamond Pushups",
+            "name": "Extensión de Tríceps en Polea con Cuerda",
             "subOrder": 3,
             "sets": 3,
             "reps": "12",
             "rest": "90s",
-            "videoUrl": "https://www.youtube.com/watch?v=6K5n0Lja4Uc",
-            "imageUrl": "https://i.ytimg.com/vi/6K5n0Lja4Uc/mqdefault.jpg"
+            "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
+            "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
+            "notes": "Agarre cómodo, sin dolor en el antebrazo."
           }
         ],
         "notes": "",
@@ -376,27 +377,27 @@ const workoutData = {
         },
         "items": [
           {
-            "name": "Cardio - Remo en Máquina",
+            "name": "CARDIO - Bicicleta (Ritmo Fuerte)",
             "subOrder": 1,
             "sets": 1,
             "reps": "30s",
             "isCircuitItem": true,
-            "videoUrl": "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-            "imageUrl": "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+            "videoUrl": "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+            "imageUrl": "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
           },
           {
-            "name": "Cardio - Remo en Máquina",
+            "name": "CARDIO - Bicicleta (Ritmo Fuerte)",
             "subOrder": 2,
             "sets": 1,
             "reps": "30s",
             "isCircuitItem": true,
-            "videoUrl": "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-            "imageUrl": "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+            "videoUrl": "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+            "imageUrl": "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
           }
         ],
-        "notes": "",
-        "videoUrl": "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-        "imageUrl": "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+        "notes": "Intervalos de bicicleta 30 s fuerte + 30 s suave, 3 vueltas. Sin apoyo sobre manos.",
+        "videoUrl": "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+        "imageUrl": "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
       }
     ]
   }
