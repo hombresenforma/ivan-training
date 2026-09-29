@@ -181,7 +181,17 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
       },
       {
-        "order": 3,
+        "name": "Jalón al Pecho en Polea",
+        "sets": 3,
+        "reps": "10-12",
+        "rest": "75s",
+        "notes": "Controla la bajada y deja 2 repeticiones en reserva.",
+        "videoUrl": "https://youtu.be/GYIhmy1P4vY",
+        "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
+        "order": 3
+      },
+      {
+        "order": 4,
         "name": "Press Militar con Barra de Pie",
         "sets": 2,
         "reps": "10",
@@ -191,7 +201,7 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
       },
       {
-        "order": 4,
+        "order": 5,
         "name": "Sentadilla con Peso Corporal",
         "sets": 2,
         "reps": "8-10",
@@ -201,7 +211,17 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
       },
       {
-        "order": 5,
+        "name": "Curl con Barra Recta",
+        "sets": 3,
+        "reps": "10-12",
+        "rest": "75s",
+        "notes": "Sin balanceo; deja 2 repeticiones en reserva.",
+        "videoUrl": "https://youtu.be/0TjnWWqQfUw",
+        "imageUrl": "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg",
+        "order": 6
+      },
+      {
+        "order": 7,
         "name": "Crunch - Normal",
         "sets": 3,
         "reps": "15-20",
