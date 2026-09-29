@@ -1,7 +1,7 @@
 // Titulo: P23_4D_PostAntTorPier_VOLUMEN_2
 // Adaptación individual 28/09/2026 a 3 días: anterior, posterior y pierna. Se conserva la frecuencia de la variante FEM anterior.
 // Base del catálogo: una serie más en básicos (máximo 5) y tercer ejercicio en bloques de pecho/espalda. Sin asignar el cuarto día de torso de la plantilla.
-// Se mantienen jaca, trabajo de glúteo y accesorios de la variante previa; recursos actualizados al catálogo canónico. Dominadas sustituidas por jalón neutro. Superseries solo con banco/mancuernas; máquinas por separado.
+// Se mantienen jaca, trabajo de glúteo y accesorios de la variante previa; recursos actualizados al catálogo canónico. Dominadas sustituidas por jalón neutro. Superseries solo con banco/mancuernas; máquinas por separado. Triserie de pecho del día 1 sustituida el 29/09/2026 por press militar unilateral, thruster con mancuernas y sentadilla con salto (2 vueltas).
 const workoutData = {
   "dia1": {
     "name": "Anterior — volumen 2",
@@ -38,46 +38,46 @@ const workoutData = {
         "order": 3
       },
       {
-        "name": "Press Banca con Mancuernas",
+        "name": "Press Militar Unilat de Pie con Mancuerna/KTB",
         "isSuperset": true,
         "items": [
           {
-            "name": "Press Banca con Mancuernas",
-            "sets": 3,
-            "reps": "8-10",
+            "name": "Press Militar Unilat de Pie con Mancuerna/KTB",
+            "sets": 2,
+            "reps": "8 por lado",
             "rest": "",
-            "notes": "",
-            "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-            "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg",
+            "notes": "Carga ligera y controlada; alterna brazos sin inclinar el tronco.",
+            "videoUrl": "https://www.youtube.com/shorts/vIK0qkXP_f0",
+            "imageUrl": "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg",
             "subOrder": 1,
             "isSupersetStart": true
           },
           {
-            "name": "Aperturas en Banco con Mancuernas",
-            "sets": 3,
-            "reps": "10-12",
+            "name": "Thruster con Mancuernas",
+            "sets": 2,
+            "reps": "8",
             "rest": "",
-            "notes": "",
-            "videoUrl": "https://www.youtube.com/watch?v=dfmq1UOuUXo",
-            "imageUrl": "https://i.ytimg.com/vi/dfmq1UOuUXo/mqdefault.jpg",
+            "notes": "Carga ligera; coordina la sentadilla y el press sin buscar el fallo.",
+            "videoUrl": "https://www.youtube.com/watch?v=5mTjKFubavs",
+            "imageUrl": "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg",
             "subOrder": 2,
             "isSupersetStart": false
           },
           {
-            "name": "Flexiones con Peso Corporal",
-            "sets": 3,
-            "reps": "8-12",
+            "name": "Sentadilla con Salto",
+            "sets": 2,
+            "reps": "6",
             "rest": "90s",
-            "notes": "",
-            "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
-            "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg",
+            "notes": "Aterrizaje suave y controlado; detén el salto si aparece molestia.",
+            "videoUrl": "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+            "imageUrl": "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg",
             "subOrder": 3,
             "isSupersetStart": false
           }
         ],
-        "notes": "Deja 2 repeticiones en recámara. Completa el rango en todas las series con técnica estable antes de subir el menor incremento de carga disponible. Completa las vueltas en el mismo banco con mancuernas; no reserves otra máquina. Si el banco está ocupado, haz cada ejercicio por separado con 60 s entre series.",
-        "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-        "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg",
+        "notes": "Triserie de 2 vueltas. Usa mancuernas ligeras y un solo espacio; 90 s tras cada vuelta. No persigas el fallo: prioriza la técnica, sobre todo al aterrizar en los saltos.",
+        "videoUrl": "https://www.youtube.com/shorts/vIK0qkXP_f0",
+        "imageUrl": "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg",
         "order": 4
       },
       {
@@ -278,4 +278,5 @@ const workoutData = {
     ]
   }
 };
+
 const exerciseAlternatives = {};
