@@ -1,4 +1,10 @@
-// Titulo: P5_3D_TPFB_1
+// Titulo: P5_3D_TPFB_2
+// Notas: Primer ejercicio subimos reps y 1 ronda.
+// circuito final subimos 4 rondas
+// 
+// Ultimo día primer ejercicio subimos reps.
+// Superserie 3 plancha subimos 10 seg extra
+// Superserie 4 subimos ronda 4
 
 const workoutData = {
     "dia1": {
@@ -7,6 +13,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Australianas en TRX",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -35,9 +42,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas Asistidas en Máquina",
-                sets: 3,
-                reps: "8-10",
-                rest: "60s",
+                sets: 4,
+                reps: "10-12",
+                rest: "90s",
                 notes: "-Mantener retracción escapular, extensión completa de los codos",
                 videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
                 imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
@@ -102,18 +109,18 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
                     {
-                        name: "Curl en Polea Baja con Barra Recta",
+                        name: "Curl Martillo con Cuerda en Polea Baja",
                         subOrder: 1,
                         sets: 1,
                         reps: "15",
                         isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                        imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     },
                     {
                         name: "Crunch - Normal",
@@ -126,8 +133,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=obFKEQEAink",
-                imageUrl: "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
             }
         ]
     },
@@ -137,6 +144,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Jumping Jack",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -165,8 +173,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "8-10",
+                sets: 4,
+                reps: "10-12",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -208,7 +216,7 @@ const workoutData = {
                 isSuperset: true,
                 isEMOM: true,
                 emomDetails: {
-                    totalIntervals: 3,
+                    totalIntervals: 4,
                     workIntervalSeconds: 60
                 },
                 items: [
@@ -243,6 +251,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Worm",
+                isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
@@ -270,23 +279,23 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Devil Press + Thruster con Mancuernas",
+                name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Devil Press + Thruster con Mancuernas",
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
                         subOrder: 1,
                         sets: 3,
-                        reps: "6",
+                        reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
-                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "8",
                         notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
@@ -294,8 +303,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
-                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -315,7 +324,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -323,7 +332,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "20s",
+                        reps: "30s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
@@ -370,7 +379,7 @@ const workoutData = {
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
@@ -379,8 +388,8 @@ const workoutData = {
                     {
                         name: "Plancha - Cambios de apoyo",
                         subOrder: 2,
-                        sets: 3,
-                        reps: "10",
+                        sets: 4,
+                        reps: "8",
                         rest: "90s",
                         videoUrl: "https://youtu.be/Yg74EfwLBQY",
                         imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
@@ -399,5 +408,3 @@ const exerciseAlternatives = {
         { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ]
 };
-
-
