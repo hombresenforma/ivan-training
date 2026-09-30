@@ -154,7 +154,7 @@ const workoutData = {
                 "order": 1,
                 "name": "CARDIO - Bicicleta (Ritmo Suave)",
                 "sets": 1,
-                "reps": "5m",
+                "reps": "300s",
                 "rest": "0s",
                 "notes": "Ritmo progresivo y cómodo.",
                 "videoUrl": "https://www.youtube.com/watch?v=r6iTJGOftHY",
@@ -166,27 +166,28 @@ const workoutData = {
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "90 to 90",
+                        "name": "Movilidad - De Cadera",
                         "subOrder": 1,
                         "sets": 2,
                         "reps": "16",
                         "isSupersetStart": true,
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "notes": "Controlar que los pies no se desplacen del sitio.",
+                        "videoUrl": "https://youtu.be/7TmNRUP7N_0",
+                        "imageUrl": "https://i.ytimg.com/vi/7TmNRUP7N_0/mqdefault.jpg"
                     },
                     {
-                        "name": "Sentadilla profunda isométrica",
+                        "name": "Sentadilla Isométrica",
                         "subOrder": 2,
                         "sets": 2,
                         "reps": "30s",
                         "rest": "30s",
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "videoUrl": "https://youtu.be/epS5o03foYc",
+                        "imageUrl": "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://youtu.be/7TmNRUP7N_0",
+                "imageUrl": "https://i.ytimg.com/vi/7TmNRUP7N_0/mqdefault.jpg"
             },
             {
                 "order": 3,
@@ -214,7 +215,7 @@ const workoutData = {
                 "sets": 4,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
+                "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
                 "videoUrl": "https://youtu.be/R7FKam5GyNw",
                 "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
             },
@@ -230,19 +231,19 @@ const workoutData = {
             },
             {
                 "order": 7,
-                "name": "Elevación de talón con mancuerna unilateral",
+                "name": "Extensión de Cuádriceps en Máquina",
                 "sets": 3,
                 "reps": "15",
                 "rest": "60s",
                 "notes": "",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
             },
             {
                 "order": 8,
                 "name": "CARDIO - Bicicleta (Ritmo Suave)",
                 "sets": 1,
-                "reps": "10m",
+                "reps": "600s",
                 "rest": "0s",
                 "notes": "Vuelta a la calma a ritmo suave y sostenido.",
                 "videoUrl": "https://www.youtube.com/watch?v=r6iTJGOftHY",
@@ -255,13 +256,13 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Ski Erg",
+                "name": "Cardio - Remo en Máquina",
                 "sets": 1,
-                "reps": "3m",
+                "reps": "180s",
                 "rest": "0s",
                 "notes": "",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
+                "imageUrl": "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
             },
             {
                 "order": 2,
@@ -269,27 +270,29 @@ const workoutData = {
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Pass through con PVC",
+                        "name": "Movilidad - Cintura Escapular",
                         "subOrder": 1,
                         "sets": 2,
                         "reps": "15",
                         "isSupersetStart": true,
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "notes": "Estabilizando el tronco con mucho control motor.",
+                        "videoUrl": "https://youtu.be/qFt3RmTDmXI",
+                        "imageUrl": "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
                     },
                     {
-                        "name": "Rotación externa con banda unilateral",
+                        "name": "Gomas - Rotación Externa en Columna",
                         "subOrder": 2,
                         "sets": 2,
                         "reps": "10",
+                        "notes": "Mantén tu codo prácticamente pegado al torso en todo momento",
                         "rest": "30s",
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "videoUrl": "https://youtu.be/y8cSPoMahok",
+                        "imageUrl": "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://youtu.be/qFt3RmTDmXI",
+                "imageUrl": "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
             },
             {
                 "order": 3,
@@ -333,13 +336,13 @@ const workoutData = {
             },
             {
                 "order": 7,
-                "name": "Facepull",
+                "name": "Gomas - FacePull en Columna",
                 "sets": 3,
                 "reps": "15",
                 "rest": "60s",
                 "notes": "",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://youtu.be/KnnWfHUjsKg",
+                "imageUrl": "https://i.ytimg.com/vi/KnnWfHUjsKg/mqdefault.jpg"
             },
             {
                 "order": 8,
@@ -347,27 +350,27 @@ const workoutData = {
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Curl de bíceps en polea con cuerda",
+                        "name": "Curl Martillo con Cuerda en Polea Baja",
                         "subOrder": 1,
                         "sets": 3,
                         "reps": "12",
                         "isSupersetStart": true,
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     },
                     {
-                        "name": "Extensión de tríceps con barra corta",
+                        "name": "Extensión de Tríceps en Polea con Cuerda",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "12",
                         "rest": "60s",
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
                     }
                 ],
                 "notes": "Superserie en polea.",
-                "videoUrl": "",
-                "imageUrl": ""
+                "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
             }
         ]
     },
@@ -376,21 +379,21 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Activación específica para carrera",
+                "name": "Movilidad - Rodilla y Tobillo",
                 "sets": 1,
                 "reps": "1",
                 "rest": "0s",
-                "notes": "Sigue la secuencia completa del vídeo.",
-                "videoUrl": "",
-                "imageUrl": ""
+                "notes": "Buscar ROM. Sigue la secuencia completa del vídeo.",
+                "videoUrl": "https://youtu.be/wdOGeCaNKS8",
+                "imageUrl": "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
             },
             {
                 "order": 2,
                 "name": "CARDIO - Correr (Suave)",
                 "sets": 1,
-                "reps": "45m",
+                "reps": "2700s",
                 "rest": "0s",
-                "notes": "Ritmo estable y conversacional. Puedes hacerlo al aire libre.",
+                "notes": "Puedes hacerlo al aire libre si lo prefieres. Ritmo estable y conversacional. Puedes hacerlo al aire libre.",
                 "videoUrl": "https://youtu.be/KKvRtNn904g",
                 "imageUrl": "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
             },
@@ -418,13 +421,13 @@ const workoutData = {
                         "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
                     {
-                        "name": "Plancha en cuadrupedia",
+                        "name": "Bird Dog Isométrico Unilat",
                         "subOrder": 3,
                         "sets": 3,
                         "reps": "45s",
                         "rest": "60s",
-                        "videoUrl": "",
-                        "imageUrl": ""
+                        "videoUrl": "https://www.youtube.com/shorts/kuPWG6CaT-s",
+                        "imageUrl": "https://i.ytimg.com/vi/kuPWG6CaT-s/mqdefault.jpg"
                     }
                 ],
                 "notes": "Circuito de core: completa los tres ejercicios seguidos y descansa al final de cada vuelta.",
