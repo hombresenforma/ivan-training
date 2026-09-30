@@ -53,18 +53,18 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Jalón al Pecho Neutro en Polea",
+                name: "Jalón al Pecho en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Neutro en Polea",
+                        name: "Jalón al Pecho en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         notes: "Stretch: pullover cable (60s)",
-                        videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                        imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/GYIhmy1P4vY",
+                        imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
                     },
                     {
                         name: "Extensión de Tríceps en Polea con Cuerda",
@@ -77,8 +77,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Stretch: pullover cable (60s)",
-                videoUrl: "https://youtu.be/5YzMH2KkMHc",
-                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+                videoUrl: "https://youtu.be/GYIhmy1P4vY",
+                imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
             }
         ]
     },
@@ -241,14 +241,14 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo Seal con Mancuernas",
+                name: "Remo en Máquina T Agarre Abierto",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 10, 15",
                 rest: "120s",
                 notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
-                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
-                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 2,
