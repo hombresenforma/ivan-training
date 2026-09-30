@@ -148,6 +148,81 @@ const workoutData = {
         ]
     },
     "dia3": {
+        "name": "BÁSICOS PIERNA + CORE",
+        "exercises": [
+            {
+                "order": 1,
+                "name": "Sentadilla Trasera con Barra",
+                "sets": 3,
+                "reps": "8",
+                "rest": "120s",
+                "notes": "",
+                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
+                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+            },
+            {
+                "order": 2,
+                "name": "Peso Muerto Rumano con Barra",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
+                "videoUrl": "https://youtu.be/R7FKam5GyNw",
+                "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            },
+            {
+                "order": 3,
+                "name": "Sentadilla Búlgara con Mancuerna o KTB",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "10 repeticiones por pierna.",
+                "videoUrl": "https://youtu.be/kA6bHiDdTO4",
+                "imageUrl": "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Curl Femoral Tumbado en Máquina",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/-VfGwgG23OM",
+                "imageUrl": "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Extensión de Cuádriceps en Máquina",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Extensión de Cuádriceps en Máquina",
+                        "sets": 3,
+                        "reps": "10",
+                        "notes": "",
+                        "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
+                    },
+                    {
+                        "name": "Dead Bug",
+                        "sets": 3,
+                        "reps": "10",
+                        "rest": "90s",
+                        "notes": "10 repeticiones por lado, manteniendo la zona lumbar apoyada.",
+                        "videoUrl": "https://youtu.be/0CteMtiMChQ",
+                        "imageUrl": "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg",
+                        "subOrder": 2
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia4": {
         "name": "TREN INFERIOR + ACCESORIOS",
         "exercises": [
             {
@@ -251,7 +326,7 @@ const workoutData = {
             }
         ]
     },
-    "dia4": {
+    "dia5": {
         "name": "TREN SUPERIOR + ACCESORIOS",
         "exercises": [
             {
@@ -374,7 +449,7 @@ const workoutData = {
             }
         ]
     },
-    "dia5": {
+    "dia6": {
         "name": "ZONA 2 + CORE",
         "exercises": [
             {
