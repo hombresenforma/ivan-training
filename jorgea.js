@@ -1,7 +1,7 @@
 // Titulo: P20_4D_TorPier_DC_0
 // Notas: Rutina para AVANZADOS -> ALTA INTENSIDAD, Bajo Volumen
-// - Adaptación sencilla de 4 días. Dropsets en lugar de Clusters.
-// - Básico principal de cada día sustituido por una alternativa y ampliado con una cuarta serie de 15 repeticiones.
+// - Lavado de cara de 4 días con variantes visibles y adaptaciones por molestias de antebrazo.
+// - Bíceps directo solo en B1; series y repeticiones conservadas, sin intensificadores en el trabajo de bíceps.
 
 const workoutData = {
     "dia1": {
@@ -20,25 +20,25 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Press MIlitar en Multipower - Rodillas",
+                name: "Press Militar Sentado con Mancuernas",
                 setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/ZtBQT2bnKEw?feature=share",
-                imageUrl: "https://i.ytimg.com/vi/ZtBQT2bnKEw/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                imageUrl: "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Extensión de Tríceps Unilat Trasnuca en Polea Alta",
+                name: "Extensión de Tríceps en Polea con Cuerda",
                 setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "120s",
                 notes: "Stretch: elevación lateral cable (45s)",
-                videoUrl: "https://youtu.be/_2VPSbsjMQE",
-                imageUrl: "https://i.ytimg.com/vi/_2VPSbsjMQE/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -53,18 +53,18 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Jalón al Pecho Supino en Polea",
+                name: "Jalón al Pecho Neutro en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Jalón al Pecho Supino en Polea",
+                        name: "Jalón al Pecho Neutro en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
                         notes: "Stretch: pullover cable (60s)",
-                        videoUrl: "https://youtu.be/rimdRzyIJkA",
-                        imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                        imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
                     },
                     {
                         name: "Extensión de Tríceps en Polea con Cuerda",
@@ -77,8 +77,8 @@ const workoutData = {
                     }
                 ],
                 notes: "Stretch: pullover cable (60s)",
-                videoUrl: "https://youtu.be/rimdRzyIJkA",
-                imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             }
         ]
     },
@@ -87,25 +87,25 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo con Barra",
+                name: "Remo en Máquina T Agarre Estrecho",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 10, 15",
                 rest: "120s",
                 notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
-                videoUrl: "https://youtu.be/MjnZ52mZgT0",
-                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Dominadas Supinas Asistidas en Máquina",
-                setTechniques: {"2":"DROPSET","3":"DROPSET"},
+                name: "Jalón al Pecho Neutro en Polea",
+                setTechniques: {},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
-                notes: "Puedes asistirte con banda elástica",
-                videoUrl: "https://www.youtube.com/shorts/E9DT2pv7Rp0",
-                imageUrl: "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
+                notes: "Agarre neutro y carga controlada; detén la serie si aparece dolor en el antebrazo.",
+                videoUrl: "https://youtu.be/5YzMH2KkMHc",
+                imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -131,17 +131,17 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Curl Bayesian de Pie en Polea Doble",
+                name: "Curl Martillo con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Curl Bayesian de Pie en Polea Doble",
+                        name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "12, 10, 8",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/Z3DdhEK_0rw",
-                        imageUrl: "https://i.ytimg.com/vi/Z3DdhEK_0rw/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
                     },
                     {
                         name: "Elevaciones Laterales en Poleas Cruzadas",
@@ -153,9 +153,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/Z3DdhEK_0rw",
-                imageUrl: "https://i.ytimg.com/vi/Z3DdhEK_0rw/mqdefault.jpg"
+                notes: "Una sola sesión directa de bíceps semanal; detén el ejercicio si duele el antebrazo.",
+                videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
             }
         ]
     },
@@ -164,25 +164,25 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Press Inclinado con Mancuernas",
+                name: "Press Banca Inclinado en Multipower",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 10, 15",
                 rest: "120s",
                 notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                videoUrl: "https://youtu.be/3GS7EjN7KSk",
+                imageUrl: "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                name: "Press Militar en Multipower",
                 setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "10",
                 rest: "120s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=iATqshmFPnI",
+                imageUrl: "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -241,25 +241,25 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo Gironda en Polea",
+                name: "Remo Seal con Mancuernas",
                 setTechniques: {},
                 sets: 4,
                 reps: "6, 6, 10, 15",
                 rest: "120s",
                 notes: "En la cuarta serie ajusta la carga para completar 15 repeticiones.",
-                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
-                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 order: 2,
-                name: "Curl Scott con Barra Z",
+                name: "Pájaros con Mancuernas",
                 setTechniques: {"2":"DROPSET","3":"DROPSET"},
                 sets: 3,
                 reps: "15",
                 rest: "120",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                videoUrl: "https://youtu.be/EMrOS6P90lM",
+                imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -285,32 +285,14 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Curl de Biceps en Polea Baja",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Curl de Biceps en Polea Baja",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        isSupersetStart: true,
-                        notes: "Stretch: estiramiento con peso (30s)",
-                        videoUrl: "https://youtube.com/shorts/0GHLPYa_jzo",
-                        imageUrl: "https://i.ytimg.com/vi/0GHLPYa_jzo/mqdefault.jpg"
-                    },
-                    {
-                        name: "Face Pull al Cuello en Polea Alta",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12, 10, 8",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
-                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
-                    }
-                ],
-                notes: "Stretch: estiramiento con peso (30s)",
-                videoUrl: "https://youtube.com/shorts/0GHLPYa_jzo",
-                imageUrl: "https://i.ytimg.com/vi/0GHLPYa_jzo/mqdefault.jpg"
+                name: "Face Pull al Cuello en Polea Alta",
+                setTechniques: {},
+                sets: 3,
+                reps: "12, 10, 8",
+                rest: "90s",
+                notes: "Trabajo de deltoide posterior sin curl directo de bíceps.",
+                videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
+                imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
             }
         ]
     }
