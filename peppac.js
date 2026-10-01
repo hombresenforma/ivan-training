@@ -36,13 +36,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Floor Press con Mancuernas",
+                name: "Flexiones con Peso Corporal",
                 sets: 3,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
-                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -184,17 +184,17 @@ const workoutData = {
             },
             {
                 order: 3,
-                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/lfb6neUpfP8",
-                        imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
                     },
                     {
                         name: "Plancha - Lateral elevando Rodilla",
@@ -208,8 +208,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/lfb6neUpfP8",
-                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
+                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
             },
             {
                 order: 4,
@@ -311,13 +311,13 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Zancadas Caminando con Mancuernas/KTB",
+                name: "Sentadilla con Peso Corporal",
                 sets: 3,
                 reps: "16",
                 rest: "90s",
                 notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "https://youtu.be/NWes6fd1Sxs",
+                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -378,17 +378,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Split Unilateral con Mancuernas/KTB",
+                name: "Hip Thrust con Banda Elástica",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Split Unilateral con Mancuernas/KTB",
+                        name: "Hip Thrust con Banda Elástica",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                        imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
+                        imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
                     },
                     {
                         name: "Worm",
@@ -409,8 +409,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/o8-Oc19pGn8",
-                imageUrl: "https://i.ytimg.com/vi/o8-Oc19pGn8/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
+                imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
             }
         ]
     }
