@@ -1,4 +1,4 @@
-// Titulo: Lesión de piernas_2D_Solo tren superior
+// Titulo: Lesión de piernas_3D_Solo tren superior
 
 const workoutData = {
     "dia1": {
@@ -152,6 +152,107 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
                 imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia3": {
+        name: " Fullbody barra y mancuernas",
+        exercises: [
+            {
+                order: 1,
+                name: "Movilidad - Cintura Escapular",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Movilidad - Cintura Escapular",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "8",
+                        isSupersetStart: true,
+                        notes: "Estabilizando el tronco con mucho control motor.",
+                        videoUrl: "https://youtu.be/qFt3RmTDmXI",
+                        imageUrl: "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Rodilla y Tobillo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "8",
+                        videoUrl: "https://youtu.be/wdOGeCaNKS8",
+                        imageUrl: "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg"
+                    },
+                    {
+                        name: "Movilidad - Cintura Pélvica",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "8",
+                        rest: "0",
+                        videoUrl: "https://youtu.be/zoEdWDF5EiA",
+                        imageUrl: "https://i.ytimg.com/vi/zoEdWDF5EiA/mqdefault.jpg"
+                    }
+                ],
+                notes: "Estabilizando el tronco con mucho control motor.",
+                videoUrl: "https://youtu.be/qFt3RmTDmXI",
+                imageUrl: "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg"
+            },
+            {
+                order: 2,
+                name: "Press Banca con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "45s",
+                notes: "",
+                videoUrl: "https://youtu.be/hXCJC2Apcdg",
+                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Remo con Barra",
+                sets: 3,
+                reps: "10-12",
+                rest: "45s",
+                notes: "",
+                videoUrl: "https://youtu.be/MjnZ52mZgT0",
+                imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Press Militar Alterno de Pie con Mancuernas",
+                sets: 3,
+                reps: "10-12",
+                rest: "45s",
+                notes: "",
+                videoUrl: "https://youtube.com/shorts/0OGSDz6x-QQ",
+                imageUrl: "https://i.ytimg.com/vi/0OGSDz6x-QQ/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Curl Martillo Alterno Sentado con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl Martillo Alterno Sentado con Mancuernas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "12",
+                        isSupersetStart: true,
+                        notes: "Puedes hacerlo de pie",
+                        videoUrl: "https://www.youtube.com/shorts/1cRT5C0klJc",
+                        imageUrl: "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "12",
+                        rest: "60s",
+                        videoUrl: "https://youtu.be/jGTquNttoRU",
+                        imageUrl: "https://i.ytimg.com/vi/jGTquNttoRU/mqdefault.jpg"
+                    }
+                ],
+                notes: "Puedes hacerlo de pie",
+                videoUrl: "https://www.youtube.com/shorts/1cRT5C0klJc",
+                imageUrl: "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
             }
         ]
     }
