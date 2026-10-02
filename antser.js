@@ -1,10 +1,11 @@
-// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1
+// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_2
 // Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
-// For Time 21,15,9 + Trabajo de abdomen POLEA
+// For Time 21,15,9+3 + Trabajo de abdomen
 // Contenido de app_datos.js
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+// 
 
 const workoutData = {
     "dia1": {
@@ -13,9 +14,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "20,20,20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
@@ -25,7 +26,7 @@ const workoutData = {
                 order: 2,
                 name: "Dominadas Supinas",
                 sets: 3,
-                reps: "10",
+                reps: "FALLO",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/0TwqeC7fH8Y",
@@ -65,7 +66,7 @@ const workoutData = {
                         name: "Fondos de Tríceps con Pies Elevados",
                         subOrder: 1,
                         sets: 1,
-                        reps: "10",
+                        reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
                         imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
@@ -74,7 +75,7 @@ const workoutData = {
                         name: "Worm + Flexión",
                         subOrder: 2,
                         sets: 1,
-                        reps: "5",
+                        reps: "7",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=FhJAsfzBj50",
                         imageUrl: "https://i.ytimg.com/vi/FhJAsfzBj50/mqdefault.jpg"
@@ -83,7 +84,7 @@ const workoutData = {
                         name: "Muscle Clean-Jerk Unilat Alterno con Mancuerna",
                         subOrder: 3,
                         sets: 1,
-                        reps: "10",
+                        reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/2sOV3aayUCI",
                         imageUrl: "https://i.ytimg.com/vi/2sOV3aayUCI/mqdefault.jpg"
@@ -111,9 +112,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Frontal con Barra",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "20,20,20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
@@ -143,7 +144,7 @@ const workoutData = {
                         name: "Zancadas Caminando con Mancuernas/KTB",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "16",
                         isEMOMItem: true,
                         notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
                         videoUrl: "https://youtu.be/7tRy9X0ibnk",
@@ -153,7 +154,7 @@ const workoutData = {
                         name: "Kettlebell - Swing con Sentadilla",
                         subOrder: 2,
                         sets: 1,
-                        reps: "12",
+                        reps: "15",
                         isEMOMItem: true,
                         videoUrl: "https://youtube.com/shorts/MUJ2UiP5gjc",
                         imageUrl: "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
@@ -180,9 +181,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo + Swing Ruso con KTB",
-                setTechniques: {"3":"CLUSTER"},
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
                 sets: 3,
-                reps: "6, 6, 25",
+                reps: "20,20,20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/BTL9Ydr9Pv8",
@@ -232,7 +233,7 @@ const workoutData = {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "12",
+                        reps: "16",
                         isEMOMItem: true,
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
                         imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
@@ -241,7 +242,7 @@ const workoutData = {
                         name: "Face Pull con TRX",
                         subOrder: 2,
                         sets: 1,
-                        reps: "10",
+                        reps: "12",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
                         imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
@@ -250,7 +251,7 @@ const workoutData = {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 3,
                         sets: 1,
-                        reps: "8",
+                        reps: "10",
                         isEMOMItem: true,
                         videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
                         imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
@@ -271,13 +272,13 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 3
+                    totalRounds: 4
                 },
                 items: [
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        reps: "21, 15, 9",
+                        reps: "21, 15, 9,3",
                         isForTimeItem: true,
                         notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -286,7 +287,7 @@ const workoutData = {
                     {
                         name: "Worm + Burpee",
                         subOrder: 2,
-                        reps: "21, 15, 9",
+                        reps: "21, 15, 9,3",
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
                         imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
@@ -294,7 +295,7 @@ const workoutData = {
                     {
                         name: "Sit Up Abdominal con Disco",
                         subOrder: 3,
-                        reps: "21, 15, 9",
+                        reps: "21, 15, 9,3",
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
                         imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
@@ -319,13 +320,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/XJFii9NYHNs/mqdefault.jpg"
                     },
                     {
-                        name: "Hollow - Nivel 3",
+                        name: "Hollow - Nivel 4 Dinámico",
                         subOrder: 2,
                         sets: 3,
-                        reps: "5\"",
+                        reps: "10",
                         rest: "60s",
-                        videoUrl: "https://youtu.be/I6YISGE4Uvo",
-                        imageUrl: "https://i.ytimg.com/vi/I6YISGE4Uvo/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/9ROZxtdlRVo",
+                        imageUrl: "https://i.ytimg.com/vi/9ROZxtdlRVo/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -353,4 +354,3 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
