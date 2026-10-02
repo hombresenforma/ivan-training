@@ -99,9 +99,9 @@ const workoutData = {
             },
             {
                 "order": 3,
-                "name": "Remo Seal con Mancuernas",
-                "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
-                "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg",
+                "name": "Remo en Máquina T Agarre Abierto",
+                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
+                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
                 "sets": 3,
                 "reps": "10",
                 "rest": "90s",
