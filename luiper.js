@@ -8,7 +8,7 @@ const workoutData = {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
                 sets: 3,
-                reps: "8",
+                reps: "10",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
@@ -50,8 +50,8 @@ const workoutData = {
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=C6NaHhnQavs",
-                imageUrl: "https://i.ytimg.com/vi/C6NaHhnQavs/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 5,
@@ -89,7 +89,7 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas con Peso Corporal",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Lastra con peso si puedes",
@@ -146,8 +146,8 @@ const workoutData = {
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                        imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Elevaciones Laterales con Mancuernas",
@@ -160,8 +160,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                imageUrl: "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             }
         ]
     },
@@ -253,7 +253,7 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
-        { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
+        { name: "Press Banca Inclinado con Barra", videoUrl: "", imageUrl: "" }
     ],
     "Dominadas con Peso Corporal": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
