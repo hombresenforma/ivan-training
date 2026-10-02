@@ -146,15 +146,15 @@ const workoutData = {
         ]
     },
     "dia2": {
-        name: "DÍA 1: Tren inferior",
+        name: "DÍA 2: Tren inferior",
         exercises: [
             {
                 order: 1,
-                name: "Cuerpo Libre - Cardio - Jumping Jack",
+                name: "Jumping Jack",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Cuerpo Libre - Cardio - Jumping Jack",
+                        name: "Jumping Jack",
                         subOrder: 1,
                         sets: 2,
                         reps: "30s",
@@ -163,7 +163,7 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     },
                     {
-                        name: "Cuerpo Libre - Cardio - Sentadilla con Salto en Step",
+                        name: "Sentadilla con Salto en Step",
                         subOrder: 2,
                         sets: 2,
                         reps: "10",
@@ -202,7 +202,7 @@ const workoutData = {
                 sets: 4,
                 reps: "15",
                 rest: "60s",
-                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
+                notes: "",
                 videoUrl: "https://youtu.be/NWes6fd1Sxs",
                 imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
             },
