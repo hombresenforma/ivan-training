@@ -284,17 +284,17 @@ const workoutData = {
             },
             {
                 order: 2,
-                name: "Devil Press + Thruster con Mancuernas",
+                name: "Sentadilla con Peso Corporal",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Devil Press + Thruster con Mancuernas",
+                        name: "Sentadilla con Peso Corporal",
                         subOrder: 1,
                         sets: 3,
                         reps: "12",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
-                        imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/NWes6fd1Sxs",
+                        imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
                     },
                     {
                         name: "Flexiones con Peso Corporal",
@@ -308,8 +308,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/njS9V-rVeTY",
-                imageUrl: "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
+                videoUrl: "https://youtu.be/NWes6fd1Sxs",
+                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
             },
             {
                 order: 3,
@@ -329,7 +329,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 2,
                         sets: 3,
-                        reps: "30s",
+                        reps: "40s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
                     },
@@ -337,7 +337,7 @@ const workoutData = {
                         name: "Plancha - Lateral",
                         subOrder: 3,
                         sets: 3,
-                        reps: "30s",
+                        reps: "40s",
                         rest: "90s",
                         videoUrl: "https://youtu.be/IBlAMf7LYvI",
                         imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
