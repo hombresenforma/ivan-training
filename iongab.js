@@ -186,17 +186,9 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15, 12, 10",
+                        rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/1cRT5C0klJc",
                         imageUrl: "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
-                    },
-                    {
-                        name: "",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "",
-                        rest: "90s",
-                        videoUrl: "",
-                        imageUrl: ""
                     }
                 ],
                 notes: "",
