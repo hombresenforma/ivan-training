@@ -19,7 +19,7 @@ const workoutData = {
                 order: 2,
                 name: "Sentadilla Trasera con Barra",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -39,14 +39,14 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                name: "Press Militar Unilateral en Landmine",
                 setTechniques: {},
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                imageUrl: "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=p2OLvWOo9l0",
+                imageUrl: "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg"
             },
             {
                 order: 5,
@@ -77,7 +77,7 @@ const workoutData = {
                     {
                         name: "Extensión de Cuádriceps en Máquina",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
@@ -86,7 +86,7 @@ const workoutData = {
                     {
                         name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/jGTquNttoRU",
@@ -117,7 +117,7 @@ const workoutData = {
                 order: 2,
                 name: "Remo en Máquina T Agarre Estrecho",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -175,7 +175,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -184,7 +184,7 @@ const workoutData = {
                     {
                         name: "Curl Martillo con Mancuernas",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/fcFsPoJY9lg",
@@ -215,7 +215,7 @@ const workoutData = {
                 order: 2,
                 name: "Press Banca con Barra",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "",
@@ -273,7 +273,7 @@ const workoutData = {
                     {
                         name: "Flexiones con Lastre",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/gLBrKowP2eo",
@@ -282,7 +282,7 @@ const workoutData = {
                     {
                         name: "Press Francés con Barra Z en Banco Inclinado",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://youtu.be/hFk6xzt1DWM",
@@ -313,7 +313,7 @@ const workoutData = {
                 order: 2,
                 name: "Peso Muerto Rumano con Barra",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "120s",
                 notes: "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
@@ -371,7 +371,7 @@ const workoutData = {
                     {
                         name: "Face Pull al Cuello en Polea Alta",
                         subOrder: 1,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
@@ -380,7 +380,7 @@ const workoutData = {
                     {
                         name: "Pull Over en Polea Alta",
                         subOrder: 2,
-                        sets: 2,
+                        sets: 3,
                         reps: "10",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
@@ -425,5 +425,8 @@ const exerciseAlternatives = {
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl de Biceps Sentado con Barra Z", videoUrl: "https://www.youtube.com/shorts/D1Ix4-fxyhE", imageUrl: "https://i.ytimg.com/vi/D1Ix4-fxyhE/mqdefault.jpg" }
+    ]
+    "Press Militar Unilateral en Landmine": [
+        { name: "Press Militar Unilat de Pie con Mancuerna/KTB", videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0", imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg" }
     ]
 };
