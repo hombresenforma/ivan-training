@@ -169,31 +169,39 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Face Pull en Polea Alta",
+                name: "Pájaros con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Face Pull en Polea Alta",
+                        name: "Pájaros con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                        imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/EMrOS6P90lM",
+                        imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
                     },
                     {
-                        name: "Curl en Polea Baja con Cuerda",
+                        name: "Curl Martillo Alterno Sentado con Mancuernas",
                         subOrder: 2,
                         sets: 3,
                         reps: "15, 12, 10",
+                        videoUrl: "https://www.youtube.com/shorts/1cRT5C0klJc",
+                        imageUrl: "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
+                    },
+                    {
+                        name: "",
+                        subOrder: 3,
+                        sets: 3,
+                        reps: "",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic",
-                        imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                videoUrl: "https://youtu.be/EMrOS6P90lM",
+                imageUrl: "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -216,13 +224,13 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
                     },
                     {
-                        name: "Lateral Climbers",
+                        name: "Crunch - Normal",
                         subOrder: 2,
                         sets: 1,
                         reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/IKuy2laTdGY",
-                        imageUrl: "https://i.ytimg.com/vi/IKuy2laTdGY/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
                     }
                 ],
                 notes: "Mancuerna de 10-12kg.",
@@ -350,5 +358,3 @@ const exerciseAlternatives = {
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
     ]
 };
-
-
