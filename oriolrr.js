@@ -425,7 +425,7 @@ const exerciseAlternatives = {
     ],
     "Curl Scott con Barra Z": [
         { name: "Curl de Biceps Sentado con Barra Z", videoUrl: "https://www.youtube.com/shorts/D1Ix4-fxyhE", imageUrl: "https://i.ytimg.com/vi/D1Ix4-fxyhE/mqdefault.jpg" }
-    ]
+    ],
     "Press Militar Unilateral en Landmine": [
         { name: "Press Militar Unilat de Pie con Mancuerna/KTB", videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0", imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg" }
     ]
