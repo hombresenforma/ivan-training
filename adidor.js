@@ -1,4 +1,5 @@
 // Titulo: P3_3D_APFB_INOUT_1_fem
+
 const workoutData = {
     "dia1": {
         name: "Anterior IN-OUT",
@@ -213,6 +214,15 @@ const workoutData = {
                         notes: "Mancuerna de 10-12kg.",
                         videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
                         imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Crunch - V Agrupado",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/bS10OysdlLg",
+                        imageUrl: "https://i.ytimg.com/vi/bS10OysdlLg/mqdefault.jpg"
                     }
                 ],
                 notes: "Mancuerna de 10-12kg.",
