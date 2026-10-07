@@ -1,4 +1,4 @@
-// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1_HOME
+PAUSADO// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1_HOME
 // Notas: Trabajo por CLUSTERS y SERIES AL FALLO. 
 // For Time 21,15,9 + Trabajo de abdomen
 
