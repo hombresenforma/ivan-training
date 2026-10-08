@@ -176,31 +176,31 @@ const workoutData = {
             },
             {
                 "order": 5,
-                "name": "Face Pull en Polea Alta",
+                "name": "Face Pull con TRX+Banda",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Face Pull en Polea Alta",
+                        "name": "Face Pull con TRX+Banda",
                         "subOrder": 1,
                         "sets": 3,
                         "reps": "15, 12, 10",
                         "isSupersetStart": true,
-                        "videoUrl": "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                        "imageUrl": "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/shorts/QEMTnu4K_fM",
+                        "imageUrl": "https://i.ytimg.com/vi/QEMTnu4K_fM/mqdefault.jpg"
                     },
                     {
-                        "name": "Curl en Polea Baja con Cuerda",
+                        "name": "Curl Martillo con Cuerda en Polea Baja",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "15, 12, 10",
                         "rest": "90s",
-                        "videoUrl": "https://www.youtube.com/watch?v=2BFzjygU1Ic",
-                        "imageUrl": "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                "imageUrl": "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                "videoUrl": "https://www.youtube.com/shorts/QEMTnu4K_fM",
+                "imageUrl": "https://i.ytimg.com/vi/QEMTnu4K_fM/mqdefault.jpg"
             },
             {
                 "order": 6,
