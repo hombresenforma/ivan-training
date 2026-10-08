@@ -1,4 +1,5 @@
 // Titulo: P5_3D_TPFB_1
+// Notas: Trabajo equilibrado con circuitos
 
 const workoutData = {
     "dia1": {
@@ -6,7 +7,7 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Dominadas Australianas en TRX",
+                "name": "Remo Unilat con Mancuerna/KTB (Explicado)",
                 "isSuperset": true,
                 "items": [
                     {
@@ -141,7 +142,7 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Jumping Jack",
+                "name": "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 "isSuperset": true,
                 "items": [
                     {
@@ -251,7 +252,7 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Worm",
+                "name": "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
                 "isSuperset": true,
                 "items": [
                     {
