@@ -1,4 +1,4 @@
-// Titulo: P3_3D_APFB_INOUT_1_fem
+// Titulo: P3_3D_APFB_INOUT_2_fem
 
 const workoutData = {
     "dia1": {
@@ -7,8 +7,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Prensa Inclinada en Máquina de Discos",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8,8,10,10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -43,7 +43,7 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
                         imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
                     }
@@ -85,7 +85,7 @@ const workoutData = {
                 name: "Circuito IN-OUT",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 4,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -122,8 +122,8 @@ const workoutData = {
             {
                 order: 2,
                 name: "Jalón al Pecho Supino en Polea",
-                sets: 3,
-                reps: "8",
+                sets: 4,
+                reps: "8,8,10,10",
                 rest: "90s",
                 notes: "",
                 videoUrl: "https://youtu.be/rimdRzyIJkA",
@@ -186,7 +186,7 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "15, 12, 10",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
                         imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     }
@@ -200,7 +200,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 5,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
@@ -237,7 +237,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
+                sets: 4,
                 reps: "8",
                 rest: "90s",
                 notes: "",
@@ -248,8 +248,8 @@ const workoutData = {
                 order: 3,
                 name: "Sentadilla Frontal con Barra",
                 sets: 3,
-                reps: "8",
-                rest: "90s",
+                reps: "10",
+                rest: "60s",
                 notes: "",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
                 imageUrl: "https://i.ytimg.com/vi/ErXO1WKVlPI/mqdefault.jpg"
@@ -273,7 +273,7 @@ const workoutData = {
                         subOrder: 2,
                         sets: 3,
                         reps: "20",
-                        rest: "90s",
+                        rest: "60s",
                         videoUrl: "https://youtu.be/a8GF3uTnUOI",
                         imageUrl: "https://i.ytimg.com/vi/a8GF3uTnUOI/mqdefault.jpg"
                     }
@@ -287,7 +287,7 @@ const workoutData = {
                 name: "Circuito IN-OUT. ",
                 isSuperset: true,
                 circuitDetails: {
-                    totalRounds: 5,
+                    totalRounds: 6,
                     restBetweenExercisesSeconds: 30,
                     restBetweenRoundsSeconds: 30
                 },
