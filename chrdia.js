@@ -1,330 +1,356 @@
-// Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1_HOME
-// Notas: Trabajo por CLUSTERS y SERIES AL FALLO.\n// Adaptado para muñecas débiles y hombro sensible: sin impacto, sin apoyos de manos en el suelo y sin presses sobre la cabeza.\n// For Time 21,15,9 de bajo impacto + trabajo de abdomen
+// Titulo: P14_3D_FUERZA_1 (HOME)
+// Adaptación para hombro sensible y muñecas débiles: sin presses sobre la cabeza ni apoyos de manos en el suelo. Enfoque de fuerza y tres días conservados.
 
 const workoutData = {
-    "dia1": {
-        name: "Torso Empuje",
-        exercises: [
-            {
-                order: 1,
-                name: "Floor Press con Mancuernas",
-                setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "8, 8, 25",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/Iu02N3s7zgQ",
-                imageUrl: "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Remo con Banda Elástica",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/Ujn1NciaFII",
-                imageUrl: "https://i.ytimg.com/vi/Ujn1NciaFII/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Elevaciones Laterales con Mancuernas",
-                sets: 3,
-                reps: "12",
-                rest: "90s",
-                notes: "Usa carga ligera y un recorrido cómodo, sin dolor en el hombro.",
-                videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Press Inclinado con Mancuernas",
-                sets: 3,
-                reps: "12",
-                rest: "90s",
-                notes: "Agarre neutro y recorrido cómodo. Detén la serie si aparece molestia en el hombro.",
-                videoUrl: "https://youtu.be/ZE4M73kXB5A",
-                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Circuito Metabólico",
-                isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 4,
-                    workIntervalSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Press Francés con Mancuernas en Banco Inclinado",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/L__Q6Jl9Ics",
-                        imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
-                    },
-                    {
-                        name: "Elevaciones Laterales con Mancuernas",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Curl Martillo con Mancuernas",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/FBttBh-aiVs",
-                imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia2": {
-        name: "Piernas",
-        exercises: [
-            {
-                order: 1,
-                name: "Movilidad - Activación de Cadera",
-                isWarmup: true,
-                sets: 2,
-                reps: "10",
-                rest: "60s",
-                notes: "Haz los ejercicios y repeticiones del vídeo, sin apoyar las manos en el suelo si genera molestia.",
-                videoUrl: "https://youtu.be/ltzWjXiHXao",
-                imageUrl: "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
-                setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "8, 8, 25",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://youtu.be/lfb6neUpfP8",
-                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
-                reps: "8",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                sets: 2,
-                reps: "FALLO",
-                rest: "90s",
-                notes: "2 series AL FALLO (Con peso para hacer unas 15 reps teóricas). Anota las repeticiones. ",
-                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Circuito Metabólico",
-                isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 4,
-                    workIntervalSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Zancadas Caminando con Mancuernas/KTB",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "16",
-                        isEMOMItem: true,
-                        notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "12",
-                        isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch Abdominal Piernas Extendidas",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "12",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/TYNp3OsGKL0",
-                        imageUrl: "https://i.ytimg.com/vi/TYNp3OsGKL0/mqdefault.jpg"
-                    }
-                ],
-                notes: "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia3": {
-        name: "Torso Tracción",
-        exercises: [
-            {
-                order: 1,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "8, 8, 25",
-                rest: "120s",
-                notes: "Trata de despegar el pecho al final del movimiento",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Press Banca con Mancuernas",
-                sets: 3,
-                reps: "10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/hXCJC2Apcdg",
-                imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Dominadas Australianas en TRX",
-                sets: 3,
-                reps: "FALLO",
-                rest: "90s",
-                notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Circuito Metabólico",
-                isSuperset: true,
-                isEMOM: true,
-                emomDetails: {
-                    totalIntervals: 4,
-                    workIntervalSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Curl Martillo con Mancuernas",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
-                    },
-                    {
-                        name: "Face Pull con TRX",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "10",
-                        isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
-                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
-                        subOrder: 3,
-                        sets: 1,
-                        reps: "8",
-                        isEMOMItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/NMlvYALcyBc",
-                        imageUrl: "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/fcFsPoJY9lg",
-                imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia4": {
-        name: "FOR TIME BAJO IMPACTO - ABS CARGA",
-        exercises: [
-            {
-                order: 1,
-                name: "FOR TIME (Sentadilla+Remo+SitUp)",
-                isSuperset: true,
-                isForTime: true,
-                forTimeDetails: {
-                    totalRounds: 3
-                },
-                items: [
-                    {
-                        name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                        subOrder: 1,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                        videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                        imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo con Banda Elástica",
-                        subOrder: 2,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/Ujn1NciaFII",
-                        imageUrl: "https://i.ytimg.com/vi/Ujn1NciaFII/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sit Up",
-                        subOrder: 3,
-                        reps: "21, 15, 9",
-                        isForTimeItem: true,
-                        videoUrl: "https://youtu.be/fXgBSdee8QU",
-                        imageUrl: "https://i.ytimg.com/vi/fXgBSdee8QU/mqdefault.jpg"
-                    }
-                ],
-                notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
-                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
-                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Press Pallof Excéntrico con Banda Elástica",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Press Pallof Excéntrico con Banda Elástica",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "10",
-                        isSupersetStart: true,
-                        notes: "10 por lado",
-                        videoUrl: "https://www.youtube.com/shorts/K4zseqb-hvo",
-                        imageUrl: "https://i.ytimg.com/vi/K4zseqb-hvo/mqdefault.jpg"
-                    }
-                ],
-                notes: "10 por lado",
-                videoUrl: "https://www.youtube.com/shorts/K4zseqb-hvo",
-                imageUrl: "https://i.ytimg.com/vi/K4zseqb-hvo/mqdefault.jpg"
-            }
-        ]
-    }
+  "dia1": {
+    "name": "Anterior (empuje y pierna)",
+    "exercises": [
+      {
+        "order": 1,
+        "name": "Gomas - Rotación Externa en Columna",
+        "isWarmup": true,
+        "sets": 2,
+        "reps": "10",
+        "rest": "30s",
+        "notes": "Mantén tu codo prácticamente pegado al torso en todo momento",
+        "videoUrl": "https://youtu.be/y8cSPoMahok",
+        "imageUrl": "https://i.ytimg.com/vi/y8cSPoMahok/mqdefault.jpg"
+      },
+      {
+        "order": 2,
+        "name": "Elevaciones Laterales con Mancuernas",
+        "sets": 3,
+        "reps": "6, 12, 12",
+        "rest": "90s",
+        "notes": "",
+        "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+        "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+      },
+      {
+        "order": 3,
+        "name": "Sentadilla Búlgara con Mancuerna o KTB",
+        "setTechniques": {
+          "1": "DROPSET",
+          "2": "DROPSET",
+          "3": "DROPSET"
+        },
+        "sets": 3,
+        "reps": "8",
+        "rest": "90s",
+        "notes": "la dropset es DEJANDO EL PESO. ",
+        "videoUrl": "https://youtu.be/kA6bHiDdTO4",
+        "imageUrl": "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+      },
+      {
+        "order": 5,
+        "name": "Press Cerrado en Banco Inclinado con Mancuernas",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Press Cerrado en Banco Inclinado con Mancuernas",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://youtu.be/tdh7LSxUj1s",
+            "imageUrl": "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+          },
+          {
+            "name": "Gomas - Empuje en Columna",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "10",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/GrDyF8acxeU",
+            "imageUrl": "https://i.ytimg.com/vi/GrDyF8acxeU/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://youtu.be/tdh7LSxUj1s",
+        "imageUrl": "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
+      },
+      {
+        "order": 6,
+        "name": "Gomas - Extensión de Tríceps de Pie",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Gomas - Extensión de Tríceps de Pie",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://youtu.be/iwMJz1a0pck",
+            "imageUrl": "https://i.ytimg.com/vi/iwMJz1a0pck/mqdefault.jpg"
+          },
+          {
+            "name": "Gomas - Extensión de Tríceps en Columna",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "5",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/MtGdJQ-Q0hs",
+            "imageUrl": "https://i.ytimg.com/vi/MtGdJQ-Q0hs/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://youtu.be/iwMJz1a0pck",
+        "imageUrl": "https://i.ytimg.com/vi/iwMJz1a0pck/mqdefault.jpg"
+      },
+      {
+        "order": 7,
+        "name": "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://youtu.be/E2n7V0o8B5A",
+            "imageUrl": "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
+          },
+          {
+            "name": "Extensión Tríceps Trasnuca con Mancuernas/Kettlebell",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "12",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/1MgU2PO4_rI",
+            "imageUrl": "https://i.ytimg.com/vi/1MgU2PO4_rI/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://youtu.be/E2n7V0o8B5A",
+        "imageUrl": "https://i.ytimg.com/vi/E2n7V0o8B5A/mqdefault.jpg"
+      }
+    ]
+  },
+  "dia2": {
+    "name": "Posterior (Remo)",
+    "exercises": [
+      {
+        "order": 1,
+        "name": "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+        "isWarmup": true,
+        "sets": 2,
+        "reps": "10",
+        "rest": "30s",
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/shorts/NMlvYALcyBc",
+        "imageUrl": "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg"
+      },
+      {
+        "order": 2,
+        "name": "Remo Seal con Mancuernas",
+        "sets": 3,
+        "reps": "6, 12, 12",
+        "rest": "120s",
+        "notes": "Trata de despegar el pecho al final del movimiento",
+        "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
+        "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+      },
+      {
+        "order": 3,
+        "name": "Peso Muerto Rumano con Mancuernas/KTB",
+        "sets": 3,
+        "reps": "12, 10, 8",
+        "rest": "90s",
+        "notes": "Espalda recta en todo momento",
+        "videoUrl": "https://www.youtube.com/shorts/SMll4DOYvEs",
+        "imageUrl": "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
+      },
+      {
+        "order": 4,
+        "name": "Dominadas Australianas en TRX",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Dominadas Australianas en TRX",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "8",
+            "isSupersetStart": true,
+            "notes": "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+            "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+            "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+          },
+          {
+            "name": "Remo Horizontal en TRX",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "8",
+            "rest": "90s",
+            "videoUrl": "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+            "imageUrl": "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+          }
+        ],
+        "notes": "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
+        "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+        "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+      },
+      {
+        "order": 5,
+        "name": "Curl con Mancuernas Sentado en Banco Inclinado",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Curl con Mancuernas Sentado en Banco Inclinado",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://youtu.be/S32a3nYiWko",
+            "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+          },
+          {
+            "name": "Remo Horizontal en TRX",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "12",
+            "rest": "60s",
+            "videoUrl": "https://www.youtube.com/watch?v=uTA2s5FuRUM",
+            "imageUrl": "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://youtu.be/S32a3nYiWko",
+        "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+      },
+      {
+        "order": 6,
+        "name": "Curl Femoral desde Puente (Con TRX)",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Curl Femoral desde Puente (Con TRX)",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+            "imageUrl": "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
+          },
+          {
+            "name": "Curl Martillo con Mancuernas",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "12",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/fcFsPoJY9lg",
+            "imageUrl": "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/watch?v=6NCkHTG4lHc",
+        "imageUrl": "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
+      }
+    ]
+  },
+  "dia3": {
+    "name": "Completo",
+    "exercises": [
+      {
+        "order": 1,
+        "name": "Abducción de Glúteo Unilat en el Suelo",
+        "isWarmup": true,
+        "sets": 2,
+        "reps": "10",
+        "rest": "30s",
+        "notes": "10 por lado",
+        "videoUrl": "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+        "imageUrl": "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+      },
+      {
+        "order": 2,
+        "name": "Sentadilla Frontal con Mancuernas/Kettlebells",
+        "sets": 3,
+        "reps": "6, 12, 12",
+        "rest": "120s",
+        "notes": "",
+        "videoUrl": "https://youtu.be/lfb6neUpfP8",
+        "imageUrl": "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+      },
+      {
+        "order": 3,
+        "name": "Press Banca Contralat Unilat con Mancuerna",
+        "sets": 3,
+        "reps": "10",
+        "rest": "90s",
+        "notes": "",
+        "videoUrl": "https://youtube.com/shorts/7kAl5bVSYUc",
+        "imageUrl": "https://i.ytimg.com/vi/7kAl5bVSYUc/mqdefault.jpg"
+      },
+      {
+        "order": 4,
+        "name": "Remo Contralat Unilat con Mancuerna",
+        "sets": 3,
+        "reps": "10",
+        "rest": "90s",
+        "notes": "",
+        "videoUrl": "https://youtube.com/shorts/O7PAUd4ZMB4",
+        "imageUrl": "https://i.ytimg.com/vi/O7PAUd4ZMB4/mqdefault.jpg"
+      },
+      {
+        "order": 5,
+        "name": "Floor Press con Mancuernas",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Floor Press con Mancuernas",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "10",
+            "isSupersetStart": true,
+            "notes": "Trata de despegar el pecho al final del movimiento",
+            "videoUrl": "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+            "imageUrl": "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
+          },
+          {
+            "name": "Gomas - Remo en Columna",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "16",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/oaNDZ4glMKY",
+            "imageUrl": "https://i.ytimg.com/vi/oaNDZ4glMKY/mqdefault.jpg"
+          }
+        ],
+        "notes": "Trata de despegar el pecho al final del movimiento",
+        "videoUrl": "https://www.youtube.com/shorts/Iu02N3s7zgQ",
+        "imageUrl": "https://i.ytimg.com/vi/Iu02N3s7zgQ/mqdefault.jpg"
+      },
+      {
+        "order": 6,
+        "name": "Zancada Trasera Alterna con Mancuernas/KTB",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Zancada Trasera Alterna con Mancuernas/KTB",
+            "subOrder": 1,
+            "sets": 3,
+            "reps": "16, 14, 12",
+            "isSupersetStart": true,
+            "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+            "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+          },
+          {
+            "name": "Elevaciones Laterales con Mancuernas",
+            "subOrder": 2,
+            "sets": 3,
+            "reps": "12, 10, 8",
+            "rest": "90s",
+            "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+            "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+        "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+      }
+    ]
+  }
 };
 
-const exerciseAlternatives = {
-};
-
-
+const exerciseAlternatives = {};
