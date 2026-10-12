@@ -1,35 +1,55 @@
-// Titulo: P5_3D_TPFB_1
-// Adaptación individual Juanpa 29/09/2026: programa de 3 días torso, pierna y fullbody. Se sustituyen los apoyos prolongados sobre manos y agarres que podrían reproducir la molestia de antebrazo. Clavícula: recorrido cómodo y detener si molesta. Circuitos y EMOM corregidos.
+// Titulo: P5_3D_TPFB_2
+// Catálogo: primer ejercicio con una serie y progresión de repeticiones; circuito final a 4 rondas. Adaptación individual: press inclinado para priorizar pecho superior y control de tolerancia de clavícula.
+
 const workoutData = {
   "dia1": {
     "name": "Tren superior",
     "exercises": [
       {
         "order": 1,
-        "name": "Rotación Externa de Hombro Unilat con Polea",
-        "sets": 2,
-        "reps": "10 por lado",
-        "rest": "30s",
-        "notes": "Calentamiento suave, sin dolor en clavícula ni antebrazo.",
-        "videoUrl": "https://youtube.com/shorts/0dw436rzrNU",
-        "imageUrl": "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg",
-        "isWarmup": true
+        "name": "Dominadas Australianas en TRX",
+        "isWarmup": true,
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Dominadas Australianas en TRX",
+            "subOrder": 1,
+            "sets": 1,
+            "reps": "10",
+            "isSupersetStart": true,
+            "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+            "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
+          },
+          {
+            "name": "Flexiones con Peso Corporal",
+            "subOrder": 2,
+            "sets": 1,
+            "reps": "15",
+            "rest": "30s",
+            "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+            "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg",
+            "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor."
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+        "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
       },
       {
         "order": 2,
-        "name": "Jalón al Pecho Neutro en Polea",
-        "sets": 3,
-        "reps": "8-10",
-        "rest": "75s",
-        "notes": "Agarre neutro y recorrido cómodo; deja 2 repeticiones en reserva.",
-        "videoUrl": "https://youtu.be/5YzMH2KkMHc",
-        "imageUrl": "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
+        "name": "Dominadas Supinas Asistidas en Máquina",
+        "sets": 4,
+        "reps": "12",
+        "rest": "90s",
+        "notes": "-Mantener retracción escapular, extensión completa de los codos",
+        "videoUrl": "https://www.youtube.com/shorts/E9DT2pv7Rp0",
+        "imageUrl": "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
       },
       {
         "order": 3,
         "name": "Remo Gironda en Polea",
         "sets": 3,
-        "reps": "8-10",
+        "reps": "10",
         "rest": "60s",
         "notes": "",
         "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
@@ -37,27 +57,27 @@ const workoutData = {
       },
       {
         "order": 4,
-        "name": "Press Banca con Mancuernas",
+        "name": "Press Banca Inclinado en Multipower",
         "sets": 3,
-        "reps": "10-12",
+        "reps": "12",
         "rest": "60s",
-        "notes": "",
-        "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-        "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+        "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor.",
+        "videoUrl": "https://youtu.be/3GS7EjN7KSk",
+        "imageUrl": "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
       },
       {
         "order": 5,
         "name": "Press Militar Unilat de Pie con Mancuerna/KTB",
         "sets": 3,
-        "reps": "10-12",
+        "reps": "12",
         "rest": "60s",
-        "notes": "Carga controlada y recorrido cómodo para la clavícula; si molesta, detener y avisar.",
+        "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor.",
         "videoUrl": "https://www.youtube.com/shorts/vIK0qkXP_f0",
         "imageUrl": "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
       },
       {
         "order": 6,
-        "name": "Circuito bicicleta",
+        "name": "Ejercicio por tiempo",
         "isSuperset": true,
         "circuitDetails": {
           "totalRounds": 3,
@@ -66,39 +86,36 @@ const workoutData = {
         },
         "items": [
           {
-            "name": "CARDIO - Bicicleta (Ritmo Fuerte)",
+            "name": "Flexiones + Mountain Climbers",
+            "subOrder": 1,
             "sets": 1,
             "reps": "45s",
-            "subOrder": 1,
-            "isSupersetStart": true,
-            "rest": "60s",
-            "notes": "45 s de trabajo, 60 s de recuperación.",
-            "videoUrl": "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-            "imageUrl": "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+            "isCircuitItem": true,
+            "videoUrl": "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+            "imageUrl": "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg",
+            "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor."
           }
         ],
-        "notes": "Tres intervalos sin apoyo sobre las manos.",
-        "videoUrl": "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-        "imageUrl": "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/shorts/1wdJ5RSUCBE",
+        "imageUrl": "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
       },
       {
         "order": 7,
-        "name": "EMOM bíceps y abdomen",
+        "name": "EMOM",
         "isSuperset": true,
         "isEMOM": true,
         "emomDetails": {
-          "totalIntervals": 6,
+          "totalIntervals": 4,
           "workIntervalSeconds": 60
         },
         "items": [
           {
             "name": "Curl Martillo con Cuerda en Polea Baja",
-            "sets": 1,
-            "reps": "12",
             "subOrder": 1,
-            "isSupersetStart": true,
-            "rest": "",
-            "notes": "Agarre neutro y carga ligera.",
+            "sets": 1,
+            "reps": "15",
+            "isEMOMItem": true,
             "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
             "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
           },
@@ -112,9 +129,9 @@ const workoutData = {
             "imageUrl": "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
           }
         ],
-        "notes": "Alterna curl y crunch durante 6 minutos (3 vueltas).",
-        "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
-        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/watch?v=obFKEQEAink",
+        "imageUrl": "https://i.ytimg.com/vi/obFKEQEAink/mqdefault.jpg"
       }
     ]
   },
@@ -124,6 +141,7 @@ const workoutData = {
       {
         "order": 1,
         "name": "Jumping Jack",
+        "isWarmup": true,
         "isSuperset": true,
         "items": [
           {
@@ -152,8 +170,8 @@ const workoutData = {
       {
         "order": 2,
         "name": "Prensa Inclinada en Máquina de Discos",
-        "sets": 3,
-        "reps": "8-10",
+        "sets": 4,
+        "reps": "12",
         "rest": "90s",
         "notes": "",
         "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -161,29 +179,29 @@ const workoutData = {
       },
       {
         "order": 3,
-        "name": "Hip Thrust con Barra (ExPLICADO)",
+        "name": "Kettlebell - Swing con Sentadilla",
         "sets": 3,
-        "reps": "10-12",
-        "rest": "75s",
-        "notes": "Recorrido controlado, sin apoyo prolongado en manos.",
-        "videoUrl": "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-        "imageUrl": "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+        "reps": "12",
+        "rest": "60s",
+        "notes": "",
+        "videoUrl": "https://youtube.com/shorts/MUJ2UiP5gjc",
+        "imageUrl": "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
       },
       {
         "order": 4,
-        "name": "Step Up Unilateral en Step",
+        "name": "Zancadas Caminando con Mancuernas/KTB",
         "sets": 3,
-        "reps": "12 por pierna",
-        "rest": "75s",
-        "notes": "Sube a un escalón bajo, sin impulso con el brazo; usa peso corporal.",
-        "videoUrl": "https://youtu.be/bSxZqLpknb8",
-        "imageUrl": "https://i.ytimg.com/vi/bSxZqLpknb8/mqdefault.jpg"
+        "reps": "20",
+        "rest": "60s",
+        "notes": "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
+        "videoUrl": "https://youtu.be/7tRy9X0ibnk",
+        "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
       },
       {
         "order": 5,
         "name": "Curl Femoral Sentado en Máquina",
         "sets": 3,
-        "reps": "10-12",
+        "reps": "12",
         "rest": "60s",
         "notes": "",
         "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
@@ -195,7 +213,7 @@ const workoutData = {
         "isSuperset": true,
         "isEMOM": true,
         "emomDetails": {
-          "totalIntervals": 6,
+          "totalIntervals": 4,
           "workIntervalSeconds": 60
         },
         "items": [
@@ -218,7 +236,7 @@ const workoutData = {
             "imageUrl": "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
           }
         ],
-        "notes": "Alterna hip thrust con banda y crunch bicicleta durante 6 minutos (3 vueltas).",
+        "notes": "",
         "videoUrl": "https://www.youtube.com/shorts/ewSrH2uFits",
         "imageUrl": "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
       }
@@ -229,142 +247,155 @@ const workoutData = {
     "exercises": [
       {
         "order": 1,
-        "name": "Rotación Externa de Hombro Unilat con Polea",
-        "sets": 2,
-        "reps": "10 por lado",
-        "rest": "30s",
-        "notes": "Calentamiento controlado.",
-        "videoUrl": "https://youtube.com/shorts/0dw436rzrNU",
-        "imageUrl": "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg",
-        "isWarmup": true
+        "name": "Worm",
+        "isWarmup": true,
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Worm",
+            "subOrder": 1,
+            "sets": 2,
+            "reps": "5",
+            "isSupersetStart": true,
+            "videoUrl": "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+            "imageUrl": "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
+          },
+          {
+            "name": "Face Pull con KTB",
+            "subOrder": 2,
+            "sets": 2,
+            "reps": "10",
+            "rest": "30s",
+            "videoUrl": "https://www.youtube.com/shorts/RIS2s-UkKOk",
+            "imageUrl": "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
+          }
+        ],
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+        "imageUrl": "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
       },
       {
         "order": 2,
-        "name": "Press Banca con Mancuernas",
+        "name": "Devil Press + Thruster con Mancuernas",
         "isSuperset": true,
         "items": [
           {
-            "name": "Press Banca con Mancuernas",
-            "sets": 3,
-            "reps": "8-10",
+            "name": "Devil Press + Thruster con Mancuernas",
             "subOrder": 1,
-            "isSupersetStart": true,
-            "rest": "",
-            "notes": "Agarre cómodo; si molesta la clavícula, detener y avisar.",
-            "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-            "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
-          },
-          {
-            "name": "Sentadilla con Salto",
             "sets": 3,
             "reps": "8",
+            "isSupersetStart": true,
+            "videoUrl": "https://www.youtube.com/shorts/njS9V-rVeTY",
+            "imageUrl": "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg",
+            "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor."
+          },
+          {
+            "name": "Flexiones con Peso Corporal",
             "subOrder": 2,
-            "isSupersetStart": false,
+            "sets": 3,
+            "reps": "15",
+            "notes": "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor.",
             "rest": "90s",
-            "notes": "Aterriza suave.",
-            "videoUrl": "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
-            "imageUrl": "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+            "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+            "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
           }
         ],
-        "notes": "Tres vueltas, sin apoyo prolongado sobre las manos.",
-        "videoUrl": "https://youtu.be/hXCJC2Apcdg",
-        "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
+        "notes": "Recorrido sin molestia en la clavícula; detén el ejercicio y avisa al coach si aparece dolor.",
+        "videoUrl": "https://www.youtube.com/shorts/njS9V-rVeTY",
+        "imageUrl": "https://i.ytimg.com/vi/njS9V-rVeTY/mqdefault.jpg"
       },
       {
         "order": 3,
-        "name": "Peso Muerto Rumano con Barra",
+        "name": "Kettlebell - Soft Swing",
         "isSuperset": true,
         "items": [
           {
-            "name": "Peso Muerto Rumano con Barra",
-            "sets": 3,
-            "reps": "10",
+            "name": "Kettlebell - Soft Swing",
             "subOrder": 1,
+            "sets": 3,
+            "reps": "15",
             "isSupersetStart": true,
-            "rest": "",
-            "notes": "Carga moderada y espalda neutra.",
-            "videoUrl": "https://youtu.be/R7FKam5GyNw",
-            "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+            "videoUrl": "https://youtube.com/shorts/-i4ReGBb26g",
+            "imageUrl": "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
           },
           {
-            "name": "Crunch - Normal",
-            "sets": 3,
-            "reps": "20",
+            "name": "Plancha - Lateral",
             "subOrder": 2,
-            "isSupersetStart": false,
+            "sets": 3,
+            "reps": "30s",
+            "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+            "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
+          },
+          {
+            "name": "Plancha - Lateral",
+            "subOrder": 3,
+            "sets": 3,
+            "reps": "30s",
             "rest": "90s",
-            "notes": "Lumbar apoyada.",
-            "videoUrl": "https://youtu.be/wNqGgCjBVaE",
-            "imageUrl": "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+            "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
           }
         ],
-        "notes": "Tres vueltas.",
-        "videoUrl": "https://youtu.be/R7FKam5GyNw",
-        "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+        "notes": "",
+        "videoUrl": "https://youtube.com/shorts/-i4ReGBb26g",
+        "imageUrl": "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
       },
       {
         "order": 4,
-        "name": "Remo en Máquina T Agarre Estrecho",
+        "name": "Remo con Barra",
         "isSuperset": true,
         "items": [
           {
-            "name": "Remo en Máquina T Agarre Estrecho",
-            "sets": 3,
-            "reps": "10-12",
+            "name": "Remo con Barra",
             "subOrder": 1,
-            "isSupersetStart": true,
-            "rest": "",
-            "notes": "Agarre cómodo; si reproduce dolor de antebrazo, detén el ejercicio.",
-            "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-            "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
-          },
-          {
-            "name": "Curl Martillo con Cuerda en Polea Baja",
             "sets": 3,
             "reps": "12",
+            "isSupersetStart": true,
+            "videoUrl": "https://youtu.be/MjnZ52mZgT0",
+            "imageUrl": "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+          },
+          {
+            "name": "Curl Martillo Alterno Sentado con Mancuernas",
             "subOrder": 2,
-            "isSupersetStart": false,
+            "sets": 3,
+            "reps": "12",
+            "notes": "En caso de no tener el banco cerca lo puedes hacer de pie",
             "rest": "90s",
-            "notes": "Agarre neutro y carga ligera.",
-            "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
-            "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+            "videoUrl": "https://www.youtube.com/shorts/1cRT5C0klJc",
+            "imageUrl": "https://i.ytimg.com/vi/1cRT5C0klJc/mqdefault.jpg"
           }
         ],
-        "notes": "Tres vueltas.",
-        "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-        "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+        "notes": "",
+        "videoUrl": "https://youtu.be/MjnZ52mZgT0",
+        "imageUrl": "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
       },
       {
         "order": 5,
-        "name": "Step Up Unilateral en Step",
+        "name": "Zancada Trasera Alterna con Mancuernas/KTB",
         "isSuperset": true,
         "items": [
           {
-            "name": "Step Up Unilateral en Step",
-            "sets": 3,
-            "reps": "12 por pierna",
+            "name": "Zancada Trasera Alterna con Mancuernas/KTB",
             "subOrder": 1,
+            "sets": 4,
+            "reps": "16",
             "isSupersetStart": true,
-            "rest": "",
-            "notes": "Escalón bajo y controlado.",
-            "videoUrl": "https://youtu.be/bSxZqLpknb8",
-            "imageUrl": "https://i.ytimg.com/vi/bSxZqLpknb8/mqdefault.jpg"
+            "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+            "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
           },
           {
-            "name": "Crunch Bicicleta Alterno",
-            "sets": 3,
-            "reps": "20",
+            "name": "Plancha - Cambios de apoyo",
             "subOrder": 2,
-            "isSupersetStart": false,
+            "sets": 4,
+            "reps": "10",
             "rest": "90s",
-            "notes": "Sin apoyar peso sobre las manos.",
-            "videoUrl": "https://www.youtube.com/shorts/nUIfDzuMR00",
-            "imageUrl": "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
+            "videoUrl": "https://youtu.be/Yg74EfwLBQY",
+            "imageUrl": "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
           }
         ],
-        "notes": "Tres vueltas.",
-        "videoUrl": "https://youtu.be/bSxZqLpknb8",
-        "imageUrl": "https://i.ytimg.com/vi/bSxZqLpknb8/mqdefault.jpg"
+        "notes": "",
+        "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+        "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
       }
     ]
   }
