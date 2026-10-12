@@ -1,5 +1,5 @@
 // Titulo: P24_4D_TorPier_FUERZA_VOL_1
-// Notas: Progresión tras P23: 2 días de fuerza y 2 de volumen; top set + back-off en básicos, doble progresión y calentamientos específicos. Duración 48-58 min. Adaptación de 5 días para Jesús: se añade un complemento corto de deltoides, brazos y core; los cuatro días base se conservan.
+// Notas: Progresión tras P23: 2 días de fuerza y 2 de volumen; top set + back-off en básicos, doble progresión y calentamientos específicos. Duración 48-58 min. Adaptación de 5 días para Jesús: se añade un quinto día de aproximadamente 45 minutos para deltoides, brazos y core; los cuatro días base se conservan.
 
 const workoutData = {
     "dia1": {
@@ -434,7 +434,7 @@ const workoutData = {
             {
                 "order": 2,
                 "name": "Elevaciones Laterales con Mancuernas",
-                "sets": 2,
+                "sets": 3,
                 "reps": "15",
                 "rest": "60s",
                 "notes": "Carga moderada; deja 2 repeticiones en recámara.",
@@ -444,7 +444,7 @@ const workoutData = {
             {
                 "order": 3,
                 "name": "Pájaros con Mancuernas",
-                "sets": 2,
+                "sets": 3,
                 "reps": "15",
                 "rest": "60s",
                 "notes": "Controla el movimiento y deja 2 repeticiones en recámara.",
@@ -454,7 +454,7 @@ const workoutData = {
             {
                 "order": 4,
                 "name": "Curl de Bíceps Apoyado en Banco con Mancuernas",
-                "sets": 2,
+                "sets": 3,
                 "reps": "12",
                 "rest": "75s",
                 "notes": "Mantén el brazo apoyado y evita el balanceo.",
@@ -464,7 +464,7 @@ const workoutData = {
             {
                 "order": 5,
                 "name": "Extensión de Tríceps en Polea con Cuerda",
-                "sets": 2,
+                "sets": 3,
                 "reps": "12",
                 "rest": "75s",
                 "notes": "Termina la extensión sin mover los hombros.",
@@ -484,7 +484,7 @@ const workoutData = {
             {
                 "order": 7,
                 "name": "Press Pallof Alterno con Rotación en Polea",
-                "sets": 2,
+                "sets": 3,
                 "reps": "10",
                 "rest": "60s",
                 "notes": "Completa ambos lados con control.",
