@@ -490,6 +490,16 @@ const workoutData = {
                 "notes": "Completa ambos lados con control.",
                 "videoUrl": "https://youtube.com/shorts/vqBP-GHoW5k",
                 "imageUrl": "https://i.ytimg.com/vi/vqBP-GHoW5k/mqdefault.jpg"
+            },
+            {
+                "order": 8,
+                "name": "Plancha - Lateral",
+                "sets": 3,
+                "reps": "30s",
+                "rest": "60s",
+                "notes": "Mantén tronco y pelvis estables durante cada serie.",
+                "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+                "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
             }
         ]
     }
