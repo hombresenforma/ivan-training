@@ -75,13 +75,13 @@ const workoutData = {
                         "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
                     },
                     {
-                        "name": "Extensión de Tríceps en Polea con Cuerda",
+                        "name": "Extensión de Tríceps Unilat en Polea",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "12, 10, 8",
                         "rest": "90s",
-                        "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                        "videoUrl": "https://youtube.com/shorts/yH6WAUNKO6c",
+                        "imageUrl": "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
                     }
                 ],
                 "notes": "Stretch: pullover cable (60s)",
@@ -335,14 +335,14 @@ const workoutData = {
             },
             {
                 "order": 5,
-                "name": "Pájaros con Mancuernas",
+                "name": "Face Pull con KTB",
                 "setTechniques": {},
                 "sets": 3,
                 "reps": "12, 10, 8",
                 "rest": "90s",
                 "notes": "Trabajo de deltoide posterior sin curl directo de bíceps. Mantén el agarre relajado; reduce carga si molesta el antebrazo.",
-                "videoUrl": "https://youtu.be/EMrOS6P90lM",
-                "imageUrl": "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
+                "videoUrl": "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                "imageUrl": "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
             }
         ]
     }
