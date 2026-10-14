@@ -335,14 +335,14 @@ const workoutData = {
             },
             {
                 "order": 5,
-                "name": "Face Pull al Cuello en Polea Alta",
+                "name": "Pájaros con Mancuernas",
                 "setTechniques": {},
                 "sets": 3,
                 "reps": "12, 10, 8",
                 "rest": "90s",
-                "notes": "Trabajo de deltoide posterior sin curl directo de bíceps.",
-                "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
-                "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
+                "notes": "Trabajo de deltoide posterior sin curl directo de bíceps. Mantén el agarre relajado; reduce carga si molesta el antebrazo.",
+                "videoUrl": "https://youtu.be/EMrOS6P90lM",
+                "imageUrl": "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
             }
         ]
     }
