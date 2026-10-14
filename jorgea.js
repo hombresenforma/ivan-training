@@ -79,17 +79,6 @@ const workoutData = {
                 notes: "Stretch: pullover cable (60s)",
                 videoUrl: "https://youtu.be/GYIhmy1P4vY",
                 imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Crunch en Polea Alta",
-                setTechniques: {},
-                sets: 3,
-                reps: "15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
             }
         ]
     },
@@ -244,17 +233,6 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/zWGbrVxoUpk",
                 imageUrl: "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Crunch en Polea Alta",
-                setTechniques: {},
-                sets: 3,
-                reps: "15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/H9QSO6XBRkA",
-                imageUrl: "https://i.ytimg.com/vi/H9QSO6XBRkA/mqdefault.jpg"
             }
         ]
     },
