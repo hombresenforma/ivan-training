@@ -386,9 +386,9 @@ const exerciseAlternatives = {
     ],
     "Remo Gironda en Polea": [
         {
-            "name": "Máquina de Remo (Gironda)",
-            "videoUrl": "https://www.youtube.com/watch?v=3wcaZqSfP0A",
-            "imageUrl": "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg"
+            "name": "Remo en Máquina T Agarre Estrecho",
+            "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
+            "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
         }
     ]
 };
