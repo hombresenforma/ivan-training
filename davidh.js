@@ -1,3 +1,4 @@
+PAUSADO
 // Titulo: P4_3D_APTOR_HIIT_2
 // Notas: - Añadimos 2 ejercicios en super-serie antes del HIIT.
 // - HIIT 1:1 y añadimos 2 vueltas más (6).
