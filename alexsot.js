@@ -3,6 +3,8 @@
 // - Subimos volumen del trabajo de abdomen en la superserie 2. 
 // - Añadimos 1 vuelta al circuito final y subimos repeticiones/tiempo.
 
+// Adaptación de revisión 15/10: press banca con mancuernas, remo T con agarre estrecho y step-up unilateral, manteniendo series, repeticiones y descansos.
+
 const workoutData = {
     "dia1": {
         "name": "Fullbody Push",
@@ -392,7 +394,8 @@ const workoutData = {
                         "reps": "12",
                         "isSupersetStart": true,
                         "videoUrl": "https://youtu.be/bSxZqLpknb8",
-                        "imageUrl": "https://i.ytimg.com/vi/bSxZqLpknb8/mqdefault.jpg"
+                        "imageUrl": "https://i.ytimg.com/vi/bSxZqLpknb8/mqdefault.jpg",
+                        "notes": "Haz ambos lados."
                     },
                     {
                         "name": "Worm",
