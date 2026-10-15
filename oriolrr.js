@@ -61,13 +61,13 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Fondos en Paralelas Lastrados",
+                name: "Flexiones con Peso Corporal",
                 sets: 2,
                 reps: "8, 12",
                 rest: "90s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/xsnhvnyl70I",
-                imageUrl: "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
+                notes: "Si no hay paralelas disponibles, realiza las flexiones en el suelo.",
+                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
+                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
             },
             {
                 order: 7,
@@ -402,8 +402,8 @@ const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
         { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
     ],
-    "Fondos en Paralelas Lastrados": [
-        { name: "Fondos de Tríceps con Pies Elevados", videoUrl: "https://youtube.com/shorts/FBttBh-aiVs", imageUrl: "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg" }
+    "Flexiones con Peso Corporal": [
+        { name: "Flexiones con Rodillas", videoUrl: "https://www.youtube.com/shorts/bmKPWM_b85Y", imageUrl: "https://i.ytimg.com/vi/bmKPWM_b85Y/mqdefault.jpg" }
     ],
     "Remo en Máquina T Agarre Estrecho": [
         { name: "Remo Gironda en Polea", videoUrl: "https://youtube.com/shorts/11xkWdyYWus", imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg" }
