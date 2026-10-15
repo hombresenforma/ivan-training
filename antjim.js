@@ -1,11 +1,41 @@
-// Titulo: Lesión de piernas_3D_Solo tren superior
+// Titulo: Lesión de piernas_3D_Tren superior y piernas muy suave
 
 const workoutData = {
     "dia1": {
         name: "Fullbody Push",
         exercises: [
             {
+                order: 1,
+                name: "Sentadilla Isométrica",
+                sets: 4,
+                reps: "8\"",
+                rest: "30s",
+                notes: "",
+                videoUrl: "https://youtu.be/epS5o03foYc",
+                imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
+            },
+            {
                 order: 2,
+                name: "Extensión de Cuádriceps en Máquina",
+                sets: 2,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                imageUrl: "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Curl Femoral Sentado en Máquina",
+                sets: 2,
+                reps: "8",
+                rest: "60s",
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/2fXW4I08ov4",
+                imageUrl: "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
+            },
+            {
+                order: 4,
                 name: "Press Banca con Barra",
                 sets: 3,
                 reps: "10",
@@ -15,7 +45,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 5,
                 name: "Jalón al Pecho Supino en Polea",
                 sets: 3,
                 reps: "10",
@@ -25,7 +55,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 6,
                 name: "Aperturas en Banco Inclinado con Mancuernas",
                 sets: 3,
                 reps: "10",
@@ -35,7 +65,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/Lx8d28YlcbQ/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 7,
                 name: "Remo Seal con Mancuernas",
                 sets: 3,
                 reps: "10",
@@ -45,7 +75,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 8,
                 name: "Curl con Mancuernas de Pie",
                 isSuperset: true,
                 items: [
@@ -152,6 +182,39 @@ const workoutData = {
                 notes: "",
                 videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
                 imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 60
+                },
+                items: [
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Suave)",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                        imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
+                    },
+                    {
+                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
+                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/watch?v=r6iTJGOftHY",
+                imageUrl: "https://i.ytimg.com/vi/r6iTJGOftHY/mqdefault.jpg"
             }
         ]
     },
@@ -197,6 +260,42 @@ const workoutData = {
             },
             {
                 order: 2,
+                name: "Sentadilla Isométrica",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Sentadilla Isométrica",
+                        subOrder: 1,
+                        sets: 2,
+                        reps: "8\"",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/epS5o03foYc",
+                        imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
+                    },
+                    {
+                        name: "Cuerpo Libre - Glute Bridge - Normal",
+                        subOrder: 2,
+                        sets: 2,
+                        reps: "12",
+                        videoUrl: "https://youtu.be/D04hX-R8LsA",
+                        imageUrl: "https://i.ytimg.com/vi/D04hX-R8LsA/mqdefault.jpg"
+                    },
+                    {
+                        name: "Sentadilla Sumo con Peso Corporal",
+                        subOrder: 3,
+                        sets: 2,
+                        reps: "8",
+                        rest: "60",
+                        videoUrl: "https://youtu.be/gJRjDiTSPYk",
+                        imageUrl: "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/epS5o03foYc",
+                imageUrl: "https://i.ytimg.com/vi/epS5o03foYc/mqdefault.jpg"
+            },
+            {
+                order: 3,
                 name: "Press Banca con Mancuernas",
                 sets: 3,
                 reps: "10-12",
@@ -206,7 +305,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
-                order: 3,
+                order: 4,
                 name: "Remo con Barra",
                 sets: 3,
                 reps: "10-12",
@@ -216,7 +315,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
             },
             {
-                order: 4,
+                order: 5,
                 name: "Press Militar Alterno de Pie con Mancuernas",
                 sets: 3,
                 reps: "10-12",
@@ -226,7 +325,7 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/0OGSDz6x-QQ/mqdefault.jpg"
             },
             {
-                order: 5,
+                order: 6,
                 name: "Curl Martillo Alterno Sentado con Mancuernas",
                 isSuperset: true,
                 items: [
