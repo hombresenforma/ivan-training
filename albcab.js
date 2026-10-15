@@ -1,3 +1,4 @@
+PAUSADO
 // Titulo: P7_3D_CIRCUITOSFULLBODY_1
 
 const workoutData = {
