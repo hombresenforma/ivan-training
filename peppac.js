@@ -325,7 +325,7 @@ const workoutData = {
                         "isSupersetStart": true,
                         "videoUrl": "https://youtu.be/Nub6W77bL80",
                         "imageUrl": "https://i.ytimg.com/vi/Nub6W77bL80/mqdefault.jpg",
-                        "notes": "Haz ambos lados. Mantén un recorrido cómodo y detén la serie si aparece molestia lumbar."
+                        "notes": "Repeticiones por lado. Diferenciar anteversión de flexión de cadera. Mantén un recorrido cómodo y detén la serie si aparece molestia lumbar."
                     },
                     {
                         "name": "Plancha - Lateral",
@@ -382,9 +382,6 @@ const workoutData = {
     }
 };
 
-const exerciseAlternatives = {
-    "Cuerpo Libre - Glute Bridge - Normal": [],
-    "Cuerpo Libre - Glute Bridge - Unilateral": []
-};
+const exerciseAlternatives = {};
 
 console.log("Datos de rutina cargados desde el creador.");
