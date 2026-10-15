@@ -1,3 +1,4 @@
+PAUSADO
 // Titulo: P6_3D_ANTPOSTFB_RESTPAUSE_1
 
 const workoutData = {
