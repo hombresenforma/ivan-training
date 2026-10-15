@@ -1,109 +1,79 @@
-// Titulo: P1_3D_FB_HOME_2
-// Notas: Primer ejercicio subimos repes 10-12
-// Ejercicio 4 4 rondas
-// Ejercicio 5 12-15 reps
-// circuito final subimos 4 ronda
-// 
-// Ultimo día primer ejercicio subimos serie 10-12
-// Superserie 3 plancha subimos 10 seg extra
-// Superserie 4 subimos ronda 4
+// Titulo: P3_3D_APFB_INOUT_1 (HOME)
 
-// Adaptación para Pepe: material HOME y sustituciones aprobadas (flexiones, goblet y sentadilla corporal).
-// Contenido de app_datos.js
-
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
 const workoutData = {
     "dia1": {
-        name: "DÍA 1: Tren superior",
+        name: "Anterior IN-OUT",
         exercises: [
             {
-                order: 1,
-                name: "Dominadas Australianas en TRX",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Dominadas Australianas en TRX",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                        imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones con Peso Corporal",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
-                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
-            },
-            {
                 order: 2,
-                name: "Remo en TRX",
+                name: "Press Inclinado con Mancuernas",
                 sets: 3,
-                reps: "12",
-                rest: "60s",
-                notes: "-Mantener retracción escapular, extensión completa de los codos",
-                videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/ZE4M73kXB5A",
+                imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 order: 3,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                name: "Zancada Trasera Alterna con Mancuernas/KTB",
                 sets: 3,
-                reps: "10",
-                rest: "60s",
+                reps: "16",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 order: 4,
-                name: "Flexiones con Peso Corporal",
-                sets: 4,
-                reps: "12",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
-            },
-            {
-                order: 5,
                 name: "Press Militar Unilat de Pie con Mancuerna/KTB",
-                sets: 3,
-                reps: "15",
-                rest: "60s",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Press Militar Unilat de Pie con Mancuerna/KTB",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                        imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+                    },
+                    {
+                        name: "Elevaciones Laterales con Mancuernas",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
+                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                    }
+                ],
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/vIK0qkXP_f0",
                 imageUrl: "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
             },
             {
-                order: 6,
-                name: "Circuito",
+                order: 5,
+                name: "Flexiones + Mountain Climbers",
                 isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 3,
-                    restBetweenExercisesSeconds: 0,
-                    restBetweenRoundsSeconds: 60
-                },
                 items: [
                     {
                         name: "Flexiones + Mountain Climbers",
                         subOrder: 1,
-                        sets: 1,
-                        reps: "45s",
-                        isCircuitItem: true,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/shorts/1wdJ5RSUCBE",
                         imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Fondos de Tríceps con Pies en el Suelo",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        rest: "90s",
+                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
+                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
                     }
                 ],
                 notes: "",
@@ -111,239 +81,61 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/1wdJ5RSUCBE/mqdefault.jpg"
             },
             {
-                order: 7,
-                name: "Circuito",
+                order: 6,
+                name: "Circuito IN-OUT",
                 isSuperset: true,
                 circuitDetails: {
                     totalRounds: 4,
-                    restBetweenExercisesSeconds: 15,
-                    restBetweenRoundsSeconds: 60
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
                 },
                 items: [
                     {
-                        name: "Curl con Mancuernas de Pie",
+                        name: "Thruster con Mancuernas",
                         subOrder: 1,
                         sets: 1,
-                        reps: "15",
+                        reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/8STuQuoDMR0",
-                        imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
+                        notes: "Utiliza mancuernas de 8-10kg. ",
+                        videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
                     {
-                        name: "Crunch - Normal",
+                        name: "Worm + Burpee",
                         subOrder: 2,
                         sets: 1,
-                        reps: "15",
+                        reps: "30s",
                         isCircuitItem: true,
-                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
-                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
+                        imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/8STuQuoDMR0",
-                imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
+                notes: "Utiliza mancuernas de 8-10kg. ",
+                videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
+                imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
             }
         ]
     },
     "dia2": {
-        name: "DÍA 2: Tren inferior",
+        name: "Posterior IN-OUT",
         exercises: [
             {
-                order: 1,
-                name: "Jumping Jack",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Jumping Jack",
-                        subOrder: 1,
-                        sets: 2,
-                        reps: "30s",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/K5PMB8CauGM",
-                        imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla con Salto en Step",
-                        subOrder: 2,
-                        sets: 2,
-                        reps: "10",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/7ckSQy2BtWw",
-                        imageUrl: "https://i.ytimg.com/vi/7ckSQy2BtWw/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/K5PMB8CauGM",
-                imageUrl: "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
-            },
-            {
                 order: 2,
-                name: "Peso Muerto Rumano con Mancuernas/KTB",
+                name: "Dominadas Australianas en TRX",
                 sets: 3,
-                reps: "15",
-                rest: "60s",
+                reps: "8",
+                rest: "90s",
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-                sets: 3,
-                reps: "10",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/tNu9bm3geqY",
-                imageUrl: "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg"
-            },
-            {
-                order: 4,
-                name: "Sentadilla con Peso Corporal",
-                sets: 4,
-                reps: "15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://youtu.be/NWes6fd1Sxs",
-                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
-            },
-            {
-                order: 5,
-                name: "Curl Femoral desde Puente (Con TRX)",
-                sets: 3,
-                reps: "15",
-                rest: "60s",
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=6NCkHTG4lHc",
-                imageUrl: "https://i.ytimg.com/vi/6NCkHTG4lHc/mqdefault.jpg"
-            },
-            {
-                order: 6,
-                name: "Circuito",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 4,
-                    restBetweenExercisesSeconds: 15,
-                    restBetweenRoundsSeconds: 60
-                },
-                items: [
-                    {
-                        name: "Hip Thrust con Banda Elástica",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "15",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                        imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
-                    },
-                    {
-                        name: "Crunch - Pierna Cruzada",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "15",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/0r0GqczoZu4",
-                        imageUrl: "https://i.ytimg.com/vi/0r0GqczoZu4/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/ewSrH2uFits",
-                imageUrl: "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia3": {
-        name: "DÍA 3: Fullbody",
-        exercises: [
-            {
-                order: 1,
-                name: "Worm",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Worm",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "15",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                        imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-                    },
-                    {
-                        name: "Sentadilla con Salto",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=1-Mum4hyIJ0",
-                        imageUrl: "https://i.ytimg.com/vi/1-Mum4hyIJ0/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=irBHRDg7ZHU",
-                imageUrl: "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Sentadilla con Peso Corporal",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Sentadilla con Peso Corporal",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/NWes6fd1Sxs",
-                        imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Flexiones con Peso Corporal",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "15",
-                        notes: "En caso de no llegar a las repeticiones pautadas, se pueden hacer con rodilla",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        imageUrl: "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/NWes6fd1Sxs",
-                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/f2-aezhuOoQ",
+                imageUrl: "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
             },
             {
                 order: 3,
                 name: "Peso Muerto Rumano con Mancuernas/KTB",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Peso Muerto Rumano con Mancuernas/KTB",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
-                        imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "40s",
-                        videoUrl: "https://youtu.be/IBlAMf7LYvI",
-                        imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
-                    },
-                    {
-                        name: "Plancha - Lateral",
-                        subOrder: 3,
-                        sets: 3,
-                        reps: "40s",
-                        rest: "90s",
-                        videoUrl: "https://youtu.be/IBlAMf7LYvI",
-                        imageUrl: "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "Espalda recta en todo momento",
                 videoUrl: "https://www.youtube.com/shorts/SMll4DOYvEs",
                 imageUrl: "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
@@ -355,34 +147,200 @@ const workoutData = {
                     {
                         name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
-                        sets: 4,
-                        reps: "12",
+                        sets: 3,
+                        reps: "10",
                         isSupersetStart: true,
+                        notes: "10 por cada lado",
                         videoUrl: "https://youtu.be/uH9Hg4nWOG8",
                         imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     },
                     {
-                        name: "Curl con Mancuernas de Pie",
+                        name: "Remo Renegade Alterno con Mancuernas",
                         subOrder: 2,
-                        sets: 4,
-                        reps: "12",
-                        notes: "En caso de no tener el banco cerca lo puedes hacer de pie",
+                        sets: 3,
+                        reps: "16",
+                        notes: "8 por lado",
                         rest: "90s",
-                        videoUrl: "https://youtu.be/8STuQuoDMR0",
-                        imageUrl: "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/watch?v=FjwFzYXSK70",
+                        imageUrl: "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg"
+                    }
+                ],
+                notes: "10 por cada lado",
+                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
+                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Face Pull con TRX",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Face Pull con TRX",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        isSupersetStart: true,
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Curl de Biceps con TRX",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        rest: "90s",
+                        videoUrl: "https://www.youtube.com/shorts/W1C5ABPg_Ak",
+                        imageUrl: "https://i.ytimg.com/vi/W1C5ABPg_Ak/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
+            },
+            {
+                order: 6,
+                name: "Circuito IN-OUT. ",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
+                },
+                items: [
+                    {
+                        name: "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                    },
+                    {
+                        name: "Lateral Climbers",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/IKuy2laTdGY",
+                        imageUrl: "https://i.ytimg.com/vi/IKuy2laTdGY/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                imageUrl: "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+            }
+        ]
+    },
+    "dia3": {
+        name: "Fullbody IN-OUT",
+        exercises: [
+            {
+                order: 2,
+                name: "Curl de Bíceps Apoyado en Banco con Mancuernas",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "Puedes apoyarte a una pared.",
+                videoUrl: "https://youtube.com/shorts/hQ3ojFx5soY",
+                imageUrl: "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
+            },
+            {
+                order: 3,
+                name: "Press Francés con Mancuernas en Banco Inclinado",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/L__Q6Jl9Ics",
+                imageUrl: "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
+            },
+            {
+                order: 4,
+                name: "Sentadilla Frontal con Mancuernas/Kettlebells",
+                sets: 3,
+                reps: "8",
+                rest: "90s",
+                notes: "",
+                videoUrl: "https://youtu.be/lfb6neUpfP8",
+                imageUrl: "https://i.ytimg.com/vi/lfb6neUpfP8/mqdefault.jpg"
+            },
+            {
+                order: 5,
+                name: "Curl Martillo con Mancuernas",
+                isSuperset: true,
+                items: [
+                    {
+                        name: "Curl Martillo con Mancuernas",
+                        subOrder: 1,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        isSupersetStart: true,
+                        videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                        imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                    },
+                    {
+                        name: "Extensión Tríceps Trasnuca Unilateral con Mancuerna",
+                        subOrder: 2,
+                        sets: 3,
+                        reps: "15, 12, 10",
+                        rest: "90s",
+                        videoUrl: "https://youtu.be/jGTquNttoRU",
+                        imageUrl: "https://i.ytimg.com/vi/jGTquNttoRU/mqdefault.jpg"
+                    }
+                ],
+                notes: "",
+                videoUrl: "https://youtu.be/fcFsPoJY9lg",
+                imageUrl: "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+            },
+            {
+                order: 8,
+                name: "Circuito IN-OUT. ",
+                isSuperset: true,
+                circuitDetails: {
+                    totalRounds: 4,
+                    restBetweenExercisesSeconds: 30,
+                    restBetweenRoundsSeconds: 30
+                },
+                items: [
+                    {
+                        name: "Zancadas Caminando con Mancuernas/KTB",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
+                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                    },
+                    {
+                        name: "Burpee sin Flexión",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30s",
+                        isCircuitItem: true,
+                        videoUrl: "https://youtu.be/_liq4fAscDU",
+                        imageUrl: "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                    }
+                ],
+                notes: "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
+                videoUrl: "https://youtu.be/7tRy9X0ibnk",
+                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
+    "Press Militar Unilat de Pie con Mancuerna/KTB": [
+        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
+    ],
+    "Dominadas Australianas en TRX": [
+        { name: "Dominadas Australianas con Pies en Banco", videoUrl: "https://youtu.be/WqoNa74DieE", imageUrl: "https://i.ytimg.com/vi/WqoNa74DieE/mqdefault.jpg" }
+    ],
+    "Remo Unilat con Mancuerna/KTB (Explicado)": [
+        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
+    ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
 
 
