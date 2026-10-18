@@ -159,6 +159,80 @@ const workoutData = {
                 "imageUrl": "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             }
         ]
+    },
+    "dia3": {
+        "name": "EMPUJES",
+        "exercises": [
+            {
+                "order": 1,
+                "name": "Aducción de Piernas en Máquina",
+                "isWarmup": true,
+                "sets": 2,
+                "reps": "15",
+                "rest": "30s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/7TPklhKZRrc",
+                "imageUrl": "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+            },
+            {
+                "order": 2,
+                "name": "Press Inclinado con Mancuernas",
+                "sets": 3,
+                "reps": "10",
+                "rest": "120s",
+                "notes": "Haz 6 repeticiones en cada una de las dos primeras series y 10 en la última.",
+                "videoUrl": "https://youtu.be/ZE4M73kXB5A",
+                "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+            },
+            {
+                "order": 3,
+                "name": "Sentadilla Trasera con Barra",
+                "sets": 3,
+                "reps": "10",
+                "rest": "120s",
+                "notes": "Haz 6 repeticiones en cada una de las dos primeras series y 10 en la última. Mantén una técnica controlada y trabaja dentro de un rango sin dolor lumbar.",
+                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
+                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Press Militar en Multipower",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=iATqshmFPnI",
+                "imageUrl": "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Cruces en Polea Alta",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Cruces en Polea Alta",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "12",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+                        "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Extensión de Tríceps Unilat en Polea",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "90s",
+                        "videoUrl": "https://youtube.com/shorts/yH6WAUNKO6c",
+                        "imageUrl": "https://i.ytimg.com/vi/yH6WAUNKO6c/mqdefault.jpg"
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+                "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+            }
+        ]
     }
 };
 
