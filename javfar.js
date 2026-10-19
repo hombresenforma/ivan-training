@@ -145,18 +145,18 @@ const workoutData = {
         exercises: [
             {
                 order: 1,
-                name: "Remo en TRX",
+                name: "Remo Gironda en Polea",
                 isWarmup: true,
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo en TRX",
+                        name: "Remo Gironda en Polea",
                         subOrder: 1,
                         sets: 2,
                         reps: "8",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                        imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                        imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
                     },
                     {
                         name: "Mountain Climber",
@@ -168,9 +168,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
-                imageUrl: "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg"
+                notes: "Calentamiento: utiliza una carga ligera.",
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 2,
@@ -241,17 +241,17 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Remo Horizontal en TRX",
+                name: "Remo Seal con Mancuernas",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Horizontal en TRX",
+                        name: "Remo Seal con Mancuernas",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                        imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
                     {
                         name: "Remo Renegade Alterno con Mancuernas",
@@ -271,9 +271,9 @@ const workoutData = {
                         imageUrl: "https://i.ytimg.com/vi/DUYZEFKjYxs/mqdefault.jpg"
                     }
                 ],
-                notes: "Mantén una inclinación paralela al suelo.",
-                videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM",
-                imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg"
+                notes: "Trata de despegar el pecho al final del movimiento",
+                videoUrl: "https://www.youtube.com/shorts/6tLfn99dO8o",
+                imageUrl: "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             }
         ]
     },
@@ -422,9 +422,6 @@ const exerciseAlternatives = {
     ],
     "Dominadas Australianas con Pies en el Suelo": [
         { name: "Jalón al Pecho en Polea", videoUrl: "https://youtu.be/GYIhmy1P4vY", imageUrl: "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg" }
-    ],
-    "Prensa Inclinada en Máquina de Discos": [
-        { name: "Hack Squat / Prensa Hack", videoUrl: "", imageUrl: "" }
     ]
 };
 
