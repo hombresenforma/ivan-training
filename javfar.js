@@ -1,4 +1,4 @@
-// Titulo: P1_3D_fb_01
+// Titulo: P1_3D_FB_01_SIN_TRX
 
 const workoutData = {
     "dia1": {
