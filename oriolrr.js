@@ -52,7 +52,7 @@ const workoutData = {
                 order: 5,
                 name: "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -148,14 +148,14 @@ const workoutData = {
             },
             {
                 order: 5,
-                name: "Remo Abierto en Máquina",
+                name: "Remo en Máquina T Agarre Abierto",
                 setTechniques: {},
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
-                videoUrl: "https://youtube.com/shorts/h_meCpwdm-8?feature=share",
-                imageUrl: "https://i.ytimg.com/vi/h_meCpwdm-8/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/_XOaMY5NumY",
+                imageUrl: "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
             {
                 order: 6,
@@ -226,10 +226,10 @@ const workoutData = {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
                 setTechniques: {},
-                sets: 3,
-                reps: "8, 8, 12",
+                sets: 4,
+                reps: "12",
                 rest: "120s",
-                notes: "",
+                notes: "Primera y segunda series: 8 repeticiones. Tercera y cuarta series: 12 repeticiones.",
                 videoUrl: "https://www.youtube.com/shorts/je1QdJdvAN0",
                 imageUrl: "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
@@ -335,10 +335,10 @@ const workoutData = {
                 order: 4,
                 name: "Jalón al Pecho Neutro en Polea",
                 setTechniques: {},
-                sets: 2,
-                reps: "8, 12",
+                sets: 3,
+                reps: "12",
                 rest: "90s",
-                notes: "",
+                notes: "Primera serie: 8 repeticiones. Segunda y tercera series: 12 repeticiones.",
                 videoUrl: "https://youtu.be/5YzMH2KkMHc",
                 imageUrl: "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg"
             },
@@ -365,17 +365,17 @@ const workoutData = {
             },
             {
                 order: 7,
-                name: "Face Pull al Cuello en Polea Alta",
+                name: "Face Pull con TRX",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Face Pull al Cuello en Polea Alta",
+                        name: "Face Pull con TRX",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
-                        imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
+                        videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                        imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
                     },
                     {
                         name: "Pull Over en Polea Alta",
@@ -388,8 +388,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/shorts/TaTjLum-_qI",
-                imageUrl: "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
+                videoUrl: "https://www.youtube.com/shorts/bxzpphpaGSg",
+                imageUrl: "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg"
             }
         ]
     }
@@ -400,7 +400,7 @@ const exerciseAlternatives = {
         { name: "Sentadilla Anterior en Máquina Jaca", videoUrl: "https://youtube.com/shorts/saLWdiUe5eE", imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg" }
     ],
     "Press Banca Inclinado en Multipower": [
-        { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
+        { name: "Press Inclinado con Mancuernas", videoUrl: "https://youtu.be/ZE4M73kXB5A", imageUrl: "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg" }
     ],
     "Flexiones con Peso Corporal": [
         { name: "Flexiones con Rodillas", videoUrl: "https://www.youtube.com/shorts/bmKPWM_b85Y", imageUrl: "https://i.ytimg.com/vi/bmKPWM_b85Y/mqdefault.jpg" }
