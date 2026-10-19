@@ -1,4 +1,5 @@
-// Titulo: P16_4D_TORPIER_FUERZATOP_2
+// Titulo: P16_4D_PUSH_PULL_PIERNA_TORSO_BRAZOS_1
+// Programa base: P16_4D_TORPIER_FUERZATOP_2
 // Notas: - Ejercicios básicos 1 y 2: CAMBIAMOS VARIANTE.
 // - Torso Push y Pull: Cambiamos ejercicios penúltimo circuito (Variante). 
 // - Bloque final: AÑADIMOS 1 SERIE MÁS.
