@@ -14,9 +14,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Press Banca Inclinado en Multipower",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
-                sets: 3,
-                reps: "20,20,20",
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER","4":"CLUSTER"},
+                sets: 4,
+                reps: "20,20,20, 20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/3GS7EjN7KSk",
@@ -25,7 +25,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Dominadas Supinas",
-                sets: 3,
+                sets: 4,
                 reps: "FALLO",
                 rest: "90s",
                 notes: "",
@@ -45,7 +45,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Flexiones + Mountain Climbers",
-                sets: 3,
+                sets: 4,
                 reps: "FALLO",
                 rest: "90s",
                 notes: "",
@@ -112,9 +112,9 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Frontal con Barra",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
-                sets: 3,
-                reps: "20,20,20",
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER","4":"CLUSTER"},
+                sets: 4,
+                reps: "20,20,20, 20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://youtu.be/ErXO1WKVlPI",
@@ -123,7 +123,7 @@ const workoutData = {
             {
                 order: 3,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
+                sets: 4,
                 reps: "10",
                 rest: "90s",
                 notes: "",
@@ -181,9 +181,9 @@ const workoutData = {
             {
                 order: 1,
                 name: "Remo + Swing Ruso con KTB",
-                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER"},
-                sets: 3,
-                reps: "20,20,20",
+                setTechniques: {"1":"CLUSTER","2":"CLUSTER","3":"CLUSTER","4":"CLUSTER"},
+                sets: 4,
+                reps: "20,20,20,20",
                 rest: "120s",
                 notes: "",
                 videoUrl: "https://www.youtube.com/shorts/BTL9Ydr9Pv8",
@@ -212,7 +212,7 @@ const workoutData = {
             {
                 order: 4,
                 name: "Dominadas Australianas con Pies en el Suelo",
-                sets: 3,
+                sets: 4,
                 reps: "FALLO",
                 rest: "90s",
                 notes: "Intenta que la espalda esté lo más vertical posible (Sin avanzar la cadera).",
@@ -272,13 +272,13 @@ const workoutData = {
                 isSuperset: true,
                 isForTime: true,
                 forTimeDetails: {
-                    totalRounds: 4
+                    totalRounds: 5
                 },
                 items: [
                     {
                         name: "Thruster con Mancuernas",
                         subOrder: 1,
-                        reps: "21, 15, 9,3",
+                        reps: "21, 15, 11, 9, 3",
                         isForTimeItem: true,
                         notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
@@ -287,7 +287,7 @@ const workoutData = {
                     {
                         name: "Worm + Burpee",
                         subOrder: 2,
-                        reps: "21, 15, 9,3",
+                        reps: "21, 15, 11, 9,3",
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/watch?v=qTLp4wcAAtQ",
                         imageUrl: "https://i.ytimg.com/vi/qTLp4wcAAtQ/mqdefault.jpg"
@@ -295,7 +295,7 @@ const workoutData = {
                     {
                         name: "Sit Up Abdominal con Disco",
                         subOrder: 3,
-                        reps: "21, 15, 9,3",
+                        reps: "21, 15, 11, 9,3",
                         isForTimeItem: true,
                         videoUrl: "https://www.youtube.com/shorts/GHLO76YCyHE",
                         imageUrl: "https://i.ytimg.com/vi/GHLO76YCyHE/mqdefault.jpg"
