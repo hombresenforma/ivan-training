@@ -98,9 +98,12 @@ const workoutData = {
             "sets": 3,
             "reps": "10",
             "rest": "90s",
-            "notes": "Sin balanceo.",
+            "notes": "Sin balanceo. En la última serie realiza un DROPSET: reduce la carga un 20-25% y continúa sin descanso con técnica limpia.",
             "videoUrl": "https://youtu.be/4gYLTjNaTmw",
-            "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+            "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg",
+            "setTechniques": {
+              "3": "DROPSET"
+            }
           }
         ],
         "notes": "",
@@ -283,9 +286,12 @@ const workoutData = {
             "sets": 3,
             "reps": "15",
             "rest": "90s",
-            "notes": "Sin balanceos.",
+            "notes": "Sin balanceos. En la última serie realiza un DROPSET: reduce la carga un 20-25% y continúa sin descanso con técnica limpia.",
             "videoUrl": "https://youtu.be/rhmW_fhB4cs",
-            "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+            "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
+            "setTechniques": {
+              "3": "DROPSET"
+            }
           }
         ],
         "notes": "",
@@ -369,9 +375,12 @@ const workoutData = {
             "sets": 3,
             "reps": "12",
             "isSupersetStart": true,
-            "notes": "Mantén un segundo de contracción.",
+            "notes": "Mantén un segundo de contracción. En la última vuelta, completa primero el swing y después realiza el DROPSET del curl femoral: reduce la carga un 20-25% y continúa sin descanso con técnica limpia.",
             "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
-            "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
+            "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+            "setTechniques": {
+              "3": "DROPSET"
+            }
           },
           {
             "name": "Kettlebell - Swing Ruso",
@@ -459,10 +468,13 @@ const workoutData = {
         "sets": 3,
         "reps": "15",
         "rest": "75s",
-        "notes": "Separa la cuerda al terminar la extensión.",
+        "notes": "Separa la cuerda al terminar la extensión. En la última serie realiza un DROPSET: reduce la carga un 20-25% y continúa sin descanso con técnica limpia.",
         "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
         "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
-        "order": 7
+        "order": 7,
+        "setTechniques": {
+          "3": "DROPSET"
+        }
       },
       {
         "name": "Crunch en Polea Alta",
