@@ -2,7 +2,7 @@
 // Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
 // Contenido de app_datos.js
 // =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
+// DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
 
 const workoutData = {
@@ -13,7 +13,7 @@ const workoutData = {
                 order: 1,
                 name: "Flexiones con Peso Corporal",
                 sets: 2,
-                reps: "50",
+                reps: "25",
                 rest: "120s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
                 videoUrl: "https://www.youtube.com/shorts/jqnnetMI-4s",
@@ -119,7 +119,7 @@ const workoutData = {
                 order: 1,
                 name: "Dominadas Asistidas en Máquina",
                 sets: 2,
-                reps: "50",
+                reps: "25",
                 rest: "120s",
                 notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
                 videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
