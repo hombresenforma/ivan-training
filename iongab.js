@@ -278,31 +278,31 @@ const workoutData = {
             },
             {
                 order: 4,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                name: "Remo Gironda en Polea",
                 isSuperset: true,
                 items: [
                     {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
+                        name: "Remo Gironda en Polea",
                         subOrder: 1,
                         sets: 3,
                         reps: "10",
                         isSupersetStart: true,
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                        videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                        imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
                     },
                     {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
+                        name: "Plancha - Cambios de apoyo",
                         subOrder: 2,
                         sets: 3,
-                        reps: "12",
+                        reps: "5",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
+                        videoUrl: "https://youtu.be/Yg74EfwLBQY",
+                        imageUrl: "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                videoUrl: "https://youtube.com/shorts/11xkWdyYWus",
+                imageUrl: "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
             },
             {
                 order: 5,
