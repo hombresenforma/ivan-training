@@ -184,8 +184,8 @@ const workoutData = {
                         sets: 3,
                         reps: "15, 12, 10",
                         isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                        imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Curl en Polea Baja con Cuerda",
@@ -193,13 +193,13 @@ const workoutData = {
                         sets: 3,
                         reps: "15, 12, 10",
                         rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=2BFzjygU1Ic",
-                        imageUrl: "https://i.ytimg.com/vi/2BFzjygU1Ic/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     }
                 ],
                 notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=tZN8KYDSCRo",
-                imageUrl: "https://i.ytimg.com/vi/tZN8KYDSCRo/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             },
             {
                 order: 6,
@@ -333,6 +333,63 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/hLPJik1MaaY/mqdefault.jpg"
             }
         ]
+    },
+    "dia4": {
+        name: "Abdominales",
+        exercises: [
+            {
+                order: 1,
+                name: "EMOM",
+                isSuperset: true,
+                isEMOM: true,
+                emomDetails: {
+                    totalIntervals: 10,
+                    workIntervalSeconds: 60
+                },
+                items: [
+                    {
+                        name: "Crunch - Normal",
+                        subOrder: 1,
+                        sets: 1,
+                        reps: "15",
+                        isEMOMItem: true,
+                        notes: "Mantén la Lumbar pegada al suelo",
+                        videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                        imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+                    },
+                    {
+                        name: "Hollow Abdominal Completo",
+                        subOrder: 2,
+                        sets: 1,
+                        reps: "30seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://www.youtube.com/shorts/S7nIyMHLO98",
+                        imageUrl: "https://i.ytimg.com/vi/S7nIyMHLO98/mqdefault.jpg"
+                    },
+                    {
+                        name: "Plancha - Normal",
+                        subOrder: 3,
+                        sets: 1,
+                        reps: "30seg",
+                        isEMOMItem: true,
+                        videoUrl: "https://youtu.be/DQ4wYExQRJo",
+                        imageUrl: "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg"
+                    },
+                    {
+                        name: "",
+                        subOrder: 4,
+                        sets: 1,
+                        reps: "30seg",
+                        isEMOMItem: true,
+                        videoUrl: "",
+                        imageUrl: ""
+                    }
+                ],
+                notes: "Mantén la Lumbar pegada al suelo",
+                videoUrl: "https://youtu.be/wNqGgCjBVaE",
+                imageUrl: "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            }
+        ]
     }
 };
 
@@ -353,7 +410,7 @@ const exerciseAlternatives = {
         { name: "Peso Muerto Rumano con Mancuernas", videoUrl: "", imageUrl: "" }
     ],
     "Remo Unilat con Mancuerna/KTB (Explicado)": [
-        { name: "Máquina de Remo (Gironda)", videoUrl: "https://www.youtube.com/watch?v=3wcaZqSfP0A", imageUrl: "https://i.ytimg.com/vi/3wcaZqSfP0A/mqdefault.jpg" }
+        { name: "Máquina de Remo (Gironda)", videoUrl: "", imageUrl: "" }
     ],
     "Sentadilla Trasera en Multipower": [
         { name: "Sentadilla Trasera con Barra", videoUrl: "https://youtu.be/FK5XU_gaxAE", imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg" }
