@@ -1,4 +1,4 @@
-// Titulo: IVAN_NUEVOBÁSICOS
+// Titulo: IVAN_NUEVOSBASICOS_REFRESH
 // Adaptación personal 28/09/2026: 4 días de hipertrofia, prioridad torso. Pierna moderada: 11 series semanales directas, 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Separar la sesión de pierna del partido. Sin superseries que ocupen dos máquinas. Objetivo 45-60 min por sesión.
 
 // Refresh personal 27/10/2026: mismos cuatro básicos y cuatro días; 22 sustituciones de accesorios, objetivos de repeticiones concretos, progresión de carga y dos dropsets de torso en la tercera serie (laterales del día 1 y curl Scott del día 3). Pierna: 11 series directas semanales, RIR 3, sin técnicas intensivas y separada del fútbol. Torso RIR 2 y última serie RIR 1 sin molestias; primera sesión de nuevos ejercicios RIR 2 y sin dropset. Duración estimada 45-60 minutos.
