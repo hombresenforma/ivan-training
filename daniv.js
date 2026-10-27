@@ -1,7 +1,7 @@
 // Titulo: IVAN_NUEVOBÁSICOS
 // Adaptación personal 28/09/2026: 4 días de hipertrofia, prioridad torso. Pierna moderada: 11 series semanales directas, 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Separar la sesión de pierna del partido. Sin superseries que ocupen dos máquinas. Objetivo 45-60 min por sesión.
 
-// Refresh personal 27/10/2026: mismos cuatro básicos y cuatro días; 21 sustituciones de accesorios, objetivos de repeticiones concretos, progresión de carga y dos dropsets de torso en la tercera serie (laterales del día 1 y curl Scott del día 3). Pierna: 11 series directas semanales, RIR 3, sin técnicas intensivas y separada del fútbol. Torso RIR 2 y última serie RIR 1 sin molestias; primera sesión de nuevos ejercicios RIR 2 y sin dropset. Duración estimada 45-60 minutos.
+// Refresh personal 27/10/2026: mismos cuatro básicos y cuatro días; 22 sustituciones de accesorios, objetivos de repeticiones concretos, progresión de carga y dos dropsets de torso en la tercera serie (laterales del día 1 y curl Scott del día 3). Pierna: 11 series directas semanales, RIR 3, sin técnicas intensivas y separada del fútbol. Torso RIR 2 y última serie RIR 1 sin molestias; primera sesión de nuevos ejercicios RIR 2 y sin dropset. Duración estimada 45-60 minutos.
 
 const workoutData = {
     "dia1": {
@@ -293,13 +293,13 @@ const workoutData = {
                 "order": 4
             },
             {
-                "name": "Extensión de Cuádriceps en Máquina",
+                "name": "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
                 "sets": 2,
                 "reps": "15",
                 "rest": "60s",
-                "notes": "Deja 3 repeticiones en recámara; sin fallo ni técnicas intensivas. Usa recorrido cómodo y sin dolor. Si aparece dolor, para ese ejercicio y coméntalo al coach. Evita esta sesión en las 48 horas previas al partido.",
-                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                "notes": "Deja 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Carga ligera, bajada controlada y recorrido cómodo sin dolor; evita esta sesión en las 48 horas previas al partido. Si aparecen molestias, detén el ejercicio y avisa al coach.",
+                "videoUrl": "https://www.youtube.com/shorts/tNu9bm3geqY",
+                "imageUrl": "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg",
                 "order": 5
             },
             {
@@ -362,3 +362,4 @@ const exerciseAlternatives = {
         }
     ]
 };
+
