@@ -395,6 +395,269 @@ const workoutData = {
             }
         ]
     }
+,
+    dia5: {
+    "name": "EMPUJES — TORSO",
+    "exercises": [
+        {
+            "name": "Movilidad - Cintura Escapular",
+            "sets": 2,
+            "reps": "8",
+            "rest": "30s",
+            "notes": "Estabilizando el tronco con mucho control motor. Calentamiento breve y controlado.",
+            "videoUrl": "https://youtu.be/qFt3RmTDmXI",
+            "imageUrl": "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg",
+            "isWarmup": true,
+            "order": 1
+        },
+        {
+            "name": "Press Banca en Multipower",
+            "sets": 4,
+            "reps": "8",
+            "rest": "150s",
+            "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Series de trabajo con 1 repetición en recámara, bajada controlada y sin rebotes. En la última serie realiza un único DROPSET: reduce la carga un 20% y continúa sin descanso hasta el fallo técnico, sin perder el control ni forzar repeticiones.",
+            "videoUrl": "https://youtu.be/w-5ovE5O5iU",
+            "imageUrl": "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg",
+            "setTechniques": {
+                "4": "DROPSET"
+            },
+            "order": 2
+        },
+        {
+            "name": "Press Militar en Multipower",
+            "sets": 3,
+            "reps": "8",
+            "rest": "150s",
+            "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Series de trabajo con 1 repetición en recámara, bajada controlada y sin rebotes. En la última serie realiza un único DROPSET: reduce la carga un 20% y continúa sin descanso hasta el fallo técnico, sin perder el control ni forzar repeticiones.",
+            "videoUrl": "https://www.youtube.com/watch?v=iATqshmFPnI",
+            "imageUrl": "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg",
+            "setTechniques": {
+                "3": "DROPSET"
+            },
+            "order": 3
+        },
+        {
+            "name": "Cruces en Polea Alta",
+            "sets": 3,
+            "reps": "12",
+            "rest": "75s",
+            "notes": "Recorrido cómodo y 2 repeticiones en recámara.",
+            "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+            "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+            "order": 4
+        },
+        {
+            "name": "Elevaciones Laterales con Mancuernas",
+            "isSuperset": true,
+            "items": [
+                {
+                    "name": "Elevaciones Laterales con Mancuernas",
+                    "sets": 3,
+                    "reps": "15",
+                    "rest": "",
+                    "notes": "",
+                    "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+                    "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
+                    "subOrder": 1,
+                    "isSupersetStart": true
+                },
+                {
+                    "name": "Press Francés con Mancuernas en Banco Inclinado",
+                    "sets": 3,
+                    "reps": "12",
+                    "rest": "90s",
+                    "notes": "",
+                    "videoUrl": "https://youtu.be/L__Q6Jl9Ics",
+                    "imageUrl": "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg",
+                    "subOrder": 2
+                }
+            ],
+            "notes": "Tres vueltas, usando el mismo banco y mancuernas. Deja 2 repeticiones en recámara.",
+            "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+            "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
+            "order": 5
+        },
+        {
+            "name": "CIRCUITO",
+            "isSuperset": true,
+            "circuitDetails": {
+                "totalRounds": 3,
+                "restBetweenExercisesSeconds": 15,
+                "restBetweenRoundsSeconds": 60
+            },
+            "items": [
+                {
+                    "name": "Flexiones con Peso Corporal",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+                    "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg",
+                    "subOrder": 1,
+                    "isCircuitItem": true
+                },
+                {
+                    "name": "Press Militar Sentado con Mancuernas",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                    "imageUrl": "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg",
+                    "subOrder": 2,
+                    "isCircuitItem": true
+                },
+                {
+                    "name": "Fondos de Tríceps con Pies en el Suelo",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://youtube.com/shorts/7mpEJQC_gRk",
+                    "imageUrl": "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg",
+                    "subOrder": 3,
+                    "isCircuitItem": true
+                }
+            ],
+            "notes": "Tres rondas. 30 segundos de trabajo por ejercicio; 15 segundos entre ejercicios y 60 segundos entre rondas. Solo torso; las piernas estabilizan. Completa los tres movimientos sin llegar al fallo y prioriza ritmo constante.",
+            "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+            "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg",
+            "order": 6
+        }
+    ]
+},
+    dia6: {
+    "name": "TRACCIONES — TORSO",
+    "exercises": [
+        {
+            "name": "Movilidad - Activación de Escápulas",
+            "sets": 2,
+            "reps": "8",
+            "rest": "30s",
+            "notes": "Buscar control motor. Calentamiento breve; añade dos aproximaciones progresivas de jalón antes del trabajo pesado.",
+            "videoUrl": "https://youtu.be/6Kj_rg_7tYQ",
+            "imageUrl": "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg",
+            "isWarmup": true,
+            "order": 1
+        },
+        {
+            "name": "Jalón al Pecho Neutro en Polea",
+            "sets": 4,
+            "reps": "8",
+            "rest": "150s",
+            "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Series de trabajo con 1 repetición en recámara, bajada controlada y sin rebotes. En la última serie realiza un único DROPSET: reduce la carga un 20% y continúa sin descanso hasta el fallo técnico, sin perder el control ni forzar repeticiones.",
+            "videoUrl": "https://youtu.be/5YzMH2KkMHc",
+            "imageUrl": "https://i.ytimg.com/vi/5YzMH2KkMHc/mqdefault.jpg",
+            "setTechniques": {
+                "4": "DROPSET"
+            },
+            "order": 2
+        },
+        {
+            "name": "Remo Gironda en Polea",
+            "sets": 4,
+            "reps": "8",
+            "rest": "150s",
+            "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Series de trabajo con 1 repetición en recámara, bajada controlada y sin rebotes. En la última serie realiza un único DROPSET: reduce la carga un 20% y continúa sin descanso hasta el fallo técnico, sin perder el control ni forzar repeticiones.",
+            "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
+            "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg",
+            "setTechniques": {
+                "4": "DROPSET"
+            },
+            "order": 3
+        },
+        {
+            "name": "Pull Over en Polea Alta",
+            "sets": 3,
+            "reps": "12",
+            "rest": "75s",
+            "notes": "Brazos casi extendidos, sin balancear el tronco y con 2 repeticiones en recámara.",
+            "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
+            "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg",
+            "order": 4
+        },
+        {
+            "name": "Curl con Mancuernas Sentado en Banco Inclinado",
+            "isSuperset": true,
+            "items": [
+                {
+                    "name": "Curl con Mancuernas Sentado en Banco Inclinado",
+                    "sets": 3,
+                    "reps": "12",
+                    "rest": "",
+                    "notes": "",
+                    "videoUrl": "https://youtu.be/S32a3nYiWko",
+                    "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg",
+                    "subOrder": 1,
+                    "isSupersetStart": true
+                },
+                {
+                    "name": "Pájaros con Mancuernas",
+                    "sets": 3,
+                    "reps": "15",
+                    "rest": "90s",
+                    "notes": "",
+                    "videoUrl": "https://youtu.be/EMrOS6P90lM",
+                    "imageUrl": "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg",
+                    "subOrder": 2
+                }
+            ],
+            "notes": "Tres vueltas, usando el mismo banco y mancuernas. Deja 2 repeticiones en recámara.",
+            "videoUrl": "https://youtu.be/S32a3nYiWko",
+            "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg",
+            "order": 5
+        },
+        {
+            "name": "CIRCUITO",
+            "isSuperset": true,
+            "circuitDetails": {
+                "totalRounds": 3,
+                "restBetweenExercisesSeconds": 15,
+                "restBetweenRoundsSeconds": 60
+            },
+            "items": [
+                {
+                    "name": "Remo en TRX",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
+                    "imageUrl": "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg",
+                    "subOrder": 1,
+                    "isCircuitItem": true
+                },
+                {
+                    "name": "Face Pull con TRX",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://www.youtube.com/shorts/bxzpphpaGSg",
+                    "imageUrl": "https://i.ytimg.com/vi/bxzpphpaGSg/mqdefault.jpg",
+                    "subOrder": 2,
+                    "isCircuitItem": true
+                },
+                {
+                    "name": "Curl de Biceps con TRX",
+                    "sets": 1,
+                    "reps": "30s",
+                    "rest": "",
+                    "notes": "Carga ligera y ritmo continuo con control. Sin impulso de piernas. No busques el fallo; ajusta la resistencia para sostener los 30 segundos.",
+                    "videoUrl": "https://www.youtube.com/shorts/W1C5ABPg_Ak",
+                    "imageUrl": "https://i.ytimg.com/vi/W1C5ABPg_Ak/mqdefault.jpg",
+                    "subOrder": 3,
+                    "isCircuitItem": true
+                }
+            ],
+            "notes": "Tres rondas. 30 segundos de trabajo por ejercicio; 15 segundos entre ejercicios y 60 segundos entre rondas. Solo torso; las piernas estabilizan. Completa los tres movimientos sin llegar al fallo y prioriza ritmo constante.",
+            "videoUrl": "https://www.youtube.com/watch?v=L6F1ZKsrRGI",
+            "imageUrl": "https://i.ytimg.com/vi/L6F1ZKsrRGI/mqdefault.jpg",
+            "order": 6
+        }
+    ]
+}
 };
 
 const exerciseAlternatives = {
@@ -408,3 +671,4 @@ const exerciseAlternatives = {
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
+
