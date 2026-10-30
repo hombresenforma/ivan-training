@@ -1,12 +1,11 @@
 // Titulo: P11_3+1_TorPierTor_TWS_CLUTERS_1
-// Notas: Trabajo por CLUSTERS y SERIES AL FALLO. 
+// Notas: Trabajo por CLUSTERS y SERIES AL FALLO.
 // For Time 21,15,9 + Trabajo de abdomen POLEA
-
 // Contenido de app_datos.js
-
 // =================================================================================
 // DATOS DE LA RUTINA (4 DÍAS)
 // =================================================================================
+
 const workoutData = {
     "dia1": {
         name: "Torso Empuje",
@@ -110,17 +109,6 @@ const workoutData = {
                 imageUrl: "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
             },
             {
-                order: 2,
-                name: "Sentadilla Anterior en Máquina Jaca",
-                setTechniques: {"3":"CLUSTER"},
-                sets: 3,
-                reps: "6, 6, 25",
-                rest: "120s",
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/saLWdiUe5eE",
-                imageUrl: "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
-            },
-            {
                 order: 3,
                 name: "Prensa Inclinada en Máquina de Discos",
                 sets: 3,
@@ -166,8 +154,8 @@ const workoutData = {
                         sets: 1,
                         reps: "12",
                         isEMOMItem: true,
-                        videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                        imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        videoUrl: "",
+                        imageUrl: ""
                     },
                     {
                         name: "Kettlebell - Swing con Sentadilla",
@@ -189,8 +177,8 @@ const workoutData = {
                     }
                 ],
                 notes: "",
-                videoUrl: "https://youtu.be/7tRy9X0ibnk",
-                imageUrl: "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                videoUrl: "",
+                imageUrl: ""
             }
         ]
     },
@@ -299,6 +287,7 @@ const workoutData = {
                         subOrder: 1,
                         reps: "21, 15, 9",
                         isForTimeItem: true,
+                        notes: "Objetivo: Mejorar el tiempo en cada entreno. ",
                         videoUrl: "https://www.youtube.com/watch?v=5mTjKFubavs",
                         imageUrl: "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     },
@@ -357,10 +346,7 @@ const workoutData = {
 
 const exerciseAlternatives = {
     "Press Banca Inclinado en Multipower": [
-        { name: "Press Banca Inclinado con Barra", videoUrl: "https://www.youtube.com/watch?v=4tPP-4K5kMQ", imageUrl: "https://i.ytimg.com/vi/4tPP-4K5kMQ/mqdefault.jpg" }
-    ],
-    "Sentadilla Anterior en Máquina Jaca": [
-        { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
+        { name: "Press Banca Inclinado con Barra", videoUrl: "", imageUrl: "" }
     ],
     "Prensa Inclinada en Máquina de Discos": [
         { name: "Sentadilla Trasera en Multipower", videoUrl: "https://youtu.be/la-dqygoIuk", imageUrl: "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg" }
@@ -369,11 +355,9 @@ const exerciseAlternatives = {
         { name: "Curl Femoral Tumbado en Máquina", videoUrl: "https://www.youtube.com/shorts/-VfGwgG23OM", imageUrl: "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg" }
     ],
     "Remo en Máquina T Agarre Estrecho": [
-        { name: "Remo Gironda Sentado en Polea", videoUrl: "https://www.youtube.com/shorts/jFR7oYwgy5s", imageUrl: "https://i.ytimg.com/vi/jFR7oYwgy5s/mqdefault.jpg" }
+        { name: "Remo Gironda Sentado en Polea", videoUrl: "", imageUrl: "" }
     ],
     "Press Banca con Mancuernas": [
         { name: "Press Banca con Barra", videoUrl: "https://youtu.be/PKpsrFS2uac", imageUrl: "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg" }
     ]
 };
-
-console.log("Datos de rutina cargados desde el creador.");
