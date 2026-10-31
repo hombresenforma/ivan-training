@@ -1,3 +1,4 @@
+PAUSADO
 // Titulo: P14_3D_FUERZA_1 (HOME)
 // Adaptación para hombro sensible y muñecas débiles: sin presses sobre la cabeza ni apoyos de manos en el suelo. Enfoque de fuerza y tres días conservados.
 
