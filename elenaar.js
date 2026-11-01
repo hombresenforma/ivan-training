@@ -251,25 +251,25 @@ const workoutData = {
             "order": 1
         },
         {
-            "name": "Sentadilla Búlgara en Multipower",
-            "sets": 3,
-            "reps": "10",
-            "rest": "120s",
-            "notes": "Apoya el pie trasero en un banco estable y coloca el delantero para bajar con control. Mantén el apoyo del pie delantero y evita impulsarte con la pierna trasera. Realiza las repeticiones con cada pierna. Descansa después de completar ambas piernas. Mantén la bajada controlada y ajusta la carga para terminar con 1–2 repeticiones en recámara.",
-            "videoUrl": "https://www.youtube.com/watch?v=UHoRtCnxuXI",
-            "imageUrl": "https://i.ytimg.com/vi/UHoRtCnxuXI/mqdefault.jpg",
-            "order": 2
-        },
+    "name": "Sentadilla Búlgara en Máquina",
+    "sets": 3,
+    "reps": "8",
+    "rest": "120s",
+    "notes": "El vídeo muestra la variante en máquina de sentadilla Hammer Strength. Ajusta los apoyos de la máquina, mantén el pie delantero firme y el pie trasero elevado en un soporte estable. Baja con control y empuja con la pierna delantera. Realiza las repeticiones con cada pierna. Descansa después de completar ambas piernas. Ajusta la carga para terminar con 1–2 repeticiones en recámara.",
+    "videoUrl": "https://www.youtube.com/watch?v=wqDidBdygbY",
+    "imageUrl": "https://i.ytimg.com/vi/wqDidBdygbY/mqdefault.jpg",
+    "order": 2
+},
         {
-            "name": "Sentadilla Anterior en Máquina Jaca",
-            "sets": 3,
-            "reps": "10",
-            "rest": "120s",
-            "notes": "Apoya bien la espalda y los pies; baja con control y evita rebotar al final del recorrido.",
-            "videoUrl": "https://youtube.com/shorts/saLWdiUe5eE",
-            "imageUrl": "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg",
-            "order": 3
-        },
+    "name": "Sentadilla Posterior en Máquina Jaca",
+    "sets": 3,
+    "reps": "10",
+    "rest": "120s",
+    "notes": "Colócate como en el vídeo y baja de forma controlada, sin rebotes.",
+    "videoUrl": "https://youtube.com/shorts/KII1KHKgr8o",
+    "imageUrl": "https://i.ytimg.com/vi/KII1KHKgr8o/mqdefault.jpg",
+    "order": 3
+},
         {
             "name": "Prensa Inclinada en Máquina de Discos",
             "sets": 3,
@@ -305,4 +305,5 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {};
+
 
