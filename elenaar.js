@@ -235,6 +235,74 @@ const workoutData = {
             }
         ]
     }
+,
+    dia4: {
+    "name": "Elena prueba pierna",
+    "exercises": [
+        {
+            "name": "Abducción de Glúteo Unilat en el Suelo",
+            "sets": 2,
+            "reps": "10",
+            "rest": "30s",
+            "notes": "Calentamiento suave: completa las repeticiones con cada pierna sin llegar a fatigar. Antes de la búlgara, realiza dos aproximaciones progresivas con poca carga.",
+            "videoUrl": "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+            "imageUrl": "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg",
+            "isWarmup": true,
+            "order": 1
+        },
+        {
+            "name": "Sentadilla Búlgara en Multipower",
+            "sets": 3,
+            "reps": "10",
+            "rest": "120s",
+            "notes": "Apoya el pie trasero en un banco estable y coloca el delantero para bajar con control. Mantén el apoyo del pie delantero y evita impulsarte con la pierna trasera. Realiza las repeticiones con cada pierna. Descansa después de completar ambas piernas. Mantén la bajada controlada y ajusta la carga para terminar con 1–2 repeticiones en recámara.",
+            "videoUrl": "https://www.youtube.com/watch?v=UHoRtCnxuXI",
+            "imageUrl": "https://i.ytimg.com/vi/UHoRtCnxuXI/mqdefault.jpg",
+            "order": 2
+        },
+        {
+            "name": "Sentadilla Anterior en Máquina Jaca",
+            "sets": 3,
+            "reps": "10",
+            "rest": "120s",
+            "notes": "Apoya bien la espalda y los pies; baja con control y evita rebotar al final del recorrido.",
+            "videoUrl": "https://youtube.com/shorts/saLWdiUe5eE",
+            "imageUrl": "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg",
+            "order": 3
+        },
+        {
+            "name": "Prensa Inclinada en Máquina de Discos",
+            "sets": 3,
+            "reps": "10",
+            "rest": "120s",
+            "notes": "Mantén la pelvis apoyada durante todo el recorrido y controla la bajada.",
+            "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
+            "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg",
+            "order": 4
+        },
+        {
+            "name": "Hip Thrust en Máquina",
+            "sets": 3,
+            "reps": "12",
+            "rest": "90s",
+            "notes": "Ajusta el apoyo y el cinturón o rodillo de la máquina sobre la cadera. Eleva la cadera con control, contrae el glúteo arriba sin arquear la zona lumbar y baja sin rebotes. Haz una pausa breve contrayendo el glúteo arriba.",
+            "videoUrl": "https://www.youtube.com/watch?v=BhoKmsSZNGM",
+            "imageUrl": "https://i.ytimg.com/vi/BhoKmsSZNGM/mqdefault.jpg",
+            "order": 5
+        },
+        {
+            "name": "Patada de Glúteo en Polea",
+            "sets": 3,
+            "reps": "15",
+            "rest": "75s",
+            "notes": "Usa un disco o step para elevar el otro pie Completa las repeticiones con cada pierna sin girar la pelvis ni arquear la zona lumbar. Descansa después de ambas piernas.",
+            "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+            "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg",
+            "order": 6
+        }
+    ]
+}
 };
 
 const exerciseAlternatives = {};
+
