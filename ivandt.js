@@ -6,18 +6,18 @@ const workoutData = {
         "name": "Tracción 1",
         "exercises": [
             {
-                "name": "Pull Over en Polea Alta",
+                "name": "Pull Over Unilateral en Polea Alta",
                 "isSuperset": true,
                 "isWarmup": true,
                 "items": [
                     {
-                        "name": "Pull Over en Polea Alta",
+                        "name": "Pull Over Unilateral en Polea Alta",
                         "sets": 2,
                         "reps": "12",
                         "rest": "",
-                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
-                        "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                        "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo. Mantén el tronco estable y el codo ligeramente flexionado. Lleva el brazo hacia la cadera sin balancearte y controla la vuelta. Completa las repeticiones con cada brazo.",
+                        "videoUrl": "https://www.youtube.com/watch?v=6pNhinjtZvs",
+                        "imageUrl": "https://i.ytimg.com/vi/6pNhinjtZvs/mqdefault.jpg",
                         "subOrder": 1,
                         "isSupersetStart": true,
                         "isWarmup": true
@@ -35,8 +35,8 @@ const workoutData = {
                     }
                 ],
                 "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
-                "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg",
+                "videoUrl": "https://www.youtube.com/watch?v=6pNhinjtZvs",
+                "imageUrl": "https://i.ytimg.com/vi/6pNhinjtZvs/mqdefault.jpg",
                 "order": 1
             },
             {
@@ -445,4 +445,5 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {};
+
 
