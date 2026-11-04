@@ -1,5 +1,5 @@
 // Titulo: IVAN_DT_4D_TRACCION_EMPUJE_1
-// Notas: Calentamiento en superserie 2x12 (60s); básico con objetivos por serie 7,7,12 (120s); accesorios con series y repeticiones indicadas en cada día; superserie final 2x12 (60s). Tracción 2 tiene tres ejercicios individuales: remo T, peso muerto rumano y curl Scott.
+// Notas: Calentamiento en superserie 2x12 (60s); básico con objetivos por serie 7,7,12 (120s); accesorios con series y repeticiones indicadas en cada día; superserie final 2x12 (60s). Tracción 2 tiene cuatro ejercicios individuales: remo T, sentadilla trasera con barra, curl Scott y extensión de cuádriceps.
 
 const workoutData = {
     "dia1": {
@@ -160,13 +160,13 @@ const workoutData = {
                 "order": 2
             },
             {
-                "name": "Peso Muerto Rumano con Barra",
+                "name": "Sentadilla Trasera con Barra",
                 "sets": 3,
                 "reps": "10",
                 "rest": "90s",
-                "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Mantén el tronco estable y controla la bajada sin forzar la zona lumbar.",
-                "videoUrl": "https://youtu.be/R7FKam5GyNw",
-                "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg",
+                "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Mantén el tronco estable y usa un recorrido sin molestias. Si aparece molestia lumbar, detén el ejercicio.",
+                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
+                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg",
                 "order": 3
             },
             {
@@ -178,6 +178,16 @@ const workoutData = {
                 "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
                 "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
                 "order": 4
+            },
+            {
+                "name": "Extensión de Cuádriceps en Máquina",
+                "sets": 3,
+                "reps": "12",
+                "rest": "90s",
+                "notes": "Movimiento controlado y recorrido cómodo, sin rebotes ni bloqueo brusco de la rodilla.",
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                "order": 5
             },
             {
                 "name": "Jalón al Pecho en Polea",
@@ -208,7 +218,7 @@ const workoutData = {
                 "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
                 "videoUrl": "https://youtu.be/GYIhmy1P4vY",
                 "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
-                "order": 5
+                "order": 6
             }
         ]
     },
