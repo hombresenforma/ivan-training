@@ -1,5 +1,5 @@
-// Titulo: P24_4D_TorPier_FUERZA_VOL_1
-// Notas: Progresión tras P23: 2 días de fuerza y 2 de volumen; top set + back-off en básicos, doble progresión y calentamientos específicos. Adaptación individual para Estefanía: sin trabajo directo de pectoral y con mayor volumen de glúteo. Hip thrust con opción de máquina. Duración objetivo 48-58 min.
+// Titulo: P24_4D_TorPier_FUERZA_VOL_2_FEM_V2
+// Notas: Progresión de la adaptación individual de P24: 4 días, torso/pierna de fuerza y torso/pierna de volumen. Sin trabajo directo de pectoral y con mayor volumen de glúteo. Primer básico de cada día a 5 series: remo T abierto, sentadilla en multipower, remo Gironda e hip thrust. Primer movimiento de aislamiento de Torso Volumen (pájaros) a 4 series; búlgara de Pierna Volumen mantiene 4. Fuerza: top set de 6 y cuatro back-off de 8. Un DROPSET en la última serie de tríceps en cuerda en cada día de torso y extensión de cuádriceps en cada día de pierna. Hip thrust con opción de máquina. Doble progresión y calentamientos específicos. DROPSET: una bajada de carga del 20-25%, sin perder la técnica. Duración estimada 55-65 min según transiciones.
 
 const workoutData = {
     "dia1": {
@@ -39,10 +39,10 @@ const workoutData = {
             {
                 "order": 2,
                 "name": "Remo en Máquina T Agarre Abierto",
-                "sets": 4,
-                "reps": "6, 8, 8, 8",
+                "sets": 5,
+                "reps": "6,8,8,8,8",
                 "rest": "150s",
-                "notes": "Primera serie exigente; reduce un 8-10% para las 3 series back-off. Mantén RIR 1-2.",
+                "notes": "Primera serie exigente; reduce un 8-10% para las 4 series back-off. Mantén RIR 1-2.",
                 "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
                 "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
             },
@@ -87,9 +87,12 @@ const workoutData = {
                         "sets": 3,
                         "reps": "10",
                         "isSupersetStart": true,
-                        "notes": "Extensión controlada, sin balancear el tronco.",
+                        "notes": "Extensión controlada, sin balancear el tronco. Última serie: al completar las repeticiones, reduce la carga un 20-25% y continúa con técnica controlada hasta RIR 1; una sola bajada de peso.",
                         "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
+                        "setTechniques": {
+                            "3": "DROPSET"
+                        }
                     },
                     {
                         "name": "Curl con Barra Z",
@@ -125,10 +128,10 @@ const workoutData = {
             {
                 "order": 2,
                 "name": "Sentadilla Trasera en Multipower",
-                "sets": 4,
-                "reps": "6, 8, 8, 8",
+                "sets": 5,
+                "reps": "6,8,8,8,8",
                 "rest": "150s",
-                "notes": "Primera serie pesada; reduce un 8-10% para las 3 series back-off. Mantén RIR 1-2.",
+                "notes": "Primera serie pesada; reduce un 8-10% para las 4 series back-off. Mantén RIR 1-2.",
                 "videoUrl": "https://youtu.be/la-dqygoIuk",
                 "imageUrl": "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
@@ -168,9 +171,12 @@ const workoutData = {
                 "sets": 3,
                 "reps": "15",
                 "rest": "75s",
-                "notes": "Ejecución controlada.",
+                "notes": "Ejecución controlada. Última serie: al completar las repeticiones, reduce la carga un 20-25% y continúa con técnica controlada hasta RIR 1; una sola bajada de peso.",
                 "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                "setTechniques": {
+                    "3": "DROPSET"
+                }
             },
             {
                 "order": 7,
@@ -221,7 +227,7 @@ const workoutData = {
             {
                 "order": 2,
                 "name": "Pájaros con Mancuernas",
-                "sets": 3,
+                "sets": 4,
                 "reps": "10",
                 "rest": "90s",
                 "notes": "Controla el movimiento y evita el balanceo.",
@@ -231,7 +237,7 @@ const workoutData = {
             {
                 "order": 3,
                 "name": "Remo Gironda en Polea",
-                "sets": 3,
+                "sets": 5,
                 "reps": "10",
                 "rest": "120s",
                 "notes": "Pausa breve al final del tirón.",
@@ -309,9 +315,12 @@ const workoutData = {
                         "sets": 3,
                         "reps": "15",
                         "isSupersetStart": true,
-                        "notes": "Separa la cuerda al final.",
+                        "notes": "Separa la cuerda al final. Última serie: al completar las repeticiones, reduce la carga un 20-25% y continúa con técnica controlada hasta RIR 1; una sola bajada de peso.",
                         "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
+                        "setTechniques": {
+                            "3": "DROPSET"
+                        }
                     },
                     {
                         "name": "Curl de Bíceps Apoyado en Banco con Mancuernas",
@@ -375,9 +384,12 @@ const workoutData = {
                         "sets": 3,
                         "reps": "15",
                         "isSupersetStart": true,
-                        "notes": "Controla la contracción.",
+                        "notes": "Controla la contracción. Última serie: al completar las repeticiones, reduce la carga un 20-25% y continúa con técnica controlada hasta RIR 1; una sola bajada de peso.",
                         "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                        "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                        "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                        "setTechniques": {
+                            "3": "DROPSET"
+                        }
                     },
                     {
                         "name": "Sentadilla Goblet con Mancuerna/KTB y Pies Elevados",
@@ -429,3 +441,4 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {};
+
