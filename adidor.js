@@ -1,4 +1,4 @@
-// Titulo: P4_3D_APTOR_HIIT_1_Fem
+// Titulo: P4_3D_APTOR_HIIT_2_Fem
 // Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
 // Contenido de app_datos.js
 // =================================================================================
@@ -12,8 +12,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Sentadilla con Peso Corporal",
-                sets: 2,
-                reps: "50",
+                sets: 3,
+                reps: "40",
                 rest: "90s",
                 notes: "MÁXIMAS REPETICIONES (AL FALLO)",
                 videoUrl: "https://youtu.be/NWes6fd1Sxs",
@@ -56,7 +56,7 @@ const workoutData = {
                     {
                         name: "Elevaciones Laterales con Mancuernas",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/rhmW_fhB4cs",
@@ -65,7 +65,7 @@ const workoutData = {
                     {
                         name: "Fondos de Tríceps con Pies en el Suelo",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
@@ -118,8 +118,8 @@ const workoutData = {
             {
                 order: 1,
                 name: "Dominadas Asistidas en Máquina",
-                sets: 2,
-                reps: "25",
+                sets: 3,
+                reps: "15",
                 rest: "120s",
                 notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
                 videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
@@ -133,7 +133,7 @@ const workoutData = {
                     {
                         name: "Zancada Trasera Alterna con Mancuernas/KTB",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "16",
                         isSupersetStart: true,
                         videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
@@ -142,7 +142,7 @@ const workoutData = {
                     {
                         name: "Sentadilla con Salto",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "15",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
@@ -161,7 +161,7 @@ const workoutData = {
                     {
                         name: "Remo Unilat con Mancuerna/KTB (Explicado)",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "10",
                         isSupersetStart: true,
                         videoUrl: "https://youtu.be/uH9Hg4nWOG8",
@@ -170,7 +170,7 @@ const workoutData = {
                     {
                         name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
@@ -251,7 +251,7 @@ const workoutData = {
             {
                 order: 2,
                 name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 3,
+                sets: 4,
                 reps: "8-10",
                 rest: "90s",
                 notes: "",
@@ -266,7 +266,7 @@ const workoutData = {
                     {
                         name: "Kettlebell - Press Militar",
                         subOrder: 1,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         isSupersetStart: true,
                         videoUrl: "https://youtube.com/shorts/CCgU8PLMcdI",
@@ -275,7 +275,7 @@ const workoutData = {
                     {
                         name: "Sentadilla Goblet + Sentadilla Sumo con KTB",
                         subOrder: 2,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         videoUrl: "https://youtu.be/oz1SagvDVe8",
                         imageUrl: "https://i.ytimg.com/vi/oz1SagvDVe8/mqdefault.jpg"
@@ -283,7 +283,7 @@ const workoutData = {
                     {
                         name: "Cuerpo Libre - Glute Bridge - Cambiando Piernas",
                         subOrder: 3,
-                        sets: 3,
+                        sets: 4,
                         reps: "24",
                         videoUrl: "https://youtu.be/a8GF3uTnUOI",
                         imageUrl: "https://i.ytimg.com/vi/a8GF3uTnUOI/mqdefault.jpg"
@@ -291,7 +291,7 @@ const workoutData = {
                     {
                         name: "Kettlebell - Remo Inclinado Unilateral",
                         subOrder: 4,
-                        sets: 3,
+                        sets: 4,
                         reps: "12",
                         rest: "90s",
                         videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
