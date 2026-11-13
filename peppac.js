@@ -1,5 +1,5 @@
-// Titulo: P3_3D_APFB_INOUT_3 (HOME)
-// Notas: V3 adaptada a 3 días. Nuevos básicos y superseries, sin dropsets. Circuitos sin salto de 3 rondas, con 60 s de pausa entre rondas.
+// Titulo: P3_3D_APFB_INOUT_3_HOME_3D
+// Notas: Tres días Anterior, Posterior y Fullbody. Básicos y superseries renovados, sin dropsets y con circuitos sin salto de tres rondas. Descanso de 60 s entre rondas.
 
 const workoutData = {
     "dia1": {
