@@ -239,13 +239,13 @@ const workoutData = {
             },
             {
                 order: 6,
-                name: "Patada de Glúteo en Polea",
+                name: "Patada Lateral en Polea",
                 sets: 3,
                 reps: "12",
                 rest: "75s",
-                notes: "Usa un disco o step para elevar el otro pie Completa las repeticiones con cada pierna sin girar la pelvis ni arquear la zona lumbar. Descansa después de ambas piernas.",
-                videoUrl: "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                imageUrl: "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                notes: "Colócate de lado a la polea baja y engancha la tobillera en la pierna más alejada. Separa la pierna hacia el lateral con la pelvis estable y vuelve despacio. Completa las repeticiones con ambas piernas antes de descansar.",
+                videoUrl: "https://www.youtube.com/watch?v=bGlm-qTnfTI",
+                imageUrl: "https://i.ytimg.com/vi/bGlm-qTnfTI/mqdefault.jpg"
             }
         ]
     }
