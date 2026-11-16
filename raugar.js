@@ -92,28 +92,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Sentadilla Sumo con Peso Corporal",
+                        "name": "Step Up Lateral Alterno en Step",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://youtu.be/gJRjDiTSPYk",
-                        "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg",
-                        "notes": "Baja a un recorrido cómodo y mantén el control al subir."
+                        "videoUrl": "https://youtu.be/N26TyhPhSRI",
+                        "imageUrl": "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
                     },
                     {
-                        "name": "Flexiones con Peso Corporal",
+                        "name": "Thruster con Mancuernas",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
-                        "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
+                        "notes": "Utiliza mancuernas de 8-10kg. ",
+                        "videoUrl": "https://www.youtube.com/watch?v=5mTjKFubavs",
+                        "imageUrl": "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://youtu.be/gJRjDiTSPYk",
-                "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/N26TyhPhSRI",
+                "imageUrl": "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
             }
         ]
     },
@@ -207,28 +207,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Pull Through con Polea o Banda",
+                        "name": "Snatch + Thruster Unilat Alterno con Mancuerna",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "notes": "Hazlo con la polea baja.",
-                        "videoUrl": "https://www.youtube.com/shorts/74OJu_puEz0",
-                        "imageUrl": "https://i.ytimg.com/vi/74OJu_puEz0/mqdefault.jpg"
+                        "notes": "Mancuerna de 10-12kg.",
+                        "videoUrl": "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                        "imageUrl": "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
                     },
                     {
-                        "name": "Dead Bug",
+                        "name": "Lateral Climbers",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://youtu.be/0CteMtiMChQ",
-                        "imageUrl": "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/shorts/IKuy2laTdGY",
+                        "imageUrl": "https://i.ytimg.com/vi/IKuy2laTdGY/mqdefault.jpg"
                     }
                 ],
-                "notes": "",
-                "videoUrl": "https://www.youtube.com/shorts/74OJu_puEz0",
-                "imageUrl": "https://i.ytimg.com/vi/74OJu_puEz0/mqdefault.jpg"
+                "notes": "Mancuerna de 10-12kg.",
+                "videoUrl": "https://www.youtube.com/shorts/jNbG4xt8zCs",
+                "imageUrl": "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
             }
         ]
     },
@@ -302,28 +302,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Patada de Glúteo en Polea",
+                        "name": "Zancadas Caminando con Mancuernas/KTB",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "notes": "Usa un disco o step para elevar el otro pie Cambia de pierna a mitad del intervalo.",
-                        "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                        "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                        "notes": "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
+                        "videoUrl": "https://youtu.be/7tRy9X0ibnk",
+                        "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
                     },
                     {
-                        "name": "Plancha - Cambios de apoyo",
+                        "name": "Burpee sin Flexión",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://youtu.be/Yg74EfwLBQY",
-                        "imageUrl": "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/_liq4fAscDU",
+                        "imageUrl": "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
                     }
                 ],
-                "notes": "",
-                "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                "notes": "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
+                "videoUrl": "https://youtu.be/7tRy9X0ibnk",
+                "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
             }
         ]
     }
