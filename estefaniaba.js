@@ -1,5 +1,5 @@
 // Titulo: P24_4D_TorPier_FUERZA_VOL_2_FEM_V2
-// Notas: Progresión de la adaptación individual de P24: 4 días, torso/pierna de fuerza y torso/pierna de volumen. Sin trabajo directo de pectoral y con mayor volumen de glúteo. Primer básico de cada día a 5 series: remo T abierto, sentadilla en multipower, remo Gironda e hip thrust. Primer movimiento de aislamiento de Torso Volumen (pájaros) a 4 series; búlgara de Pierna Volumen mantiene 4. Fuerza: top set de 6 y cuatro back-off de 8. Un DROPSET en la última serie de tríceps en cuerda en cada día de torso y extensión de cuádriceps en cada día de pierna. Hip thrust con opción de máquina. Doble progresión y calentamientos específicos. DROPSET: una bajada de carga del 20-25%, sin perder la técnica. Duración estimada 55-65 min según transiciones.
+// Notas: Adaptación de cuatro días con foco de glúteo, sin pectoral directo. Básicos con las mismas series y repeticiones; hip thrust en máquina. Accesorios nuevos de torso y pierna y abdomen al final de los cuatro días.
 
 const workoutData = {
     "dia1": {
@@ -48,13 +48,13 @@ const workoutData = {
             },
             {
                 "order": 3,
-                "name": "Dominadas con Peso Corporal",
+                "name": "Jalón al Pecho Supino en Polea",
                 "sets": 4,
                 "reps": "8",
                 "rest": "150s",
-                "notes": "Cuando completes 4x8 con buena técnica, añade carga.",
-                "videoUrl": "https://www.youtube.com/shorts/pb-14sP_R4M",
-                "imageUrl": "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://youtu.be/rimdRzyIJkA",
+                "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 "order": 4,
@@ -99,10 +99,19 @@ const workoutData = {
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "10",
-                        "rest": "90s",
                         "notes": "Sin balanceo.",
                         "videoUrl": "https://youtu.be/4gYLTjNaTmw",
                         "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                    },
+                    {
+                        "subOrder": 3,
+                        "sets": 3,
+                        "reps": "30s",
+                        "rest": "90s",
+                        "name": "Plancha - Normal",
+                        "videoUrl": "https://youtu.be/DQ4wYExQRJo",
+                        "imageUrl": "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg",
+                        "notes": "Mantener espalda recta y glúteo apretado (retroversión de cadera)"
                     }
                 ],
                 "notes": "",
@@ -137,13 +146,13 @@ const workoutData = {
             },
             {
                 "order": 3,
-                "name": "Peso Muerto Rumano con Barra",
+                "name": "Peso Muerto Rumano con Mancuernas/KTB",
                 "sets": 4,
                 "reps": "8",
                 "rest": "150s",
-                "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta). Mantén RIR 1-2.",
-                "videoUrl": "https://youtu.be/R7FKam5GyNw",
-                "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                "notes": "Espalda recta en todo momento",
+                "videoUrl": "https://www.youtube.com/shorts/SMll4DOYvEs",
+                "imageUrl": "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 "order": 4,
@@ -181,12 +190,32 @@ const workoutData = {
             {
                 "order": 7,
                 "name": "Patada de Glúteo en Polea",
-                "sets": 2,
-                "reps": "15",
-                "rest": "75s",
                 "notes": "Usa un disco o step para elevar el otro pie. Mantén la pelvis estable.",
                 "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
-                "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
+                "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Patada de Glúteo en Polea",
+                        "sets": 2,
+                        "reps": "15",
+                        "notes": "Usa un disco o step para elevar el otro pie. Mantén la pelvis estable.",
+                        "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                        "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
+                    },
+                    {
+                        "subOrder": 2,
+                        "sets": 2,
+                        "reps": "30s",
+                        "rest": "75s",
+                        "name": "Plancha - Lateral",
+                        "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+                        "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg",
+                        "notes": "Alterna el lado entre series."
+                    }
+                ]
             }
         ]
     },
@@ -226,13 +255,13 @@ const workoutData = {
             },
             {
                 "order": 2,
-                "name": "Pájaros con Mancuernas",
+                "name": "Face Pull al Cuello en Polea Alta",
                 "sets": 4,
                 "reps": "10",
                 "rest": "90s",
-                "notes": "Controla el movimiento y evita el balanceo.",
-                "videoUrl": "https://youtu.be/EMrOS6P90lM",
-                "imageUrl": "https://i.ytimg.com/vi/EMrOS6P90lM/mqdefault.jpg"
+                "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte.",
+                "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
+                "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
             },
             {
                 "order": 3,
@@ -246,18 +275,18 @@ const workoutData = {
             },
             {
                 "order": 4,
-                "name": "Remo en Máquina T Agarre Abierto",
+                "name": "Remo Seal con Mancuernas",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Remo en Máquina T Agarre Abierto",
+                        "name": "Remo Seal con Mancuernas",
                         "subOrder": 1,
                         "sets": 3,
                         "reps": "10",
                         "isSupersetStart": true,
-                        "notes": "Pecho apoyado y tirón controlado.",
-                        "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-                        "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                        "notes": "Trata de despegar el pecho al final del movimiento",
+                        "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
+                        "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
                     },
                     {
                         "name": "Jalón al Pecho Neutro en Polea",
@@ -271,8 +300,8 @@ const workoutData = {
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
+                "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
             },
             {
                 "order": 5,
@@ -327,10 +356,19 @@ const workoutData = {
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "15",
-                        "rest": "75s",
                         "notes": "Mantén el brazo apoyado.",
                         "videoUrl": "https://youtube.com/shorts/hQ3ojFx5soY",
                         "imageUrl": "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg"
+                    },
+                    {
+                        "subOrder": 3,
+                        "sets": 3,
+                        "reps": "30s",
+                        "rest": "75s",
+                        "name": "Plancha - Cambios de apoyo",
+                        "videoUrl": "https://youtu.be/Yg74EfwLBQY",
+                        "imageUrl": "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg",
+                        "notes": ""
                     }
                 ],
                 "notes": "",
@@ -355,23 +393,23 @@ const workoutData = {
             },
             {
                 "order": 2,
-                "name": "Hip Thrust con Barra (ExPLICADO)",
+                "name": "Hip Thrust en Máquina",
                 "sets": 5,
                 "reps": "10",
                 "rest": "120s",
-                "notes": "Pausa un segundo arriba y evita hiperextender la zona lumbar. Puede realizarlo en máquina de hip thrust; en el gimnasio del trabajo puede mantener la versión con barra.",
-                "videoUrl": "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
-                "imageUrl": "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg"
+                "notes": "Ajusta el apoyo y el cinturón o rodillo de la máquina sobre la cadera. Eleva la cadera con control, contrae el glúteo arriba sin arquear la zona lumbar y baja sin rebotes.",
+                "videoUrl": "https://www.youtube.com/watch?v=BhoKmsSZNGM",
+                "imageUrl": "https://i.ytimg.com/vi/BhoKmsSZNGM/mqdefault.jpg"
             },
             {
                 "order": 3,
-                "name": "Sentadilla Búlgara con Mancuerna o KTB",
+                "name": "Sentadilla Búlgara en Multipower",
                 "sets": 4,
                 "reps": "10",
                 "rest": "90s",
-                "notes": "Mantén el control y la estabilidad.",
-                "videoUrl": "https://youtu.be/kA6bHiDdTO4",
-                "imageUrl": "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+                "notes": "Apoya el pie trasero en un banco estable y coloca el delantero para bajar con control. Mantén el apoyo del pie delantero y evita impulsarte con la pierna trasera. Realiza las repeticiones con cada pierna.",
+                "videoUrl": "https://www.youtube.com/watch?v=UHoRtCnxuXI",
+                "imageUrl": "https://i.ytimg.com/vi/UHoRtCnxuXI/mqdefault.jpg"
             },
             {
                 "order": 4,
@@ -422,14 +460,23 @@ const workoutData = {
                         "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
                     },
                     {
-                        "name": "Kettlebell - Swing Ruso",
+                        "name": "Abducción de Glúteo Unilat en el Suelo",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "15",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+                        "imageUrl": "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg"
+                    },
+                    {
+                        "subOrder": 3,
+                        "sets": 3,
+                        "reps": "12",
                         "rest": "90s",
-                        "notes": "Impulsa desde la cadera.",
-                        "videoUrl": "https://youtu.be/eKN0tj8q6Qc",
-                        "imageUrl": "https://i.ytimg.com/vi/eKN0tj8q6Qc/mqdefault.jpg"
+                        "name": "Dead Bug",
+                        "videoUrl": "https://youtu.be/0CteMtiMChQ",
+                        "imageUrl": "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg",
+                        "notes": ""
                     }
                 ],
                 "notes": "",
@@ -441,4 +488,3 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {};
-
