@@ -1,4 +1,4 @@
-// Titulo: P3_3D_APFB_INOUT_1
+// Titulo: P3_3D_APFB_INOUT_1_HOME_MULTIESTACION
 // Adaptación HOME con multipower, poleas, barra de dominadas, mancuernas y banco reclinable.
 
 const workoutData = {
