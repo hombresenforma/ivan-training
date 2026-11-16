@@ -1,5 +1,8 @@
 // Titulo: P17_3D_FUERZA (2)
-// Notas: V2 adaptada a tres días. Básicos 4×4, secundarios 3×6. Remo Gironda y jaca posterior. Press banca con barra y accesorios de empuje conocidos.
+
+// Notas: Básico: 4x4 -> 5x4
+// Secundarios: 4x4 > 3x6
+// Cambiamos accesorios
 
 const workoutData = {
     "dia1": {
@@ -46,7 +49,7 @@ const workoutData = {
                 "order": 2,
                 "name": "Press Banca con Barra",
                 "setTechniques": {},
-                "sets": 4,
+                "sets": 5,
                 "reps": "4",
                 "rest": "120s",
                 "notes": "",
@@ -76,32 +79,32 @@ const workoutData = {
                 "imageUrl": "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
             },
             {
-                "order": 7,
-                "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                "order": 5,
+                "name": "Press Banca Inclinado en Multipower",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                        "name": "Press Banca Inclinado en Multipower",
                         "subOrder": 1,
                         "sets": 3,
-                        "reps": "10",
+                        "reps": "8-10",
                         "isSupersetStart": true,
-                        "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                        "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/3GS7EjN7KSk",
+                        "imageUrl": "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
                     },
                     {
-                        "name": "Press Francés con Mancuernas en Banco Inclinado",
+                        "name": "Fondos de Tríceps con Pies Elevados",
                         "subOrder": 2,
                         "sets": 3,
-                        "reps": "10",
+                        "reps": "8-10",
                         "rest": "90s",
-                        "videoUrl": "https://youtu.be/L__Q6Jl9Ics",
-                        "imageUrl": "https://i.ytimg.com/vi/L__Q6Jl9Ics/mqdefault.jpg"
+                        "videoUrl": "https://youtube.com/shorts/FBttBh-aiVs",
+                        "imageUrl": "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/3GS7EjN7KSk",
+                "imageUrl": "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             }
         ]
     },
@@ -152,7 +155,7 @@ const workoutData = {
                 "order": 2,
                 "name": "Remo Gironda en Polea",
                 "setTechniques": {},
-                "sets": 4,
+                "sets": 5,
                 "reps": "4",
                 "rest": "120s",
                 "notes": "",
@@ -172,14 +175,14 @@ const workoutData = {
             },
             {
                 "order": 4,
-                "name": "Press Banca con Barra",
+                "name": "Press Inclinado con Mancuernas",
                 "setTechniques": {},
                 "sets": 3,
                 "reps": "6",
                 "rest": "120s",
                 "notes": "",
-                "videoUrl": "https://youtu.be/PKpsrFS2uac",
-                "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/ZE4M73kXB5A",
+                "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
             },
             {
                 "order": 5,
@@ -190,7 +193,7 @@ const workoutData = {
                         "name": "Remo Inclinado en Landmine",
                         "subOrder": 1,
                         "sets": 3,
-                        "reps": "10",
+                        "reps": "8-10",
                         "isSupersetStart": true,
                         "videoUrl": "https://youtu.be/5gakUsid-Lg",
                         "imageUrl": "https://i.ytimg.com/vi/5gakUsid-Lg/mqdefault.jpg"
@@ -199,7 +202,7 @@ const workoutData = {
                         "name": "Curl Martillo con Mancuernas",
                         "subOrder": 2,
                         "sets": 3,
-                        "reps": "10",
+                        "reps": "8-10",
                         "rest": "90s",
                         "videoUrl": "https://youtu.be/fcFsPoJY9lg",
                         "imageUrl": "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
@@ -247,7 +250,7 @@ const workoutData = {
                 "order": 2,
                 "name": "Sentadilla Posterior en Máquina Jaca",
                 "setTechniques": {},
-                "sets": 4,
+                "sets": 5,
                 "reps": "4",
                 "rest": "120s",
                 "notes": "",
@@ -256,14 +259,14 @@ const workoutData = {
             },
             {
                 "order": 3,
-                "name": "Press Banca con Barra",
+                "name": "Press Banca con Mancuernas",
                 "setTechniques": {},
                 "sets": 3,
                 "reps": "6",
                 "rest": "120s",
                 "notes": "",
-                "videoUrl": "https://youtu.be/PKpsrFS2uac",
-                "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/hXCJC2Apcdg",
+                "imageUrl": "https://i.ytimg.com/vi/hXCJC2Apcdg/mqdefault.jpg"
             },
             {
                 "order": 4,
@@ -280,7 +283,7 @@ const workoutData = {
                 "order": 5,
                 "name": "Prensa Inclinada en Máquina de Discos",
                 "sets": 3,
-                "reps": "10",
+                "reps": "8-10",
                 "rest": "60s",
                 "notes": "",
                 "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
@@ -290,7 +293,7 @@ const workoutData = {
                 "order": 6,
                 "name": "Extensión Lumbar en GHD",
                 "sets": 3,
-                "reps": "10",
+                "reps": "8-10",
                 "rest": "60s",
                 "notes": "No hace falta que sea horizontal el banco. ",
                 "videoUrl": "https://www.youtube.com/watch?v=dizQOJZwTDw",
