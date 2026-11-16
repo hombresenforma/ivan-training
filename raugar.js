@@ -1,4 +1,5 @@
 // Titulo: P3_3D_APFB_INOUT_1
+// Adaptación HOME con multipower, poleas, barra de dominadas, mancuernas y banco reclinable.
 
 const workoutData = {
     "dia1": {
@@ -10,7 +11,6 @@ const workoutData = {
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
                 "videoUrl": "https://youtu.be/3GS7EjN7KSk",
                 "imageUrl": "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
             },
@@ -20,23 +20,23 @@ const workoutData = {
                 "sets": 3,
                 "reps": "16",
                 "rest": "90s",
-                "notes": "",
+                "notes": "Usa mancuernas y limita la profundidad a un recorrido cómodo.",
                 "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
                 "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             },
             {
                 "order": 3,
-                "name": "Press Militar con Barra de Pie",
+                "name": "Press Militar Sentado con Mancuernas",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Press Militar con Barra de Pie",
+                        "name": "Press Militar Sentado con Mancuernas",
                         "subOrder": 1,
                         "sets": 3,
                         "reps": "10",
                         "isSupersetStart": true,
-                        "videoUrl": "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                        "imageUrl": "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                        "imageUrl": "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
                     },
                     {
                         "name": "Elevaciones Laterales con Mancuernas",
@@ -49,36 +49,37 @@ const workoutData = {
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://www.youtube.com/watch?v=idnuMZx6mS0",
-                "imageUrl": "https://i.ytimg.com/vi/idnuMZx6mS0/mqdefault.jpg"
+                "videoUrl": "https://www.youtube.com/watch?v=_IMpMCr87Cg",
+                "imageUrl": "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg"
             },
             {
                 "order": 4,
-                "name": "Press Banca con Barra",
+                "name": "Press Banca en Multipower",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Press Banca con Barra",
+                        "name": "Press Banca en Multipower",
                         "subOrder": 1,
                         "sets": 3,
                         "reps": "15, 12, 10",
                         "isSupersetStart": true,
-                        "videoUrl": "https://youtu.be/PKpsrFS2uac",
-                        "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/w-5ovE5O5iU",
+                        "imageUrl": "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
                     },
                     {
-                        "name": "Fondos de Tríceps con Pies Elevados",
+                        "name": "Extensión de Tríceps en Polea con Barra",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "15, 12, 10",
                         "rest": "90s",
-                        "videoUrl": "https://youtube.com/shorts/FBttBh-aiVs",
-                        "imageUrl": "https://i.ytimg.com/vi/FBttBh-aiVs/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/watch?v=mcae9hNQn50",
+                        "imageUrl": "https://i.ytimg.com/vi/mcae9hNQn50/mqdefault.jpg",
+                        "notes": "Sujeta la barra de la polea alta en pronación. Extiende los codos llevando la barra hacia abajo, manteniendo los brazos junto al torso y sin balancearte. Controla la vuelta."
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://youtu.be/PKpsrFS2uac",
-                "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/w-5ovE5O5iU",
+                "imageUrl": "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg"
             },
             {
                 "order": 5,
@@ -91,28 +92,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Step Up Lateral Alterno en Step",
+                        "name": "Sentadilla Sumo con Peso Corporal",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://youtu.be/N26TyhPhSRI",
-                        "imageUrl": "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/gJRjDiTSPYk",
+                        "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg",
+                        "notes": "Baja a un recorrido cómodo y mantén el control al subir."
                     },
                     {
-                        "name": "Thruster con Mancuernas",
+                        "name": "Flexiones con Peso Corporal",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "notes": "Utiliza mancuernas de 8-10kg. ",
-                        "videoUrl": "https://www.youtube.com/watch?v=5mTjKFubavs",
-                        "imageUrl": "https://i.ytimg.com/vi/5mTjKFubavs/mqdefault.jpg"
+                        "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+                        "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
-                "videoUrl": "https://youtu.be/N26TyhPhSRI",
-                "imageUrl": "https://i.ytimg.com/vi/N26TyhPhSRI/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/gJRjDiTSPYk",
+                "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg"
             }
         ]
     },
@@ -125,19 +126,18 @@ const workoutData = {
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
                 "videoUrl": "https://youtu.be/rimdRzyIJkA",
                 "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
             },
             {
                 "order": 2,
-                "name": "Peso Muerto Rumano con Barra",
+                "name": "Peso Muerto Rumano con Mancuernas/KTB",
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "Baja lo que te permita tu movilidad de cadera (Espalda completamente recta).",
-                "videoUrl": "https://youtu.be/R7FKam5GyNw",
-                "imageUrl": "https://i.ytimg.com/vi/R7FKam5GyNw/mqdefault.jpg"
+                "notes": "Espalda recta en todo momento",
+                "videoUrl": "https://www.youtube.com/shorts/SMll4DOYvEs",
+                "imageUrl": "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg"
             },
             {
                 "order": 3,
@@ -154,14 +154,13 @@ const workoutData = {
                         "imageUrl": "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
                     },
                     {
-                        "name": "Remo Renegade Alterno con Mancuernas",
+                        "name": "Pull Over en Polea Alta",
                         "subOrder": 2,
                         "sets": 3,
                         "reps": "16",
                         "rest": "90s",
-                        "videoUrl": "https://www.youtube.com/watch?v=FjwFzYXSK70",
-                        "imageUrl": "https://i.ytimg.com/vi/FjwFzYXSK70/mqdefault.jpg",
-                        "notes": "Mantén la cadera sin que se mueva ni rote"
+                        "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
+                        "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
                     }
                 ],
                 "notes": "",
@@ -190,11 +189,10 @@ const workoutData = {
                         "reps": "15, 12, 10",
                         "rest": "90s",
                         "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg",
-                        "notes": ""
+                        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
                     }
                 ],
-                "notes": "",
+                "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte.",
                 "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
                 "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
             },
@@ -209,28 +207,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Snatch + Thruster Unilat Alterno con Mancuerna",
+                        "name": "Pull Through con Polea o Banda",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "notes": "Mancuerna de 10-12kg.",
-                        "videoUrl": "https://www.youtube.com/shorts/jNbG4xt8zCs",
-                        "imageUrl": "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                        "notes": "Hazlo con la polea baja.",
+                        "videoUrl": "https://www.youtube.com/shorts/74OJu_puEz0",
+                        "imageUrl": "https://i.ytimg.com/vi/74OJu_puEz0/mqdefault.jpg"
                     },
                     {
-                        "name": "Lateral Climbers",
+                        "name": "Dead Bug",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://www.youtube.com/shorts/IKuy2laTdGY",
-                        "imageUrl": "https://i.ytimg.com/vi/IKuy2laTdGY/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/0CteMtiMChQ",
+                        "imageUrl": "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg"
                     }
                 ],
-                "notes": "Mancuerna de 10-12kg.",
-                "videoUrl": "https://www.youtube.com/shorts/jNbG4xt8zCs",
-                "imageUrl": "https://i.ytimg.com/vi/jNbG4xt8zCs/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/74OJu_puEz0",
+                "imageUrl": "https://i.ytimg.com/vi/74OJu_puEz0/mqdefault.jpg"
             }
         ]
     },
@@ -239,23 +237,21 @@ const workoutData = {
         "exercises": [
             {
                 "order": 1,
-                "name": "Curl con Barra Z",
+                "name": "Curl con Mancuernas de Pie",
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
-                "videoUrl": "https://youtu.be/4gYLTjNaTmw",
-                "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/8STuQuoDMR0",
+                "imageUrl": "https://i.ytimg.com/vi/8STuQuoDMR0/mqdefault.jpg"
             },
             {
                 "order": 2,
-                "name": "Press Cerrado con Barra",
+                "name": "Press Cerrado en Banco Inclinado con Mancuernas",
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
-                "videoUrl": "https://youtu.be/_062fQmtry8",
-                "imageUrl": "https://i.ytimg.com/vi/_062fQmtry8/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/tdh7LSxUj1s",
+                "imageUrl": "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg"
             },
             {
                 "order": 3,
@@ -263,7 +259,7 @@ const workoutData = {
                 "sets": 3,
                 "reps": "8",
                 "rest": "90s",
-                "notes": "",
+                "notes": "Empieza con carga moderada y usa un recorrido cómodo para la rodilla.",
                 "videoUrl": "https://youtu.be/la-dqygoIuk",
                 "imageUrl": "https://i.ytimg.com/vi/la-dqygoIuk/mqdefault.jpg"
             },
@@ -306,28 +302,28 @@ const workoutData = {
                 },
                 "items": [
                     {
-                        "name": "Zancadas Caminando con Mancuernas/KTB",
+                        "name": "Patada de Glúteo en Polea",
                         "subOrder": 1,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "notes": "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
-                        "videoUrl": "https://youtu.be/7tRy9X0ibnk",
-                        "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                        "notes": "Usa un disco o step para elevar el otro pie Cambia de pierna a mitad del intervalo.",
+                        "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                        "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
                     },
                     {
-                        "name": "Burpee sin Flexión",
+                        "name": "Plancha - Cambios de apoyo",
                         "subOrder": 2,
                         "sets": 1,
                         "reps": "30s",
                         "isCircuitItem": true,
-                        "videoUrl": "https://youtu.be/_liq4fAscDU",
-                        "imageUrl": "https://i.ytimg.com/vi/_liq4fAscDU/mqdefault.jpg"
+                        "videoUrl": "https://youtu.be/Yg74EfwLBQY",
+                        "imageUrl": "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
                     }
                 ],
-                "notes": "Utiliza mancuernas de 8-10kg para ambos ejercicios.",
-                "videoUrl": "https://youtu.be/7tRy9X0ibnk",
-                "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=3KdH7vkEW6s",
+                "imageUrl": "https://i.ytimg.com/vi/3KdH7vkEW6s/mqdefault.jpg"
             }
         ]
     }
@@ -342,43 +338,17 @@ const exerciseAlternatives = {
             "notes": ""
         }
     ],
-    "Press Militar con Barra de Pie": [
-        {
-            "name": "Press Militar Sentado con Mancuernas",
-            "videoUrl": "https://www.youtube.com/watch?v=_IMpMCr87Cg",
-            "imageUrl": "https://i.ytimg.com/vi/_IMpMCr87Cg/mqdefault.jpg",
-            "notes": ""
-        }
-    ],
-    "Press Banca con Barra": [
-        {
-            "name": "Press Banca en Multipower",
-            "videoUrl": "https://youtu.be/w-5ovE5O5iU",
-            "imageUrl": "https://i.ytimg.com/vi/w-5ovE5O5iU/mqdefault.jpg",
-            "notes": ""
-        }
-    ],
     "Jalón al Pecho Supino en Polea": [
+        {
+            "name": "Dominadas Supinas",
+            "videoUrl": "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+            "imageUrl": "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg",
+            "notes": ""
+        },
         {
             "name": "Jalón al Pecho en Polea",
             "videoUrl": "https://youtu.be/GYIhmy1P4vY",
             "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
-            "notes": ""
-        }
-    ],
-    "Peso Muerto Rumano con Barra": [
-        {
-            "name": "Peso Muerto Rumano con Mancuernas/KTB",
-            "videoUrl": "https://www.youtube.com/shorts/SMll4DOYvEs",
-            "imageUrl": "https://i.ytimg.com/vi/SMll4DOYvEs/mqdefault.jpg",
-            "notes": "Espalda recta en todo momento"
-        }
-    ],
-    "Sentadilla Trasera en Multipower": [
-        {
-            "name": "Sentadilla Trasera con Barra",
-            "videoUrl": "https://youtu.be/FK5XU_gaxAE",
-            "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg",
             "notes": ""
         }
     ]
