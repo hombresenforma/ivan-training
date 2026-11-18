@@ -1,5 +1,7 @@
 // Titulo: IVAN_DT_4D_TRACCION_EMPUJE_1
-// Notas: Calentamiento en superserie 2x12 (60s); básico con objetivos por serie 7,7,12 (120s); accesorios con series y repeticiones indicadas en cada día; superserie final 2x12 (60s). Tracción 2 tiene cuatro ejercicios individuales: remo T, sentadilla trasera con barra, curl Scott y extensión de cuádriceps.
+// Notas: Calentamiento en superserie 2x12 (60s); básico con objetivos por serie 7,7,12 (120s); accesorios con series y repeticiones indicadas en cada día; superserie final 3x12 (60s). Tracción 2 tiene cuatro ejercicios individuales: remo T, sentadilla trasera con barra, curl Scott y extensión de cuádriceps.
+
+// Orden semanal: Tracción 1, Empuje 1, Tracción 2, Empuje 2.
 
 const workoutData = {
     "dia1": {
@@ -85,7 +87,7 @@ const workoutData = {
                 "items": [
                     {
                         "name": "Curl Martillo con Cuerda en Polea Baja",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "",
                         "notes": "",
@@ -96,7 +98,7 @@ const workoutData = {
                     },
                     {
                         "name": "Face Pull al Cuello en Polea Alta",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "60s",
                         "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte.",
@@ -113,116 +115,6 @@ const workoutData = {
         ]
     },
     "dia2": {
-        "name": "Tracción 2",
-        "exercises": [
-            {
-                "name": "Curl Femoral Sentado en Máquina",
-                "isSuperset": true,
-                "isWarmup": true,
-                "items": [
-                    {
-                        "name": "Curl Femoral Sentado en Máquina",
-                        "sets": 2,
-                        "reps": "12",
-                        "rest": "",
-                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
-                        "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
-                        "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
-                        "subOrder": 1,
-                        "isSupersetStart": true,
-                        "isWarmup": true
-                    },
-                    {
-                        "name": "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
-                        "sets": 2,
-                        "reps": "12",
-                        "rest": "60s",
-                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
-                        "videoUrl": "https://www.youtube.com/shorts/NMlvYALcyBc",
-                        "imageUrl": "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg",
-                        "subOrder": 2,
-                        "isWarmup": true
-                    }
-                ],
-                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
-                "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
-                "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
-                "order": 1
-            },
-            {
-                "name": "Remo en Máquina T Agarre Abierto",
-                "sets": 3,
-                "reps": "7,7,12",
-                "rest": "120s",
-                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
-                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
-                "order": 2
-            },
-            {
-                "name": "Sentadilla Trasera con Barra",
-                "sets": 3,
-                "reps": "10",
-                "rest": "90s",
-                "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Mantén el tronco estable y usa un recorrido sin molestias. Si aparece molestia lumbar, detén el ejercicio.",
-                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
-                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg",
-                "order": 3
-            },
-            {
-                "name": "Curl Scott con Barra Z",
-                "sets": 3,
-                "reps": "8",
-                "rest": "90s",
-                "notes": "",
-                "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
-                "order": 4
-            },
-            {
-                "name": "Extensión de Cuádriceps en Máquina",
-                "sets": 3,
-                "reps": "12",
-                "rest": "90s",
-                "notes": "Movimiento controlado y recorrido cómodo, sin rebotes ni bloqueo brusco de la rodilla.",
-                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
-                "order": 5
-            },
-            {
-                "name": "Jalón al Pecho en Polea",
-                "isSuperset": true,
-                "items": [
-                    {
-                        "name": "Jalón al Pecho en Polea",
-                        "sets": 2,
-                        "reps": "12",
-                        "rest": "",
-                        "notes": "",
-                        "videoUrl": "https://youtu.be/GYIhmy1P4vY",
-                        "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
-                        "subOrder": 1,
-                        "isSupersetStart": true
-                    },
-                    {
-                        "name": "Curl Bayesian Unilateral en Polea Baja",
-                        "sets": 2,
-                        "reps": "12",
-                        "rest": "60s",
-                        "notes": "",
-                        "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
-                        "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg",
-                        "subOrder": 2
-                    }
-                ],
-                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
-                "videoUrl": "https://youtu.be/GYIhmy1P4vY",
-                "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
-                "order": 6
-            }
-        ]
-    },
-    "dia3": {
         "name": "Empuje 1",
         "exercises": [
             {
@@ -305,7 +197,7 @@ const workoutData = {
                 "items": [
                     {
                         "name": "Elevaciones Laterales en Polea",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "",
                         "notes": "",
@@ -316,7 +208,7 @@ const workoutData = {
                     },
                     {
                         "name": "Extensión de Tríceps en Polea con Cuerda",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "60s",
                         "notes": "",
@@ -328,6 +220,116 @@ const workoutData = {
                 "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
                 "videoUrl": "https://youtu.be/UxII1sPTa9U",
                 "imageUrl": "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg",
+                "order": 6
+            }
+        ]
+    },
+    "dia3": {
+        "name": "Tracción 2",
+        "exercises": [
+            {
+                "name": "Curl Femoral Sentado en Máquina",
+                "isSuperset": true,
+                "isWarmup": true,
+                "items": [
+                    {
+                        "name": "Curl Femoral Sentado en Máquina",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                        "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true,
+                        "isWarmup": true
+                    },
+                    {
+                        "name": "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/shorts/NMlvYALcyBc",
+                        "imageUrl": "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg",
+                        "subOrder": 2,
+                        "isWarmup": true
+                    }
+                ],
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+                "order": 1
+            },
+            {
+                "name": "Remo en Máquina T Agarre Abierto",
+                "sets": 3,
+                "reps": "7,7,12",
+                "rest": "120s",
+                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
+                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
+                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
+                "order": 2
+            },
+            {
+                "name": "Sentadilla Trasera con Barra",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Mantén el tronco estable y usa un recorrido sin molestias. Si aparece molestia lumbar, detén el ejercicio.",
+                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
+                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg",
+                "order": 3
+            },
+            {
+                "name": "Curl Scott con Barra Z",
+                "sets": 3,
+                "reps": "8",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
+                "order": 4
+            },
+            {
+                "name": "Extensión de Cuádriceps en Máquina",
+                "sets": 3,
+                "reps": "12",
+                "rest": "90s",
+                "notes": "Movimiento controlado y recorrido cómodo, sin rebotes ni bloqueo brusco de la rodilla.",
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Jalón al Pecho en Polea",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Jalón al Pecho en Polea",
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/GYIhmy1P4vY",
+                        "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
+                    },
+                    {
+                        "name": "Curl Bayesian Unilateral en Polea Baja",
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "",
+                        "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
+                        "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg",
+                        "subOrder": 2
+                    }
+                ],
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://youtu.be/GYIhmy1P4vY",
+                "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
                 "order": 6
             }
         ]
@@ -415,7 +417,7 @@ const workoutData = {
                 "items": [
                     {
                         "name": "Elevaciones Laterales con Mancuernas",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "",
                         "notes": "",
@@ -426,7 +428,7 @@ const workoutData = {
                     },
                     {
                         "name": "Press Cerrado en Banco Inclinado con Mancuernas",
-                        "sets": 2,
+                        "sets": 3,
                         "reps": "12",
                         "rest": "60s",
                         "notes": "",
@@ -445,5 +447,3 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {};
-
-
