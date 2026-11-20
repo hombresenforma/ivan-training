@@ -331,10 +331,333 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
       }
     ]
-  }
+  },
+  "dia4": {
+  "name": "EXTRA · Peso corporal A · 30 min",
+  "exercises": [
+    {
+      "order": 1,
+      "name": "Calentamiento · 2 vueltas",
+      "isSuperset": true,
+      "isWarmup": true,
+      "circuitDetails": {
+        "totalRounds": 2,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 20
+      },
+      "items": [
+        {
+          "name": "Movilidad - Activación de Cadera",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/ltzWjXiHXao",
+          "imageUrl": "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg",
+          "notes": "Controlar que los pies no se desplacen del sitio."
+        },
+        {
+          "name": "Movilidad - Cintura Escapular",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/qFt3RmTDmXI",
+          "imageUrl": "https://i.ytimg.com/vi/qFt3RmTDmXI/mqdefault.jpg",
+          "notes": "Estabilizando el tronco con mucho control motor."
+        },
+        {
+          "name": "Movilidad - Rodilla y Tobillo",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/wdOGeCaNKS8",
+          "imageUrl": "https://i.ytimg.com/vi/wdOGeCaNKS8/mqdefault.jpg",
+          "notes": "Buscar ROM."
+        }
+      ],
+      "notes": "2 vueltas: 30 s por ejercicio, 10 s entre ejercicios y 20 s entre vueltas. Movimiento suave y controlado. Sesión extra opcional para días sin gimnasio; no obliga a entrenar cinco días. Intensidad moderada y sin dolor. Al terminar los dos circuitos, camina suave y recupera la respiración 120 s. Duración estimada: 29-31 min.",
+      "videoUrl": "https://youtu.be/ltzWjXiHXao",
+      "imageUrl": "https://i.ytimg.com/vi/ltzWjXiHXao/mqdefault.jpg"
+    },
+    {
+      "order": 2,
+      "name": "Circuito A · 3 vueltas",
+      "isSuperset": true,
+      "circuitDetails": {
+        "totalRounds": 3,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 45
+      },
+      "items": [
+        {
+          "name": "Sentadilla con Peso Corporal",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/NWes6fd1Sxs",
+          "imageUrl": "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Flexiones con Peso Corporal",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://www.youtube.com/shorts/jqnnetMI-4s",
+          "imageUrl": "https://i.ytimg.com/vi/jqnnetMI-4s/mqdefault.jpg",
+          "notes": "Alternativa disponible: flexiones con rodillas."
+        },
+        {
+          "name": "Cuerpo Libre - Glute Bridge - Normal",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/D04hX-R8LsA",
+          "imageUrl": "https://i.ytimg.com/vi/D04hX-R8LsA/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Bird Dog",
+          "subOrder": 4,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/KizkN2buzMw",
+          "imageUrl": "https://i.ytimg.com/vi/KizkN2buzMw/mqdefault.jpg",
+          "notes": "Alterna lados sin girar la cadera."
+        }
+      ],
+      "notes": "3 vueltas: 40 s de trabajo, 10 s entre ejercicios y 45 s entre vueltas. Tras el último ejercicio se aplica solo el descanso entre vueltas. Deja margen, no busques el fallo; puedes parar dentro del intervalo para conservar la técnica. Sin saltos y recorrido sin molestias. Descansa 60 s antes del segundo circuito.",
+      "videoUrl": "https://youtu.be/NWes6fd1Sxs",
+      "imageUrl": "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
+    },
+    {
+      "order": 3,
+      "name": "Circuito B · 3 vueltas",
+      "isSuperset": true,
+      "circuitDetails": {
+        "totalRounds": 3,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 45
+      },
+      "items": [
+        {
+          "name": "Sentadilla Sumo con Peso Corporal",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/gJRjDiTSPYk",
+          "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Shoulder Taps",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://www.youtube.com/shorts/viyHk_K7I48",
+          "imageUrl": "https://i.ytimg.com/vi/viyHk_K7I48/mqdefault.jpg",
+          "notes": "Alterna las manos lentamente y evita rotar el tronco."
+        },
+        {
+          "name": "Dead Bug",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/0CteMtiMChQ",
+          "imageUrl": "https://i.ytimg.com/vi/0CteMtiMChQ/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Mountain Climber",
+          "subOrder": 4,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/GZWmYzClS3s",
+          "imageUrl": "https://i.ytimg.com/vi/GZWmYzClS3s/mqdefault.jpg",
+          "notes": "Apoya cada pie sin salto; ritmo controlado."
+        }
+      ],
+      "notes": "3 vueltas: 40 s de trabajo, 10 s entre ejercicios y 45 s entre vueltas. Tras el último ejercicio se aplica solo el descanso entre vueltas. Deja margen, no busques el fallo; puedes parar dentro del intervalo para conservar la técnica. Sin saltos y recorrido sin molestias.",
+      "videoUrl": "https://youtu.be/gJRjDiTSPYk",
+      "imageUrl": "https://i.ytimg.com/vi/gJRjDiTSPYk/mqdefault.jpg"
+    }
+  ]
+},
+  "dia5": {
+  "name": "EXTRA · Peso corporal B · 30 min",
+  "exercises": [
+    {
+      "order": 1,
+      "name": "Calentamiento · 2 vueltas",
+      "isSuperset": true,
+      "isWarmup": true,
+      "circuitDetails": {
+        "totalRounds": 2,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 20
+      },
+      "items": [
+        {
+          "name": "Movilidad - Cintura Pélvica",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/zoEdWDF5EiA",
+          "imageUrl": "https://i.ytimg.com/vi/zoEdWDF5EiA/mqdefault.jpg",
+          "notes": "Buscar control motor."
+        },
+        {
+          "name": "Movilidad - Muñecas",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/LchMtqRxkUw",
+          "imageUrl": "https://i.ytimg.com/vi/LchMtqRxkUw/mqdefault.jpg",
+          "notes": "Cuidado con los apoyos."
+        },
+        {
+          "name": "Movilidad - Activación de Escápulas",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "30s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/6Kj_rg_7tYQ",
+          "imageUrl": "https://i.ytimg.com/vi/6Kj_rg_7tYQ/mqdefault.jpg",
+          "notes": "Buscar control motor."
+        }
+      ],
+      "notes": "2 vueltas: 30 s por ejercicio, 10 s entre ejercicios y 20 s entre vueltas. Movimiento suave y controlado. Sesión extra opcional para días sin gimnasio; no obliga a entrenar cinco días. Intensidad moderada y sin dolor. Al terminar los dos circuitos, camina suave y recupera la respiración 120 s. Duración estimada: 29-31 min.",
+      "videoUrl": "https://youtu.be/zoEdWDF5EiA",
+      "imageUrl": "https://i.ytimg.com/vi/zoEdWDF5EiA/mqdefault.jpg"
+    },
+    {
+      "order": 2,
+      "name": "Circuito A · 3 vueltas",
+      "isSuperset": true,
+      "circuitDetails": {
+        "totalRounds": 3,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 45
+      },
+      "items": [
+        {
+          "name": "Split con Peso Corporal",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/BvEvluBs5ZY",
+          "imageUrl": "https://i.ytimg.com/vi/BvEvluBs5ZY/mqdefault.jpg",
+          "notes": "Alterna los lados de manera controlada. Acorta el recorrido si lo necesitas."
+        },
+        {
+          "name": "Flexiones Agarre Estrecho de Rodillas",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/xlYUV9xY-lg",
+          "imageUrl": "https://i.ytimg.com/vi/xlYUV9xY-lg/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Abducción de Glúteo Unilat en el Suelo",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/TY5nZehvOhU?si=c3yMrpjxVKgMh7jG",
+          "imageUrl": "https://i.ytimg.com/vi/TY5nZehvOhU/mqdefault.jpg",
+          "notes": "Cambia de lado al llegar a 20 segundos."
+        },
+        {
+          "name": "Plancha - Lateral de Rodillas",
+          "subOrder": 4,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/pIf682Ral3A",
+          "imageUrl": "https://i.ytimg.com/vi/pIf682Ral3A/mqdefault.jpg",
+          "notes": "Cambia de lado al llegar a 20 segundos. Puedes hacer pausas breves dentro del intervalo."
+        }
+      ],
+      "notes": "3 vueltas: 40 s de trabajo, 10 s entre ejercicios y 45 s entre vueltas. Tras el último ejercicio se aplica solo el descanso entre vueltas. Deja margen, no busques el fallo; puedes parar dentro del intervalo para conservar la técnica. Sin saltos y recorrido sin molestias. Descansa 60 s antes del segundo circuito.",
+      "videoUrl": "https://youtu.be/BvEvluBs5ZY",
+      "imageUrl": "https://i.ytimg.com/vi/BvEvluBs5ZY/mqdefault.jpg"
+    },
+    {
+      "order": 3,
+      "name": "Circuito B · 3 vueltas",
+      "isSuperset": true,
+      "circuitDetails": {
+        "totalRounds": 3,
+        "restBetweenExercisesSeconds": 10,
+        "restBetweenRoundsSeconds": 45
+      },
+      "items": [
+        {
+          "name": "Sentadilla Lateral",
+          "subOrder": 1,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/RkmdE5WBOy4",
+          "imageUrl": "https://i.ytimg.com/vi/RkmdE5WBOy4/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Cuerpo Libre - Glute Bridge - Frog Pump",
+          "subOrder": 2,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/7F_EW3QM_Zo",
+          "imageUrl": "https://i.ytimg.com/vi/7F_EW3QM_Zo/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Crunch - Modificado McGuill",
+          "subOrder": 3,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://youtu.be/-SCPkGTv6Cg",
+          "imageUrl": "https://i.ytimg.com/vi/-SCPkGTv6Cg/mqdefault.jpg",
+          "notes": ""
+        },
+        {
+          "name": "Shoulder Tap (Hold)",
+          "subOrder": 4,
+          "sets": 1,
+          "reps": "40s",
+          "isCircuitItem": true,
+          "videoUrl": "https://www.youtube.com/shorts/XbpPZNgcvxE",
+          "imageUrl": "https://i.ytimg.com/vi/XbpPZNgcvxE/mqdefault.jpg",
+          "notes": "Alterna los apoyos a mitad del intervalo; conserva el tronco estable."
+        }
+      ],
+      "notes": "3 vueltas: 40 s de trabajo, 10 s entre ejercicios y 45 s entre vueltas. Tras el último ejercicio se aplica solo el descanso entre vueltas. Deja margen, no busques el fallo; puedes parar dentro del intervalo para conservar la técnica. Sin saltos y recorrido sin molestias.",
+      "videoUrl": "https://youtu.be/RkmdE5WBOy4",
+      "imageUrl": "https://i.ytimg.com/vi/RkmdE5WBOy4/mqdefault.jpg"
+    }
+  ]
+}
 };
 
 const exerciseAlternatives = {
+  "Flexiones con Peso Corporal": [{"name":"Flexiones con Rodillas","videoUrl":"https://www.youtube.com/shorts/bmKPWM_b85Y","imageUrl":"https://i.ytimg.com/vi/bmKPWM_b85Y/mqdefault.jpg","notes":""}],
   "Press Banca Inclinado en Multipower": [
     {
       "name": "Press Inclinado con Mancuernas",
@@ -384,3 +707,4 @@ const exerciseAlternatives = {
     }
   ]
 };
+
