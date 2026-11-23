@@ -1,5 +1,7 @@
 // Titulo: P22_4D_TORPIER_MIXTO_1
-// Notas: Base de catálogo P22_4D_TORPIER_MIXTO_1. El catálogo no aporta descripción propia: el código distribuye 4 días de torso PUSH, torso PULL, pierna posterior completa y torso accesorios. Adaptación para gimnasio concurrido: superseries en una zona de mancuernas, una sola polea en el plan principal (jalón neutro), alternativas publicadas para todos los ejercicios individuales y 13 series efectivas de pierna en una sesión. Conserva series y objetivos del P22 (rangos convertidos al extremo superior). Sin dropsets ni fallo; RIR 3 mientras se concreta dolor de hombro/codo. Separar pierna del fútbol. Descansos de superseries 90 s. Duración estimada 45-60 min en torso y 40-50 min en pierna incluyendo aproximaciones.
+// Notas: Base de catálogo P22_4D_TORPIER_MIXTO_1. El catálogo no aporta descripción propia: el código distribuye 4 días de torso PUSH, torso PULL, pierna posterior completa y torso accesorios. Adaptación para gimnasio concurrido: superseries en una zona de mancuernas, una sola polea en el plan principal (jalón neutro), alternativas publicadas para todos los ejercicios individuales y 16 series efectivas de pierna en una sesión. Conserva series y objetivos del P22 (rangos convertidos al extremo superior). Dropset final en el segundo básico de cada día por indicación de Iván; resto con RIR 3 y sin fallo técnico. Separar pierna del fútbol. Descansos de superseries 90 s. Duración estimada 45-60 min en torso y 45-55 min en pierna incluyendo aproximaciones.
+
+// Ajuste 23/11/2026: pierna completa; sentadilla trasera con talones elevados como principal y prensa como alternativa. Extensión de cuádriceps final 3x12. DROPSET real en última serie del segundo básico de cada día.
 
 const workoutData = {
   "dia1": {
@@ -54,9 +56,12 @@ const workoutData = {
         "sets": 3,
         "reps": "8, 12, 12",
         "rest": "90s",
-        "notes": "Trata de despegar el pecho al final del movimiento Mantén 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa.",
+        "notes": "Trata de despegar el pecho al final del movimiento Primeras series con 3 repeticiones en recámara. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa. Última serie DROPSET: completa el objetivo, reduce la carga aproximadamente un 20-25% y continúa con repeticiones controladas, sin pausa y sin llegar al fallo técnico. Una sola bajada. ",
         "videoUrl": "https://www.youtube.com/shorts/6tLfn99dO8o",
-        "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg"
+        "imageUrl": "https://i.ytimg.com/vi/6tLfn99dO8o/mqdefault.jpg",
+        "setTechniques": {
+          "3": "DROPSET"
+        }
       },
       {
         "order": 4,
@@ -202,9 +207,12 @@ const workoutData = {
         "sets": 3,
         "reps": "8, 12, 12",
         "rest": "90s",
-        "notes": "Ajusta el asiento y mantén la espalda apoyada. Empuja por encima de la cabeza con control, sin compensar arqueando la zona lumbar. Mantén 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa.",
+        "notes": "Ajusta el asiento y mantén la espalda apoyada. Empuja por encima de la cabeza con control, sin compensar arqueando la zona lumbar. Primeras series con 3 repeticiones en recámara. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa. Última serie DROPSET: completa el objetivo, reduce la carga aproximadamente un 20-25% y continúa con repeticiones controladas, sin pausa y sin llegar al fallo técnico. Una sola bajada. ",
         "videoUrl": "https://www.youtube.com/shorts/48CmkF61E7M",
-        "imageUrl": "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg"
+        "imageUrl": "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg",
+        "setTechniques": {
+          "3": "DROPSET"
+        }
       },
       {
         "order": 4,
@@ -299,7 +307,7 @@ const workoutData = {
     ]
   },
   "dia3": {
-    "name": "Pierna Completa (POSTERIOR)",
+    "name": "Pierna Completa",
     "exercises": [
       {
         "order": 1,
@@ -335,13 +343,19 @@ const workoutData = {
       },
       {
         "order": 3,
-        "name": "Prensa Inclinada en Máquina de Discos",
+        "name": "Sentadilla Trasera con Barra Talones Elevados",
         "sets": 3,
         "reps": "8, 12, 12",
-        "rest": "90s",
-        "notes": "Mantén 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa. Deja margen, no progreses si la pierna está fatigada por el fútbol; separa este día de las 48 h previas al partido.",
-        "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
-        "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
+        "rest": "120s",
+        "notes": "Coloca una cuña estable bajo los talones, mantén el apoyo completo y baja con control. Si no puedes preparar el rack, utiliza la prensa de alternativa. Descansa 120 s. Usa seguros y una carga que puedas controlar. Última serie DROPSET: completa el objetivo, reduce la carga aproximadamente un 20-25% y continúa con repeticiones controladas, sin pausa y sin llegar al fallo técnico. Una sola bajada. Hazlo con los seguros del rack colocados y ajusta la barra de forma segura; si no puedes hacerlo con seguridad, usa la prensa de alternativa.",
+        "videoUrl": "https://youtube.com/shorts/FYuU4CAAT1I",
+        "imageUrl": "https://i.ytimg.com/vi/FYuU4CAAT1I/mqdefault.jpg",
+        "categories": [
+          "OPENBOX"
+        ],
+        "setTechniques": {
+          "3": "DROPSET"
+        }
       },
       {
         "order": 4,
@@ -362,6 +376,19 @@ const workoutData = {
         "notes": "Mantén 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa. Deja margen, no progreses si la pierna está fatigada por el fútbol; separa este día de las 48 h previas al partido.",
         "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
         "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
+      },
+      {
+        "order": 6,
+        "name": "Extensión de Cuádriceps en Máquina",
+        "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+        "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+        "categories": [
+          "GYM"
+        ],
+        "sets": 3,
+        "reps": "12",
+        "rest": "60s",
+        "notes": "Extiende con control, sin impulso y con recorrido cómodo. Mantén margen en estas tres series finales."
       }
     ]
   },
@@ -417,9 +444,12 @@ const workoutData = {
         "sets": 3,
         "reps": "8",
         "rest": "90s",
-        "notes": "Mantén 3 repeticiones en recámara, sin fallo ni técnicas intensivas. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa.",
+        "notes": "Primeras series con 3 repeticiones en recámara. Usa un recorrido cómodo; si provoca dolor en hombro o codo, detén ese ejercicio y comunica qué movimiento lo causa. Última serie DROPSET: completa el objetivo, reduce la carga aproximadamente un 20-25% y continúa con repeticiones controladas, sin pausa y sin llegar al fallo técnico. Una sola bajada. ",
         "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-        "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+        "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
+        "setTechniques": {
+          "3": "DROPSET"
+        }
       },
       {
         "order": 4,
@@ -499,7 +529,7 @@ const exerciseAlternatives = {
       "name": "Remo Gironda en Polea",
       "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
       "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg",
-      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa."
+      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa. Conserva también la última serie marcada DROPSET: una bajada del 20-25%, sin fallo técnico."
     }
   ],
   "Jalón al Pecho Neutro en Polea": [
@@ -515,7 +545,7 @@ const exerciseAlternatives = {
       "name": "Press Militar Unilateral en Landmine",
       "videoUrl": "https://www.youtube.com/watch?v=p2OLvWOo9l0",
       "imageUrl": "https://i.ytimg.com/vi/p2OLvWOo9l0/mqdefault.jpg",
-      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa."
+      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa. Conserva también la última serie marcada DROPSET: una bajada del 20-25%, sin fallo técnico."
     }
   ],
   "Aducción de Piernas en Máquina": [
@@ -531,14 +561,6 @@ const exerciseAlternatives = {
       "name": "Hip Thrust con Barra (ExPLICADO)",
       "videoUrl": "https://www.youtube.com/shorts/eIZUNV9Xj7Y",
       "imageUrl": "https://i.ytimg.com/vi/eIZUNV9Xj7Y/mqdefault.jpg",
-      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa."
-    }
-  ],
-  "Prensa Inclinada en Máquina de Discos": [
-    {
-      "name": "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
-      "videoUrl": "https://www.youtube.com/shorts/tNu9bm3geqY",
-      "imageUrl": "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg",
       "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa."
     }
   ],
@@ -571,7 +593,29 @@ const exerciseAlternatives = {
       "name": "Remo Diagonal Unilat en Polea Alta",
       "videoUrl": "https://youtube.com/shorts/ikKQhcynKmg",
       "imageUrl": "https://i.ytimg.com/vi/ikKQhcynKmg/mqdefault.jpg",
-      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa."
+      "notes": "Usa las mismas series, objetivos y descansos del ejercicio principal. Ajusta la carga para mantener el margen; no fuerces una alternativa dolorosa. Conserva también la última serie marcada DROPSET: una bajada del 20-25%, sin fallo técnico."
+    }
+  ],
+  "Sentadilla Trasera con Barra Talones Elevados": [
+    {
+      "name": "Prensa Inclinada en Máquina de Discos",
+      "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
+      "notes": "Mismas series y objetivos que la sentadilla; última serie DROPSET con una sola bajada de carga. Conserva también la última serie marcada DROPSET: una bajada del 20-25%, sin fallo técnico.",
+      "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg",
+      "categories": [
+        "GYM"
+      ]
+    }
+  ],
+  "Extensión de Cuádriceps en Máquina": [
+    {
+      "name": "Sentadilla Goblet con Mancuerna/KTB (ExPLICADO)",
+      "videoUrl": "https://www.youtube.com/shorts/tNu9bm3geqY",
+      "notes": "Alternativa si la extensión está ocupada: 3 series de 12 repeticiones con carga moderada y control.",
+      "imageUrl": "https://i.ytimg.com/vi/tNu9bm3geqY/mqdefault.jpg",
+      "categories": [
+        "HOME"
+      ]
     }
   ]
 };
