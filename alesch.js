@@ -1,5 +1,7 @@
-// Titulo: P4_3D_APTOR_HIIT_1
-// Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
+// Titulo: P4_3D_APTOR_HIIT_2
+// Notas: - Añadimos 2 ejercicios en super-serie antes del HIIT.
+// - HIIT 1:1 y añadimos 2 vueltas más (6).
+// - En el día de Torso, añadimos 1 serie a los 2 básicos de brazos. 
 
 // Contenido de app_datos.js
 
@@ -81,12 +83,40 @@ const workoutData = {
             },
             {
                 "order": 4,
-                "name": "HIIT 1:2",
+                "name": "Extensión de Cuádriceps en Máquina",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Extensión de Cuádriceps en Máquina",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "12",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                        "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Elevaciones Laterales con Mancuernas",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "90s",
+                        "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+                        "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "HIIT 1:1",
                 "isSuperset": true,
                 "circuitDetails": {
-                    "totalRounds": 2,
-                    "restBetweenExercisesSeconds": 60,
-                    "restBetweenRoundsSeconds": 60
+                    "totalRounds": 3,
+                    "restBetweenExercisesSeconds": 30,
+                    "restBetweenRoundsSeconds": 30
                 },
                 "items": [
                     {
@@ -187,12 +217,40 @@ const workoutData = {
             },
             {
                 "order": 4,
-                "name": "HIIT 1:2",
+                "name": "Curl Femoral Tumbado en Máquina",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Curl Femoral Tumbado en Máquina",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "12",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://www.youtube.com/shorts/-VfGwgG23OM",
+                        "imageUrl": "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Curl Martillo con Mancuernas",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "12",
+                        "rest": "90s",
+                        "videoUrl": "https://youtu.be/fcFsPoJY9lg",
+                        "imageUrl": "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/-VfGwgG23OM",
+                "imageUrl": "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "HIIT 1:1",
                 "isSuperset": true,
                 "circuitDetails": {
-                    "totalRounds": 2,
-                    "restBetweenExercisesSeconds": 60,
-                    "restBetweenRoundsSeconds": 60
+                    "totalRounds": 3,
+                    "restBetweenExercisesSeconds": 30,
+                    "restBetweenRoundsSeconds": 30
                 },
                 "items": [
                     {
@@ -228,7 +286,7 @@ const workoutData = {
             {
                 "order": 1,
                 "name": "Curl Scott con Barra Z",
-                "sets": 3,
+                "sets": 4,
                 "reps": "8-10",
                 "rest": "90s",
                 "notes": "",
@@ -238,7 +296,7 @@ const workoutData = {
             {
                 "order": 2,
                 "name": "Fondos en Paralelas con Peso Corporal",
-                "sets": 3,
+                "sets": 4,
                 "reps": "8-10",
                 "rest": "90s",
                 "notes": "Utiliza la máquina asistida o banda elástica si lo necesitas. ",
@@ -315,12 +373,12 @@ const workoutData = {
             },
             {
                 "order": 5,
-                "name": "HIIT 1:2",
+                "name": "HIIT 1:1",
                 "isSuperset": true,
                 "circuitDetails": {
-                    "totalRounds": 2,
-                    "restBetweenExercisesSeconds": 60,
-                    "restBetweenRoundsSeconds": 60
+                    "totalRounds": 3,
+                    "restBetweenExercisesSeconds": 30,
+                    "restBetweenRoundsSeconds": 30
                 },
                 "items": [
                     {
@@ -358,6 +416,14 @@ const exerciseAlternatives = {
             "videoUrl": "https://www.youtube.com/shorts/48CmkF61E7M",
             "imageUrl": "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg",
             "notes": "Ajusta el asiento y mantén la espalda apoyada. Empuja por encima de la cabeza con control, sin compensar arqueando la zona lumbar."
+        }
+    ],
+    "Curl Femoral Tumbado en Máquina": [
+        {
+            "name": "Curl Femoral Sentado en Máquina",
+            "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+            "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+            "notes": ""
         }
     ],
     "Curl Scott con Barra Z": [
