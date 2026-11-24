@@ -397,6 +397,9 @@ const workoutData = {
 };
 
 const exerciseAlternatives = {
+    "Dominadas Australianas en TRX": [
+        { name: "Remo Horizontal en TRX", videoUrl: "https://www.youtube.com/watch?v=uTA2s5FuRUM", imageUrl: "https://i.ytimg.com/vi/uTA2s5FuRUM/mqdefault.jpg" }
+    ],
     "Remo Abierto en Máquina": [
         { name: "Jalón al Pecho Supino en Polea", videoUrl: "https://youtu.be/rimdRzyIJkA", imageUrl: "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg" }
     ]
