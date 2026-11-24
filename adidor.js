@@ -1,349 +1,413 @@
-// Titulo: P4_3D_APTOR_HIIT_2_Fem
-// Notas: Estructura con pocos ejercicios y un HIIT 1:2 al final.
-// Contenido de app_datos.js
-// =================================================================================
-// DATOS DE LA RUTINA (3 DÍAS)
-// =================================================================================
+// Titulo: P5_3D_TPFB_1_FEM
+// Notas: Trabajo equilibrado con circuitos | Adaptación FEM: sin trabajo de pectoral; prioridad de pierna, glúteo y abdomen. Se redistribuyen accesorios de torso hacia pierna/glúteo y se asegura trabajo abdominal en cada sesión.
 
 const workoutData = {
     "dia1": {
-        name: "Anterior HIIT",
-        exercises: [
+        "name": "Torso sin pectoral + abdomen 1",
+        "exercises": [
             {
-                order: 1,
-                name: "Sentadilla con Peso Corporal",
-                sets: 3,
-                reps: "40",
-                rest: "90s",
-                notes: "MÁXIMAS REPETICIONES (AL FALLO)",
-                videoUrl: "https://youtu.be/NWes6fd1Sxs",
-                imageUrl: "https://i.ytimg.com/vi/NWes6fd1Sxs/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Sentadilla Trasera con Barra",
-                isSuperset: true,
-                items: [
+                "order": 1,
+                "name": "Dominadas Australianas en TRX",
+                "isSuperset": true,
+                "items": [
                     {
-                        name: "Sentadilla Trasera con Barra",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "15",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                        imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                        "name": "Dominadas Australianas en TRX",
+                        "subOrder": 1,
+                        "sets": 1,
+                        "reps": "10",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+                        "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
                     },
                     {
-                        name: "Zancada Dinámica",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "24",
-                        notes: "12 por lado.",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=eSAN1E5usJI",
-                        imageUrl: "https://i.ytimg.com/vi/eSAN1E5usJI/mqdefault.jpg"
+                        "name": "Cuerpo Libre - Glute Bridge - Normal",
+                        "subOrder": 2,
+                        "sets": 1,
+                        "reps": "15",
+                        "rest": "30s",
+                        "videoUrl": "https://youtu.be/D04hX-R8LsA",
+                        "imageUrl": "https://i.ytimg.com/vi/D04hX-R8LsA/mqdefault.jpg",
+                        "notes": ""
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtu.be/FK5XU_gaxAE",
-                imageUrl: "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/f2-aezhuOoQ",
+                "imageUrl": "https://i.ytimg.com/vi/f2-aezhuOoQ/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Elevaciones Laterales con Mancuernas",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Elevaciones Laterales con Mancuernas",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                        imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
-                    },
-                    {
-                        name: "Fondos de Tríceps con Pies en el Suelo",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/7mpEJQC_gRk",
-                        imageUrl: "https://i.ytimg.com/vi/7mpEJQC_gRk/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/rhmW_fhB4cs",
-                imageUrl: "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg"
+                "order": 2,
+                "name": "Dominadas Supinas Asistidas en Máquina",
+                "sets": 3,
+                "reps": "10",
+                "rest": "60s",
+                "notes": "-Mantener retracción escapular, extensión completa de los codos",
+                "videoUrl": "https://www.youtube.com/shorts/E9DT2pv7Rp0",
+                "imageUrl": "https://i.ytimg.com/vi/E9DT2pv7Rp0/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "HIIT 1:2",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 2,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                "order": 3,
+                "name": "Remo Gironda en Polea",
+                "sets": 3,
+                "reps": "10",
+                "rest": "60s",
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
+                "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Sentadilla Búlgara con Mancuerna o KTB",
+                "sets": 3,
+                "reps": "12",
+                "rest": "60s",
+                "notes": "",
+                "videoUrl": "https://youtu.be/kA6bHiDdTO4",
+                "imageUrl": "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Press Militar Unilat de Pie con Mancuerna/KTB",
+                "sets": 3,
+                "reps": "12",
+                "rest": "60s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/vIK0qkXP_f0",
+                "imageUrl": "https://i.ytimg.com/vi/vIK0qkXP_f0/mqdefault.jpg"
+            },
+            {
+                "order": 6,
+                "name": "Ejercicio por tiempo",
+                "isSuperset": true,
+                "circuitDetails": {
+                    "totalRounds": 3,
+                    "restBetweenExercisesSeconds": 0,
+                    "restBetweenRoundsSeconds": 60
                 },
-                items: [
+                "items": [
                     {
-                        name: "CARDIO - Correr (Sprint)",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        notes: "Haz el descanso a ritmo suave, pero no pares.",
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
-                    },
-                    {
-                        name: "CARDIO - Correr (Sprint)",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://youtu.be/KKvRtNn904g",
-                        imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                        "name": "Crunch - Normal",
+                        "subOrder": 1,
+                        "sets": 1,
+                        "reps": "12",
+                        "isCircuitItem": true,
+                        "videoUrl": "https://youtu.be/wNqGgCjBVaE",
+                        "imageUrl": "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg",
+                        "notes": "Mantén la Lumbar pegada al suelo"
                     }
                 ],
-                notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://youtu.be/KKvRtNn904g",
-                imageUrl: "https://i.ytimg.com/vi/KKvRtNn904g/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://youtu.be/wNqGgCjBVaE",
+                "imageUrl": "https://i.ytimg.com/vi/wNqGgCjBVaE/mqdefault.jpg"
+            },
+            {
+                "order": 7,
+                "name": "EMOM",
+                "isSuperset": true,
+                "isEMOM": true,
+                "emomDetails": {
+                    "totalIntervals": 3,
+                    "workIntervalSeconds": 60
+                },
+                "items": [
+                    {
+                        "name": "Curl con Barra Recta",
+                        "subOrder": 1,
+                        "sets": 1,
+                        "reps": "15",
+                        "isEMOMItem": true,
+                        "videoUrl": "https://youtu.be/0TjnWWqQfUw",
+                        "imageUrl": "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg",
+                        "notes": ""
+                    },
+                    {
+                        "name": "Crunch - Modificado McGuill",
+                        "subOrder": 2,
+                        "sets": 1,
+                        "reps": "15",
+                        "isEMOMItem": true,
+                        "videoUrl": "https://youtu.be/-SCPkGTv6Cg",
+                        "imageUrl": "https://i.ytimg.com/vi/-SCPkGTv6Cg/mqdefault.jpg",
+                        "notes": ""
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://youtu.be/0TjnWWqQfUw",
+                "imageUrl": "https://i.ytimg.com/vi/0TjnWWqQfUw/mqdefault.jpg"
             }
         ]
     },
     "dia2": {
-        name: "Posterior HIIT",
-        exercises: [
+        "name": "Pierna y glúteo + abdomen 2",
+        "exercises": [
             {
-                order: 1,
-                name: "Dominadas Asistidas en Máquina",
-                sets: 3,
-                reps: "15",
-                rest: "120s",
-                notes: "Pon el 50% de tu peso corporal y haz las máximas repeticiones.",
-                videoUrl: "https://www.youtube.com/shorts/5OGBlINLP6w",
-                imageUrl: "https://i.ytimg.com/vi/5OGBlINLP6w/mqdefault.jpg"
-            },
-            {
-                order: 2,
-                name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                isSuperset: true,
-                items: [
+                "order": 1,
+                "name": "Jumping Jack",
+                "isSuperset": true,
+                "items": [
                     {
-                        name: "Zancada Trasera Alterna con Mancuernas/KTB",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "16",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                        imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                        "name": "Jumping Jack",
+                        "subOrder": 1,
+                        "sets": 2,
+                        "reps": "15",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://youtu.be/K5PMB8CauGM",
+                        "imageUrl": "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
                     },
                     {
-                        name: "Sentadilla con Salto",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "15",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
-                        imageUrl: "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
+                        "name": "Sentadilla con Salto",
+                        "subOrder": 2,
+                        "sets": 2,
+                        "reps": "15",
+                        "rest": "30s",
+                        "videoUrl": "https://www.youtube.com/watch?v=l6zEYjjJ4dE",
+                        "imageUrl": "https://i.ytimg.com/vi/l6zEYjjJ4dE/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=Kzv73cEkTq4",
-                imageUrl: "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://youtu.be/K5PMB8CauGM",
+                "imageUrl": "https://i.ytimg.com/vi/K5PMB8CauGM/mqdefault.jpg"
             },
             {
-                order: 3,
-                name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                isSuperset: true,
-                items: [
-                    {
-                        name: "Remo Unilat con Mancuerna/KTB (Explicado)",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "10",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                        imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Remo Renegade Alterno + Peso Muerto con Mancuernas",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://www.youtube.com/shorts/HH8uoLbhWSw",
-                        imageUrl: "https://i.ytimg.com/vi/HH8uoLbhWSw/mqdefault.jpg"
-                    }
-                ],
-                notes: "",
-                videoUrl: "https://youtu.be/uH9Hg4nWOG8",
-                imageUrl: "https://i.ytimg.com/vi/uH9Hg4nWOG8/mqdefault.jpg"
+                "order": 2,
+                "name": "Prensa Inclinada en Máquina de Discos",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
+                "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "HIIT 1:2",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 2,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
+                "order": 3,
+                "name": "Kettlebell - Swing con Sentadilla",
+                "sets": 3,
+                "reps": "12",
+                "rest": "60s",
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/MUJ2UiP5gjc",
+                "imageUrl": "https://i.ytimg.com/vi/MUJ2UiP5gjc/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Zancadas Caminando con Mancuernas/KTB",
+                "sets": 3,
+                "reps": "20",
+                "rest": "60s",
+                "notes": "Zancadas cortas como en el vídeo para priorizar trabajo de cuádriceps. Talón del pie delantero a la altura de la rodilla trasera.",
+                "videoUrl": "https://youtu.be/7tRy9X0ibnk",
+                "imageUrl": "https://i.ytimg.com/vi/7tRy9X0ibnk/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Curl Femoral Sentado en Máquina",
+                "sets": 3,
+                "reps": "12",
+                "rest": "60s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg"
+            },
+            {
+                "order": 6,
+                "name": "EMOM",
+                "isSuperset": true,
+                "isEMOM": true,
+                "emomDetails": {
+                    "totalIntervals": 3,
+                    "workIntervalSeconds": 60
                 },
-                items: [
+                "items": [
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        notes: "Haz el descanso a ritmo suave, pero no pares.",
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        "name": "Hip Thrust con Banda Elástica",
+                        "subOrder": 1,
+                        "sets": 1,
+                        "reps": "15",
+                        "isEMOMItem": true,
+                        "videoUrl": "https://www.youtube.com/shorts/ewSrH2uFits",
+                        "imageUrl": "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
                     },
                     {
-                        name: "CARDIO - Bicicleta (Ritmo Fuerte)",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                        imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                        "name": "Crunch Bicicleta Alterno",
+                        "subOrder": 2,
+                        "sets": 1,
+                        "reps": "20",
+                        "isEMOMItem": true,
+                        "videoUrl": "https://www.youtube.com/shorts/nUIfDzuMR00",
+                        "imageUrl": "https://i.ytimg.com/vi/nUIfDzuMR00/mqdefault.jpg"
                     }
                 ],
-                notes: "Haz el descanso a ritmo suave, pero no pares.",
-                videoUrl: "https://www.youtube.com/watch?v=T4xdxoA4UzY",
-                imageUrl: "https://i.ytimg.com/vi/T4xdxoA4UzY/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/ewSrH2uFits",
+                "imageUrl": "https://i.ytimg.com/vi/ewSrH2uFits/mqdefault.jpg"
             }
         ]
     },
     "dia3": {
-        name: "Torso HIIT",
-        exercises: [
+        "name": "Pierna y glúteo + abdomen 3",
+        "exercises": [
             {
-                order: 1,
-                name: "Curl Martillo con Cuerda en Polea Baja",
-                isSuperset: true,
-                items: [
+                "order": 1,
+                "name": "Worm",
+                "isSuperset": true,
+                "items": [
                     {
-                        name: "Curl Martillo con Cuerda en Polea Baja",
-                        subOrder: 1,
-                        sets: 3,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                        imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+                        "name": "Worm",
+                        "subOrder": 1,
+                        "sets": 2,
+                        "reps": "5",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                        "imageUrl": "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
                     },
                     {
-                        name: "Extensión de Tríceps en Polea con Cuerda",
-                        subOrder: 2,
-                        sets: 3,
-                        reps: "12",
-                        rest: "60s",
-                        videoUrl: "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                        imageUrl: "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                        "name": "Face Pull con KTB",
+                        "subOrder": 2,
+                        "sets": 2,
+                        "reps": "10",
+                        "rest": "30s",
+                        "videoUrl": "https://www.youtube.com/shorts/RIS2s-UkKOk",
+                        "imageUrl": "https://i.ytimg.com/vi/RIS2s-UkKOk/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/shorts/fSTgTQr1WCk",
-                imageUrl: "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=irBHRDg7ZHU",
+                "imageUrl": "https://i.ytimg.com/vi/irBHRDg7ZHU/mqdefault.jpg"
             },
             {
-                order: 2,
-                name: "Sentadilla Búlgara con Mancuerna o KTB",
-                sets: 4,
-                reps: "8-10",
-                rest: "90s",
-                notes: "",
-                videoUrl: "https://youtu.be/kA6bHiDdTO4",
-                imageUrl: "https://i.ytimg.com/vi/kA6bHiDdTO4/mqdefault.jpg"
-            },
-            {
-                order: 3,
-                name: "Kettlebell - Press Militar",
-                isSuperset: true,
-                items: [
+                "order": 2,
+                "name": "Box Glute Step Up Unilat con Mancuerna/KTB",
+                "isSuperset": true,
+                "items": [
                     {
-                        name: "Kettlebell - Press Militar",
-                        subOrder: 1,
-                        sets: 4,
-                        reps: "12",
-                        isSupersetStart: true,
-                        videoUrl: "https://youtube.com/shorts/CCgU8PLMcdI",
-                        imageUrl: "https://i.ytimg.com/vi/CCgU8PLMcdI/mqdefault.jpg"
+                        "name": "Box Glute Step Up Unilat con Mancuerna/KTB",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "6",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://youtube.com/shorts/h73RCZp007M",
+                        "imageUrl": "https://i.ytimg.com/vi/h73RCZp007M/mqdefault.jpg",
+                        "notes": ""
                     },
                     {
-                        name: "Sentadilla Goblet + Sentadilla Sumo con KTB",
-                        subOrder: 2,
-                        sets: 4,
-                        reps: "12",
-                        videoUrl: "https://youtu.be/oz1SagvDVe8",
-                        imageUrl: "https://i.ytimg.com/vi/oz1SagvDVe8/mqdefault.jpg"
-                    },
-                    {
-                        name: "Cuerpo Libre - Glute Bridge - Cambiando Piernas",
-                        subOrder: 3,
-                        sets: 4,
-                        reps: "24",
-                        videoUrl: "https://youtu.be/a8GF3uTnUOI",
-                        imageUrl: "https://i.ytimg.com/vi/a8GF3uTnUOI/mqdefault.jpg"
-                    },
-                    {
-                        name: "Kettlebell - Remo Inclinado Unilateral",
-                        subOrder: 4,
-                        sets: 4,
-                        reps: "12",
-                        rest: "90s",
-                        videoUrl: "https://youtube.com/shorts/JQYZ3sz3rko",
-                        imageUrl: "https://i.ytimg.com/vi/JQYZ3sz3rko/mqdefault.jpg"
+                        "name": "Split con Peso Corporal",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "12",
+                        "notes": "",
+                        "rest": "90s",
+                        "videoUrl": "https://youtu.be/BvEvluBs5ZY",
+                        "imageUrl": "https://i.ytimg.com/vi/BvEvluBs5ZY/mqdefault.jpg"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://youtube.com/shorts/CCgU8PLMcdI",
-                imageUrl: "https://i.ytimg.com/vi/CCgU8PLMcdI/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/h73RCZp007M",
+                "imageUrl": "https://i.ytimg.com/vi/h73RCZp007M/mqdefault.jpg"
             },
             {
-                order: 5,
-                name: "HIIT 1:2",
-                isSuperset: true,
-                circuitDetails: {
-                    totalRounds: 2,
-                    restBetweenExercisesSeconds: 60,
-                    restBetweenRoundsSeconds: 60
-                },
-                items: [
+                "order": 3,
+                "name": "Kettlebell - Soft Swing",
+                "isSuperset": true,
+                "items": [
                     {
-                        name: "Cardio - Remo en Máquina",
-                        subOrder: 1,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        "name": "Kettlebell - Soft Swing",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "15",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://youtube.com/shorts/-i4ReGBb26g",
+                        "imageUrl": "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
                     },
                     {
-                        name: "Cardio - Remo en Máquina",
-                        subOrder: 2,
-                        sets: 1,
-                        reps: "30s",
-                        isCircuitItem: true,
-                        videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                        imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                        "name": "Plancha - Lateral",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "20s",
+                        "videoUrl": "https://youtu.be/IBlAMf7LYvI",
+                        "imageUrl": "https://i.ytimg.com/vi/IBlAMf7LYvI/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Plancha - Normal",
+                        "subOrder": 3,
+                        "sets": 3,
+                        "reps": "20s",
+                        "rest": "90s",
+                        "videoUrl": "https://youtu.be/DQ4wYExQRJo",
+                        "imageUrl": "https://i.ytimg.com/vi/DQ4wYExQRJo/mqdefault.jpg",
+                        "notes": "Mantener espalda recta y glúteo apretado (retroversión de cadera)"
                     }
                 ],
-                notes: "",
-                videoUrl: "https://www.youtube.com/watch?v=kX7ccUa7Nwc",
-                imageUrl: "https://i.ytimg.com/vi/kX7ccUa7Nwc/mqdefault.jpg"
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/-i4ReGBb26g",
+                "imageUrl": "https://i.ytimg.com/vi/-i4ReGBb26g/mqdefault.jpg"
+            },
+            {
+                "order": 4,
+                "name": "Remo con Barra",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Remo con Barra",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "12",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://youtu.be/MjnZ52mZgT0",
+                        "imageUrl": "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Hip Thrust en Máquina",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "12",
+                        "notes": "Ajusta el apoyo y el cinturón o rodillo de la máquina sobre la cadera. Eleva la cadera con control, contrae el glúteo arriba sin arquear la zona lumbar y baja sin rebotes.",
+                        "rest": "90s",
+                        "videoUrl": "https://www.youtube.com/watch?v=BhoKmsSZNGM",
+                        "imageUrl": "https://i.ytimg.com/vi/BhoKmsSZNGM/mqdefault.jpg"
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://youtu.be/MjnZ52mZgT0",
+                "imageUrl": "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
+            },
+            {
+                "order": 5,
+                "name": "Zancada Trasera Alterna con Mancuernas/KTB",
+                "isSuperset": true,
+                "items": [
+                    {
+                        "name": "Zancada Trasera Alterna con Mancuernas/KTB",
+                        "subOrder": 1,
+                        "sets": 3,
+                        "reps": "16",
+                        "isSupersetStart": true,
+                        "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                        "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
+                    },
+                    {
+                        "name": "Plancha - Cambios de apoyo",
+                        "subOrder": 2,
+                        "sets": 3,
+                        "reps": "10",
+                        "rest": "90s",
+                        "videoUrl": "https://youtu.be/Yg74EfwLBQY",
+                        "imageUrl": "https://i.ytimg.com/vi/Yg74EfwLBQY/mqdefault.jpg"
+                    }
+                ],
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=Kzv73cEkTq4",
+                "imageUrl": "https://i.ytimg.com/vi/Kzv73cEkTq4/mqdefault.jpg"
             }
         ]
     }
 };
 
 const exerciseAlternatives = {
-    "Elevaciones Laterales con Mancuernas": [
-        { name: "Press Militar Sentado con Mancuernas (Explicado)", videoUrl: "", imageUrl: "" }
-    ],
-    "Curl Martillo con Cuerda en Polea Baja": [
-        { name: "Curl Araña con Barra Z", videoUrl: "https://www.youtube.com/shorts/ZGa2E8bi9Eg", imageUrl: "https://i.ytimg.com/vi/ZGa2E8bi9Eg/mqdefault.jpg" }
+    "Dominadas Supinas Asistidas en Máquina": [
+        {
+            "name": "Jalón al Pecho Supino en Polea",
+            "videoUrl": "https://youtu.be/rimdRzyIJkA",
+            "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg",
+            "notes": ""
+        }
     ]
 };
