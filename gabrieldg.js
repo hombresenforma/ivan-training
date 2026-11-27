@@ -1,8 +1,9 @@
-// Titulo: P25_4D_EmpujePiernaTraccionFullBody_CARGAS_1
-// Notas: Cuatro sesiones base y una quinta opcional en gimnasio completo. Progresión de cargas en series rectas. Empuje, pierna dominante de rodilla, tracción y cuerpo completo con énfasis posterior.
-// Progresión: conserva la técnica y el recorrido. Sube el mínimo incremento disponible cuando completes todas las series al objetivo con RIR 1–2. Si no lo consigues, repite la carga en la siguiente sesión.
+// Titulo: P25_4D_EmpujePiernaTraccionFullBody_CARGAS_2
+// Notas: Progresión de P25 V1 en gimnasio completo. Cuatro sesiones base y quinta opcional. Primer básico 5×6 y segundo ejercicio en pirámide ascendente 10, 8, 6, 6. Superseries de accesorios en empuje y tracción. Se mantienen dropset de laterales, rest-pause de femoral tumbado y día opcional.
+// Progresión: en las series rectas, aumenta la carga en el siguiente entrenamiento cuando completes todas las series con técnica estable y RIR 1–2. En la pirámide sube la carga hasta la tercera serie y repite el peso en la cuarta si conservas ese margen.
 // Opcional: hombros, brazos y abdomen si estás recuperado. Prioriza las cuatro sesiones base.
 
+// Adaptación Gabriel Dongil, 27/11/2026: progresión de torso V2; día de pierna y rumano de Fullbody conservan el volumen V1 por rodilla y fútbol. Quinto día opcional.
 const workoutData = {
   "dia1": {
     "name": "Empuje · carga",
@@ -20,20 +21,20 @@ const workoutData = {
       {
         "order": 2,
         "name": "Press Inclinado con Mancuernas",
-        "sets": 4,
+        "sets": 5,
         "reps": "6",
         "rest": "150s",
-        "notes": "Haz 2–3 aproximaciones antes de las series efectivas. Mantén RIR 2 al arrancar el bloque.",
+        "notes": "Haz 2–3 aproximaciones antes de las series efectivas. Mantén RIR 2 al arrancar el bloque. En esta versión completa 5 series efectivas de 6. Ajusta la carga inicial para conservar 2 repeticiones en recámara.",
         "videoUrl": "https://youtu.be/ZE4M73kXB5A",
         "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
       },
       {
         "order": 3,
         "name": "Press Banca en Máquina",
-        "sets": 3,
-        "reps": "8",
-        "rest": "105s",
-        "notes": "Ajusta el asiento para que las empuñaduras queden a la altura del pecho. Mantén la espalda apoyada y las muñecas alineadas; empuja y vuelve con control, sin rebotes. Mantén el mismo ajuste del asiento al comparar cargas.",
+        "sets": 4,
+        "reps": "10, 8, 6, 6",
+        "rest": "120s",
+        "notes": "Mantén el mismo ajuste del asiento al comparar cargas. Aumenta la carga en las tres primeras series. Mantén la de la tercera en la cuarta si puedes completar las 6 repeticiones con 1–2 en recámara. Ajusta si pierdes el recorrido o el margen.",
         "videoUrl": "https://www.youtube.com/watch?v=lw4uUkBl_HE",
         "imageUrl": "https://i.ytimg.com/vi/lw4uUkBl_HE/mqdefault.jpg"
       },
@@ -48,30 +49,40 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg"
       },
       {
-        "order": 5,
         "name": "Cruces en Polea Alta",
-        "sets": 3,
-        "reps": "12",
-        "rest": "75s",
-        "notes": "Recorrido estable y excéntrica controlada.",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Cruces en Polea Alta",
+            "sets": 3,
+            "reps": "12",
+            "notes": "Recorrido estable y excéntrica controlada.",
+            "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+            "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+            "subOrder": 1,
+            "isSupersetStart": true
+          },
+          {
+            "name": "Elevaciones Laterales en Poleas Cruzadas",
+            "sets": 3,
+            "reps": "15",
+            "notes": "En la última serie reduce la carga un 20–25% y haz una sola bajada con técnica limpia.",
+            "videoUrl": "https://youtu.be/MtLsD20-EdE",
+            "imageUrl": "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg",
+            "setTechniques": {
+              "3": "DROPSET"
+            },
+            "subOrder": 2,
+            "rest": "90s"
+          }
+        ],
         "videoUrl": "https://youtu.be/Ht9awbF2fBA",
-        "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+        "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+        "notes": "Haz los dos ejercicios seguidos. Descansa 90 segundos al terminar la vuelta.",
+        "order": 5
       },
       {
         "order": 6,
-        "name": "Elevaciones Laterales en Poleas Cruzadas",
-        "sets": 3,
-        "reps": "15",
-        "rest": "75s",
-        "notes": "En la última serie reduce la carga un 20–25% y haz una sola bajada con técnica limpia.",
-        "videoUrl": "https://youtu.be/MtLsD20-EdE",
-        "imageUrl": "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg",
-        "setTechniques": {
-          "3": "DROPSET"
-        }
-      },
-      {
-        "order": 7,
         "name": "Extensión de Tríceps en Polea con Barra",
         "sets": 3,
         "reps": "12",
@@ -163,10 +174,10 @@ const workoutData = {
       {
         "order": 2,
         "name": "Remo en Máquina T Agarre Abierto",
-        "sets": 4,
+        "sets": 5,
         "reps": "6",
         "rest": "150s",
-        "notes": "Haz 2–3 aproximaciones. Evita acortar el recorrido al subir carga.",
+        "notes": "Haz 2–3 aproximaciones. Evita acortar el recorrido al subir carga. En esta versión completa 5 series efectivas de 6. Ajusta la carga inicial para conservar 2 repeticiones en recámara.",
         "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
         "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
       },
@@ -174,9 +185,9 @@ const workoutData = {
         "order": 3,
         "name": "Jalón al Pecho Supino en Polea",
         "sets": 4,
-        "reps": "8",
-        "rest": "105s",
-        "notes": "Usa el mismo ajuste de musleras y recorrido.",
+        "reps": "10, 8, 6, 6",
+        "rest": "120s",
+        "notes": "Usa el mismo ajuste de musleras y recorrido. Aumenta la carga en las tres primeras series. Mantén la de la tercera en la cuarta si puedes completar las 6 repeticiones con 1–2 en recámara. Ajusta si pierdes el recorrido o el margen.",
         "videoUrl": "https://youtu.be/rimdRzyIJkA",
         "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
       },
@@ -191,14 +202,34 @@ const workoutData = {
         "imageUrl": "https://i.ytimg.com/vi/kjbRoWIl7eI/mqdefault.jpg"
       },
       {
-        "order": 5,
         "name": "Face Pull al Cuello en Polea Alta",
-        "sets": 3,
-        "reps": "15",
-        "rest": "75s",
-        "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte. Mantén el tronco quieto.",
+        "isSuperset": true,
+        "items": [
+          {
+            "name": "Face Pull al Cuello en Polea Alta",
+            "sets": 3,
+            "reps": "15",
+            "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte. Mantén el tronco quieto.",
+            "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
+            "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg",
+            "subOrder": 1,
+            "isSupersetStart": true
+          },
+          {
+            "name": "Curl Martillo con Cuerda en Polea Baja",
+            "sets": 3,
+            "reps": "10",
+            "notes": "Acaba con una repetición limpia en recámara.",
+            "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+            "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg",
+            "subOrder": 2,
+            "rest": "90s"
+          }
+        ],
         "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
-        "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg"
+        "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg",
+        "notes": "Haz los dos ejercicios seguidos. Descansa 90 segundos al terminar la vuelta.",
+        "order": 5
       },
       {
         "order": 6,
@@ -209,16 +240,6 @@ const workoutData = {
         "notes": "Completa ambos lados sin adelantar el hombro.",
         "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
         "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg"
-      },
-      {
-        "order": 7,
-        "name": "Curl Martillo con Cuerda en Polea Baja",
-        "sets": 3,
-        "reps": "10",
-        "rest": "75s",
-        "notes": "Acaba con una repetición limpia en recámara.",
-        "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
-        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg"
       }
     ]
   },
@@ -248,10 +269,10 @@ const workoutData = {
       {
         "order": 3,
         "name": "Press Banca con Barra",
-        "sets": 3,
-        "reps": "8",
+        "sets": 4,
+        "reps": "10, 8, 6, 6",
         "rest": "120s",
-        "notes": "Referencia de la P24. Recalibra la carga para 8 repeticiones y RIR 2.",
+        "notes": "Referencia de la P25 V1. Aumenta la carga en las tres primeras series. Mantén la de la tercera en la cuarta si puedes completar las 6 repeticiones con 1–2 en recámara. Ajusta si pierdes el recorrido o el margen.",
         "videoUrl": "https://youtu.be/PKpsrFS2uac",
         "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
       },
@@ -376,5 +397,3 @@ const workoutData = {
     ]
   }
 };
-
-const exerciseAlternatives = {};
