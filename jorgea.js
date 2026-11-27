@@ -1,499 +1,446 @@
-// Titulo: P20_6D_TorPier_DC_2
-// Notas: Rutina para AVANZADOS -> ALTA INTENSIDAD, Bajo Volumen
-// - Usa un peso para 8 reps al fallo + 2 clusters. Objetivo de reps marcado. Tienes 4 reps de margen. Por ejemplo si pone 15 reps, margen de 11 a 15 reps.
+// Titulo: IVAN_DT_4D_TRACCION_EMPUJE_1
+// Notas: Calentamiento en superserie 2x12 (60s); básico con objetivos por serie 7,7,12 (120s); accesorios con series y repeticiones indicadas en cada día; superserie final 3x12 (60s). Tracción 2 tiene cuatro ejercicios individuales: remo T, sentadilla trasera con barra, curl Scott y extensión de cuádriceps.
+
+// Orden semanal: Tracción 1, Empuje 1, Tracción 2, Empuje 2.
 
 const workoutData = {
     "dia1": {
-        "name": "A1 - Pecho/Hombros/Tríceps/Espalda",
+        "name": "Tracción 1",
         "exercises": [
             {
-                "order": 1,
-                "name": "Press Banca con Barra",
-                "setTechniques": {},
-                "sets": 3,
-                "reps": "6, 6, 10",
-                "rest": "120s",
-                "notes": "Stretch: aperturas cable bajo (60s)",
-                "videoUrl": "https://youtu.be/PKpsrFS2uac",
-                "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg"
+                "name": "Pull Over Unilateral en Polea Alta",
+                "isSuperset": true,
+                "isWarmup": true,
+                "items": [
+                    {
+                        "name": "Pull Over Unilateral en Polea Alta",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo. Mantén el tronco estable y el codo ligeramente flexionado. Lleva el brazo hacia la cadera sin balancearte y controla la vuelta. Completa las repeticiones con cada brazo.",
+                        "videoUrl": "https://www.youtube.com/watch?v=6pNhinjtZvs",
+                        "imageUrl": "https://i.ytimg.com/vi/6pNhinjtZvs/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true,
+                        "isWarmup": true
+                    },
+                    {
+                        "name": "Aducción de Piernas en Máquina",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/shorts/7TPklhKZRrc",
+                        "imageUrl": "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg",
+                        "subOrder": 2,
+                        "isWarmup": true
+                    }
+                ],
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://www.youtube.com/watch?v=6pNhinjtZvs",
+                "imageUrl": "https://i.ytimg.com/vi/6pNhinjtZvs/mqdefault.jpg",
+                "order": 1
             },
             {
-                "order": 2,
-                "name": "Press Militar en Multipower",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Dominadas Supinas",
                 "sets": 3,
-                "reps": "15, 15, 10",
+                "reps": "7,7,12",
                 "rest": "120s",
+                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga o asistencia en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
+                "videoUrl": "https://www.youtube.com/shorts/0TwqeC7fH8Y",
+                "imageUrl": "https://i.ytimg.com/vi/0TwqeC7fH8Y/mqdefault.jpg",
+                "order": 2
+            },
+            {
+                "name": "Prensa Inclinada en Máquina de Discos",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
                 "notes": "",
-                "videoUrl": "https://www.youtube.com/watch?v=iATqshmFPnI",
-                "imageUrl": "https://i.ytimg.com/vi/iATqshmFPnI/mqdefault.jpg"
+                "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
+                "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg",
+                "order": 3
             },
             {
-                "order": 3,
-                "name": "Extensión de Tríceps en Polea con Cuerda",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Remo Gironda en Polea",
                 "sets": 3,
-                "reps": "20, 20, 10",
-                "rest": "120s",
-                "notes": "Stretch: elevación lateral cable (45s)",
-                "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
-                "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg"
+                "reps": "10",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
+                "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg",
+                "order": 4
             },
             {
-                "order": 4,
-                "name": "Jalón al Pecho Supino en Polea",
+                "name": "Curl de Bíceps Apoyado en Banco con Mancuernas",
+                "sets": 3,
+                "reps": "8",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://youtube.com/shorts/hQ3ojFx5soY",
+                "imageUrl": "https://i.ytimg.com/vi/hQ3ojFx5soY/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Curl Martillo con Cuerda en Polea Baja",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Jalón al Pecho Supino en Polea",
-                        "subOrder": 1,
+                        "name": "Curl Martillo con Cuerda en Polea Baja",
                         "sets": 3,
-                        "reps": "10",
-                        "isSupersetStart": true,
-                        "notes": "Stretch: pullover cable (60s)",
-                        "videoUrl": "https://youtu.be/rimdRzyIJkA",
-                        "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                        "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
                     },
                     {
-                        "name": "Extensión de Tríceps en Polea con Barra",
-                        "subOrder": 2,
+                        "name": "Face Pull al Cuello en Polea Alta",
                         "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://www.youtube.com/watch?v=mcae9hNQn50",
-                        "imageUrl": "https://i.ytimg.com/vi/mcae9hNQn50/mqdefault.jpg",
-                        "notes": "Sujeta la barra de la polea alta en pronación. Extiende los codos llevando la barra hacia abajo, manteniendo los brazos junto al torso y sin balancearte. Controla la vuelta."
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte.",
+                        "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
+                        "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg",
+                        "subOrder": 2
                     }
                 ],
-                "notes": "Stretch: pullover cable (60s)",
-                "videoUrl": "https://youtu.be/rimdRzyIJkA",
-                "imageUrl": "https://i.ytimg.com/vi/rimdRzyIJkA/mqdefault.jpg"
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://www.youtube.com/shorts/fSTgTQr1WCk",
+                "imageUrl": "https://i.ytimg.com/vi/fSTgTQr1WCk/mqdefault.jpg",
+                "order": 6
             }
         ]
     },
     "dia2": {
-        "name": "B1 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
+        "name": "Empuje 1",
         "exercises": [
             {
-                "order": 1,
-                "name": "Remo en Máquina T Agarre Estrecho",
-                "setTechniques": {},
-                "sets": 3,
-                "reps": "6, 6, 10",
-                "rest": "120",
-                "notes": "Stretch: remo en máquina (60s)",
-                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
-                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg"
+                "name": "Cruces en Polea Alta",
+                "isSuperset": true,
+                "isWarmup": true,
+                "items": [
+                    {
+                        "name": "Cruces en Polea Alta",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+                        "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true,
+                        "isWarmup": true
+                    },
+                    {
+                        "name": "Rotación Externa de Hombro Unilat con Polea",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://youtube.com/shorts/0dw436rzrNU",
+                        "imageUrl": "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg",
+                        "subOrder": 2,
+                        "isWarmup": true
+                    }
+                ],
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://youtu.be/Ht9awbF2fBA",
+                "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg",
+                "order": 1
             },
             {
-                "order": 2,
-                "name": "Curl Martillo con Mancuernas",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Press Inclinado con Mancuernas",
                 "sets": 3,
-                "reps": "20, 20, 10",
+                "reps": "7,7,12",
                 "rest": "120s",
-                "notes": "Stretch: curl en banco inclinado (45s)",
-                "videoUrl": "https://youtu.be/fcFsPoJY9lg",
-                "imageUrl": "https://i.ytimg.com/vi/fcFsPoJY9lg/mqdefault.jpg"
+                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga o asistencia en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
+                "videoUrl": "https://youtu.be/ZE4M73kXB5A",
+                "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg",
+                "order": 2
             },
             {
-                "order": 3,
-                "name": "Sentadilla Anterior en Máquina Jaca",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Press Banca en Máquina",
                 "sets": 3,
-                "reps": "15, 15, 10",
-                "rest": "120",
-                "notes": "Stretch: sentadilla profunda con peso (60s)",
-                "videoUrl": "https://youtube.com/shorts/saLWdiUe5eE",
-                "imageUrl": "https://i.ytimg.com/vi/saLWdiUe5eE/mqdefault.jpg"
-            },
-            {
-                "order": 4,
-                "name": "Curl Femoral Tumbado en Máquina",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER"
-                },
-                "sets": 2,
-                "reps": "20",
+                "reps": "10",
                 "rest": "90s",
-                "notes": "Stretch: estiramiento con peso (30s)",
-                "videoUrl": "https://www.youtube.com/shorts/-VfGwgG23OM",
-                "imageUrl": "https://i.ytimg.com/vi/-VfGwgG23OM/mqdefault.jpg"
+                "notes": "Ajusta el asiento para que las empuñaduras queden a la altura del pecho. Mantén la espalda apoyada y las muñecas alineadas; empuja y vuelve con control, sin rebotes.",
+                "videoUrl": "https://www.youtube.com/watch?v=lw4uUkBl_HE",
+                "imageUrl": "https://i.ytimg.com/vi/lw4uUkBl_HE/mqdefault.jpg",
+                "order": 3
             },
             {
-                "order": 5,
-                "name": "Curl Bayesian Unilateral en Polea Baja",
+                "name": "Press Militar en Máquina",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "Ajusta el asiento y mantén la espalda apoyada. Empuja por encima de la cabeza con control, sin compensar arqueando la zona lumbar.",
+                "videoUrl": "https://www.youtube.com/shorts/48CmkF61E7M",
+                "imageUrl": "https://i.ytimg.com/vi/48CmkF61E7M/mqdefault.jpg",
+                "order": 4
+            },
+            {
+                "name": "Press Francés con Barra Z en Banco Inclinado",
+                "sets": 3,
+                "reps": "8",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://youtu.be/hFk6xzt1DWM",
+                "imageUrl": "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Elevaciones Laterales en Polea",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Curl Bayesian Unilateral en Polea Baja",
-                        "subOrder": 1,
+                        "name": "Elevaciones Laterales en Polea",
                         "sets": 3,
-                        "reps": "10",
-                        "isSupersetStart": true,
-                        "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
-                        "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg",
-                        "notes": ""
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/UxII1sPTa9U",
+                        "imageUrl": "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
                     },
                     {
-                        "name": "Elevaciones Laterales en Poleas Cruzadas",
-                        "subOrder": 2,
+                        "name": "Extensión de Tríceps en Polea con Cuerda",
                         "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://youtu.be/MtLsD20-EdE",
-                        "imageUrl": "https://i.ytimg.com/vi/MtLsD20-EdE/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "",
+                        "videoUrl": "https://youtube.com/shorts/Eqi6CSuPbUQ",
+                        "imageUrl": "https://i.ytimg.com/vi/Eqi6CSuPbUQ/mqdefault.jpg",
+                        "subOrder": 2
                     }
                 ],
-                "notes": "",
-                "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
-                "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg"
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://youtu.be/UxII1sPTa9U",
+                "imageUrl": "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg",
+                "order": 6
             }
         ]
     },
     "dia3": {
-        "name": "A2 - Pecho/Hombros/Tríceps/Espalda",
+        "name": "Tracción 2",
         "exercises": [
             {
-                "order": 1,
-                "name": "Press Banca Inclinado en Multipower",
-                "setTechniques": {},
-                "sets": 3,
-                "reps": "6, 6, 10",
-                "rest": "120",
-                "notes": "Stretch: aperturas con mancuernas (60s)",
-                "videoUrl": "https://youtu.be/3GS7EjN7KSk",
-                "imageUrl": "https://i.ytimg.com/vi/3GS7EjN7KSk/mqdefault.jpg"
+                "name": "Curl Femoral Sentado en Máquina",
+                "isSuperset": true,
+                "isWarmup": true,
+                "items": [
+                    {
+                        "name": "Curl Femoral Sentado en Máquina",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                        "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true,
+                        "isWarmup": true
+                    },
+                    {
+                        "name": "Remo Inclinado con Mancuernas/KTB (ExPLICADO)",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/shorts/NMlvYALcyBc",
+                        "imageUrl": "https://i.ytimg.com/vi/NMlvYALcyBc/mqdefault.jpg",
+                        "subOrder": 2,
+                        "isWarmup": true
+                    }
+                ],
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://www.youtube.com/shorts/2fXW4I08ov4",
+                "imageUrl": "https://i.ytimg.com/vi/2fXW4I08ov4/mqdefault.jpg",
+                "order": 1
             },
             {
-                "order": 2,
-                "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Remo en Máquina T Agarre Abierto",
                 "sets": 3,
-                "reps": "15, 15, 10",
+                "reps": "7,7,12",
                 "rest": "120s",
-                "notes": "Stretch: elevación frontal cable (45s)",
-                "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
-                "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg"
+                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
+                "videoUrl": "https://youtube.com/shorts/_XOaMY5NumY",
+                "imageUrl": "https://i.ytimg.com/vi/_XOaMY5NumY/mqdefault.jpg",
+                "order": 2
             },
             {
-                "order": 3,
-                "name": "Press Francés con Barra Z en Banco Inclinado",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Sentadilla Trasera con Barra",
                 "sets": 3,
-                "reps": "20, 20, 10",
-                "rest": "120",
-                "notes": "Stretch: extensión overhead mancuerna (45s)",
-                "videoUrl": "https://youtu.be/hFk6xzt1DWM",
-                "imageUrl": "https://i.ytimg.com/vi/hFk6xzt1DWM/mqdefault.jpg"
+                "reps": "10",
+                "rest": "90s",
+                "notes": "Realiza aproximaciones progresivas antes de las series efectivas. Mantén el tronco estable y usa un recorrido sin molestias. Si aparece molestia lumbar, detén el ejercicio.",
+                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
+                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg",
+                "order": 3
             },
             {
-                "order": 4,
-                "name": "Pull Over en Polea Alta",
+                "name": "Curl Scott con Barra Z",
+                "sets": 3,
+                "reps": "8",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
+                "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg",
+                "order": 4
+            },
+            {
+                "name": "Extensión de Cuádriceps en Máquina",
+                "sets": 3,
+                "reps": "12",
+                "rest": "90s",
+                "notes": "Movimiento controlado y recorrido cómodo, sin rebotes ni bloqueo brusco de la rodilla.",
+                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
+                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Jalón al Pecho en Polea",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Pull Over en Polea Alta",
-                        "subOrder": 1,
+                        "name": "Jalón al Pecho en Polea",
                         "sets": 3,
-                        "reps": "10",
-                        "isSupersetStart": true,
-                        "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                        "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/GYIhmy1P4vY",
+                        "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
                     },
                     {
-                        "name": "Cruces en Polea Alta",
-                        "subOrder": 2,
+                        "name": "Curl Bayesian Unilateral en Polea Baja",
                         "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://youtu.be/Ht9awbF2fBA",
-                        "imageUrl": "https://i.ytimg.com/vi/Ht9awbF2fBA/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "",
+                        "videoUrl": "https://www.youtube.com/shorts/dCI2pPQmq_k",
+                        "imageUrl": "https://i.ytimg.com/vi/dCI2pPQmq_k/mqdefault.jpg",
+                        "subOrder": 2
                     }
                 ],
-                "notes": "",
-                "videoUrl": "https://www.youtube.com/shorts/zWGbrVxoUpk",
-                "imageUrl": "https://i.ytimg.com/vi/zWGbrVxoUpk/mqdefault.jpg"
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://youtu.be/GYIhmy1P4vY",
+                "imageUrl": "https://i.ytimg.com/vi/GYIhmy1P4vY/mqdefault.jpg",
+                "order": 6
             }
         ]
     },
     "dia4": {
-        "name": "B2 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
+        "name": "Empuje 2",
         "exercises": [
             {
-                "order": 1,
-                "name": "Remo con Barra",
-                "setTechniques": {},
-                "sets": 3,
-                "reps": "6, 6, 10",
-                "rest": "120s",
-                "notes": "Stretch: remo en cable (60s)",
-                "videoUrl": "https://youtu.be/MjnZ52mZgT0",
-                "imageUrl": "https://i.ytimg.com/vi/MjnZ52mZgT0/mqdefault.jpg"
-            },
-            {
-                "order": 2,
-                "name": "Curl Scott con Barra Z",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
-                "sets": 3,
-                "reps": "20, 20, 10",
-                "rest": "120",
-                "notes": "Stretch: curl Scott cable (45s)",
-                "videoUrl": "https://www.youtube.com/watch?v=-Rzppjmt6ag",
-                "imageUrl": "https://i.ytimg.com/vi/-Rzppjmt6ag/mqdefault.jpg"
-            },
-            {
-                "order": 3,
-                "name": "Prensa Inclinada en Máquina de Discos",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
-                "sets": 3,
-                "reps": "15, 15, 10",
-                "rest": "120s",
-                "notes": "Stretch: sentadilla sissy (60s)",
-                "videoUrl": "https://www.youtube.com/shorts/je1QdJdvAN0",
-                "imageUrl": "https://i.ytimg.com/vi/je1QdJdvAN0/mqdefault.jpg"
-            },
-            {
-                "order": 4,
-                "name": "Extensión de Cuádriceps en Máquina",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER"
-                },
-                "sets": 2,
-                "reps": "20",
-                "rest": "120",
-                "notes": "Stretch: posición estirada en máquina (60s)",
-                "videoUrl": "https://www.youtube.com/watch?v=k1Nn0cJOMng",
-                "imageUrl": "https://i.ytimg.com/vi/k1Nn0cJOMng/mqdefault.jpg"
-            },
-            {
-                "order": 5,
-                "name": "Curl con Barra Z",
+                "name": "Aperturas en Banco con Mancuernas",
                 "isSuperset": true,
+                "isWarmup": true,
                 "items": [
                     {
-                        "name": "Curl con Barra Z",
+                        "name": "Aperturas en Banco con Mancuernas",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://www.youtube.com/watch?v=dfmq1UOuUXo",
+                        "imageUrl": "https://i.ytimg.com/vi/dfmq1UOuUXo/mqdefault.jpg",
                         "subOrder": 1,
-                        "sets": 3,
-                        "reps": "10",
                         "isSupersetStart": true,
-                        "notes": "",
-                        "videoUrl": "https://youtu.be/4gYLTjNaTmw",
-                        "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
+                        "isWarmup": true
                     },
                     {
-                        "name": "Face Pull al Cuello en Polea Alta",
+                        "name": "Rotación Externa de Hombro Unilat con Polea",
+                        "sets": 2,
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "Carga suave de calentamiento, sin llegar al fallo.",
+                        "videoUrl": "https://youtube.com/shorts/0dw436rzrNU",
+                        "imageUrl": "https://i.ytimg.com/vi/0dw436rzrNU/mqdefault.jpg",
                         "subOrder": 2,
-                        "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://www.youtube.com/shorts/TaTjLum-_qI",
-                        "imageUrl": "https://i.ytimg.com/vi/TaTjLum-_qI/mqdefault.jpg",
-                        "notes": "Usa cuerda y lleva las manos hacia el cuello o la cara, separando los extremos. Mantén el tronco estable y controla la vuelta sin balancearte."
+                        "isWarmup": true
                     }
                 ],
-                "notes": "Stretch: estiramiento con peso (30s)",
-                "videoUrl": "https://youtu.be/4gYLTjNaTmw",
-                "imageUrl": "https://i.ytimg.com/vi/4gYLTjNaTmw/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia5": {
-        "name": "A3 - Pecho/Hombros/Tríceps/Espalda",
-        "exercises": [
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://www.youtube.com/watch?v=dfmq1UOuUXo",
+                "imageUrl": "https://i.ytimg.com/vi/dfmq1UOuUXo/mqdefault.jpg",
+                "order": 1
+            },
             {
-                "order": 1,
-                "name": "Press Inclinado con Mancuernas",
-                "setTechniques": {},
+                "name": "Press Banca con Barra",
                 "sets": 3,
-                "reps": "6, 6, 10",
+                "reps": "7,7,12",
                 "rest": "120s",
-                "notes": "Stretch: cruce en polea alta (60s)",
-                "videoUrl": "https://youtu.be/ZE4M73kXB5A",
-                "imageUrl": "https://i.ytimg.com/vi/ZE4M73kXB5A/mqdefault.jpg"
+                "notes": "Serie 1: 7 repeticiones. Serie 2: 7 repeticiones. Serie 3: 12 repeticiones. Ajusta la carga en la última serie si lo necesitas. Realiza aproximaciones progresivas antes de las series efectivas.",
+                "videoUrl": "https://youtu.be/PKpsrFS2uac",
+                "imageUrl": "https://i.ytimg.com/vi/PKpsrFS2uac/mqdefault.jpg",
+                "order": 2
             },
             {
-                "order": 2,
-                "name": "Fondos en Paralelas Lastrados",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
+                "name": "Fondos en Paralelas para Pecho",
                 "sets": 3,
-                "reps": "15, 15, 10",
-                "rest": "120s",
-                "notes": "Stretch: elevación lateral mancuerna (45s)",
-                "videoUrl": "https://www.youtube.com/shorts/xsnhvnyl70I",
-                "imageUrl": "https://i.ytimg.com/vi/xsnhvnyl70I/mqdefault.jpg"
-            },
-            {
-                "order": 3,
-                "name": "Extensión Tríceps Trasnuca con Barra Z",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
-                "sets": 3,
-                "reps": "20, 20, 10",
-                "rest": "120s",
-                "notes": "Hazlo con cable mejor. ",
-                "videoUrl": "https://youtu.be/O5wMBydqDHY",
-                "imageUrl": "https://i.ytimg.com/vi/O5wMBydqDHY/mqdefault.jpg"
-            },
-            {
-                "order": 4,
-                "name": "Dominadas con Peso Corporal",
-                "isSuperset": true,
-                "items": [
-                    {
-                        "name": "Dominadas con Peso Corporal",
-                        "subOrder": 1,
-                        "sets": 3,
-                        "reps": "10",
-                        "isSupersetStart": true,
-                        "notes": "Stretch: straight-arm pulldown (60s)",
-                        "videoUrl": "https://www.youtube.com/shorts/pb-14sP_R4M",
-                        "imageUrl": "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
-                    },
-                    {
-                        "name": "Flexiones Tempo 1:1",
-                        "subOrder": 2,
-                        "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://www.youtube.com/shorts/-9Md7Htla-o",
-                        "imageUrl": "https://i.ytimg.com/vi/-9Md7Htla-o/mqdefault.jpg",
-                        "notes": ""
-                    }
-                ],
-                "notes": "Stretch: straight-arm pulldown (60s)",
-                "videoUrl": "https://www.youtube.com/shorts/pb-14sP_R4M",
-                "imageUrl": "https://i.ytimg.com/vi/pb-14sP_R4M/mqdefault.jpg"
-            }
-        ]
-    },
-    "dia6": {
-        "name": "B3 - Espalda/Bíceps/Cuádriceps/Femoral/Gemelos",
-        "exercises": [
-            {
-                "order": 1,
-                "name": "Remo Gironda en Polea",
-                "setTechniques": {},
-                "sets": 3,
-                "reps": "6, 6, 10",
-                "rest": "120",
-                "notes": "Stretch: remo bajo en polea (60s)",
-                "videoUrl": "https://youtube.com/shorts/11xkWdyYWus",
-                "imageUrl": "https://i.ytimg.com/vi/11xkWdyYWus/mqdefault.jpg"
-            },
-            {
-                "order": 2,
-                "name": "Dead Curl con Barra",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
-                "sets": 3,
-                "reps": "20, 20, 10",
-                "rest": "120",
-                "notes": "Stretch: curl en polea baja (45s)",
-                "videoUrl": "https://www.youtube.com/shorts/HWs4EYCI8iE",
-                "imageUrl": "https://i.ytimg.com/vi/HWs4EYCI8iE/mqdefault.jpg"
-            },
-            {
-                "order": 3,
-                "name": "Sentadilla Trasera con Barra",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER",
-                    "3": "DROPSET"
-                },
-                "sets": 3,
-                "reps": "15, 15, 10",
-                "rest": "120",
-                "notes": "Stretch: sentadilla búlgara (60s)",
-                "videoUrl": "https://youtu.be/FK5XU_gaxAE",
-                "imageUrl": "https://i.ytimg.com/vi/FK5XU_gaxAE/mqdefault.jpg"
-            },
-            {
-                "order": 4,
-                "name": "Aducción de Piernas en Máquina",
-                "setTechniques": {
-                    "1": "CLUSTER",
-                    "2": "CLUSTER"
-                },
-                "sets": 2,
-                "reps": "20",
-                "rest": "120",
+                "reps": "10",
+                "rest": "90s",
                 "notes": "",
-                "videoUrl": "https://www.youtube.com/shorts/7TPklhKZRrc",
-                "imageUrl": "https://i.ytimg.com/vi/7TPklhKZRrc/mqdefault.jpg"
+                "videoUrl": "https://youtu.be/W9TfhUAvteE",
+                "imageUrl": "https://i.ytimg.com/vi/W9TfhUAvteE/mqdefault.jpg",
+                "order": 3
             },
             {
-                "order": 5,
-                "name": "Curl con Mancuernas Sentado en Banco Inclinado",
+                "name": "Press Militar Sentado con Mancuernas (ExPLICADO)",
+                "sets": 3,
+                "reps": "10",
+                "rest": "90s",
+                "notes": "",
+                "videoUrl": "https://www.youtube.com/shorts/2ZkYyh4ic0o",
+                "imageUrl": "https://i.ytimg.com/vi/2ZkYyh4ic0o/mqdefault.jpg",
+                "order": 4
+            },
+            {
+                "name": "Extensión de Tríceps en Polea con Barra",
+                "sets": 3,
+                "reps": "8",
+                "rest": "90s",
+                "notes": "Sujeta la barra de la polea alta en pronación. Extiende los codos llevando la barra hacia abajo, manteniendo los brazos junto al torso y sin balancearte. Controla la vuelta.",
+                "videoUrl": "https://www.youtube.com/watch?v=mcae9hNQn50",
+                "imageUrl": "https://i.ytimg.com/vi/mcae9hNQn50/mqdefault.jpg",
+                "order": 5
+            },
+            {
+                "name": "Elevaciones Laterales con Mancuernas",
                 "isSuperset": true,
                 "items": [
                     {
-                        "name": "Curl con Mancuernas Sentado en Banco Inclinado",
-                        "subOrder": 1,
+                        "name": "Elevaciones Laterales con Mancuernas",
                         "sets": 3,
-                        "reps": "10",
-                        "isSupersetStart": true,
-                        "notes": "Stretch: sentadilla búlgara (60s)",
-                        "videoUrl": "https://youtu.be/S32a3nYiWko",
-                        "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+                        "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
+                        "subOrder": 1,
+                        "isSupersetStart": true
                     },
                     {
-                        "name": "Elevaciones Laterales en Polea",
-                        "subOrder": 2,
+                        "name": "Press Cerrado en Banco Inclinado con Mancuernas",
                         "sets": 3,
-                        "reps": "10",
-                        "rest": "90s",
-                        "videoUrl": "https://youtu.be/UxII1sPTa9U",
-                        "imageUrl": "https://i.ytimg.com/vi/UxII1sPTa9U/mqdefault.jpg"
+                        "reps": "12",
+                        "rest": "60s",
+                        "notes": "",
+                        "videoUrl": "https://youtu.be/tdh7LSxUj1s",
+                        "imageUrl": "https://i.ytimg.com/vi/tdh7LSxUj1s/mqdefault.jpg",
+                        "subOrder": 2
                     }
                 ],
-                "notes": "Stretch: sentadilla búlgara (60s)",
-                "videoUrl": "https://youtu.be/S32a3nYiWko",
-                "imageUrl": "https://i.ytimg.com/vi/S32a3nYiWko/mqdefault.jpg"
+                "notes": "Completa ambos ejercicios seguidos y descansa 60 segundos al terminar la pareja. Dos vueltas.",
+                "videoUrl": "https://youtu.be/rhmW_fhB4cs",
+                "imageUrl": "https://i.ytimg.com/vi/rhmW_fhB4cs/mqdefault.jpg",
+                "order": 6
             }
         ]
     }
